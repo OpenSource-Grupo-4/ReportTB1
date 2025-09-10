@@ -27,8 +27,8 @@
       <td>u202317269</td>
     </tr>
     <tr>
-      <td>integrante</td>
-      <td>cod</td>
+      <td>Castro Pariona, Jefferson Ernesto</td>
+      <td>U201822823</td>
     </tr>
     <tr>
       <td>integrante</td>
@@ -61,7 +61,7 @@
 <tr>
             <th>V1.0</th>
             <th>09.09.25</th>
-            <th></th>
+            <th>Samuel Bonifacio</th>
             <th></th>
         </tr>
     </thead>
