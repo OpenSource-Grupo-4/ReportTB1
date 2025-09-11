@@ -8,8 +8,8 @@
 
 ## INFORME DE TRABAJO FINAL
 
-### STARTUP: ()
-### PRODUCTO: ()
+### STARTUP: WeTech
+### PRODUCTO: WeRide
 ### SECCION: 7380
 ### PROFERSOR: Hugo Allan Mori Paiva
 ### INTEGRANTES:
@@ -76,3 +76,4 @@ Github:
 
 # Contenido
 ## Tabla de Contenidos
+
