@@ -1,0 +1,109 @@
+ # Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+
+### 2.1.1 Análisis Competitivo
+
+<table>
+  <tr>
+    <th colspan="22">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="1">¿Por qué llevar a cabo el análisis?</td>
+    <td colspan="17">El análisis competitivo es esencial para entender el mercado, identificar oportunidades que nos diferencien y anticipar amenazas. Permite ajustar la estrategia para ganar ventaja sobre la competencia y asegurar el éxito del producto.</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td>WeRide<br><img src=""></td>
+    <td>Lime<br><img src="/assets/chapter02/lime.png" alt="Lime"></td>
+    <td>CityBikeLima<br><img src="" alt=""></td>
+    <td>Woosh<br><img src="" alt=""></td>
+</tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>Plataforma diseñada para optimizar la  micromovilidad eléctrica enfocada en motos, scooters y bicis inteligentes con IoT, mejorando la experiencia de usuarios y solucionando problemas como la alta tasa de tránsito vehícular.</td>
+    <td>Multinacional líder en scooters y bicicletas eléctricas compartidas, presente en múltiples ciudades globales.</td>
+    <td>Programa público de bicicletas compartidas en Lima, operado con soporte municipa</td>
+    <td>Plataforma internacional de scooters eléctricos compartidos con foco en Europa y Latinoamérica</td>
+</tr>
+  <tr>
+  <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td>Enfoque local: integra pagos peruanos (Yape/Plin), tarifas accesibles y flotas adaptadas al contexto nacional.</td>
+    <td>Amplia cobertura internacional, marca reconocida y gran inversión en tecnología.</td>
+    <td>Accesibilidad y precios bajos, integración con transporte público.</td>
+    <td>Experiencia de usuario optimizada, flota moderna y rápida expansión.</td>
+    </tr>
+<tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado Objetivo</td>
+    <td>Jóvenes, estudiantes, profesionales urbanos, turistas en Lima y otras ciudades peruanas.</td>
+    <td>Usuarios urbanos globales que buscan movilidad rápida y sostenible.</td>
+    <td>Ciudadanos limeños que necesitan transporte económico y ecológico en zonas céntricas.</td>
+    <td>Usuarios de centros urbanos en expansión que buscan transporte práctico.</td>
+  </tr>
+  <tr>
+  <td>Estrategias de Marketing</td>
+    <td>Campañas digitales locales, alianzas con universidades y municipalidades, enfoque en sostenibilidad.</td>
+    <td>Publicidad global, branding fuerte, promociones en apps y eventos verdes.</td>
+    <td>Marketing institucional con apoyo municipal, señalética en estaciones.</td>
+    <td>Marketing digital, descuentos por uso recurrente, gamificación en la app.</td>
+    </tr>
+<tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos y Servicios</td>
+    <td>Scooters, motos eléctricas y bicicletas compartidas con IoT, app para reserva y pago.</td>
+    <td>Scooters y bicicletas eléctricas compartidas con geolocalización.</td>
+    <td>Bicicletas mecánicas y eléctricas en estaciones físicas.</td>
+    <td>Scooters eléctricos con desbloqueo vía app.</td>
+  </tr>
+  <tr>
+  <td>Precios y Costos</td>
+    <td>Planes de suscripción escalonados según el número de usuarios y servicios adicionales.</td>
+    <td>Tarifas más altas, variables según ciudad; paquetes promocionales.</td>
+    <td>Bajos costos de alquiler por tiempo (subvencionados)</td>
+    <td>Planes semanales con opciones de servicios premium.</td>
+    </tr>
+<td>Canales de distribución (Web y/o Móvil)</td>
+    <td>Sitio Web</td>
+    <td>Sitio Web</td>
+    <td>Sitio Web</td>
+    <td>Sitio Web y móvil.</td>
+<tr>
+    <td rowspan="4">Análisis SWOT</td>
+    <td>Fortalezas</td>
+    <td>Conocimiento local, integración con pagos peruanos, tarifas accesibles.</td>
+    <td>Escala internacional, financiamiento robusto, marca reconocida.</td>
+    <td>Respaldo municipal, precios muy bajos, simpleza.</td>
+    <td>Flota moderna, app fácil de usar, expansión ágil.</td>
+  </tr>
+  <tr>
+  <td>Debilidades</td>
+    <td>Escala inicial limitada, menor financiamiento comparado a multinacionales.</td>
+    <td>Altos precios en algunos mercados, críticas por sostenibilidad real.</td>
+    <td>Limitada cobertura, infraestructura básica, tecnología rezagada.</td>
+    <td>Menor reconocimiento global que Lime, cobertura desigual.</td>
+    </tr>
+  <tr>
+<td>Oportunidades</td>
+    <td>Expandir a más ciudades peruanas, integrar con transporte público y turismo.</td>
+    <td>Crecer en mercados emergentes, integrar más tipos de vehículos.</td>
+    <td>Modernizar flota con bicicletas eléctricas, mejorar app.</td>
+    <td>Expandirse en LATAM con asociaciones estratégicas.</td>
+</tr>
+  <tr>
+<td>Amenazas</td>
+    <td>Competencia internacional (Lime, Whoosh), trabas regulatorias locales.</td>
+    <td>Regulaciones urbanas, vandalismo y saturación de mercado.
+</td>
+    <td>Dependencia de apoyo municipal y presupuesto público.</td>
+    <td>Competencia fuerte (Lime, WeRide), regulaciones urbanas.</td>
+</tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
+
+En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
+
+Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades, 
