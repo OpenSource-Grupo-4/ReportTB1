@@ -13,10 +13,10 @@
   </tr>
   <tr>
     <td colspan="2"></td>
-    <td>WeRide<br><img src=""></td>
+    <td>WeRide<br><img src="/assets/chapter02/WeRide.png" alt="WeRide"></td>
     <td>Lime<br><img src="/assets/chapter02/lime.png" alt="Lime"></td>
-    <td>CityBikeLima<br><img src="" alt=""></td>
-    <td>Woosh<br><img src="" alt=""></td>
+    <td>CityBikeLima<br><img src="/assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
+    <td>Whoosh<br><img src="/assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
 </tr>
   <tr>
     <td rowspan="2">Perfil</td>
