@@ -107,3 +107,60 @@ Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovech
 En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
 
 Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades, 
+
+## 2.2.Entrevistas.
+
+### 2.2.1.Diseño de entrevistas.
+
+### 2.2.2.Registro de entrevistas.
+
+### 2.2.3.Análisis de entrevistas.
+
+## 2.3.Needfinding.
+
+### 2.3.1.User Personas.
+
+**1er segmento: Jóvenes universitarios**
+
+![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
+
+
+**2do segmento:  Empresas**
+
+![User Persona](assets/chapter02/PERSONA%20-%20Light3.png)
+
+
+### 2.3.1.User Task Matrix.
+
+**Camila Torres (Joven universitaria)**
+
+| **Tareas / Tasks**                             | **Frecuencia** | **Importancia** |
+|-------------------------------------------------|---------------|----------------|
+| Buscar información para trabajos                | Alta          | Alta           |
+| Coordinar con compañeros de grupo               | Alta          | Alta           |
+| Acceder a material de estudio (libros, PDFs, videos) | Alta      | Alta           |
+| Planificar tiempo para estudiar                 | Alta          | Alta           |
+| Asistir a clases / capacitaciones               | Alta          | Alta           |
+| Comunicar avances de proyecto                   | Media         | Alta           |
+| Resolver dudas con expertos                     | Media         | Alta           |
+| Evaluar proveedores de herramientas/servicios   | Baja          | Media          |
+| Preparar reportes de resultados                 | Baja          | Media          |
+
+**Luis Salazar (Gerente de Operaciones)**
+
+| **Tareas / Tasks**                              | **Frecuencia** | **Importancia** |
+|-------------------------------------------------|---------------|----------------|
+| Buscar información para proyectos               | Media         | Media          |
+| Planificar tiempo de trabajo                    | Media         | Alta           |
+| Asistir a reuniones/capacitaciones              | Media         | Alta           |
+| Comunicar avances de proyecto                   | Alta          | Alta           |
+| Resolver dudas con expertos                     | Alta          | Alta           |
+| Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
+| Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
+| Preparar reportes de resultados                 | Alta          | Alta           |
+
+
+
+
+
+
