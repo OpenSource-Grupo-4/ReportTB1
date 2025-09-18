@@ -37,3 +37,153 @@ WeRide es una aplicación que consta de un sistema integral de micro movilidad e
 ### 1.2.1. Antecedentes y problemática
 
 Para el análisis de los antecedentes y la problemática, se utilizara la técnica de las 5W y 2H.
+
+#### 1.2.2.2. Lean UX Assumptions
+
+
+**Business Outcomes**  
+1. Mis clientes necesitan una solución rápida, confiable y accesible para desplazarse en Lima sin depender de autos privados o transporte público congestionado.  
+
+2. Estas necesidades se pueden resolver con una plataforma tecnológica que integre **reservas en tiempo real**, **geolocalización de vehículos** y **pagos digitales**, permitiendo una experiencia fluida y segura de uso compartido de motos eléctricas, scooters y bicicletas.  
+
+3. Mis clientes iniciales serán **jóvenes profesionales, estudiantes universitarios y trabajadores de oficina** que buscan transporte rápido y económico en zonas con alta congestión vehicular.  
+
+4. El valor número 1 que un cliente quiere de mi servicio es la **disponibilidad y confiabilidad**: poder encontrar un vehículo cercano y operativo cuando lo necesita, sin retrasos ni fricciones.  
+
+5. El cliente también puede obtener estos beneficios adicionales:  
+   - Ahorro de tiempo en sus traslados diarios.  
+   - Costos más bajos en comparación con taxis o vehículos privados.  
+   - Contribución a la sostenibilidad y reducción de emisiones de CO₂.  
+   - Flexibilidad de pago por uso o planes de suscripción.  
+   - Seguridad gracias a rastreo GPS, bloqueo remoto y soporte en tiempo real.  
+
+6. Vamos a adquirir la mayoría de los clientes a través de estrategias de marketing digital, incluyendo redes sociales, campañas en Google Ads, influencers de movilidad sostenible, promociones para primeros usuarios y alianzas con universidades y empresas que incentiven el uso de transporte eco-friendly.  
+
+7. Haré dinero a través de:  
+   - **Pagos por uso** (cobro por minuto o kilómetro).  
+   - **Planes de suscripción** para usuarios frecuentes con descuentos.  
+   - **Alianzas corporativas** para proveer movilidad a empresas como beneficio a sus empleados.  
+
+8. Mi competencia principal en el mercado serán servicios de movilidad existentes como **InDrive, Cabify, scooters particulares y transporte público informal**.  
+
+9. Los venceremos gracias a:  
+   - Enfoque exclusivo en **vehículos eléctricos** con bajo impacto ambiental.  
+   - Experiencia local adaptada a la realidad peruana (rutas, precios, disponibilidad).  
+   - **Soporte técnico en tiempo real** y garantías de seguridad en cada viaje.  
+   - Plataforma intuitiva y amigable para reservar, pagar y desbloquear en segundos.  
+
+10. Mi mayor riesgo es que los vehículos no estén disponibles en el momento que el usuario los necesita o que la experiencia técnica (app, GPS, pagos) falle, lo que afectaría la confianza en el servicio.  
+
+11. Resolveremos esto a través de una **gestión de flota inteligente**, mantenimiento preventivo, algoritmos de redistribución de vehículos en zonas de alta demanda, pruebas continuas de la app y un equipo de soporte disponible para resolver incidencias rápidamente.  
+
+12. **Otras suposiciones:**  
+   - Los usuarios estarán dispuestos a cambiar de transporte tradicional a micro movilidad eléctrica si el precio es competitivo.  
+   - Los vehículos serán seguros y resistentes para el tráfico limeño.  
+   - La infraestructura urbana (ciclovías, estacionamientos) será suficiente para operar sin problemas.  
+   - El gobierno no impondrá barreras regulatorias significativas.  
+
+**Si se prueba que estas suposiciones son falsas:**  
+- Si los usuarios no adoptan el servicio, perderíamos tracción inicial y no alcanzaríamos la masa crítica necesaria.  
+- Si los vehículos no resisten el uso intensivo o hay vandalismo frecuente, el costo de operación se volvería insostenible.  
+- Si existen barreras legales, podría retrasar o frenar el despliegue del servicio.  
+
+---
+
+**Users**  
+- Jóvenes profesionales que buscan transporte eficiente.  
+- Estudiantes universitarios que necesitan llegar puntualmente a clases.  
+- Trabajadores de oficina que requieren una alternativa al tráfico y transporte público saturado.  
+- Personas con mentalidad eco-friendly que desean reducir su huella de carbono.  
+
+---
+
+**User Outcomes**  
+
+**¿Quién es el usuario?**  
+Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía y sostenibilidad en sus viajes diarios.  
+
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**  
+- **Problema 1:** Transporte público saturado, lento e inseguro.  
+  **Solución:** Ofrecer scooters, motos y bicicletas disponibles 24/7 en puntos estratégicos.  
+
+- **Problema 2:** Alternativas privadas (taxi, auto) son costosas.  
+  **Solución:** Tarifas más bajas que un taxi, con opción de pago por uso o suscripción.  
+
+- **Problema 3:** Desconfianza en disponibilidad o mantenimiento de vehículos.  
+  **Solución:** Sistema de monitoreo en tiempo real, mantenimiento preventivo y soporte técnico.  
+
+**¿Qué características son importantes?**  
+- Reserva y desbloqueo inmediato desde la app.  
+- GPS en tiempo real para ubicar vehículos.  
+- Planes flexibles de pago.  
+- Soporte en tiempo real para incidencias.  
+- Perfil de usuario con historial de viajes y consumo.  
+
+**¿Dónde encaja nuestro producto en su vida?**  
+- Como solución de transporte diario para ir al trabajo, universidad o actividades sociales.  
+- Como alternativa rápida en emergencias o cuando el transporte público falla.  
+
+**¿Cuándo y cómo es usado nuestro producto?**  
+- **Cuándo:** Mañanas y tardes (horas punta), en salidas nocturnas, y fines de semana.  
+- **Cómo:** El usuario abre la app, localiza un vehículo cercano, reserva, desbloquea con su celular, conduce hasta su destino y cierra el viaje para que el cobro sea automático.  
+
+**¿Cómo debe verse y comportarse el producto?**  
+- Interfaz clara, con mapa interactivo y disponibilidad visible.  
+- Fluido y rápido (sin pantallas de carga largas).  
+- Seguro y confiable (confirmaciones de reserva, notificaciones de estado).  
+- Debe transmitir modernidad, confianza y compromiso con el medio ambiente.  
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hipótesis 1: Disponibilidad de Vehículos**
+
+**We believe that** habilitar un sistema de **geolocalización en tiempo real** para mostrar la ubicación exacta de scooters, motos y bicicletas  
+**for** jóvenes profesionales, estudiantes y trabajadores de oficina en Lima  
+**will achieve** un aumento en la confianza de los usuarios y mayor tasa de reservas, al garantizar que puedan encontrar un vehículo cercano disponible.  
+**We will know this is true when we see** que al menos el **70% de las reservas provienen de usuarios que consultaron el mapa en tiempo real** y que la **tasa de cancelación de viajes por falta de disponibilidad baja en un 30%**.
+
+---
+
+**Hipótesis 2: Pago Flexible y Accesible**
+
+**We believe that** ofrecer **planes de pago por uso y suscripciones flexibles** dentro de la app  
+**for** usuarios frecuentes de transporte que buscan ahorro en su movilidad  
+**will achieve** una mayor retención de clientes y repetición de viajes.  
+**We will know this is true when we see** que **al menos el 40% de los usuarios activos adquieren un plan de suscripción** después de su primer mes de uso.
+
+---
+
+**Hipótesis 3: Seguridad y Confianza**
+
+**We believe that** integrar **funciones de bloqueo remoto, soporte en tiempo real y alertas de seguridad**  
+**for** usuarios preocupados por la seguridad de los vehículos y su integridad personal  
+**will achieve** un aumento en la percepción de seguridad y confianza en el servicio.  
+**We will know this is true when we see** un **aumento del NPS (Net Promoter Score) en un 20%** y una **reducción del 15% en reportes de incidentes** en los primeros tres meses.
+
+---
+
+**Hipótesis 4: Marketing Digital y Adopción**
+
+**We believe that** implementar **campañas de marketing digital segmentadas** en redes sociales, Google Ads y alianzas con universidades  
+**for** nuevos usuarios que buscan alternativas de movilidad económica  
+**will achieve** un crecimiento acelerado de la base de usuarios en los primeros meses de lanzamiento.  
+**We will know this is true when we see** que **el número de registros nuevos mensuales supera el 15% de crecimiento sostenido** durante los primeros seis meses.
+
+---
+
+**Hipótesis 5: Gestión de Flota Inteligente**
+
+**We believe that** usar **algoritmos de redistribución de vehículos** para mantener la disponibilidad en zonas de alta demanda  
+**for** usuarios que necesitan transporte en horas punta  
+**will achieve** mayor uso del servicio y satisfacción de los usuarios.  
+**We will know this is true when we see** que **los tiempos de espera promedio bajan a menos de 5 minutos** y el **índice de viajes completados aumenta un 25%**.
+
+---
+
+**Hipótesis 6: Alianzas Corporativas**
+
+**We believe that** crear **planes de movilidad para empresas y universidades**  
+**for** organizaciones que buscan ofrecer beneficios de transporte a sus empleados o estudiantes  
+**will achieve** ingresos recurrentes y fidelización de clientes institucionales.  
+**We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
+
