@@ -8,9 +8,9 @@ Un mapa de impacto es una técnica colaborativa y visual de planificación estra
 
 
 
-![User Persona](assets/Impact%20map%203.png)
+![User Persona](/assets/chapter03/Impact%20map%203.png)
 
-![User Persona](assets/Impact%20map%202%20(1).png)
+![User Persona](/assets/chapter03/Impact%20map%202%20(1).png)
 
 
 ## 3.3. Product Backlog
