@@ -100,13 +100,17 @@
 </tr>
 </table>
 
+---
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
 
 En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
 
-Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades, 
+Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades.
+
+---
 
 ## 2.2.Entrevistas.
 
@@ -115,6 +119,8 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 ### 2.2.2.Registro de entrevistas.
 
 ### 2.2.3.Análisis de entrevistas.
+
+---
 
 ## 2.3.Needfinding.
 
@@ -129,6 +135,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 
 ![User Persona](assets/chapter02/PERSONA%20-%20Light3.png)
 
+---
 
 ### 2.3.1.User Task Matrix.
 
@@ -145,6 +152,8 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 | Resolver dudas con expertos                     | Media         | Alta           |
 | Evaluar proveedores de herramientas/servicios   | Baja          | Media          |
 | Preparar reportes de resultados                 | Baja          | Media          |
+
+---
 
 **Luis Salazar (Gerente de Operaciones)**
 
