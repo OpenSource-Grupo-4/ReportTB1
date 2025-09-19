@@ -159,6 +159,11 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
 | Preparar reportes de resultados                 | Alta          | Alta           |
 
+## 2.4.Big Picture Event Storming.
+El Event Storming modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos (IoT, GPS, pasarela de pagos) y el sistema de negocio.
+Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
+
+![eventstorming](https://github.com/user-attachments/assets/c71c198d-74d0-45c2-bd13-45433e2a8969)
 
 
 
