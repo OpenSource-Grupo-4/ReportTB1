@@ -31,8 +31,8 @@
       <td>U201822823</td>
     </tr>
     <tr>
-      <td>integrante</td>
-      <td>cod</td>
+      <td>Romero Meza, Jhimy Pool</td>
+      <td>U202321510</td>
     </tr>
     <tr>
       <td>integrante</td>
