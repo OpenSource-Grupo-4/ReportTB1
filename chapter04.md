@@ -73,25 +73,25 @@ Geolocalización en tiempo real:
  La app mostrará en un mapa la ubicación exacta de los vehículos disponibles, diferenciados por tipo (scooter, bicicleta o moto eléctrica).
 
 
-**Filtros de búsqueda avanzada**\
- Los usuarios podrán buscar vehículos según:\
+**Filtros de búsqueda avanzada**
+ Los usuarios podrán buscar vehículos según:
 
 
--Tipo de unidad preferida.\
+-Tipo de unidad preferida.
 
 
--Nivel de batería disponible.\
+-Nivel de batería disponible.
 
 
--Distancia a pie desde su ubicación actual.\
+-Distancia a pie desde su ubicación actual.
 
 
-**Reserva inmediata**:\
+**Reserva inmediata**:
  Una vez identificado el vehículo, el usuario podrá seleccionarlo en la aplicación, reservarlo y dirigirse a recogerlo.
 
 
-**Optimización para empresas**:\
- En el caso de suscripciones corporativas, los sistemas de búsqueda también permitirán a los empleados visualizar vehículos disponibles en zonas cercanas a sus oficinas o campus, garantizando disponibilidad en horas de mayor demanda.\
+**Optimización para empresas**:
+ En el caso de suscripciones corporativas, los sistemas de búsqueda también permitirán a los empleados visualizar vehículos disponibles en zonas cercanas a sus oficinas o campus, garantizando disponibilidad en horas de mayor demanda.
 
 
 Con este enfoque, el sistema de búsqueda se convierte en un **componente esencial para la experiencia del usuario**, asegurando eficiencia en la localización y optimizando el uso de la flota.  
@@ -129,4 +129,50 @@ Guía hacia el vehículo seleccionado:
 
 En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real, sino que también optimiza la experiencia de uso, mejorando la seguridad del viaje y reduciendo la incertidumbre del usuario en entornos urbanos congestionados.  
 
+## 4.3. Landing Page UI Desing.  
+### 4.3.1. Landing Page Wireframe.  
+  
+- Navbar  
+![Navbar](assets/Chapter04/WireframeLandingPage/Navbar.png)
+- Hero  
+![Hero](assets/Chapter04/WireframeLandingPage/Hero.png)
+- Disposable Vehicles Section.  
+![Vehicles](assets/Chapter04/WireframeLandingPage/Disposables_Vehicles_Section.png)
+- Application user manual section.  
+![Manual](assets/Chapter04/WireframeLandingPage/Application_user_manual_section.png)
+- Rates Section.  
+![Rates](assets/Chapter04/WireframeLandingPage/Rates_Section.png)
+- Locations section.  
+![Locations](assets/Chapter04/WireframeLandingPage/Locations_Section.png)
+- Who we are section.  
+![Wo we are](assets/Chapter04/WireframeLandingPage/Who_we_are_Section.png)
+- About section.  
+![About](assets/Chapter04/WireframeLandingPage/About_Section.png)
+- Application download section. 
+![Download app](assets/Chapter04/WireframeLandingPage/Download_section.png) 
+- Footer Section. 
+![Footer](assets/Chapter04/WireframeLandingPage/Footer_Section.png) 
+  
+### 4.3.2. Landing Page Mock-up. 
+   
+- Navbar  
+![Navbar](assets/Chapter04/Mock-upLandingPage/Navbar_Section.png)
+- Hero  
+![Hero](assets/Chapter04/Mock-upLandingPage/Hero_Section.png)
+- Disposable Vehicles Section.  
+![Vehicles](assets/Chapter04/Mock-upLandingPage/Disposables_Vehicles_Section.png)
+- Application user manual section.  
+![Manual](assets/Chapter04/Mock-upLandingPage/Application_user_manual_section.png)
+- Rates Section.  
+![Rates](assets/Chapter04/Mock-upLandingPage/Rates_Section.png)
+- Locations section.  
+![Locations](assets/Chapter04/Mock-upLandingPage/Locations_Section.png)
+- Who we are section.  
+![Wo we are](assets/Chapter04/Mock-upLandingPage/Who_we_are_Section.png)
+- About section.  
+![About](assets/Chapter04/Mock-upLandingPage/About_Section.png)
+- Application download section. 
+![Download app](assets/Chapter04/Mock-upLandingPage/Download_section.png) 
+- Footer Section. 
+![Footer](assets/Chapter04/Mock-upLandingPage/Footer_Section.png) 
 
