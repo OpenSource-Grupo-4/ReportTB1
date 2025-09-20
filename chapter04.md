@@ -62,3 +62,71 @@ En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que mot
 | Gris medio       | Texto secundario, íconos inactivos, descripciones y estados deshabilitados. | `#A6A6A6`     |
 
 
+### 4.2.4.Searching Systems.
+
+El sistema integral de micromovilidad eléctrica compartida incorporará un **módulo de búsqueda y localización en tiempo real**, que permitirá a los usuarios identificar la ubicación disponible de los vehículos más cercanos (scooters, bicicletas y motos eléctricas). Este sistema se sustenta en las siguientes características:  
+Geolocalización en tiempo real:  
+ Cada vehículo estará equipado con dispositivos GPS e IoT que transmitirán su ubicación de manera constante hacia la plataforma central.
+
+
+**Mapa interactivo en la aplicación móvil**:  
+ La app mostrará en un mapa la ubicación exacta de los vehículos disponibles, diferenciados por tipo (scooter, bicicleta o moto eléctrica).
+
+
+**Filtros de búsqueda avanzada**\
+ Los usuarios podrán buscar vehículos según:\
+
+
+-Tipo de unidad preferida.\
+
+
+-Nivel de batería disponible.\
+
+
+-Distancia a pie desde su ubicación actual.\
+
+
+**Reserva inmediata**:\
+ Una vez identificado el vehículo, el usuario podrá seleccionarlo en la aplicación, reservarlo y dirigirse a recogerlo.
+
+
+**Optimización para empresas**:\
+ En el caso de suscripciones corporativas, los sistemas de búsqueda también permitirán a los empleados visualizar vehículos disponibles en zonas cercanas a sus oficinas o campus, garantizando disponibilidad en horas de mayor demanda.\
+
+
+Con este enfoque, el sistema de búsqueda se convierte en un **componente esencial para la experiencia del usuario**, asegurando eficiencia en la localización y optimizando el uso de la flota.  
+
+### 4.2.5.Navigation Systems.  
+
+El sistema integral de micromovilidad eléctrica compartida contará con un módulo de navegación inteligente que facilitará al usuario el uso de los vehículos y la planificación de sus desplazamientos. Dicho módulo se estructura en las siguientes funciones:  
+Guía hacia el vehículo seleccionado:  
+ Una vez realizada la reserva, la aplicación mostrará la ruta a pie más rápida desde la ubicación del usuario hasta el vehículo disponible, mediante mapas integrados en tiempo real.  
+
+
+**Navegación durante el viaje:**   
+ El sistema proporcionará indicaciones de ruta para que el usuario se desplace de manera eficiente hacia su destino, evitando zonas de alto tráfico cuando sea posible. Para ello, se integrarán APIs de mapas inteligentes como Google Maps o Mapbox, adaptadas a la movilidad ligera.  
+
+
+**Seguridad en la navegación:**  
+
+
+-Alertas en la aplicación respecto a calles restringidas o zonas con tráfico intenso.  
+
+
+-Recomendación de rutas seguras y sostenibles para bicicletas, scooters y motos eléctricas.  
+
+
+-Opciones de personalización (ruta más rápida, más segura o más ecológica).  
+
+
+**Gestión de estaciones y puntos de aparcamiento:**  
+ La navegación también incluirá la localización de zonas de parqueo autorizadas, estaciones de carga o puntos estratégicos de la empresa asociados a la suscripción corporativa.  
+
+
+**Soporte para empresas:**  
+ En el caso de planes empresariales, el sistema de navegación permitirá sugerir rutas entre las sedes de trabajo, facilitando la movilidad de los colaboradores.  
+
+
+En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real, sino que también optimiza la experiencia de uso, mejorando la seguridad del viaje y reduciendo la incertidumbre del usuario en entornos urbanos congestionados.  
+
+
