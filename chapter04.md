@@ -198,8 +198,10 @@ Web Applications Prototyping es una metodología esencial en el desarrollo de ap
 ### 4.6.1 Design-Level Event Storming.
 
 ### 4.6.2.Software Architecture ContextDiagram.
+![Software Architecture ContextDiagram](https://github.com/user-attachments/assets/b4782c77-3da3-427d-a620-2b137a1117e7)
 
 ### 4.6.3.Software Architecture Container Diagrams.
+![Software Architecture Container Diagrams](https://github.com/user-attachments/assets/9ca74c0d-1d07-417f-8795-8bd15ae23402)
 
 ### 4.6.4.Software Architecture Components Diagrams.
 
