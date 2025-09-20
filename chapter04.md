@@ -149,7 +149,7 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 - About section.  
 ![About](assets/Chapter04/WireframeLandingPage/About_Section.png)
 - Application download section.  
-![Download app](assets/Chapter04/WireframeLandingPage/Download_section.png)
+![Download app](assets/Chapter04/WireframeLandingPage/Download_Section.png)
 - Footer Section.  
 ![Footer](assets/Chapter04/WireframeLandingPage/Footer_Section.png)
   
@@ -162,17 +162,17 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 - Disposable Vehicles Section.  
 ![Vehicles](assets/Chapter04/Mock-upLandingPage/Disposables_Vehicles_Section.png)
 - Application user manual section.  
-![Manual](assets/Chapter04/Mock-upLandingPage/Application_user_manual_section.png)
+![Manual](assets/Chapter04/Mock-upLandingPage/Application_User_manual_Section.png)
 - Rates Section.  
 ![Rates](assets/Chapter04/Mock-upLandingPage/Rates_Section.png)
 - Locations section.  
-![Locations](assets/Chapter04/Mock-upLandingPage/Locations_Section.png)
+![Locations](assets/Chapter04/Mock-upLandingPage/Locations_section.png)
 - Who we are section.  
 ![Wo we are](assets/Chapter04/Mock-upLandingPage/Who_we_are_Section.png)
 - About section.  
-![About](assets/Chapter04/Mock-upLandingPage/About_Section.png)
+![About](assets/Chapter04/Mock-upLandingPage/About_section.png)
 - Application download section.  
-![Download app](assets/Chapter04/Mock-upLandingPage/Download_section.png)
+![Download app](assets/Chapter04/Mock-upLandingPage/Download_Section.png)
 - Footer Section.  
 ![Footer](assets/Chapter04/Mock-upLandingPage/Footer_Section.png)
 
