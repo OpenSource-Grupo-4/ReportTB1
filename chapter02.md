@@ -157,7 +157,18 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 | Resolver dudas con expertos                     | Alta          | Alta           |
 | Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
 | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
-| Preparar reportes de resultados                 | Alta          | Alta           |
+| Preparar reportes de resultados                 | Alta          | Alta           |  
+
+### 2.3.4.Empathy Mapping.  
+
+- Camila Torres:  
+
+![CamilaTorres](./assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
+
+- Luis Salazar:  
+
+![LuisSalazar](./assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
+
 
 ## 2.4.Big Picture Event Storming.
 El Event Storming modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos (IoT, GPS, pasarela de pagos) y el sistema de negocio.
