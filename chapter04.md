@@ -148,10 +148,10 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 ![Wo we are](assets/Chapter04/WireframeLandingPage/Who_we_are_Section.png)
 - About section.  
 ![About](assets/Chapter04/WireframeLandingPage/About_Section.png)
-- Application download section. 
-![Download app](assets/Chapter04/WireframeLandingPage/Download_section.png) 
-- Footer Section. 
-![Footer](assets/Chapter04/WireframeLandingPage/Footer_Section.png) 
+- Application download section.  
+![Download app](assets/Chapter04/WireframeLandingPage/Download_section.png)
+- Footer Section.  
+![Footer](assets/Chapter04/WireframeLandingPage/Footer_Section.png)
   
 ### 4.3.2. Landing Page Mock-up. 
    
@@ -171,8 +171,8 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 ![Wo we are](assets/Chapter04/Mock-upLandingPage/Who_we_are_Section.png)
 - About section.  
 ![About](assets/Chapter04/Mock-upLandingPage/About_Section.png)
-- Application download section. 
-![Download app](assets/Chapter04/Mock-upLandingPage/Download_section.png) 
-- Footer Section. 
-![Footer](assets/Chapter04/Mock-upLandingPage/Footer_Section.png) 
+- Application download section.  
+![Download app](assets/Chapter04/Mock-upLandingPage/Download_section.png)
+- Footer Section.  
+![Footer](assets/Chapter04/Mock-upLandingPage/Footer_Section.png)
 
