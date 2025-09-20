@@ -176,3 +176,42 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 - Footer Section.  
 ![Footer](assets/Chapter04/Mock-upLandingPage/Footer_Section.png)
 
+## 4.4.Web Applications UX/UI Design.
+
+### 4.4.1.Web Applications Wireframes. LO HACEMOS TODOS
+
+### 4.4.2.Web Applications Wireflow Diagrams. LO HACEMOS TODOS
+
+### 4.4.2.Web Applications Mock-ups.  LO HACEMOS TODOS
+
+### 4.4.3.Web Applications User Flow Diagrams. LO HACEMOS TODOS
+
+
+## 4.5.Web Applications Prototyping.
+
+Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
+
+
+
+## 4.6.Domain- DrivenSoftware Architecture.
+
+### 4.6.1 Design-Level Event Storming.
+
+### 4.6.2.Software Architecture ContextDiagram.
+
+### 4.6.3.Software Architecture Container Diagrams.
+
+### 4.6.4.Software Architecture Components Diagrams.
+
+
+
+## 4.7.Software Object-Oriented Design.
+
+### 4.7.1.Class Diagrams.
+
+The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
+It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
+
+
+![ClassDiagram](assets/Chapter04/classDiagApp/classDiagApp.png)
+
