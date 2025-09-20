@@ -168,6 +168,34 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
 | Preparar reportes de resultados                 | Alta          | Alta           |
 
+## 2.4.Big Picture Event Storming.
+El Event Storming modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos (IoT, GPS, pasarela de pagos) y el sistema de negocio.
+Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
+
+![eventstorming](https://github.com/user-attachments/assets/c71c198d-74d0-45c2-bd13-45433e2a8969)
+
+## 2.5.Ubiquitous Language.
+
+| Término                 | Tipo               | Definición                                                                 |
+|--------------------------|--------------------|-----------------------------------------------------------------------------|
+| Usuario                 | Actor              | Persona registrada que utiliza la app para alquilar scooters.              |
+| Administrador           | Actor              | Responsable de gestionar flota, usuarios y soporte desde el sistema.       |
+| Scooter                 | Entidad            | Vehículo eléctrico disponible para alquiler dentro de la plataforma.       |
+| Estación Virtual        | Entidad            | Punto geográfico donde los scooters pueden ser recogidos o dejados.        |
+| Reserva                 | Evento/Entidad     | Acción de apartar un scooter disponible antes de iniciar el alquiler.      |
+| Alquiler                | Evento/Entidad     | Proceso activo en el que el usuario usa un scooter y se mide en tiempo/distancia. |
+| Pago                    | Evento             | Transacción realizada por el usuario para completar un alquiler.           |
+| Tarifa                  | Entidad            | Costo asociado al alquiler, calculado según tiempo y distancia.            |
+| Desbloqueo              | Comando/Evento     | Acción de habilitar el scooter tras confirmar la reserva y el pago inicial. |
+| Devolución              | Evento             | Acción de finalizar el uso y dejar el scooter en una estación virtual.     |
+| Mantenimiento           | Proceso            | Revisión y reparación de scooters por parte del personal técnico.          |
+| Penalización            | Evento/Entidad     | Cargo adicional aplicado por mal uso, retraso o devolución fuera de zona.  |
+| Historial de Viajes     | Vista              | Registro de reservas, alquileres y pagos asociados a cada usuario.         |
+| Soporte                 | Servicio           | Canal de ayuda en la app para resolver incidencias de los usuarios.        |
+| Flota                   | Entidad/Conjunto   | Conjunto de scooters activos disponibles en la ciudad.                     |
+| Ubicación en Tiempo Real| Información        | Datos GPS que muestran dónde se encuentra cada scooter.                     |
+| Sesión de Usuario       | Entidad            | Periodo en que el usuario está logueado y utilizando la app.               |
+
 
 
 

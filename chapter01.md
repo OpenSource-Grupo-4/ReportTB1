@@ -187,3 +187,15 @@ Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía 
 **will achieve** ingresos recurrentes y fidelización de clientes institucionales.  
 **We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
 
+#### 1.3. Segmento Objetivo
+
+El sistema integral de micromovilidad eléctrica compartida en el Perú estará orientado inicialmente a dos segmentos objetivos estratégicos, seleccionados en función de sus características demográficas, comportamentales y de consumo.
+
+**Jovenes Universitarios**
+Este segmento comprende a estudiantes de educación superior, principalmente mayores de 17 años, residentes en áreas urbanas de alta congestión vehicular como Lima Metropolitana, Arequipa, Trujillo y Cusco. Los jóvenes universitarios presentan una alta familiaridad con tecnologías digitales y aplicaciones móviles, así como una preferencia por medios de transporte económicos, rápidos y sostenibles (Ministerio de Transportes y Comunicaciones [MTC], 2023).
+
+En este grupo, la necesidad principal radica en cubrir trayectos cortos y medios entre la universidad, la vivienda, centros de recreación y puntos de transporte público. El uso de **scooters eléctricos** y **bicicletas eléctricas** responde a la búsqueda de alternativas de movilidad accesibles y seguras. Asimismo, su disposición a utilizar pagos digitales como Yape y Plin facilita la adopción del servicio.
+
+**Empresas**
+El segundo segmento está compuesto por empresas privadas, instituciones educativas y organizaciones que requieren soluciones de movilidad sostenible para sus trabajadores o estudiantes. Estas entidades podrán acceder al servicio a través de planes de **suscripción mensual**, lo que permitirá ofrecer a sus colaboradores o miembros una opción de transporte ágil.
+Las empresas representan un segmento estratégico debido a su capacidad de inversión en modelos de suscripción que garantizan ingresos recurrentes. Además, este público objetivo contribuye a consolidar la imagen de responsabilidad social corporativa al implementar prácticas alineadas con la movilidad verde y la reducción de emisiones contaminantes.
