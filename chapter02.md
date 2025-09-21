@@ -202,6 +202,41 @@ Preguntas principales:
   </tr>
 </table>  
 
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 2</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" alt="Entrevista joven universitario" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Patrick Correa</td>
+    <td><b>Edad:</b> 18</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b> Ing. Mecatrónica</td>
+    <td><b>Sexo:</b> Masculino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 08:00 pm</td>
+    <td><b>Duración:</b> 13:25 min</td>
+  </tr>
+  <tr>
+    <td><b>Link de entrevista:</b> https://goo.su/PM0wN</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      El entrevistado es un estudiante universitario que reside cerca de su centro de estudios, pero que aún así se le hace dificil ir por el tráfico aún en un tramo no tan largo.
+      Sus principales frustraciones son el tráfico, la poca accesibilidad a buses que vayan a su destino y la inseguridad ciudadana.
+      En cuanto a hábitos tecnológicos, está familiarizado con las apps de taxis como Uber, InDrive, pero los usa a veces en otras situaciones. Nunca ha usado apps de alquiler de scooters o bicicletas y prefiere siempre pagar por efectivo.  
+      Además, mostró interés en una alternativa rápida, segura y económica como scooters, bicicletas y motos eléctricas. Dice que sería una experiencia interesante y que podría aprender a usarlos rápidamente para poder solventar este problema que tiene en su día a día.
+    </td>
+  </tr>
+</table>  
+
 ### 2.2.3.Análisis de entrevistas.  
 
 **Segmento Jovenes Universitarios**
@@ -212,7 +247,7 @@ La entrevista revela un alto nivel de insatisfacción con el transporte actual e
 
 - Precio competitivo (más barato que taxi y accesible frente a bus).  
 
-- Pagos digitales simples (Yape/Plin).  
+- Pagos digitales simples (Yape/Plin) y otros medios de pago para los que prefieran tener el dinero en mano como PagoEfectivo. 
 
 - Beneficios estudiantiles (descuentos o planes especiales).  
 
