@@ -151,7 +151,21 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
   </tr>
 </table>  
 
-### 2.2.3.Análisis de entrevistas.
+### 2.2.3.Análisis de entrevistas.  
+
+**Segmento Jovenes Universitarios**
+
+La entrevista revela un alto nivel de insatisfacción con el transporte actual en Lima Metropolitana, caracterizado por demoras e inseguridad. El usuario objetivo (universitario) demuestra disposición a cambiar de medio de transporte si se le ofrece una solución más rápida, confiable y accesible.  
+
+**El factor diferenciador clave será:**  
+
+- Precio competitivo (más barato que taxi y accesible frente a bus).  
+
+- Pagos digitales simples (Yape/Plin).  
+
+- Beneficios estudiantiles (descuentos o planes especiales).  
+
+Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto potencial de adopción entre jóvenes universitarios, siempre que se garantice conveniencia, ahorro y seguridad.  
 
 ## 2.3.Needfinding.
 
