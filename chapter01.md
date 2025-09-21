@@ -72,6 +72,21 @@ WeRide es una aplicación que consta de un sistema integral de micro movilidad e
 
 Para el análisis de los antecedentes y la problemática, se utilizara la técnica de las 5W y 2H.
 
+#### 1.2.2.1. Lean UX Problem Statements.
+
+El propósito de **WeRide** es empoderar a los ciudadanos de Lima, especialmente jóvenes profesionales y estudiantes, con una solución de micromovilidad eléctrica compartida, asequible y fácil de usar, que transforme la experiencia de transporte urbano de una rutina lenta, costosa y contaminante a una alternativa rápida, sostenible y basada en tecnología de punta.
+
+El problema se manifiesta cuando los usuarios, ***debido a la congestión vehicular, la falta de opciones de transporte eficientes y la incertidumbre sobre la disponibilidad de vehículos***, toman decisiones de **movilidad subóptimas**. Actualmente, dependen de transporte público saturado, taxis costosos o vehículos privados, lo que no se adapta a las necesidades dinámicas de la ciudad ni a la urgencia de sus desplazamientos diarios.
+
+Hemos observado que esta situación conduce a un ciclo vicioso: el transporte ineficiente no solo genera pérdida de tiempo y altos costos, sino que también incrementa la contaminación y el estrés diario, afectando la calidad de vida de los usuarios. Esta insatisfacción, a su vez, limita la adopción de alternativas sostenibles y tecnológicas que podrían romper dicho ciclo. Ante esta problemática, surge la pregunta: **¿Cómo podríamos proporcionar a los ciudadanos una forma sencilla y económica de encontrar, reservar y usar vehículos eléctricos compartidos, permitiéndoles tomar el control de su movilidad diaria de manera eficiente y ecológica?**
+
+**Domain:** Micromovilidad Eléctrica, Smart Mobility, Internet de las Cosas (IoT).  
+**Customer Segments:** Jóvenes profesionales, estudiantes universitarios y trabajadores urbanos en Lima, Perú.  
+**Pain Points:** Pérdida de tiempo por tráfico, altos costos de transporte, contaminación, incertidumbre sobre disponibilidad de vehículos, falta de opciones sostenibles y accesibles.  
+**Gap:** No existe en el mercado peruano una solución integral de hardware y software para la micromovilidad eléctrica compartida que esté diseñada específicamente para ser accesible, asequible y fácil de usar por usuarios urbanos con diferentes niveles de experiencia tecnológica.  
+**Vision/Strategy:** Crear un ecosistema tecnológico que democratice el acceso a la micromovilidad eléctrica, comenzando con la optimización del uso de scooters, bicicletas y motos eléctricas, para mejorar la sostenibilidad, eficiencia y calidad de vida en las ciudades peruanas.  
+**Initial Segment:** Jóvenes universitarios y profesionales en Lima Metropolitana, quienes presentan mayor disposición a adoptar tecnología y buscan alternativas de transporte rápidas, económicas y sostenibles.
+
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Outcomes**  
@@ -220,7 +235,7 @@ Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía 
 **will achieve** ingresos recurrentes y fidelización de clientes institucionales.  
 **We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
 
-#### 1.2.2.3. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas de WeRide plantea que en Lima existe un serio problema de congestión vehicular, transporte público deficiente y alternativas privadas costosas. Frente a ello, la solución propuesta es una plataforma de micromovilidad eléctrica compartida que ofrezca scooters, bicicletas y motos eléctricas disponibles en tiempo real, con reserva inmediata, desbloqueo remoto y pagos flexibles (por uso o suscripción).
 
 ![Lean UX Canvas](https://github.com/user-attachments/assets/9b18e7b7-ea13-4bee-98c5-44441796c380)

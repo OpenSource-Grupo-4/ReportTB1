@@ -96,28 +96,18 @@ Para los **usuarios individuales** de WeRide, la funcionalidad principal es la g
 #### Empresa o Administrador:
 En el caso de **empresas o administradores**, también se emplea una organización jerárquica para gestionar múltiples usuarios, vehículos y reportes. Además, se puede acceder a funcionalidades específicas como ***la supervisión del estado de la flota, generación de informes de uso, administración de usuarios corporativos y gestión de promociones***.
 
-Finalmente, para funcionalidades comunes como la edición de perfil, gestión de métodos de pago, notificaciones o cierre de sesión, se mantiene la organización jerárquica, asegurando que todas estas opciones estén claramente segmentadas y accesibles para todos los tipos de usuario.
 
 ### 4.2.2. Labeling Systems.
 Las etiquetas emplean un lenguaje claro y conciso, alineado con el tono casual y motivador de la marca:
-Inicio: Vista principal con mapa y scooters disponibles.
-Reservar: Flujo de reserva paso a paso.
-Mis Viajes: Historial de viajes y reservas activas.
-Perfil: Gestión de cuenta, método de pago y preferencias.
-Ayuda: Centro de soporte con preguntas frecuentes y contacto.
+**Inicio:** Vista principal con mapa y scooters disponibles.
+**Reservar:** Flujo de reserva paso a paso.
+**Mis Viajes:** Historial de viajes y reservas activas.
+**Perfil:** Gestión de cuenta, método de pago y preferencias.
+**Ayuda:** Centro de soporte con preguntas frecuentes y contacto.
+
+---
 
 ### 4.2.3. SEO Tags and Meta Tags
-Title: WeRide - Micromovilidad Eléctrica Universitaria
-Meta Description:
-"WeRide ofrece scooters eléctricos para estudiantes y profesionales. Reserva fácil, movilidad sostenible y precios accesibles dentro del campus."
-Keywords:
-scooters eléctricos, micromovilidad, transporte universitario, alquiler de scooters, movilidad sostenible, WeRide
-Author: WeRide Team
-OG Tags:
-og:image: [Logo WeRide en formato horizontal]
-og:title: WeRide - Movilidad Inteligente en tu Campus
-og:description: Conectamos a estudiantes y profesionales con scooters eléctricos para un desplazamiento rápido y ecológico.
-
 
 **Titulo:**
 ```html
@@ -139,6 +129,8 @@ og:description: Conectamos a estudiantes y profesionales con scooters eléctrico
 <meta name="author" content="CultiConection">
 <meta name="copyright" content="Copyright WeTech team" />
 ```
+
+---
 
 ### 4.2.4.Searching Systems.
 
@@ -316,30 +308,41 @@ User Flow Diagrams are visual representations that show the steps a user takes t
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
-
 ## 4.6.Domain- DrivenSoftware Architecture.
 
 Esta sección se expone la arquitectura de software del proyecto WeRide. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
 
 ### 4.6.1 Design-Level Event Storming.
 
-### 4.6.2.Software Architecture ContextDiagram.
+### 4.6.2. Software Architecture ContextDiagram.
+
+El diagrama de contexto de **WeRide** ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar y optimizar la movilidad urbana mediante el uso compartido de vehículos eléctricos. En este nivel, se identifican actores clave como el Usuario (quien reserva, desbloquea y utiliza los vehículos), el Administrador (encargado de la gestión de la flota y promociones), y Empresas (clientes corporativos que gestionan suscripciones para empleados). Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones de suscripción y uso, el Servicio de Mapas para visualizar la ubicación de los vehículos y planificar rutas, y las Redes Sociales para compartir viajes y promociones. Esta representación de alto nivel permite entender de manera clara cómo WeRide se relaciona y coopera con su ecosistema digital y humano.
+
 ![Software Architecture ContextDiagram](https://github.com/user-attachments/assets/b4782c77-3da3-427d-a620-2b137a1117e7)
 
-### 4.6.3.Software Architecture Container Diagrams.
+### 4.6.3. Software Architecture Container Diagrams.
+
+El diagrama de contenedores detalla la organización interna de **WeRide**, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web y Móvil, implementadas en React y React Native, sirven como puntos de interacción donde los usuarios pueden localizar, reservar y gestionar vehículos eléctricos. Estas interfaces se conectan con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, vehículos, reservas, pagos y rutas se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API o Mapbox) para la visualización de ubicaciones y rutas, y la Pasarela de Pago (Stripe o similar), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
+
 ![Software Architecture Container Diagrams](https://github.com/user-attachments/assets/0d402a91-fdea-467f-8783-8961f4d2eb86)
 
-### 4.6.4.Software Architecture Components Diagrams.
+### 4.6.4. Software Architecture Components Diagrams.
+
+El diagrama de componentes pone el foco en la arquitectura interna de la API de **WeRide**, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación, perfiles y métodos de pago; Gestión de Vehículos permite realizar operaciones sobre los vehículos disponibles (ubicación, estado, batería); Reservas y Viajes abarca el ciclo completo de reserva, desbloqueo y finalización de viajes; Rutas y Mapas gestiona la localización y navegación de los vehículos; y Promociones y Notificaciones procesa tanto la gestión de descuentos como el envío de alertas a los usuarios. La interacción entre estos módulos sigue un flujo funcional definido: los usuarios gestionan reservas y viajes, los administradores supervisan la flota y las promociones, y las empresas pueden gestionar suscripciones corporativas. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma, junto a los Bounded Contexts desarrollados que explican de forma detallada la funcionalidad de cada componente existente en WeRide.
+
 ![Software Architecture Components Diagrams](https://github.com/user-attachments/assets/9b6573f9-6ec3-460e-b3e0-093f0faf0bd0)
 
 
 ## 4.7.Software Object-Oriented Design.
 
+El diagrama de clases nos ayuda a definir la funcionalidad de el producto de **WeRide** mediante los atributos y funcionalidades de las clases de nuestras entidades relacionadas al funcionamiento del producto, desde interfaces, clases y atributos.
+
 ### 4.7.1.Class Diagrams.
 ![ClassDiagram](assets/Chapter04/classDiagApp/classDiagApp.png)
 
-<<<<<<< HEAD
 ## 4.8.Database Design.
+
+El diagrama de base de datos nos ayudara a la correcta definicion de entidades dentro de la base de datos funcional de **WeRide**, definiendo que entidades se vinculan mediante las id's principales para la correcta organizacion y manejo de informacion.
 
 ### 4.8.1.Database Diagrams.
 
@@ -348,17 +351,5 @@ Esta sección se expone la arquitectura de software del proyecto WeRide. La prop
 
 <img src="assets/Chapter04/db.png" alt="ClassDiagram" width="1000" height="500">
 </p>
-
-=======
-The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
-It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
->>>>>>> develop
-
-
-
-## 4.8.Database Design.
-
-### 4.8.1.Database Diagrams.
-
 
 
