@@ -60,7 +60,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
             <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
             <td>Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.</td>
         </tr>
-    </tbody>
+    
 </table>
 
 ## 1.2. Solution Profile
