@@ -53,6 +53,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
           <td>Seminario Castillo, Diego Vicente</td>
             <td><img src="./assets/Integrantes/Diego.png" alt="Foto de Diego" /></td>
             <td>Soy Diego, estudiante de Ingeniería de Software en la UPC. La tecnología me apasiona y tengo los conocimientos necesarios para contribuir en el desarrollo de proyectos con un enfoque práctico e innovador. Me caracteriza mi responsabilidad y compromiso para cumplir con los plazos y ofrecer resultados de calidad. Siempre dispuesto a colaborar y aportar lo que sé para asegurar el éxito de mis proyectos y de mi equipo.
+            </tr>
 
     
         <tr>
