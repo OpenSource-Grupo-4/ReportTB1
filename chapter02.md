@@ -244,7 +244,7 @@ Preguntas principales:
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="90%"/>
+      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
     </td>
   </tr>
   <tr>
