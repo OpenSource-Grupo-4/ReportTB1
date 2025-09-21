@@ -173,7 +173,7 @@ Preguntas principales:
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="./assets/chapter02/EntrevistaBedith.png" alt="Imagen Entrevistado" width="90%"/>
+      <img src="./assets/chapter02/EntrevistaBedith.png" alt="Imagen Entrevistado" width="90%" style="text-align: center;"/>
     </td>
   </tr>
   <tr>
@@ -208,7 +208,7 @@ Preguntas principales:
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" alt="Entrevista joven universitario" width="150"/>
+      <img src="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" alt="Entrevista joven universitario" width="90%"/>
     </td>
   </tr>
   <tr>
@@ -244,7 +244,7 @@ Preguntas principales:
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
+      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="90%"/>
     </td>
   </tr>
   <tr>
