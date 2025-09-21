@@ -292,6 +292,21 @@ La entrevista revela un alto nivel de insatisfacción con el transporte actual e
 Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto potencial de adopción entre jóvenes universitarios, siempre que se garantice conveniencia, ahorro y seguridad.  
 
 ---
+**Segmento Empresas**
+
+La entrevista  revela una alta insatisfacción con los modelos tradicionales de mensajería, caracterizados por altos costos operativos e ineficiencia en la movilidad urbana. La cliente demuestra disposición a adoptar una solución de micromovilidad que resuelva problemas concretos de costos, trazabilidad y estacionamiento.
+
+**Los factores diferenciadores clave serán:**
+
+- Modelo flexible de pago por uso (vs. costos fijos de mantenimiento de flota propia o servicios externos premium).
+
+- Integración tecnológica (dashboard en tiempo real y API con sus sistemas de gestión existentes).
+
+- Seguridad integral (seguros, capacitación y geolimitación operativa).
+
+- Ventaja competitiva sostenible (entregas cero emisiones como valor de marca).
+
+Esto confirma que el modelo de scooters compartidos dedicados tiene alto potencial de adopción en el sector logístico, siempre que demuestre un ROI claro, reduzca la complejidad operativa y ofrezca control total sobre los desplazamientos.
 
 ## 2.3.Needfinding.
 
