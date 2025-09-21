@@ -308,11 +308,29 @@ User Flow Diagrams are visual representations that show the steps a user takes t
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
-## 4.6.Domain- DrivenSoftware Architecture.
+## 4.6.Domain - DrivenSoftware Architecture.
 
 Esta sección se expone la arquitectura de software del proyecto WeRide. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
 
 ### 4.6.1 Design-Level Event Storming.
+
+**Command Bounded Context**
+
+![EventStorming](/assets/Chapter04/eventStorming/event-storming1.jpg)
+
+**Vehicle Managment Bounded Context**
+
+![EventStorming](/assets/Chapter04/eventStorming/event-storming2.jpg)
+
+**Level & Storm Managment Bounded Context**
+
+![EventStorming](/assets/Chapter04/eventStorming/event-storming3.jpg)
+
+**Payment Managment Bounded Context**
+
+![EventStorming](/assets/Chapter04/eventStorming/event-storming4.jpg)
+
+---
 
 ### 4.6.2. Software Architecture ContextDiagram.
 
