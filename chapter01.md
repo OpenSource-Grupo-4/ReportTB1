@@ -209,6 +209,9 @@ Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía 
 **We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
 
 #### 1.2.2.3. Lean UX Canvas
+El Lean UX Canvas de WeRide plantea que en Lima existe un serio problema de congestión vehicular, transporte público deficiente y alternativas privadas costosas. Frente a ello, la solución propuesta es una plataforma de micromovilidad eléctrica compartida que ofrezca scooters, bicicletas y motos eléctricas disponibles en tiempo real, con reserva inmediata, desbloqueo remoto y pagos flexibles (por uso o suscripción).
+
+![Lean UX Canvas](https://github.com/user-attachments/assets/9b18e7b7-ea13-4bee-98c5-44441796c380)
 
 #### 1.3. Segmento Objetivo
 
