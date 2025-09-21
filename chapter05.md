@@ -232,5 +232,34 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 - La identificación de dos segmentos prioritarios —jóvenes universitarios y empresas con planes de suscripción— es coherente con los hallazgos cualitativos. Los primeros buscan conveniencia, bajo costo y métodos de pago locales (Yape/Plin); las empresas buscan soluciones de movilidad para colaboradores y valoran la previsibilidad de costos y la imagen de sostenibilidad. Esta segmentación favorece estrategias de adquisición y retención diferenciadas.
 - La propuesta de combinar pago por uso (desbloqueo + tarifa por minuto) con pases diarios, mensuales y corporativos ofrece una mezcla adecuada para equilibrar ingresos inmediatos y recurrentes. Los precios sugeridos y el descuento universitario crean incentivos para adopción temprana y fidelización. No obstante, la rentabilidad dependerá de la tasa de utilización por vehículo (objetivo mínimo: 4–5 viajes/día) y de una gestión eficiente de costos operativos (mantenimiento, recarga, logística).
 - Las funciones críticas —búsqueda en tiempo real (GPS/IoT), mapa interactivo, reservas con temporizador y desbloqueo digital (QR/PIN/IoT)— están correctamente priorizadas. Estas funcionalidades garantizan una experiencia simple y confiable desde la web, mientras que el desbloqueo digital y la gestión remota son componentes esenciales para control y seguridad de la flota.
+  
 ## Bibliografía
+
+- Alexander, I., & Beus-Dukic, L. (2009). *Discovering Requirements: How to Specify Products and Services*. Wiley.
+- Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
+- Kruchten, P. (2003). *The Rational Unified Process: An Introduction*. Addison-Wesley.
+- Newman, S. (2015). *Building Microservices: Designing Fine-Grained Systems*. O’Reilly Media.
+- Sommerville, I. (2016). *Software Engineering* (10th ed.). Pearson.
+- W3C. (2024). *HTML & CSS Standards*. Recuperado de: https://www.w3.org/
+- Mozilla Developer Network (MDN). (2024). *JavaScript Guide*. Recuperado de: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide
+- GitHub Docs. (2024). *GitHub Pages Documentation*. Recuperado de: https://docs.github.com/en/pages
+- Stripe Docs. (2024). *Stripe Payments Integration Guide*. Recuperado de: https://stripe.com/docs
+- Figma. (2024). *Figma Design Documentation*. Recuperado de: https://help.figma.com/
+- Google Maps Platform. (2024). *Maps JavaScript API Documentation*. Recuperado de: https://developers.google.com/maps/documentation/javascript
+- Node.js Foundation. (2024). *Node.js Documentation*. Recuperado de: https://nodejs.org/en/docs/
+- Vue.js. (2024). *Vue.js Guide*. Recuperado de: https://vuejs.org/guide/introduction.html
+
 ## Anexos.
+
+![Organización](https://github.com/OpenSource-Grupo-4)
+
+![Reporte del Proyecto](https://github.com/OpenSource-Grupo-4/ReportTB1)
+
+![Repositorio de Landing Page](https://github.com/OpenSource-Grupo-4/Landing-Page)
+
+![Deploy de Landing Page](https://opensource-grupo-4.github.io/Landing-Page)
+
+![Presentación de Canvas](https://www.canva.com/design/DAGzltc5qz0/jV9yXK8Nme4XSOk6AUhFgg/edit)
+
+![Figma](https://www.figma.com/design/kt2VQ3DmUCAFoAeB9mAjnU/UX-UI-Apps_Web_20252_UPC?node-id=4-143&p=f&t=8ivn25D6KVbvvX71-0)
