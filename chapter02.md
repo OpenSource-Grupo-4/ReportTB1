@@ -138,6 +138,9 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
     <td><b>Duración:</b> 25 min</td>
   </tr>
   <tr>
+    <td><b>Link de entrevista:</b> ""</td>
+  </tr>
+  <tr>
     <td colspan="2">
       <b>Resumen de entrevista:</b><br>
       El entrevistado es un estudiante universitario que invierte entre 1.5 a 2 horas diarias en transporte, utilizando principalmente buses y taxis por aplicación.  
