@@ -187,7 +187,7 @@ Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía 
 **will achieve** ingresos recurrentes y fidelización de clientes institucionales.  
 **We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
 
-#### 1.3. Segmento Objetivo
+## 1.3. Segmento Objetivo
 
 El sistema integral de micromovilidad eléctrica compartida en el Perú estará orientado inicialmente a dos segmentos objetivos estratégicos, seleccionados en función de sus características demográficas, comportamentales y de consumo.
 
