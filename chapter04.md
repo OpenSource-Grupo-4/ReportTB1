@@ -63,6 +63,50 @@ En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que mot
 | Gris claro       | Fondos secundarios, separadores, tarjetas de información.                | `#D9D9D9`     |
 | Gris medio       | Texto secundario, íconos inactivos, descripciones y estados deshabilitados. | `#A6A6A6`     |
 
+### 4.1.2. Web Style Guidelines.
+
+## 4.2. Information Architecture.
+
+### 4.2.1. Organization Systems.
+
+Para la **landing page** de WeRide, se ha optado por una estructura jerárquica para ambos segmentos de usuarios, ya que se cuenta con una barra de navegación superior que dirige a diferentes secciones, cada una encapsulando información relevante y relacionada.
+
+Para el proceso de inicio de sesión o creación de cuenta, se utiliza una organización lineal, permitiendo que el usuario avance paso a paso a medida que completa los datos requeridos hasta finalizar el registro o acceso.
+
+Dentro de la aplicación principal, se mantiene una organización jerárquica para separar y encapsular las distintas funcionalidades, independientemente del tipo de usuario. Esto asegura que, aunque los usuarios tengan diferentes necesidades y accesos, ****la estructura de la aplicación sea coherente y fácil de navegar.****
+
+##### Usuario individual:
+Para los **usuarios individuales** de WeRide, la funcionalidad principal es la gestión y uso de vehículos de micromovilidad (scooters, bicicletas y motos eléctricas). Por ello, la organización jerárquica permite agrupar subfuncionalidades como ***la reserva de vehículos, visualización del mapa, filtrado por tipo de vehículo, consulta de historial de viajes y notificaciones***, todas relacionadas con la experiencia de movilidad personal.
+
+#### Empresa o Administrador:
+En el caso de **empresas o administradores**, también se emplea una organización jerárquica para gestionar múltiples usuarios, vehículos y reportes. Además, se puede acceder a funcionalidades específicas como ***la supervisión del estado de la flota, generación de informes de uso, administración de usuarios corporativos y gestión de promociones***.
+
+Finalmente, para funcionalidades comunes como la edición de perfil, gestión de métodos de pago, notificaciones o cierre de sesión, se mantiene la organización jerárquica, asegurando que todas estas opciones estén claramente segmentadas y accesibles para todos los tipos de usuario.
+
+### 4.2.2. Labeling Systems.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+**Titulo:**
+```html
+<title>WeRide</title>
+```
+
+**Codificación de carácteres:**
+```html
+<meta charset="utf-8">
+```
+
+**Descripción:**
+```html
+<meta name="description" content="WeRide is a web application focused on providing sustainable and smart urban mobility through electric scooters, bikes, and motorcycles.">
+```
+
+**Autor y Derechos de Autor:**
+```html
+<meta name="author" content="CultiConection">
+<meta name="copyright" content="Copyright WeTech team" />
+```
 
 ### 4.2.4.Searching Systems.
 
@@ -79,13 +123,13 @@ Geolocalización en tiempo real:
  Los usuarios podrán buscar vehículos según:
 
 
--Tipo de unidad preferida.
+- Tipo de unidad preferida.
 
 
--Nivel de batería disponible.
+- Nivel de batería disponible.
 
 
--Distancia a pie desde su ubicación actual.
+- Distancia a pie desde su ubicación actual.
 
 
 **Reserva inmediata**:
@@ -112,13 +156,13 @@ Guía hacia el vehículo seleccionado:
 **Seguridad en la navegación:**  
 
 
--Alertas en la aplicación respecto a calles restringidas o zonas con tráfico intenso.  
+- Alertas en la aplicación respecto a calles restringidas o zonas con tráfico intenso.  
 
 
--Recomendación de rutas seguras y sostenibles para bicicletas, scooters y motos eléctricas.  
+- Recomendación de rutas seguras y sostenibles para bicicletas, scooters y motos eléctricas.  
 
 
--Opciones de personalización (ruta más rápida, más segura o más ecológica).  
+- Opciones de personalización (ruta más rápida, más segura o más ecológica).  
 
 
 **Gestión de estaciones y puntos de aparcamiento:**  
@@ -194,8 +238,9 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
 
-
 ## 4.6.Domain- DrivenSoftware Architecture.
+
+Esta sección se expone la arquitectura de software del proyecto WeRide. La propuesta fue elaborada con un enfoque orientado al dominio, de manera que los elementos más relevantes de la plataforma estén correctamente representados y respondan a los requerimientos de los usuarios. Seguidamente, se incluyen diagramas esenciales que ilustran la interacción entre los distintos componentes del sistema y los actores externos.
 
 ### 4.6.1 Design-Level Event Storming.
 
