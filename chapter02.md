@@ -161,7 +161,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="" alt="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" width="150"/>
+      <img src="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" alt="Entrevista joven universitario" width="150"/>
     </td>
   </tr>
   <tr>
@@ -177,7 +177,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
     <td><b>Duración:</b> 13:25 min</td>
   </tr>
   <tr>
-    <td><b>Link de entrevista:</b> "https://upcedupe-my.sharepoint.com/:v:/g/personal/u201822516_upc_edu_pe/EUvUpvaahThKscE7-_UbpswB0yXMYAiTIbCZqVGguBAPiA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Cw4F2d"</td>
+    <td><b>Link de entrevista:</b> "https://goo.su/PM0wN"</td>
   </tr>
   <tr>
     <td colspan="2">
