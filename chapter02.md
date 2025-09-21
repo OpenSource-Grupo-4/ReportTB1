@@ -188,7 +188,7 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 
 ---
 
-### 2.3.1.User Task Matrix.
+### 2.3.2.User Task Matrix.
 
 **Camila Torres (Joven universitaria)**
 
@@ -218,6 +218,8 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 | Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
 | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
 | Preparar reportes de resultados                 | Alta          | Alta           |  
+
+### 2.3.3.User Journey Mapping. 
 
 ### 2.3.4.Empathy Mapping.  
 
