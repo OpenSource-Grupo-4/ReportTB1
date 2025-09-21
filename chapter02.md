@@ -237,6 +237,44 @@ Preguntas principales:
   </tr>
 </table>  
 
+**Segmento Empresas**  
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 1</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Angie Santos Fernandez /td>
+    <td><b>Edad:</b> 23</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b> Ing. Sistemas</td>
+    <td><b>Sexo:</b> Femenino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 10:00 am</td>
+    <td><b>Duración:</b> 5:20 min</td>
+  </tr>
+  <tr>
+    <td><b>Link de entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u201822516_upc_edu_pe/EeNpfpYFk9hJnAitYBXBWdIBWmEfDnOJZkQpQ3uTIbt3pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K39Xx6</b> ""</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      Angie es una tomadora de decisiones en una empresa que realiza entregas urbanas. Se muestra interesada pero cautelosa ante nuevas soluciones.
+
+Sus principales problemas son los altos costos de los servicios de mensajería externos y el mantenimiento de su flota propia de motos, además de la pérdida de tiempo por el tráfico y problemas de estacionamiento.
+
+Valora especialmente la eficiencia, la trazabilidad en tiempo real y la seguridad de sus empleados. Prefiere un modelo de pago por uso para mayor flexibilidad y ve el valor competitivo de la sostenibilidad.
+
+Para avanzar, necesita ver números concretos de ahorro (ROI) y realizar una prueba piloto con 3-4 scooters antes de tomar una decisión final.
+  </tr>
+</table>  
+
 ### 2.2.3.Análisis de entrevistas.  
 
 **Segmento Jovenes Universitarios**
