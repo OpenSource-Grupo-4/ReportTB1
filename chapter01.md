@@ -44,6 +44,11 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
             <td><img src="assets/Samuel.png" alt="Foto de Samuel" /></td>
             <td>Estudiante de la carrera de ingenieria de Software en la UPC.  Actualmente me encuentro en 5to ciclo. Cuento con experiencia desarrollando aplicaciones en Javascript, C++, Typescript, React entre otros. Me apasiona la inteligencia artificial, ajedrez, música y el fútbol.</td>
         </tr>
+        <tr>
+          <td>Romero Meza, Jhimy Pool</td>
+            <td><img src="./assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" /></td>
+            <td>Soy estudiante de la carrera de Ingeniería de Software en la UPC, actualmente cursando el 5to ciclo. Me apasiona la tecnología y cuento con conocimientos previos en el área, lo que me permite aportar valor en el desarrollo de proyectos. Me considero una persona responsable, comprometida con la entrega puntual de los trabajos y con la calidad de los resultados. Estoy dispuesto a colaborar activamente y compartir lo que sé para contribuir al éxito de mi equipo y la creación de proyectos sólidos e innovadores.</td>
+        </tr>
     </tbody>
 </table>
 
