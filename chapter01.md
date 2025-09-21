@@ -41,7 +41,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
     <tbody>
         <tr>
             <td>Bonifacio Jaramillo, Samuel Jesus</td>
-            <td><img src="assets/Samuel.png" alt="Foto de Samuel" /></td>
+            <td><img src="/assets/Integrantes/Samuel.png" alt="Foto de Samuel" /></td>
             <td>Estudiante de la carrera de ingenieria de Software en la UPC.  Actualmente me encuentro en 5to ciclo. Cuento con experiencia desarrollando aplicaciones en Javascript, C++, Typescript, React entre otros. Me apasiona la inteligencia artificial, ajedrez, música y el fútbol.</td>
         </tr>
         <tr>
