@@ -180,16 +180,63 @@ En conjunto, este módulo no solo ofrece orientación geográfica en tiempo real
 
 ## 4.4.Web Applications UX/UI Design.
 
-### 4.4.1.Web Applications Wireframes. LO HACEMOS TODOS
+### 4.4.1.Web Applications Wireframes. 
 
-### 4.4.2.Web Applications Wireflow Diagrams. LO HACEMOS TODOS
+Wireframes are simplified, low-fidelity visual guides that outline the structure, layout, and key elements of a web application’s interface. They focus on placement of content, navigation, and functionality rather than visual design details like colors or images. Wireframes help designers and developers plan page layouts, organize information, and ensure usability before moving on to higher-fidelity mock-ups or prototypes.
 
-### 4.4.2.Web Applications Mock-ups.  LO HACEMOS TODOS
+![WebAppW](assets/Chapter04/f1.png)
 
-### 4.4.3.Web Applications User Flow Diagrams. LO HACEMOS TODOS
+![WebAppW](assets/Chapter04/f2.png)
+
+![WebAppW](assets/Chapter04/f3.png)
+
+![WebAppW](assets/Chapter04/f4.png)
+
+### 4.4.2.Web Applications Wireflow Diagrams.
+
+Wireflow diagrams combine wireframes and user flow concepts to show both the layout of web pages and the paths users take through an application. They illustrate screen designs along with navigation steps, interactions, and decision points, providing a comprehensive view of how users move between pages and perform tasks. Wireflows help designers and developers plan user experience, identify potential issues, and communicate both the interface and workflow in a single visual representation.
+
+#### Elementos clave del diseño
+**Arquitectura de la información**
+El contenido y las funciones están organizadas para facilitar el acceso a herramientas como el historial de servicios, monitoreo de consumo energético, o gestión de citas.
+Los wireframes incluyen pantallas clave como:
+Panel de control del propietario.
+Dashboard del proveedor técnico.
+Formulario para solicitar mantenimientos preventivos.
+Historial de dispositivos y consumo energético.
+Se ha priorizado una navegación simple y accesible, permitiendo que usuarios con diversas habilidades puedan moverse con facilidad por la plataforma.
+Estructura de la interfaz
+Los elementos interactivos (botones, menús, tarjetas de información) están ubicados estratégicamente para que el usuario pueda realizar tareas con pocos clics.
+Las pantallas permiten acceso directo a secciones importantes como:
+Subir o editar dispositivos eléctricos.
+Contactar proveedores certificados.
+Visualizar métricas de rendimiento o consumo.
+Se incluye también una sección de perfil adaptable y configurable, especialmente útil para personas que requieren adaptaciones visuales, físicas o cognitivas.
+
+![WebAppW](assets/Chapter04/f4.png)
 
 
-## 4.5.Web Applications Prototyping.
+### 4.4.3. Web Applications Mock-ups.  
+
+Mock-ups are static or semi-interactive visual representations of a web application’s interface. They show the layout, design elements, content placement, and functionality of pages without fully implementing the system. Mock-ups help stakeholders, designers, and developers visualize the look and feel of the application, gather feedback, and validate design decisions before actual development begins. They are an essential step in the UI/UX design process to ensure usability, consistency, and alignment with user needs.
+
+![WebAppM](assets/Chapter04/wf1.png)
+
+![WebAppM](assets/Chapter04/wf2.png)
+
+![WebAppM](assets/Chapter04/w3.png)
+
+![WebAppM](assets/Chapter04/w4.png)
+
+### 4.4.4. Web Applications User Flow Diagrams. 
+
+User Flow Diagrams are visual representations that show the steps a user takes to complete specific tasks within a web application. They map the navigation paths between screens or pages, highlighting decision points, actions, and outcomes. These diagrams help designers and developers understand how users interact with the system, identify potential usability issues, and ensure smooth navigation and task completion. They are essential for planning intuitive interfaces, improving user experience, and guiding development teams in implementing consistent workflows.
+
+![WFlow](assets/Chapter04/Frame%2010.png)
+
+![WFlow](assets/Chapter04/Frame%202%20(1).png)
+
+## 4.5. Web Applications Prototyping.
 
 Web Applications Prototyping es una metodología esencial en el desarrollo de aplicaciones web, que implica la creación de bocetos visuales o modelos preliminares de una aplicación antes de su implementación completa. 
 
@@ -213,13 +260,15 @@ Web Applications Prototyping es una metodología esencial en el desarrollo de ap
 
 ### 4.7.1.Class Diagrams.
 
-## 4.8.Database Design.
-
-### 4.8.1.Database Diagrams.
-
 The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
 It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
 
 
 ![ClassDiagram](assets/Chapter04/classDiagApp/classDiagApp.png)
+
+## 4.8.Database Design.
+
+### 4.8.1.Database Diagrams.
+
+
 
