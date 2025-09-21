@@ -173,7 +173,7 @@ Preguntas principales:
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
-      <img src="" alt="Imagen Entrevistado" width="150"/>
+      <img src="./assets/chapter02/EntrevistaBedith.png" alt="Imagen Entrevistado" width="90%"/>
     </td>
   </tr>
   <tr>
@@ -189,7 +189,7 @@ Preguntas principales:
     <td><b>Duración:</b> 25 min</td>
   </tr>
   <tr>
-    <td><b>Link de entrevista:</b> ""</td>
+    <td><b>Link de entrevista:</b> https://drive.google.com/file/d/1G56E-FBhCQfqBhVJEFNQjhBQdrC37pq6/view?usp=sharing</td>
   </tr>
   <tr>
     <td colspan="2">
