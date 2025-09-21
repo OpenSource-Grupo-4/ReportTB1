@@ -200,7 +200,7 @@ La entrevista revela un alto nivel de insatisfacción con el transporte actual e
 
 - Precio competitivo (más barato que taxi y accesible frente a bus).  
 
-- Pagos digitales simples (Yape/Plin).  
+- Pagos digitales simples (Yape/Plin) y otros medios de pago para los que prefieran tener el dinero en mano como PagoEfectivo. 
 
 - Beneficios estudiantiles (descuentos o planes especiales).  
 
