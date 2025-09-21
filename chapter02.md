@@ -108,11 +108,45 @@ En cuanto a nuestras debilidades, como el público y recursos iniciales limitado
 
 Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades, 
 
-## 2.2.Entrevistas.
+## 2.2.Entrevistas.  
 
-### 2.2.1.Diseño de entrevistas.
+### 2.2.1.Diseño de entrevistas.  
 
-### 2.2.2.Registro de entrevistas.
+### 2.2.2. Registro de entrevistas  
+
+**Segmento Joven Universitario**  
+
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 1</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="" alt="Imagen Entrevistado" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Bedith Lozano Isuiza</td>
+    <td><b>Edad:</b> 24</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b> Ing. Sistemas</td>
+    <td><b>Sexo:</b> Femenino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 10:00 am</td>
+    <td><b>Duración:</b> 25 min</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      El entrevistado es un estudiante universitario que invierte entre 1.5 a 2 horas diarias en transporte, utilizando principalmente buses y taxis por aplicación.  
+      Sus principales frustraciones son el tráfico, los altos costos de taxis y la inseguridad en transporte público.  
+      En cuanto a hábitos tecnológicos, está familiarizado con Uber, InDriver, Google Maps y realiza la mayoría de pagos mediante Yape y Plin, lo cual encaja perfectamente con el modelo de negocio propuesto.  
+      Además, mostró interés en una alternativa rápida, segura y económica como scooters, bicicletas y motos eléctricas, sobre todo si se ofrecen planes con descuentos estudiantiles.
+    </td>
+  </tr>
+</table>  
 
 ### 2.2.3.Análisis de entrevistas.
 
