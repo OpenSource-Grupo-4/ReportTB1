@@ -115,6 +115,53 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 ## 2.2.Entrevistas.  
 
 ### 2.2.1.Diseño de entrevistas.  
+**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
+-**Preguntas principales:**
+
+
+- "¿Cómo te transportas actualmente en tu día a día?"
+
+- "¿Qué rutas sueles tomar y cuánto tiempo pierdes en tráfico?"
+
+- "¿Qué problemas enfrentas (costo, inseguridad, congestión)?"
+
+- "¿Qué apps usas para moverte o pagar transporte?"
+
+- "¿Usas Yape, Plin o tarjetas?"
+
+- "¿Has usado scooters, bicis o motos eléctricas?"
+
+- "¿Qué te impediría o motivaría a usarlas?"
+
+- "¿Pagarias por un plan de suscripción para usar estos vehículos diariamente?"
+
+- "¿Qué funcionalidades debería tener la app?"
+
+- "¿Qué te parece más importante: precio, conveniencia o sostenibilidad?"
+
+- "¿Cómo te enteras de nuevas apps o servicios?"
+
+**Segmento 2: Empresas (B2B)**
+Preguntas principales:
+- ¿Cómo manejan la movilidad de sus colaboradores o entregas?"
+
+- "¿Qué problemas tienen (costos, retrasos, mantenimiento)?"
+
+- "¿Considerarían usar vehículos eléctricos compartidos para su operación?"
+
+- "¿Para qué casos de uso (entregas rápidas, transporte de colaboradores, etc.)?"
+
+- "¿Necesitarían integración con su sistema de gestión?"
+
+- "¿Qué medidas de seguridad esperarían?"
+
+- "¿Prefieren alquiler por flota, plan corporativo o pago por uso?"
+
+- "¿Qué información necesitarían para tomar una decisión?"
+
+- "¿Cómo miden el ROI en temas de movilidad?"
+
+- "¿Han implementado soluciones verdes antes?"
 
 ### 2.2.2. Registro de entrevistas  
 
@@ -220,6 +267,15 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 | Preparar reportes de resultados                 | Alta          | Alta           |  
 
 ### 2.3.3.User Journey Mapping. 
+El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
+
+### Segmento 1: Jovenes Universitarios. 
+<img src="./assets/chapter02/jovenes.png" alt="User Journey" width="1000">
+
+### Segmento 2: Empresas.
+
+<img src="./assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
+
 
 ### 2.3.4.Empathy Mapping.  
 

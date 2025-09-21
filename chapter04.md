@@ -64,6 +64,21 @@ En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que mot
 | Gris medio       | Texto secundario, íconos inactivos, descripciones y estados deshabilitados. | `#A6A6A6`     |
 
 ### 4.1.2. Web Style Guidelines.
+Las guías de estilo web para WeRide garantizan una experiencia coherente y responsive en todos los dispositivos. La web está diseñada bajo los principios del Mobile-First y Responsive Design, asegurando que la interfaz se adapte fluidamente desde smartphones hasta pantallas de escritorio.
+Layout:
+Se utiliza un sistema de cuadrícula flexible (Grid System) de 12 columnas para organizar el contenido de manera estructurada y visualmente equilibrada. Los espaciados siguen una escala base de 8px para mantener la consistencia.
+Navegación:
+El menú de navegación principal es fijo en la parte superior (sticky header), con enlaces claros y accesibles. Se emplea el color verde energía (#18FA3A) para los estados activos y hover, reforzando la identidad de marca.
+Componentes principales:
+Botones:
+Primarios: Fondo verde energía (#18FA3A), texto en negro (#000000).
+Secundarios: Borde gris medio (#A6A6A6), texto gris oscuro (#4F4F4F).
+Tarjetas:
+Fondos gris claro (#D9D9D9) con sombras sutiles para profundidad, bordes redondeados de 8px.
+Formularios:
+Campos con borde gris medio (#A6A6A6) y focus en verde energía (#18FA3A).
+Animaciones:
+Transiciones suaves (300ms) en hover y cambios de estado para una experiencia fluida y moderna.
 
 ## 4.2. Information Architecture.
 
@@ -84,8 +99,25 @@ En el caso de **empresas o administradores**, también se emplea una organizaci�
 Finalmente, para funcionalidades comunes como la edición de perfil, gestión de métodos de pago, notificaciones o cierre de sesión, se mantiene la organización jerárquica, asegurando que todas estas opciones estén claramente segmentadas y accesibles para todos los tipos de usuario.
 
 ### 4.2.2. Labeling Systems.
+Las etiquetas emplean un lenguaje claro y conciso, alineado con el tono casual y motivador de la marca:
+Inicio: Vista principal con mapa y scooters disponibles.
+Reservar: Flujo de reserva paso a paso.
+Mis Viajes: Historial de viajes y reservas activas.
+Perfil: Gestión de cuenta, método de pago y preferencias.
+Ayuda: Centro de soporte con preguntas frecuentes y contacto.
 
 ### 4.2.3. SEO Tags and Meta Tags
+Title: WeRide - Micromovilidad Eléctrica Universitaria
+Meta Description:
+"WeRide ofrece scooters eléctricos para estudiantes y profesionales. Reserva fácil, movilidad sostenible y precios accesibles dentro del campus."
+Keywords:
+scooters eléctricos, micromovilidad, transporte universitario, alquiler de scooters, movilidad sostenible, WeRide
+Author: WeRide Team
+OG Tags:
+og:image: [Logo WeRide en formato horizontal]
+og:title: WeRide - Movilidad Inteligente en tu Campus
+og:description: Conectamos a estudiantes y profesionales con scooters eléctricos para un desplazamiento rápido y ecológico.
+
 
 **Titulo:**
 ```html
@@ -257,14 +289,18 @@ Esta sección se expone la arquitectura de software del proyecto WeRide. La prop
 ## 4.7.Software Object-Oriented Design.
 
 ### 4.7.1.Class Diagrams.
+![ClassDiagram](assets/Chapter04/classDiagApp/classDiagApp.png)
 
 ## 4.8.Database Design.
 
 ### 4.8.1.Database Diagrams.
 
-The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
-It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
+
+<p align="center">
+
+<img src="assets/Chapter04/db.png" alt="ClassDiagram" width="1000" height="500">
+</p>
 
 
-![ClassDiagram](assets/Chapter04/classDiagApp/classDiagApp.png)
+
 
