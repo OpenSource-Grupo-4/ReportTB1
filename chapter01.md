@@ -39,6 +39,11 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
         </tr>
     </thead>
     <tbody>
+         <tr>
+            <td>Castro Pariona, Jefferson Ernesto</td>
+            <td><img src="assets/Integrantes/profile.jpeg" alt="Jeff's photo" /></td>
+            <td>Soy estudiante de la carrera de Ingeniería de Software y me gustaría trabajar para grandes empresas y tener mi propio negocio. Soy motivador y me gusta trabajar en equipo.</td>
+        </tr>
         <tr>
             <td>Bonifacio Jaramillo, Samuel Jesus</td>
             <td><img src="assets/Samuel.png" alt="Foto de Samuel" /></td>
