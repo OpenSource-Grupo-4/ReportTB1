@@ -275,6 +275,70 @@ Para avanzar, necesita ver números concretos de ahorro (ROI) y realizar una pru
   </tr>
 </table>  
 
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 2</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Entrevistado" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Ana María Delgado</td>
+    <td><b>Edad:</b> 35</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b>Gerente de Operaciones – Empresa de Mensajería</td>
+    <td><b>Sexo:</b> Femenino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 10:00 am</td>
+    <td><b>Duración:</b> 6:20 min</td>
+  </tr>
+  <tr>
+    <td><b>Link de entrevista:</b> https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      La entrevistada es gerente de operaciones de una empresa de mensajería que maneja una flota de 25 motos a gasolina. Señala que los principales problemas son los altos costos de combustible, el mantenimiento constante y los retrasos por tráfico en Lima. Actualmente gestionan la movilidad de los colaboradores con un sistema interno, pero considera que integrar una solución de vehículos eléctricos compartidos sería una opción viable para las entregas rápidas en zonas urbanas congestionadas.
+      Ana María indicó que le interesaría un plan corporativo por flota, siempre que exista monitoreo GPS en tiempo real, medidas de seguridad como bloqueo remoto y la posibilidad de recibir informes mensuales de uso y costos. Además, destacó que la empresa busca reducir su huella ambiental y que un proyecto verde sería positivo para su imagen de marca frente a clientes corporativos.
+  </tr>
+</table>  
+
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 3</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Luis Fernando Rivas</td>
+    <td><b>Edad:</b> 27</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b> Jefe de Recursos Humanos – Empresa de Consultoría</td>
+    <td><b>Sexo:</b> Masculino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 10:00 am</td>
+    <td><b>Duración:</b> 5:30 min</td>
+  </tr>
+  <tr>
+    <td><b>Link de entrevista:</b> https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      El entrevistado es jefe de RR.HH. en una consultora con más de 150 colaboradores, ubicada en San Isidro. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Comentó que estarían dispuestos a considerar el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo, especialmente para los colaboradores que viven cerca y podrían ahorrar tiempo en traslados cortos.
+      Luis Fernando resaltó que la modalidad ideal sería un plan corporativo con pases mensuales, con la opción de gestionar reservas desde una plataforma web integrada al sistema de RR.HH.. También mencionó que el área valora indicadores como ahorro de tiempo en traslados, reducción de costos y satisfacción de los colaboradores. Por último, indicó que implementar una solución de micromovilidad eléctrica podría alinearse con las políticas de sostenibilidad corporativa que la empresa promueve.
+  </tr>
+</table>  
+
 ### 2.2.3.Análisis de entrevistas.  
 
 **Segmento Jovenes Universitarios**
@@ -307,6 +371,18 @@ La entrevista  revela una alta insatisfacción con los modelos tradicionales de 
 - Ventaja competitiva sostenible (entregas cero emisiones como valor de marca).
 
 Esto confirma que el modelo de scooters compartidos dedicados tiene alto potencial de adopción en el sector logístico, siempre que demuestre un ROI claro, reduzca la complejidad operativa y ofrezca control total sobre los desplazamientos.
+
+**Análisis de entrevista 2 – Ana María Delgado (Gerente de Operaciones, Empresa de Mensajería)**  
+
+La entrevista con la gerente de operaciones permitió identificar dolores específicos en el sector logístico, donde la empresa enfrenta altos costos operativos debido al consumo de combustible, mantenimiento de flota a gasolina y retrasos por tráfico. La entrevistada mostró apertura hacia una solución de micromovilidad eléctrica compartida, siempre que se garantice la seguridad (GPS, bloqueo remoto) y se provean informes de uso y costos que permitan tomar decisiones basadas en datos.  
+
+Este análisis revela que el mercado de mensajería y última milla en Lima es un segmento con alta necesidad de alternativas de movilidad sostenibles y eficientes, dispuesto a considerar un modelo de planes corporativos por flota. Asimismo, se confirma que la sostenibilidad ambiental y la imagen de marca verde son factores de peso en la decisión de adopción de este tipo de soluciones. 
+
+**Análisis de entrevista 3 – Luis Fernando Rivas (Jefe de Recursos Humanos, Empresa de Consultoría)**  
+
+La entrevista con el jefe de RR.HH. evidencia que en empresas de servicios y consultoría, los principales problemas de movilidad se relacionan con la impuntualidad de los colaboradores y el alto gasto en subsidios de transporte. El entrevistado consideró viable implementar planes de micromovilidad eléctrica, en especial mediante pases corporativos mensuales para colaboradores que vivan cerca de la sede.  
+
+Este análisis muestra que el interés de las empresas de consultoría no solo se enfoca en el ahorro económico, sino también en la productividad laboral y en la satisfacción del personal. La posibilidad de integrar la plataforma con los sistemas internos de RR.HH. es un requerimiento clave para garantizar un uso ordenado. Finalmente, se resalta que el alineamiento con políticas de sostenibilidad corporativa constituye un factor motivador adicional para la adopción de este servicio.  
 
 ## 2.3.Needfinding.
 
