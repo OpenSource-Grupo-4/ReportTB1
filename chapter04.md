@@ -211,6 +211,10 @@ Web Applications Prototyping es una metodología esencial en el desarrollo de ap
 
 ### 4.7.1.Class Diagrams.
 
+## 4.8.Database Design.
+
+### 4.8.1.Database Diagrams.
+
 The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
 It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
 
