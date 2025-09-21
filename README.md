@@ -35,8 +35,8 @@
       <td>U202321510</td>
     </tr>
     <tr>
-      <td>integrante</td>
-      <td>cod</td>
+      <td>Seminario Castillo, Diego Vicente </td>
+      <td>U202412591</td>
     </tr>
      <tr>
       <td>integrante</td>
@@ -60,9 +60,9 @@
         </tr>
 <tr>
             <th>V1.0</th>
-            <th>16.09.25</th>
-            <th>Samuel Bonifacio</th>
-            <th></th>
+            <th>21.09.25</th>
+            <th>G4 WeTech</th>
+            <th>Se realizo los 5 capítulos del informe y se desplegó la primera versión del landing page.</th>
         </tr>
     </thead>
     <tbody></tbody>
@@ -73,6 +73,10 @@
 Para el desarrollo del proyecto, utilizamos la herramienta de Github para la organizacion de las actividades realizadas. El URL del repositorio es el siguiente: 
 
 *Organización del grupo:* https://github.com/orgs/OpenSource-Grupo-4/repositories
+
+*Reporte:*   https://github.com/OpenSource-Grupo-4/ReportTB1
+
+*Landing Page:*  https://github.com/OpenSource-Grupo-4/Landing-Page
 
 # Contenido
 ## Tabla de Contenidos
@@ -192,4 +196,19 @@ Para el desarrollo del proyecto, utilizamos la herramienta de Github para la org
   - [5.3.1. Registro de Entrevistas](/chapter05.md#532-registro-de-entrevistas)
   - [5.3.1. Evaluaciones según heurísticas](/chapter05.md#533-evaluaciones-según-heurísticas)
 - [5.4. Video About-the-Product](/chapter05.md#54-video-about-the-product)
+
+# Student Outcome
+
+### ABET - EAC - Student Outcome 3
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. 
+En el siguiente cuadro, se indicarán las acciones realizadas y conclusiones 
+de los integrantes del grupo que evidencien y sustenten que se desarrolló el 
+logro del student outcome.
+
+| **Criterio Específico** | **Acciones Realizadas**                                                                                                                                                                                                                            | **Conclusiones**                                                                                                                                                                                             |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Bonifacio Jaramillo Samuel Jesus**<br>TB1:Me reuní presencial y virtualmente de manera efectiva para coordinar cada una de nuestra partes en el desarrollo del presente proyecto.<br>                                                                        | **TB1:** Como equipo, logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, elaboración de User Stories, mockups, wireframes, entre otros.<br/><br>     |  
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Bonifacio Jaramillo Samuel Jesus**<br>TB1:Se completó el deploy de Landing Page, modificación de wireframes & mockups, documentación de Capítulo I,II, IV & V.<br>                                                                      | **TB1:** Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada.
+<br/><br>     
 

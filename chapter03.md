@@ -13,15 +13,38 @@
 
 ### Lista de Historias de Usuario
 
-| ID   | Título                                                                | Descripción                                                                                                  | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EpicID |
-|------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| US01 |Filtro de vehículos                     | Como usuario quiero filtrar por tipo de vehículo (scooter / bici / moto) para encontrar el que necesito. | **Scenario 1: Filtrado exitoso** <br> **Given** que el usuario ingresa la app page, <br> **When** el usuario ingresa al mapa de vehículos, va a garage y luego busca vehículos a través del filtro, <br> **Then** el sistema muestra la información de vehículos disponibles según los filtros que el usuario ha colocado. <br> **Scenario 2: Filtrado fallido** <br> **Given** que el usuario selecciona un filtro de vehículos, <br> **When** el usuario selecciona un vehículo no disponible o no cuenta con conexión a internet, <br> **Then** el sistema muestra un mensaje de error indicando que no hay conexión a internet o no se encuentran vehículos según el filtro seleccionado.                                                                        
-
+<table>
+  <tbody>
+    <tr>
+      <th>ID (HU)</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de aceptación</th>
+      <th>Epic-ID</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Filtro de vehículos</td>
+      <td>Como usuario quiero filtrar por tipo de vehículo (scooter / bici / moto) para encontrar el que necesito.</td>
+      <td>
+        Escenario 1: Filtrado exitoso <br>
+        Given que el usuario ingresa la app <br>
+        When el usuario ingresa al mapa de vehículos, va a garage y luego busca vehículos a través del filtro <br>
+        Then el sistema muestra la información de vehículos disponibles según los filtros que el usuario ha colocado. <br>
+        <br>
+        Escenario 2: Filtrado fallido<br>
+        Given que el usuario selecciona un filtro de vehículos <br>
+        When el usuario selecciona un vehículo no disponible o no cuenta con conexión a internet.  <br>
+        Then el sistema muestra un mensaje de error indicando que no hay conexión a internet o no se encuentran vehículos según el filtro seleccionado.<br>
+      </td>
+      <td>EP01</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3.2. Impact Mapping.
 
 Un mapa de impacto es una técnica colaborativa y visual de planificación estratégica que alinea los objetivos de un proyecto con las acciones necesarias para alcanzarlos. En esta sección , el equipo presenta los mapas de impacto realizados.
-
 
 
 ![User Persona](/assets/chapter03/Impact%20map%203.png)

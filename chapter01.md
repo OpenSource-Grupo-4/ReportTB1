@@ -30,6 +30,23 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+    <thead>
+        <tr>
+            <th>Integrantes</th>
+            <th>Foto</th>
+            <th>Descripción del perfil</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bonifacio Jaramillo, Samuel Jesus</td>
+            <td><img src="assets/Samuel.png" alt="Foto de Samuel" /></td>
+            <td>Estudiante de la carrera de ingenieria de Software en la UPC.  Actualmente me encuentro en 5to ciclo. Cuento con experiencia desarrollando aplicaciones en Javascript, C++, Typescript, React entre otros. Me apasiona la inteligencia artificial, ajedrez, música y el fútbol.</td>
+        </tr>
+    </tbody>
+</table>
+
 ## 1.2. Solution Profile
 
 WeRide es una aplicación que consta de un sistema integral de micro movilidad eléctrica compartida para los usuarios en Lima,Perú.  La plataforma permite que los usuarios puedan realizar reservas de motos eléctricas, scooters y bicicletas inteligentes equipadas con GPS, IoT y bloqueo remoto. A su misma vez, pueden ubicar, reservar y desbloquear cualquier vehículo desde esta app, pagando por uso único o por una suscripción con planes flexibles. WeRide busca ofrecer alternativas de transporte rápido, económico y sostenible en zonas urbanas con alta tasa de tráfico, con la ventaja de ser un servicio local, adaptado a la realidad peruana.
@@ -39,7 +56,6 @@ WeRide es una aplicación que consta de un sistema integral de micro movilidad e
 Para el análisis de los antecedentes y la problemática, se utilizara la técnica de las 5W y 2H.
 
 #### 1.2.2.2. Lean UX Assumptions
-
 
 **Business Outcomes**  
 1. Mis clientes necesitan una solución rápida, confiable y accesible para desplazarse en Lima sin depender de autos privados o transporte público congestionado.  
@@ -186,6 +202,8 @@ Personas que se desplazan de forma frecuente en Lima, buscan rapidez, economía 
 **for** organizaciones que buscan ofrecer beneficios de transporte a sus empleados o estudiantes  
 **will achieve** ingresos recurrentes y fidelización de clientes institucionales.  
 **We will know this is true when we see** que **al menos 5 empresas o universidades se afilian al programa** en los primeros seis meses de operación.
+
+#### 1.2.2.3. Lean UX Canvas
 
 #### 1.3. Segmento Objetivo
 
