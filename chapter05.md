@@ -262,4 +262,4 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 ![Presentación de Canvas](https://www.canva.com/design/DAGzltc5qz0/jV9yXK8Nme4XSOk6AUhFgg/edit)
 
-![Figma](https://www.figma.com/design/kt2VQ3DmUCAFoAeB9mAjnU/UX-UI-Apps_Web_20252_UPC?node-id=4-143&p=f&t=8ivn25D6KVbvvX71-0)
+![Figma]([https://www.figma.com/design/kt2VQ3DmUCAFoAeB9mAjnU/UX-UI-Apps_Web_20252_UPC?node-id=4-143&p=f&t=8ivn25D6KVbvvX71-0](https://www.figma.com/design/6R0aWHPQEpwX8DyWLrCHmd/Open-Source-2025-2?t=moMeoEwSHQRhgL2O-0))
