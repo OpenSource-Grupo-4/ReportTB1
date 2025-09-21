@@ -112,13 +112,64 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 
 ---
 
-## 2.2.Entrevistas.
+## 2.2.Entrevistas.  
 
-### 2.2.1.Diseño de entrevistas.
+### 2.2.1.Diseño de entrevistas.  
 
-### 2.2.2.Registro de entrevistas.
+### 2.2.2. Registro de entrevistas  
 
-### 2.2.3.Análisis de entrevistas.
+**Segmento Joven Universitario**  
+
+<table>
+  <tr>
+    <th colspan="2">Entrevistado N° 1</th>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <img src="" alt="Imagen Entrevistado" width="150"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Nombre y Apellido:</b> Bedith Lozano Isuiza</td>
+    <td><b>Edad:</b> 24</td>
+  </tr>
+  <tr>
+    <td><b>Profesión:</b> Ing. Sistemas</td>
+    <td><b>Sexo:</b> Femenino</td>
+  </tr>
+  <tr>
+    <td><b>Instante de inicio:</b> 10:00 am</td>
+    <td><b>Duración:</b> 25 min</td>
+  </tr>
+  <tr>
+    <td><b>Link de entrevista:</b> ""</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Resumen de entrevista:</b><br>
+      El entrevistado es un estudiante universitario que invierte entre 1.5 a 2 horas diarias en transporte, utilizando principalmente buses y taxis por aplicación.  
+      Sus principales frustraciones son el tráfico, los altos costos de taxis y la inseguridad en transporte público.  
+      En cuanto a hábitos tecnológicos, está familiarizado con Uber, InDriver, Google Maps y realiza la mayoría de pagos mediante Yape y Plin, lo cual encaja perfectamente con el modelo de negocio propuesto.  
+      Además, mostró interés en una alternativa rápida, segura y económica como scooters, bicicletas y motos eléctricas, sobre todo si se ofrecen planes con descuentos estudiantiles.
+    </td>
+  </tr>
+</table>  
+
+### 2.2.3.Análisis de entrevistas.  
+
+**Segmento Jovenes Universitarios**
+
+La entrevista revela un alto nivel de insatisfacción con el transporte actual en Lima Metropolitana, caracterizado por demoras e inseguridad. El usuario objetivo (universitario) demuestra disposición a cambiar de medio de transporte si se le ofrece una solución más rápida, confiable y accesible.  
+
+**El factor diferenciador clave será:**  
+
+- Precio competitivo (más barato que taxi y accesible frente a bus).  
+
+- Pagos digitales simples (Yape/Plin).  
+
+- Beneficios estudiantiles (descuentos o planes especiales).  
+
+Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto potencial de adopción entre jóvenes universitarios, siempre que se garantice conveniencia, ahorro y seguridad.  
 
 ---
 
@@ -166,7 +217,18 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 | Resolver dudas con expertos                     | Alta          | Alta           |
 | Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
 | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
-| Preparar reportes de resultados                 | Alta          | Alta           |
+| Preparar reportes de resultados                 | Alta          | Alta           |  
+
+### 2.3.4.Empathy Mapping.  
+
+- Camila Torres:  
+
+![CamilaTorres](./assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
+
+- Luis Salazar:  
+
+![LuisSalazar](./assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
+
 
 ## 2.4.Big Picture Event Storming.
 El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
