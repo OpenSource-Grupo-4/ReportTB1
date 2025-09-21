@@ -13,10 +13,10 @@
   </tr>
   <tr>
     <td colspan="2"></td>
-    <td>WeRide<br><img src=""></td>
+    <td>WeRide<br><img src="/assets/chapter02/WeRide.png" alt="WeRide"></td>
     <td>Lime<br><img src="/assets/chapter02/lime.png" alt="Lime"></td>
-    <td>CityBikeLima<br><img src="" alt=""></td>
-    <td>Woosh<br><img src="" alt=""></td>
+    <td>CityBikeLima<br><img src="/assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
+    <td>Whoosh<br><img src="/assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
 </tr>
   <tr>
     <td rowspan="2">Perfil</td>
@@ -100,13 +100,17 @@
 </tr>
 </table>
 
+---
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
 
 En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
 
-Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades, 
+Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades.
+
+---
 
 ## 2.2.Entrevistas.  
 
@@ -167,6 +171,8 @@ La entrevista revela un alto nivel de insatisfacción con el transporte actual e
 
 Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto potencial de adopción entre jóvenes universitarios, siempre que se garantice conveniencia, ahorro y seguridad.  
 
+---
+
 ## 2.3.Needfinding.
 
 ### 2.3.1.User Personas.
@@ -180,6 +186,7 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 
 ![User Persona](assets/chapter02/PERSONA%20-%20Light3.png)
 
+---
 
 ### 2.3.1.User Task Matrix.
 
@@ -196,6 +203,8 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 | Resolver dudas con expertos                     | Media         | Alta           |
 | Evaluar proveedores de herramientas/servicios   | Baja          | Media          |
 | Preparar reportes de resultados                 | Baja          | Media          |
+
+---
 
 **Luis Salazar (Gerente de Operaciones)**
 
@@ -222,7 +231,7 @@ Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto p
 
 
 ## 2.4.Big Picture Event Storming.
-El Event Storming modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos (IoT, GPS, pasarela de pagos) y el sistema de negocio.
+El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
 Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
 
 ![eventstorming](https://github.com/user-attachments/assets/c71c198d-74d0-45c2-bd13-45433e2a8969)

@@ -4,7 +4,7 @@
 
 ### 4.1.1.General Style Guidelines.
 
-**Branding**
+<h3>Branding</h3>
 
 El logo de WR sintetiza de manera elegante y minimalista la propuesta de valor de la marca en el mundo de la micromovilidad eléctrica. El diseño en tipografía negra sobre fondo blanco comunica sobriedad, confianza y profesionalismo, asegurando legibilidad en cualquier soporte digital o físico.
 
@@ -18,18 +18,18 @@ Con este logo, WR se presenta como una marca confiable, eficiente y enfocada en 
 
 ***Logo original***
 
-![User Persona](assets/Logo1.png)
+![User Persona](/assets/chapter04/Logo1.png)
 
 ***Logo con iniciales light color***
 
-![User Persona](assets/Logo3.png)
+![User Persona](/assets/chapter04/Logo3.png)
 
 ***Colores invertidos***
 
-![User Persona](assets/Logo4.png)
+![User Persona](/assets/chapter04/Logo4.png)
 
 
-**Typography**
+<h3>Typography</h3>
 
 La tipografía de nuestra app de micromovilidad eléctrica refleja dinamismo, innovación y accesibilidad, alineándose con los valores de sostenibilidad y movilidad inteligente que representamos. Hemos elegido una fuente sans-serif moderna, limpia y ligera, que transmite agilidad y simplicidad, elementos esenciales de nuestro servicio.
 
@@ -41,7 +41,7 @@ El cuerpo del texto usará un tamaño base adaptable, que garantice lectura sin 
 
 El lenguaje será directo y motivador, usando un tono casual que inspire confianza y fomente la adopción de alternativas de transporte sostenible.
 
-**Colors**
+<h3>Colors</h3>
 
 La paleta de colores de nuestra app de micromovilidad eléctrica fue diseñada para reforzar el impacto visual del logo y proyectar dinamismo, sostenibilidad y confianza. El blanco se mantiene como base, representando simplicidad, limpieza y espacios abiertos, facilitando que los elementos clave destaquen sin saturar la vista.
 
@@ -51,7 +51,9 @@ Un gris color (#EEEEEE) complementa la paleta y refuerza la percepción tecnoló
 
 En conjunto, esta paleta crea una identidad moderna, ágil y ecológica, que motiva a los usuarios a adoptar la movilidad eléctrica como su primera opción dentro y fuera del campus.
 
-**Paleta de Colores - WeRide**
+---
+
+#### Paleta de colores - WeRide
 
 | **Color**        | **Uso**                                                                 | **Código Hex** |
 |------------------|-------------------------------------------------------------------------|---------------|
@@ -210,6 +212,10 @@ Web Applications Prototyping es una metodología esencial en el desarrollo de ap
 ## 4.7.Software Object-Oriented Design.
 
 ### 4.7.1.Class Diagrams.
+
+## 4.8.Database Design.
+
+### 4.8.1.Database Diagrams.
 
 The following class diagram illustrates the main classes, their attributes, and relationships within the system.  
 It helps visualize the structure of the application, showing how objects interact and how responsibilities are distributed across classes.
