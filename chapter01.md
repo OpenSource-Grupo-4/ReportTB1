@@ -54,13 +54,13 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
             <td><img src="./assets/Integrantes/Diego.png" alt="Foto de Diego" /></td>
             <td>Soy Diego, estudiante de Ingeniería de Software en la UPC. La tecnología me apasiona y tengo los conocimientos necesarios para contribuir en el desarrollo de proyectos con un enfoque práctico e innovador. Me caracteriza mi responsabilidad y compromiso para cumplir con los plazos y ofrecer resultados de calidad. Siempre dispuesto a colaborar y aportar lo que sé para asegurar el éxito de mis proyectos y de mi equipo.
             </tr>
-
-    
-        <tr>
+ <tr>
           <td>Morales Sosa, Arnold Gabriel</td>
             <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
-            <td>Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.</td>
-        </tr>
+            <td>Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.
+            </tr>
+    
+        
     
 </table>
 
