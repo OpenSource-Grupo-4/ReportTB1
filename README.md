@@ -39,8 +39,8 @@
       <td>U202412591</td>
     </tr>
      <tr>
-      <td>integrante</td>
-      <td>cod</td>
+      <td>Morales Sosa, Arnold Gabriel</td>
+      <td>U201822516</td>
     </tr>
   </tbody>
 </table>
