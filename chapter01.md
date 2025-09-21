@@ -49,6 +49,11 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
             <td><img src="./assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" /></td>
             <td>Soy estudiante de la carrera de Ingeniería de Software en la UPC, actualmente cursando el 5to ciclo. Me apasiona la tecnología y cuento con conocimientos previos en el área, lo que me permite aportar valor en el desarrollo de proyectos. Me considero una persona responsable, comprometida con la entrega puntual de los trabajos y con la calidad de los resultados. Estoy dispuesto a colaborar activamente y compartir lo que sé para contribuir al éxito de mi equipo y la creación de proyectos sólidos e innovadores.</td>
         </tr>
+        <tr>
+          <td>Arnold Gabriel Morales Sosa</td>
+            <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
+            <td>Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.</td>
+        </tr>
     </tbody>
 </table>
 
