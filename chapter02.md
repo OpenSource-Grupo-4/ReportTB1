@@ -165,7 +165,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
     </td>
   </tr>
   <tr>
-    <td><b>Nombre y Apellido:</b>Patrick Correa</td>
+    <td><b>Nombre y Apellido:</b> Patrick Correa</td>
     <td><b>Edad:</b> 18</td>
   </tr>
   <tr>
@@ -177,7 +177,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
     <td><b>Duración:</b> 13:25 min</td>
   </tr>
   <tr>
-    <td><b>Link de entrevista:</b> "https://goo.su/PM0wN"</td>
+    <td><b>Link de entrevista:</b> https://goo.su/PM0wN</td>
   </tr>
   <tr>
     <td colspan="2">
