@@ -6,8 +6,8 @@
 
 | ID   | Título                                       | Descripción                                                                                                                                                          | Criterios de aceptación | EpicID         |
 |------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|----------------|
-| EP01 | Funcionalidades de la app             | Como usuario de la aplicación, quiero que las funcionalidades principales que me ofrece el servicio sean funcionales.                                  | No corresponde          | No corresponde |
-| EP02 | Acceso a la aplicación                  | Como usuario de la aplicación, quiero acceder con mi información para hacer uso de las características disponibles.                                                                   | No corresponde          | No corresponde |
+| EP01 | Acceso a la aplicación                  | Como usuario de la aplicación, quiero acceder con mi información para hacer uso de las características disponibles.                                                                   | No corresponde          | No corresponde |
+| EP02 | Funcionalidades de la app             | Como usuario de la aplicación, quiero que las funcionalidades principales que me ofrece el servicio sean funcionales.                                  | No corresponde          | No corresponde |
 | EP03 | Uso del mapa                      | Como usuario de la aplicación, quiero acceder al mapa de la aplicación para realizar la reserva de vehículos y seguimiento de rutas                                                  | No corresponde          | No corresponde |
 | EP04 | Accesibilidad de la Landing Page        | Como visitante, quiero que la información sobre la aplicación sea fácil de entender para poder comprender rápidamente su propósito. | No corresponde          | No corresponde |
 
@@ -24,37 +24,87 @@
     </tr>
     <tr>
       <td>US-01</td>
-      <td>Filtro de vehículos</td>
-      <td>Como usuario quiero filtrar por tipo de vehículo (scooter / bici / moto) para encontrar el que necesito.</td>
-      <td>
-        Escenario 1: Filtrado exitoso <br>
-        Given que el usuario ingresa la app <br>
-        When el usuario ingresa al mapa de vehículos, va a garage y luego busca vehículos a través del filtro <br>
-        Then el sistema muestra la información de vehículos disponibles según los filtros que el usuario ha colocado. <br>
-        <br>
-        Escenario 2: Filtrado fallido<br>
-        Given que el usuario selecciona un filtro de vehículos <br>
-        When el usuario selecciona un vehículo no disponible o no cuenta con conexión a internet.  <br>
-        Then el sistema muestra un mensaje de error indicando que no hay conexión a internet o no se encuentran vehículos según el filtro seleccionado.<br>
-      </td>
-      <td>EP01</td>
+        <td>Inicio de sesión y registro</td>
+        <td>Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente.</td>
+        <td>
+          Escenario 1: Inicio de sesión exitoso<br>
+          <b>Given</b> que el usuario tiene una cuenta registrada<br>
+          <b>When</b> ingresa sus credenciales correctas<br>
+          <b>Then</b> el sistema permite el acceso a la app.<br>
+          <br>
+          Escenario 2: Registro exitoso<br>
+          <b>Given</b> que el usuario no tiene una cuenta<br>
+          <b>When</b> completa el formulario de registro con sus datos válidos<br>
+          <b>Then</b> el sistema crea la cuenta y permite el acceso.<br>
+          <br>
+          Escenario 3: Fallo de autenticación<br>
+          <b>Given</b> que el usuario ingresa credenciales incorrectas<br>
+          <b>When</b> intenta iniciar sesión<br>
+          <b>Then</b> el sistema muestra un mensaje de error.<br>
+        </td>
+        <td>EP-01</td>
     </tr>
     <tr>
       <td>US-02</td>
-      <td>Batería de vehículo</td>
-      <td>Como usuario quiero ver el nivel de batería del vehículo para asegurar que llegue a mi destino.</td>
+      <td>Introducir Número de Celular</td>
+      <td>Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes.</td>
       <td>
-        Escenario 1: Visualización exitosa<br>
-        Given que el usuario ve un vehículo en el mapa<br>
-        When selecciona dicho vehículo<br>
-        Then el sistema muestra el nivel de batería actual en porcentaje.<br>
+        Escenario 1: Introducción exitosa<br>
+        <b>Given</b> que el usuario accede al formulario de perfil<br>
+        <b>When</b> ingresa un número de celular válido y lo guarda<br>
+        <b>Then</b> el sistema valida el número y lo asocia al perfil del usuario.<br>
         <br>
-        Escenario 2: Visualización fallida<br>
-        Given que el usuario selecciona un vehículo<br>
-        When la información de batería no está disponible por error de conexión o fallo del sistema<br>
-        Then se muestra un mensaje de error indicando que no se puede mostrar el nivel de batería.<br>
+        Escenario 2: Número inválido<br>
+        <b>Given</b> que el usuario intenta guardar su número<br>
+        <b>When</b> el número ingresado no cumple con el formato requerido<br>
+        <b>Then</b> el sistema muestra un mensaje de error y solicita corregir el dato.<br>
+        <br>
+        Escenario 3: Error de conexión<br>
+        <b>Given</b> que el usuario ingresa su número<br>
+        <b>When</b> hay problemas de conexión al guardar el dato<br>
+        <b>Then</b> el sistema informa el error y permite reintentar la acción.<br>
       </td>
       <td>EP-01</td>
+    </tr>
+    <tr>
+      <tr>
+        <td>US-03</td>
+        <td>Introducir código de verificación</td>
+        <td>Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación.</td>
+        <td>
+          Escenario 1: Verificación exitosa<br>
+          <b>Given</b> que el usuario ha recibido un código de verificación en su celular<br>
+          <b>When</b> ingresa el código correctamente en el formulario de la app<br>
+          <b>Then</b> el sistema valida el código y confirma la verificación de identidad.<br>
+          <br>
+          Escenario 2: Código incorrecto<br>
+          <b>Given</b> que el usuario intenta verificar su identidad<br>
+          <b>When</b> ingresa un código inválido o expirado<br>
+          <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la verificación.<br>
+          <br>
+          Escenario 3: Error de conexión<br>
+          <b>Given</b> que el usuario ingresa el código de verificación<br>
+          <b>When</b> ocurre un problema de conexión al validar el código<br>
+          <b>Then</b> el sistema informa el error y permite al usuario reintentar la acción cuando se restablezca la conexión.<br>
+        </td>
+        <td>EP-01</td>
+      </tr>
+    <tr>
+      <td>US-04</td>
+        <td>Datos de usuario</td>
+        <td>Como usuario quiero poder crear un perfil para colocar mis datos.</td>
+        <td>
+          Escenario 1: Creación exitosa<br>
+          <b>Given</b> que el usuario accede a su cuenta<br>
+          <b>When</b> ingresa sus datos (nombre, correo, foto, etc.) y los guarda<br>
+          <b>Then</b> el sistema actualiza el perfil con éxito.<br>
+          <br>
+          Escenario 2: Error en la creación<br>
+          <b>Given</b> que el usuario intenta guardar sus datos<br>
+          <b>When</b> alguno es inválido o falta completar un campo obligatorio<br>
+          <b>Then</b> el sistema muestra un mensaje indicando el error.<br>
+        </td>
+        <td>EP-01</td>
     </tr>
     <tr>
       <td>US-03</td>
@@ -62,14 +112,14 @@
       <td>Como usuario quiero reservar un vehículo por un tiempo limitado para garantizar su disponibilidad.</td>
       <td>
         Escenario 1: Visualización exitosa<br>
-        Given que el usuario selecciona un vehículo disponible<br>
-        When presiona el botón de "Reservar"<br>
-        Then el sistema bloquea el vehículo por un tiempo limitado y muestra confirmación de la reserva.<br>
+        <b>Given</b> que el usuario selecciona un vehículo disponible<br>
+        <b>When</b> presiona el botón de "Reservar"<br>
+        <b>Then</b> el sistema bloquea el vehículo por un tiempo limitado y muestra confirmación de la reserva.<br>
         <br>
         Escenario 2: Visualización fallida<br>
-        Given que el usuario selecciona un vehículo<br>
-        When el vehículo ya ha sido reservado por otro usuario o no hay conexión<br>
-        Then el sistema notifica que la reserva no pudo completarse y muestra opciones para intentar de nuevo.<br>
+        <b>Given</b> que el usuario selecciona un vehículo<br>
+        <b>When</b> el vehículo ya ha sido reservado por otro usuario o no hay conexión<br>
+        <b>Then</b> el sistema notifica que la reserva no pudo completarse y muestra opciones para intentar de nuevo.<br>
       </td>
       <td>EP-01</td>
     </tr>
@@ -93,7 +143,7 @@
         When intenta iniciar sesión<br>
         Then el sistema muestra un mensaje de error.<br>
       </td>
-      <td>EP-02</td>
+      <td>EP-01</td>
     </tr>
     <tr>
       <td>US-05</td>
@@ -110,129 +160,186 @@
         When alguno es inválido o falta completar un campo obligatorio<br>
         Then el sistema muestra un mensaje indicando el error.<br>
       </td>
-      <td>EP-02</td>
+      <td>EP-01</td>
     </tr>
     <tr>
       <td>US-06</td>
-      <td>Suscripción de usuario</td>
-      <td>Como usuario quiero pagar una suscripción a través de planes para obtener un mejor acceso a los servicios.</td>
+      <td>Página Principal</td>
+      <td>Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio.</td>
       <td>
-        Escenario 1: Pago exitoso<br>
-        Given que el usuario selecciona un plan de suscripción<br>
-        When ingresa su método de pago válido<br>
-        Then el sistema procesa el pago y activa el plan.<br>
+        Escenario 1: Visualización exitosa<br>
+        <b>Given</b> que el usuario ha iniciado sesión en la aplicación<br>
+        <b>When</b> accede a la pantalla principal<br>
+        <b>Then</b> el sistema muestra una interfaz atractiva, con acceso rápido a las funciones principales y elementos visuales bien organizados.<br>
         <br>
-        Escenario 2: Pago fallido<br>
-        Given que el usuario selecciona un plan<br>
-        When el método de pago es rechazado o hay error de conexión<br>
-        Then el sistema muestra un mensaje de error y no activa el plan.<br>
+        Escenario 2: Elementos no cargados<br>
+        <b>Given</b> que el usuario accede a la pantalla principal<br>
+        <b>When</b> algunos elementos visuales o funcionalidades no se cargan correctamente por problemas de conexión o error interno<br>
+        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la carga.<br>
+        <br>
+        Escenario 3: Personalización<br>
+        <b>Given</b> que el usuario accede a la pantalla principal<br>
+        <b>When</b> personaliza la vista (por ejemplo, elige tema claro/oscuro o reordena accesos rápidos)<br>
+        <b>Then</b> el sistema guarda las preferencias y actualiza la interfaz según la selección del usuario.<br>
       </td>
       <td>EP-02</td>
-    </tr>
+    </tr>  
     <tr>
       <td>US-07</td>
-      <td>Selección de plan</td>
-      <td>Como usuario quiero seleccionar un plan específico para utilizar la app.</td>
+      <td>Seleccionar ubicación para ver vehículos cercanos disponibles</td>
+      <td>Como usuario, al seleccionar una ubicación del mapa quiero ver los vehículos cercanos disponibles.</td>
       <td>
-        Escenario 1: Selección exitosa<br>
-        Given que el usuario está registrado<br>
-        When accede a la sección de planes y selecciona uno<br>
-        Then el sistema confirma la elección y muestra los beneficios del plan.<br>
+        Escenario 1: Visualización exitosa<br>
+        <b>Given</b> que el usuario accede al mapa de la aplicación<br>
+        <b>When</b> selecciona una ubicación específica en el mapa<br>
+        <b>Then</b> el sistema muestra en tiempo real los vehículos disponibles cerca de esa ubicación.<br>
         <br>
-        Escenario 2: Selección fallida<br>
-        Given que el usuario intenta seleccionar un plan<br>
-        When el plan no está disponible o hay error de conexión<br>
-        Then el sistema notifica que no se pudo completar la acción.<br>
+        Escenario 2: Ubicación sin vehículos<br>
+        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
+        <b>When</b> no hay vehículos disponibles cerca de esa ubicación<br>
+        <b>Then</b> el sistema informa que no hay vehículos disponibles y sugiere ubicaciones alternativas.<br>
+        <br>
+        Escenario 3: Error de conexión<br>
+        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
+        <b>When</b> ocurre un problema de conexión al cargar los vehículos<br>
+        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
       </td>
       <td>EP-02</td>
     </tr>
     <tr>
       <td>US-08</td>
-      <td>Métodos de pago</td>
-      <td>Como usuario quiero agregar mi tarjeta de crédito para acceder a uno de los planes de suscripción</td>
-      <td>
-        Escenario 1: Registro exitoso<br>
-        Given que el usuario quiere suscribirse<br>
-        When ingresa su tarjeta de crédito válida<br>
-        Then el sistema la registra y la asocia a su perfil.<br>
-        <br>
-        Escenario 2: Registro fallido<br>
-        Given que el usuario ingresa una tarjeta<br>
-        When la tarjeta no es válida o el sistema la rechaza<br>
-        Then se muestra un mensaje indicando el error.<br>
-      </td>
-      <td>EP-02</td>
+        <td>Gestión y personalización de perfil</td>
+        <td>Como usuario quiero acceder a mi perfil para administrar mi cuenta.</td>
+        <td>
+          Escenario 1: Acceso exitoso al perfil<br>
+          <b>Given</b> que el usuario ha iniciado sesión en la aplicación<br>
+          <b>When</b> accede a la sección "Tu" desde el menú lateral<br>
+          <b>Then</b> el sistema muestra las opciones de administrar cuenta, personalizar perfil, cartera, historial, centro de seguridad, ayuda y ajustes.<br>
+          <br>
+          Escenario 2: Personalización de perfil<br>
+          <b>Given</b> que el usuario accede a la opción de personalizar perfil<br>
+          <b>When</b> modifica su información personal (nombre, foto, etc.)<br>
+          <b>Then</b> el sistema guarda los cambios y actualiza la información mostrada.<br>
+          <br>
+          Escenario 3: Acceso a funcionalidades adicionales<br>
+          <b>Given</b> que el usuario accede a las opciones de cartera, historial, centro de seguridad, ayuda o ajustes<br>
+          <b>When</b> selecciona alguna de estas opciones<br>
+          <b>Then</b> el sistema muestra la información o funcionalidad correspondiente (por ejemplo, ver historial de trayectos, administrar métodos de pago, acceder a soporte, modificar ajustes de la cuenta, etc.).<br>
+        </td>
+        <td>EP-02</td>
     </tr>
     <tr>
       <td>US-09</td>
-      <td>Visualización de mapa</td>
-      <td>Como usuario quiero tener acceso a un mapa para acceder a los vehículos disponibles</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        Given que el usuario ingresa a la app<br>
-        When accede al mapa<br>
-        Then el sistema muestra los vehículos disponibles cercanos en tiempo real.<br>
-        <br>
-        Escenario 2: Visualización fallida<br>
-        Given que el usuario ingresa al mapa<br>
-        When no hay conexión a internet<br>
-        Then el sistema muestra un mensaje de error.<br>
-      </td>
-      <td>EP-03</td>
+        <td>Gestión y visualización de vehículos en Garaje</td>
+        <td>Como usuario quiero acceder al Garaje para gestionar los vehículos disponibles.</td>
+        <td>
+          Escenario 1: Visualización exitosa de vehículos<br>
+          <b>Given</b> que el usuario accede a la sección Garaje desde el menú lateral<br>
+          <b>When</b> se muestran los vehículos disponibles con imagen, nombre, disponibilidad, marca y valoración<br>
+          <b>Then</b> el sistema permite ver todos los vehículos y sus detalles.<br>
+          <br>
+          Escenario 2: Filtrado de vehículos<br>
+          <b>Given</b> que el usuario está en la sección Garaje<br>
+          <b>When</b> utiliza los filtros para mostrar solo e-scooters, motos o bicicletas<br>
+          <b>Then</b> el sistema actualiza la lista mostrando únicamente los vehículos del tipo seleccionado.<br>
+          <br>
+          Escenario 3: Gestión de favoritos<br>
+          <b>Given</b> que el usuario visualiza los vehículos en el Garaje<br>
+          <b>When</b> marca un vehículo como favorito usando el ícono de corazón<br>
+          <b>Then</b> el sistema guarda la preferencia y permite acceder rápidamente a los vehículos favoritos.<br>
+        </td>
+        <td>EP-02</td>
     </tr>
     <tr>
       <td>US-10</td>
-      <td>Sección “Sobre Nosotros” de landing page</td>
-      <td>Como usuario quiero tener acceso a la información de la aplicación para estar informado de las actualizaciones.</td>
-      <td>
-        Escenario 1: Acceso exitoso<br>
-        Given que el usuario ingresa al menú de información<br>
-        When selecciona la opción "Acerca de la app"<br>
-        Then el sistema muestra la información, versión y novedades.<br>
-        <br>
-        Escenario 2: Acceso fallido<br>
-        Given que el usuario ingresa a "Acerca de la app"<br>
-        When no se puede recuperar la información<br>
-        Then se muestra un mensaje de error.<br>
-      </td>
-      <td>EP-04</td>
+        <td>Filtrado de vehículos en Garaje</td>
+        <td>Como usuario quiero filtrar los vehículos disponibles en el Garaje por tipo.</td>
+        <td>
+          Escenario 1: Filtrado exitoso<br>
+          <b>Given</b> que el usuario accede a la sección Garaje<br>
+          <b>When</b> utiliza el menú de filtros para seleccionar tipo de vehículo, precio, disponibilidad, calificación o marca<br>
+          <b>Then</b> el sistema muestra únicamente los vehículos que cumplen con los criterios seleccionados.<br>
+          <br>
+          Escenario 2: Sin resultados<br>
+          <b>Given</b> que el usuario aplica filtros en el Garaje<br>
+          <b>When</b> no existen vehículos que cumplan con los criterios seleccionados<br>
+          <b>Then</b> el sistema muestra un mensaje indicando que no hay vehículos disponibles según el filtro.<br>
+          <br>
+          Escenario 3: Error de conexión<br>
+          <b>Given</b> que el usuario intenta filtrar vehículos<br>
+          <b>When</b> ocurre un problema de conexión<br>
+          <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
+        </td>
+        <td>EP-02</td>
     </tr>
     <tr>
       <td>US-11</td>
-      <td>Sección “Ubicaciones” de landing page</td>
-      <td>Como usuario quiero saber dónde se ubican presencialmente para acudir a uno de los locales.</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        Given que el usuario accede a la sección de locales<br>
-        When selecciona "Ver ubicaciones"<br>
-        Then el sistema muestra un mapa o listado con direcciones de los locales físicos.<br>
-        <br>
-        Escenario 2: Visualización fallida<br>
-        Given que el usuario accede a "Ver ubicaciones"<br>
-        When no hay conexión<br>
-        Then el sistema muestra un mensaje indicando que no se pudo cargar la información.<br>
-      </td>
-      <td>EP-04</td>
+        <td>Selección y pago de planes</td>
+        <td>Como usuario quiero visualizar los diferentes planes disponibles.</td>
+        <td>
+          Escenario 1: Visualización de planes<br>
+          <b>Given</b> que el usuario accede a la sección "Planes" desde el menú lateral<br>
+          <b>When</b> se muestran los diferentes tipos de planes con sus nombres y detalles<br>
+          <b>Then</b> el sistema permite al usuario comparar y seleccionar el plan deseado.<br>
+          <br>
+          Escenario 2: Pago exitoso de plan<br>
+          <b>Given</b> que el usuario ha seleccionado un plan<br>
+          <b>When</b> presiona el botón "Pagar" y realiza el proceso de pago<br>
+          <b>Then</b> el sistema activa el plan y lo asocia a la cuenta del usuario.<br>
+          <br>
+          Escenario 3: Error en el pago<br>
+          <b>Given</b> que el usuario intenta pagar un plan<br>
+          <b>When</b> ocurre un problema con el método de pago o la conexión<br>
+          <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
+        </td>
+        <td>EP-04</td>
     </tr>
     <tr>
       <td>US-12</td>
-      <td>Sección “Contacto” de landing page</td>
-      <td>Como usuario quiero contactar con el soporte de la aplicación para resolver mis dudas.</td>
-      <td>
-        Escenario 1: Contacto exitoso<br>
-        Given que el usuario necesita soporte<br>
-        When selecciona "Contactar soporte"<br>
-        Then el sistema ofrece opciones de contacto (chat, correo, teléfono) y registra el caso.<br>
-        <br>
-        Escenario 2: Contacto fallido<br>
-        Given que el usuario selecciona "Contactar soporte"<br>
-        When no hay conexión a internet<br>
-        Then se muestra un mensaje indicando que el servicio de soporte no está disponible en ese momento.<br>
-      </td>
-      <td>EP-04</td>
+        <td>Proceso de pago de planes</td>
+        <td>Como usuario quiero ingresar los datos de mi tarjeta para activar el plan seleccionado.</td>
+        <td>
+          Escenario 1: Ingreso exitoso de datos de pago<br>
+          <b>Given</b> que el usuario ha seleccionado un plan<br>
+          <b>When</b> ingresa el número de tarjeta, fecha de vencimiento, CVV y dirección de facturación<br>
+          <b>Then</b> el sistema valida los datos y permite avanzar al resumen de pago.<br>
+          <br>
+          Escenario 2: Confirmación y finalización de pago<br>
+          <b>Given</b> que el usuario ha ingresado correctamente todos los datos<br>
+          <b>When</b> presiona el botón "Finalizar Pago"<br>
+          <b>Then</b> el sistema procesa el pago, muestra el total y activa el plan en la cuenta del usuario.<br>
+          <br>
+          Escenario 3: Error en el proceso de pago<br>
+          <b>Given</b> que el usuario intenta finalizar el pago<br>
+          <b>When</b> hay un error en los datos ingresados o problemas de conexión<br>
+          <b>Then</b> el sistema muestra un mensaje de error y permite corregir los datos o reintentar la acción.<br>
+        </td>
+        <td>EP-04</td>
     </tr>
     <tr>
       <td>US-13</td>
+        <td>Visualización de viaje en mapa</td>
+        <td>Como usuario quiero ver mi trayecto actual en el mapa, junto con información relevante del vehículo.</td>
+        <td>
+          Escenario 1: Visualización exitosa del viaje<br>
+          <b>Given</b> que el usuario accede a la sección "Viaje" desde el menú lateral<br>
+          <b>When</b> se muestra el mapa con la ruta actual, puntos de inicio y destino, y detalles del vehículo<br>
+          <b>Then</b> el sistema presenta la información de ubicación, batería, tiempo restante y estado del viaje en tiempo real.<br>
+          <br>
+          Escenario 2: Actualización de información<br>
+          <b>Given</b> que el usuario está visualizando el viaje<br>
+          <b>When</b> cambia la ruta, el vehículo o el estado del trayecto<br>
+          <b>Then</b> el sistema actualiza la información mostrada en el mapa y en el panel de detalles.<br>
+          <br>
+          Escenario 3: Error de conexión<br>
+          <b>Given</b> que el usuario intenta visualizar o actualizar el viaje<br>
+          <b>When</b> ocurre un problema de conexión<br>
+          <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
+        </td>
+        <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-14</td>
       <td>Notificación de fin de reserva</td>
       <td>Como usuario, quiero recibir una notificación antes de que finalice mi reserva para poder extenderla o prepararme para devolver el vehículo</td>
       <td>
@@ -367,6 +474,7 @@
       </td>
       <td>EP-05</td>
     </tr>
+    
   </tbody>
 </table>
 
