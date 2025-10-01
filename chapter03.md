@@ -12,7 +12,8 @@
 | EP04 | Uso del mapa                      | Como usuario de la aplicación, quiero acceder al mapa de la aplicación para realizar la reserva de vehículos y seguimiento de rutas                                                  | No corresponde          | No corresponde |
 | EP05 | Gestión de viajes                            | Como usuario, quiero visualizar y gestionar mis trayectos en el mapa, incluyendo detalles del vehículo, ruta y estado del viaje.                                     | No corresponde          | No corresponde |
 | EP06 | Gestión de reservas                          | Como usuario, quiero reservar vehículos y recibir notificaciones sobre el estado y fin de mi reserva para asegurar disponibilidad.                                   | No corresponde          | No corresponde |
-| EP07 | Accesibilidad de la Landing Page        | Como visitante, quiero que la información sobre la aplicación sea fácil de entender para poder comprender rápidamente su propósito. | No corresponde          | No corresponde |
+| EP07 | Desbloqueo y acceso rápido a vehículos        | Como usuario, quiero desbloquear y acceder a los vehículos de forma ágil mediante tecnologías como QR para mejorar la experiencia de inicio de viaje. | No corresponde          | No corresponde |
+
 
 ### Lista de Historias de Usuario
 
@@ -287,23 +288,6 @@
     </tr>
     <tr>
       <td>US-13</td>
-      <td>Calificación de viaje</td>
-      <td>Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.</td>
-      <td>
-        Escenario 1: Calificación exitosa<br>
-        Given que el usuario finaliza un viaje<br>
-        When selecciona una puntuación (1-5 estrellas) y envía<br>
-        Then el sistema guarda la calificación y muestra agradecimiento.<br>
-        <br>
-        Escenario 2: Calificación fallida<br>
-        Given que el usuario intenta calificar<br>
-        When no hay conexión a internet<br>
-        Then el sistema guarda la calificación localmente y la envía después.<br>
-      </td>
-      <td>EP-05</td>
-    </tr>
-     <tr>
-      <td>US-14</td>
       <td>Historial de viajes</td>
       <td>Como usuario, quiero ver el historial de mis viajes para trackear gastos y rutas.</td>
       <td>
@@ -319,8 +303,25 @@
       </td>
       <td>EP-05</td>
     </tr>
+     <tr>
+      <td>US-18</td>
+      <td>Calificación de viaje</td>
+      <td>Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.</td>
+      <td>
+        Escenario 1: Calificación exitosa<br>
+        Given que el usuario finaliza un viaje<br>
+        When selecciona una puntuación (1-5 estrellas) y envía<br>
+        Then el sistema guarda la calificación y muestra agradecimiento.<br>
+        <br>
+        Escenario 2: Calificación fallida<br>
+        Given que el usuario intenta calificar<br>
+        When no hay conexión a internet<br>
+        Then el sistema guarda la calificación localmente y la envía después.<br>
+      </td>
+      <td>EP-05</td>
+    </tr>
     <tr>
-      <td>US-15</td>
+      <td>US-14</td>
       <td>Reportar problema con vehículo</td>
       <td>Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.</td>
       <td>
@@ -337,9 +338,9 @@
       <td>EP-05</td>
     </tr>
     <tr>
-      <td>US-16</td>
+      <td>US-14</td>
       <td>Notificación de fin de reserva</td>
-      <td>Como usuario, quiero recibir una notificación antes de que finalice mi reserva para poder extenderla o prepararme para devolver el vehículo</td>
+      <td>Como usuario, quiero recibir una notificación antes de que finalice mi reserva.</td>
       <td>
         Escenario 1: Notificación exitosa<br>
         Given que el usuario tiene una reserva activa<br>
@@ -353,27 +354,53 @@
       </td>
       <td>EP-06</td>
     </tr>   
+    <td>US-15</td>
+      <td>Crear una reserva</td>
+      <td>Como usuario, quiero reservar un vehículo desde la app.</td>
+      <td>
+        Escenario 1: Reserva exitosa<br>
+        <b>Given</b> que el usuario visualiza los vehículos disponibles<br>
+        <b>When</b> selecciona un vehículo y confirma la reserva<br>
+        <b>Then</b> el sistema bloquea el vehículo y muestra un temporizador de la reserva.<br>
+        <br>
+        Escenario 2: Vehículo no disponible<br>
+        <b>Given</b> que el usuario intenta reservar un vehículo<br>
+        <b>When</b> otro usuario ya lo reservó antes<br>
+        <b>Then</b> el sistema muestra un mensaje de error indicando que debe seleccionar otro vehículo.<br>
+        <br>
+        Escenario 3: Error de conexión<br>
+        <b>Given</b> que el usuario confirma una reserva<br>
+        <b>When</b> no hay conexión a internet<br>
+        <b>Then</b> el sistema informa que no se pudo completar la acción y permite reintentar cuando se restablezca la conexión.<br>
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+    <td>US-17</td>
+      <td>Notificación de inicio y vencimiento</td>
+      <td>Como usuario, quiero recibir notificaciones cuando mi reserva esté activa y cuando esté por expirar.</td>
+      <td>
+        Escenario 1: Notificación de inicio<br>
+        <b>Given</b> que el usuario tiene una reserva activa<br>
+        <b>When</b> la reserva comienza<br>
+        <b>Then</b> el sistema envía una notificación push confirmando el inicio.<br>
+        <br>
+        Escenario 2: Notificación de vencimiento<br>
+        <b>Given</b> que el usuario tiene una reserva próxima a expirar<br>
+        <b>When</b> faltan pocos minutos para que finalice<br>
+        <b>Then</b> el sistema envía una notificación recordatoria.<br>
+        <br>
+        Escenario 3: Expiración de reserva<br>
+        <b>Given</b> que el usuario no inicia el viaje<br>
+        <b>When</b> la reserva llega a su fin<br>
+        <b>Then</b> el sistema libera automáticamente el vehículo y notifica al usuario.<br>
+      </td>
+      <td>EP-06</td>
+    </tr>
     <tr>
       <td>US-17</td>
-      <td>Dashboard de estado de vehículos</td>
-      <td>Como administrador, quiero ver el estado de la flota de vehículos para gestionar mantenimiento y redistribución.</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        Given que el administrador inicia sesión<br>
-        When accede al dashboard de vehículos<br>
-        Then el sistema muestra ubicación, batería y estado de cada vehículo.<br>
-        <br>
-        Escenario 2: Error de carga<br>
-        Given que el administrador accede al dashboard<br>
-        When el servidor no responde<br>
-        Then el sistema muestra un mensaje de error y opción para reintentar.<br>
-      </td>
-      <td>EP-05</td>
-    </tr>   
-    <tr>
-      <td>US-18</td>
       <td>Desbloqueo de vehículo con QR</td>
-      <td>Como usuario, quiero desbloquear el vehículo escaneando un QR para agilizar el inicio del viaje.</td>
+      <td>Como usuario, quiero desbloquear el vehículo escaneando un QR.</td>
       <td>
         Escenario 1: Desbloqueo exitoso<br>
         Given que el usuario reserva un vehículo<br>
@@ -385,8 +412,59 @@
         When el QR no es válido o el vehículo ya está en uso<br>
         Then el sistema muestra un mensaje de error.<br>
       </td>
-      <td>EP-04</td>
-    </tr>  
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-18</td>
+      <td>Desbloqueo de vehículo desde la app</td>
+      <td>Como usuario, quiero desbloquear el vehículo directamente desde la aplicación.</td>
+      <td>
+        Escenario 1: Desbloqueo exitoso<br>
+        <b>Given</b> que el usuario tiene una reserva activa<br>
+        <b>When</b> presiona el botón "Desbloquear" en la app<br>
+        <b>Then</b> el sistema desbloquea el vehículo y muestra la información del viaje.<br>
+        <br>
+        Escenario 2: Desbloqueo fallido<br>
+        <b>Given</b> que el usuario intenta desbloquear desde la app<br>
+        <b>When</b> hay problemas de conexión o el vehículo está ocupado<br>
+        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar.<br>
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-19</td>
+      <td>Ver estado de desbloqueo</td>
+      <td>Como usuario, quiero ver el estado de desbloqueo del vehículo en tiempo real.</td>
+      <td>
+        Escenario 1: Visualización exitosa<br>
+        <b>Given</b> que el usuario ha solicitado el desbloqueo<br>
+        <b>When</b> el sistema procesa la solicitud<br>
+        <b>Then</b> el sistema muestra el estado actualizado (desbloqueado, en proceso, error) en la app.<br>
+        <br>
+        Escenario 2: Error de actualización<br>
+        <b>Given</b> que el usuario espera la confirmación de desbloqueo<br>
+        <b>When</b> hay problemas de conexión<br>
+        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la consulta.<br>
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US-21</td>
+      <td>Desbloqueo programado</td>
+      <td>Como usuario, quiero programar el desbloqueo de un vehículo para una hora específica y asegurar su disponibilidad.</td>
+      <td>
+        Escenario 1: Programación exitosa<br>
+        <b>Given</b> que el usuario selecciona un vehículo y una hora futura<br>
+        <b>When</b> confirma la programación de desbloqueo<br>
+        <b>Then</b> el sistema reserva el vehículo y lo desbloquea automáticamente en la hora indicada.<br>
+        <br>
+        Escenario 2: Programación fallida<br>
+        <b>Given</b> que el usuario intenta programar el desbloqueo<br>
+        <b>When</b> el vehículo no está disponible en la hora seleccionada<br>
+        <b>Then</b> el sistema muestra un mensaje de error y sugiere otras opciones.<br>
+      </td>
+      <td>EP07</td>
+    </tr>
   </tbody>
 </table>
 
