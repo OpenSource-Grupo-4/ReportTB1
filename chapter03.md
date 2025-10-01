@@ -287,6 +287,40 @@
     </tr>
     <tr>
       <td>US-13</td>
+      <td>Calificación de viaje</td>
+      <td>Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.</td>
+      <td>
+        Escenario 1: Calificación exitosa<br>
+        Given que el usuario finaliza un viaje<br>
+        When selecciona una puntuación (1-5 estrellas) y envía<br>
+        Then el sistema guarda la calificación y muestra agradecimiento.<br>
+        <br>
+        Escenario 2: Calificación fallida<br>
+        Given que el usuario intenta calificar<br>
+        When no hay conexión a internet<br>
+        Then el sistema guarda la calificación localmente y la envía después.<br>
+      </td>
+      <td>EP-05</td>
+    </tr>
+     <tr>
+      <td>US-14</td>
+      <td>Historial de viajes</td>
+      <td>Como usuario, quiero ver el historial de mis viajes para trackear gastos y rutas.</td>
+      <td>
+        Escenario 1: Visualización exitosa<br>
+        Given que el usuario inicia sesión<br>
+        When accede a la sección "Mis Viajes"<br>
+        Then el sistema muestra una lista con fecha, costo y distancia de cada viaje.<br>
+        <br>
+        Escenario 2: Error de carga<br>
+        Given que el usuario accede al historial<br>
+        When no hay conexión a internet<br>
+        Then el sistema muestra un mensaje de error y opción para reintentar.<br>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-15</td>
       <td>Reportar problema con vehículo</td>
       <td>Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.</td>
       <td>
@@ -303,7 +337,7 @@
       <td>EP-05</td>
     </tr>
     <tr>
-      <td>US-14</td>
+      <td>US-16</td>
       <td>Notificación de fin de reserva</td>
       <td>Como usuario, quiero recibir una notificación antes de que finalice mi reserva para poder extenderla o prepararme para devolver el vehículo</td>
       <td>
@@ -317,11 +351,10 @@
         When no hay conexión a internet<br>
         Then el sistema registra el intento y reintenta enviar la notificación al recuperar la conexión.<br>
       </td>
-      <td>EP-05</td>
-    </tr>
-    
+      <td>EP-06</td>
+    </tr>   
     <tr>
-      <td>US-15</td>
+      <td>US-17</td>
       <td>Dashboard de estado de vehículos</td>
       <td>Como administrador, quiero ver el estado de la flota de vehículos para gestionar mantenimiento y redistribución.</td>
       <td>
@@ -336,26 +369,9 @@
         Then el sistema muestra un mensaje de error y opción para reintentar.<br>
       </td>
       <td>EP-05</td>
-    </tr>
+    </tr>   
     <tr>
-      <td>US-16</td>
-      <td>Calificación de viaje</td>
-      <td>Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.</td>
-      <td>
-        Escenario 1: Calificación exitosa<br>
-        Given que el usuario finaliza un viaje<br>
-        When selecciona una puntuación (1-5 estrellas) y envía<br>
-        Then el sistema guarda la calificación y muestra agradecimiento.<br>
-        <br>
-        Escenario 2: Calificación fallida<br>
-        Given que el usuario intenta calificar<br>
-        When no hay conexión a internet<br>
-        Then el sistema guarda la calificación localmente y la envía después.<br>
-      </td>
-      <td>EP-04</td>
-    </tr>
-    <tr>
-      <td>US-17</td>
+      <td>US-18</td>
       <td>Desbloqueo de vehículo con QR</td>
       <td>Como usuario, quiero desbloquear el vehículo escaneando un QR para agilizar el inicio del viaje.</td>
       <td>
@@ -370,59 +386,7 @@
         Then el sistema muestra un mensaje de error.<br>
       </td>
       <td>EP-04</td>
-    </tr>
-    <tr>
-      <td>US-18</td>
-      <td>Historial de viajes</td>
-      <td>Como usuario, quiero ver el historial de mis viajes para trackear gastos y rutas.</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        Given que el usuario inicia sesión<br>
-        When accede a la sección "Mis Viajes"<br>
-        Then el sistema muestra una lista con fecha, costo y distancia de cada viaje.<br>
-        <br>
-        Escenario 2: Error de carga<br>
-        Given que el usuario accede al historial<br>
-        When no hay conexión a internet<br>
-        Then el sistema muestra un mensaje de error y opción para reintentar.<br>
-      </td>
-      <td>EP-04</td>
-    </tr>
-    <tr>
-      <td>US-19</td>
-      <td>Compartir viaje en redes sociales</td>
-      <td>Como usuario, quiero compartir mi viaje en redes sociales para promover la app y obtener descuentos.</td>
-      <td>
-        Escenario 1: Compartir exitoso<br>
-        Given que el usuario finaliza un viaje<br>
-        When selecciona "Compartir viaje" y elige una red social<br>
-        Then el sistema genera una plantilla con logo de WeRide y comparte automáticamente<br>
-        <br>
-        Escenario 2: Compartir fallido<br>
-        Given que el usuario intenta compartir<br>
-        When la red social no está disponible o no hay conexión<br>
-        Then el sistema guarda el draft localmente y permite reintentar luego.<br>
-      </td>
-      <td>EP-04</td>
-    </tr>
-    <tr>
-      <td>US-20</td>
-      <td>Gestión de promociones</td>
-      <td>Como administrador, quiero crear y gestionar promociones para atraer nuevos usuarios</td>
-      <td>
-        Escenario 1: Creación exitosa<br>
-        Given que el administrador inicia sesión<br>
-        When crea un código promocional con fecha de expiración y descuento<br>
-        Then el sistema guarda la promoción y la muestra en el dashboard.<br>
-        <br>
-        Escenario 2: Creación fallida<br>
-        Given que el administrador intenta crear una promoción<br>
-        When el código ya existe o los datos son inválidos<br>
-        Then el sistema muestra un mensaje de error específico.<br>
-      </td>
-      <td>EP-05</td>
-    </tr>
-    
+    </tr>  
   </tbody>
 </table>
 
