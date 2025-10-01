@@ -49,7 +49,7 @@ Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, ma
   </tr>
   <tr>
     <td></td>
-    <td><h4>JavaScript</h4>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+    <td><h4>TypeScript</h4>TypeScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
   </tr>
   <tr>
     <td></td>
@@ -57,11 +57,11 @@ Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, ma
   </tr>
     <tr>
     <td></td>
-    <td><h4>WebStorm</h4>Es un IDE centrado en el desarrollo frontend, por su variedad de herramientas que agilizan el proceso de desarrollo.</td>
+    <td><h4>WebStorm</h4>Es un IDE centrado en desarrollo frontend, por su gran variedad de herramientas que agilizan el proceso de desarrollo.</td>
   </tr>
   <tr>
     <td></td>
-    <td><h4>Vue.js</h4>Framework basado en Single Page Applications para el desarrollo de frontend</td>
+    <td><h4>Angular</h4>Framework robusto para el desarrollo de aplicaciones web modernas y escalables, basado en el patrón de Single Page Application (SPA),  facilita la creación de interfaces dinámicas mediante TypeScript.</td>
   </tr>
   <tr>
     <td>Software Deployment</td>
