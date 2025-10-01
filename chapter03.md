@@ -7,9 +7,12 @@
 | ID   | Título                                       | Descripción                                                                                                                                                          | Criterios de aceptación | EpicID         |
 |------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|----------------|
 | EP01 | Acceso a la aplicación                  | Como usuario de la aplicación, quiero acceder con mi información para hacer uso de las características disponibles.                                                                   | No corresponde          | No corresponde |
-| EP02 | Funcionalidades de la app             | Como usuario de la aplicación, quiero que las funcionalidades principales que me ofrece el servicio sean funcionales.                                  | No corresponde          | No corresponde |
-| EP03 | Uso del mapa                      | Como usuario de la aplicación, quiero acceder al mapa de la aplicación para realizar la reserva de vehículos y seguimiento de rutas                                                  | No corresponde          | No corresponde |
-| EP04 | Accesibilidad de la Landing Page        | Como visitante, quiero que la información sobre la aplicación sea fácil de entender para poder comprender rápidamente su propósito. | No corresponde          | No corresponde |
+| EP02 | Funcionalidades de la app             | Como usuario de la aplicación, quiero que las funcionalidades principales que me ofrece el servicio sean funcionales.    
+| EP03 | Gestión de pagos y suscripciones             | Como usuario, quiero gestionar mis métodos de pago y suscripciones para acceder a los servicios y planes de la aplicación.                                           | No corresponde          | No corresponde |                              | No corresponde          | No corresponde |
+| EP04 | Uso del mapa                      | Como usuario de la aplicación, quiero acceder al mapa de la aplicación para realizar la reserva de vehículos y seguimiento de rutas                                                  | No corresponde          | No corresponde |
+| EP05 | Gestión de viajes                            | Como usuario, quiero visualizar y gestionar mis trayectos en el mapa, incluyendo detalles del vehículo, ruta y estado del viaje.                                     | No corresponde          | No corresponde |
+| EP06 | Gestión de reservas                          | Como usuario, quiero reservar vehículos y recibir notificaciones sobre el estado y fin de mi reserva para asegurar disponibilidad.                                   | No corresponde          | No corresponde |
+| EP07 | Accesibilidad de la Landing Page        | Como visitante, quiero que la información sobre la aplicación sea fácil de entender para poder comprender rápidamente su propósito. | No corresponde          | No corresponde |
 
 ### Lista de Historias de Usuario
 
@@ -107,63 +110,7 @@
         <td>EP-01</td>
     </tr>
     <tr>
-      <td>US-03</td>
-      <td>Reserva de vehículo</td>
-      <td>Como usuario quiero reservar un vehículo por un tiempo limitado para garantizar su disponibilidad.</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        <b>Given</b> que el usuario selecciona un vehículo disponible<br>
-        <b>When</b> presiona el botón de "Reservar"<br>
-        <b>Then</b> el sistema bloquea el vehículo por un tiempo limitado y muestra confirmación de la reserva.<br>
-        <br>
-        Escenario 2: Visualización fallida<br>
-        <b>Given</b> que el usuario selecciona un vehículo<br>
-        <b>When</b> el vehículo ya ha sido reservado por otro usuario o no hay conexión<br>
-        <b>Then</b> el sistema notifica que la reserva no pudo completarse y muestra opciones para intentar de nuevo.<br>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <tr>
-      <td>US-04</td>
-      <td>Inicio de sesión y registro</td>
-      <td>Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente.</td>
-      <td>
-        Escenario 1: Inicio de sesión exitoso<br>
-        Given que el usuario tiene una cuenta registrada<br>
-        When ingresa sus credenciales correctas<br>
-        Then el sistema permite el acceso a la app.<br>
-        <br>
-        Escenario 2: Registro exitoso<br>
-        Given que el usuario no tiene una cuenta<br>
-        When completa el formulario de registro con sus datos válidos<br>
-        Then el sistema crea la cuenta y permite el acceso.<br>
-        <br>
-        Escenario 3: Fallo de autenticación<br>
-        Given que el usuario ingresa credenciales incorrectas<br>
-        When intenta iniciar sesión<br>
-        Then el sistema muestra un mensaje de error.<br>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <tr>
       <td>US-05</td>
-      <td>Datos de usuario</td>
-      <td>Como usuario quiero poder crear un perfil para colocar mis datos.</td>
-      <td>
-        Escenario 1: Creación exitosa<br>
-        Given que el usuario accede a su cuenta<br>
-        When ingresa sus datos (nombre, correo, foto, etc.) y los guarda<br>
-        Then el sistema actualiza el perfil con éxito.<br>
-        <br>
-        Escenario 2: Error en la creación<br>
-        Given que el usuario intenta guardar sus datos<br>
-        When alguno es inválido o falta completar un campo obligatorio<br>
-        Then el sistema muestra un mensaje indicando el error.<br>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <tr>
-      <td>US-06</td>
       <td>Página Principal</td>
       <td>Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio.</td>
       <td>
@@ -185,29 +132,7 @@
       <td>EP-02</td>
     </tr>  
     <tr>
-      <td>US-07</td>
-      <td>Seleccionar ubicación para ver vehículos cercanos disponibles</td>
-      <td>Como usuario, al seleccionar una ubicación del mapa quiero ver los vehículos cercanos disponibles.</td>
-      <td>
-        Escenario 1: Visualización exitosa<br>
-        <b>Given</b> que el usuario accede al mapa de la aplicación<br>
-        <b>When</b> selecciona una ubicación específica en el mapa<br>
-        <b>Then</b> el sistema muestra en tiempo real los vehículos disponibles cerca de esa ubicación.<br>
-        <br>
-        Escenario 2: Ubicación sin vehículos<br>
-        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
-        <b>When</b> no hay vehículos disponibles cerca de esa ubicación<br>
-        <b>Then</b> el sistema informa que no hay vehículos disponibles y sugiere ubicaciones alternativas.<br>
-        <br>
-        Escenario 3: Error de conexión<br>
-        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
-        <b>When</b> ocurre un problema de conexión al cargar los vehículos<br>
-        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
-      </td>
-      <td>EP-02</td>
-    </tr>
-    <tr>
-      <td>US-08</td>
+      <td>US-06</td>
         <td>Gestión y personalización de perfil</td>
         <td>Como usuario quiero acceder a mi perfil para administrar mi cuenta.</td>
         <td>
@@ -229,7 +154,7 @@
         <td>EP-02</td>
     </tr>
     <tr>
-      <td>US-09</td>
+      <td>US-07</td>
         <td>Gestión y visualización de vehículos en Garaje</td>
         <td>Como usuario quiero acceder al Garaje para gestionar los vehículos disponibles.</td>
         <td>
@@ -251,7 +176,7 @@
         <td>EP-02</td>
     </tr>
     <tr>
-      <td>US-10</td>
+      <td>US-08</td>
         <td>Filtrado de vehículos en Garaje</td>
         <td>Como usuario quiero filtrar los vehículos disponibles en el Garaje por tipo.</td>
         <td>
@@ -273,7 +198,7 @@
         <td>EP-02</td>
     </tr>
     <tr>
-      <td>US-11</td>
+      <td>US-09</td>
         <td>Selección y pago de planes</td>
         <td>Como usuario quiero visualizar los diferentes planes disponibles.</td>
         <td>
@@ -292,10 +217,10 @@
           <b>When</b> ocurre un problema con el método de pago o la conexión<br>
           <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
         </td>
-        <td>EP-04</td>
+        <td>EP-03</td>
     </tr>
     <tr>
-      <td>US-12</td>
+      <td>US-10</td>
         <td>Proceso de pago de planes</td>
         <td>Como usuario quiero ingresar los datos de mi tarjeta para activar el plan seleccionado.</td>
         <td>
@@ -314,10 +239,32 @@
           <b>When</b> hay un error en los datos ingresados o problemas de conexión<br>
           <b>Then</b> el sistema muestra un mensaje de error y permite corregir los datos o reintentar la acción.<br>
         </td>
-        <td>EP-04</td>
+        <td>EP-03</td>
     </tr>
     <tr>
-      <td>US-13</td>
+      <td>US-11</td>
+      <td>Seleccionar ubicación para ver vehículos cercanos disponibles</td>
+      <td>Como usuario, al seleccionar una ubicación del mapa quiero ver los vehículos cercanos disponibles.</td>
+      <td>
+        Escenario 1: Visualización exitosa<br>
+        <b>Given</b> que el usuario accede al mapa de la aplicación<br>
+        <b>When</b> selecciona una ubicación específica en el mapa<br>
+        <b>Then</b> el sistema muestra en tiempo real los vehículos disponibles cerca de esa ubicación.<br>
+        <br>
+        Escenario 2: Ubicación sin vehículos<br>
+        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
+        <b>When</b> no hay vehículos disponibles cerca de esa ubicación<br>
+        <b>Then</b> el sistema informa que no hay vehículos disponibles y sugiere ubicaciones alternativas.<br>
+        <br>
+        Escenario 3: Error de conexión<br>
+        <b>Given</b> que el usuario selecciona una ubicación en el mapa<br>
+        <b>When</b> ocurre un problema de conexión al cargar los vehículos<br>
+        <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US-12</td>
         <td>Visualización de viaje en mapa</td>
         <td>Como usuario quiero ver mi trayecto actual en el mapa, junto con información relevante del vehículo.</td>
         <td>
@@ -336,7 +283,24 @@
           <b>When</b> ocurre un problema de conexión<br>
           <b>Then</b> el sistema muestra un mensaje de error y permite reintentar la acción.<br>
         </td>
-        <td>EP-04</td>
+        <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>US-13</td>
+      <td>Reportar problema con vehículo</td>
+      <td>Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.</td>
+      <td>
+        Escenario 1: Reporte exitoso<br>
+        Given que el usuario está usando el vehículo<br>
+        When selecciona "Reportar problema" y elige una categoría (ej.: falla mecánica)<br>
+        Then el sistema envía el reporte a soporte y muestra confirmación.<br>
+        <br>
+        Escenario 2: Reporte fallido<br>
+        Given que el usuario intenta reportar un problema<br>
+        When no hay conexión a internet<br>
+        Then el sistema guarda el reporte localmente y lo envía al recuperar la conexión.<br>
+      </td>
+      <td>EP-05</td>
     </tr>
     <tr>
       <td>US-14</td>
@@ -353,25 +317,9 @@
         When no hay conexión a internet<br>
         Then el sistema registra el intento y reintenta enviar la notificación al recuperar la conexión.<br>
       </td>
-      <td>EP-01</td>
+      <td>EP-05</td>
     </tr>
-    <tr>
-      <td>US-14</td>
-      <td>Reportar problema con vehículo</td>
-      <td>Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.</td>
-      <td>
-        Escenario 1: Reporte exitoso<br>
-        Given que el usuario está usando el vehículo<br>
-        When selecciona "Reportar problema" y elige una categoría (ej.: falla mecánica)<br>
-        Then el sistema envía el reporte a soporte y muestra confirmación.<br>
-        <br>
-        Escenario 2: Reporte fallido<br>
-        Given que el usuario intenta reportar un problema<br>
-        When no hay conexión a internet<br>
-        Then el sistema guarda el reporte localmente y lo envía al recuperar la conexión.<br>
-      </td>
-      <td>EP-01</td>
-    </tr>
+    
     <tr>
       <td>US-15</td>
       <td>Dashboard de estado de vehículos</td>
