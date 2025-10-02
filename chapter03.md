@@ -304,7 +304,7 @@
       <td>EP-05</td>
     </tr>
      <tr>
-      <td>US-18</td>
+      <td>US-14</td>
       <td>Calificación de viaje</td>
       <td>Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.</td>
       <td>
@@ -321,7 +321,7 @@
       <td>EP-05</td>
     </tr>
     <tr>
-      <td>US-14</td>
+      <td>US-15</td>
       <td>Reportar problema con vehículo</td>
       <td>Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.</td>
       <td>
@@ -338,7 +338,7 @@
       <td>EP-05</td>
     </tr>
     <tr>
-      <td>US-14</td>
+      <td>US-16</td>
       <td>Notificación de fin de reserva</td>
       <td>Como usuario, quiero recibir una notificación antes de que finalice mi reserva.</td>
       <td>
@@ -354,7 +354,7 @@
       </td>
       <td>EP-06</td>
     </tr>   
-    <td>US-15</td>
+    <td>US-17</td>
       <td>Crear una reserva</td>
       <td>Como usuario, quiero reservar un vehículo desde la app.</td>
       <td>
@@ -376,7 +376,7 @@
       <td>EP-06</td>
     </tr>
     <tr>
-    <td>US-17</td>
+    <td>US-18</td>
       <td>Notificación de inicio y vencimiento</td>
       <td>Como usuario, quiero recibir notificaciones cuando mi reserva esté activa y cuando esté por expirar.</td>
       <td>
@@ -398,7 +398,7 @@
       <td>EP-06</td>
     </tr>
     <tr>
-      <td>US-17</td>
+      <td>US-19</td>
       <td>Desbloqueo de vehículo con QR</td>
       <td>Como usuario, quiero desbloquear el vehículo escaneando un QR.</td>
       <td>
@@ -415,7 +415,7 @@
       <td>EP-07</td>
     </tr>
     <tr>
-      <td>US-18</td>
+      <td>US-20</td>
       <td>Desbloqueo de vehículo desde la app</td>
       <td>Como usuario, quiero desbloquear el vehículo directamente desde la aplicación.</td>
       <td>
@@ -432,7 +432,7 @@
       <td>EP-07</td>
     </tr>
     <tr>
-      <td>US-19</td>
+      <td>US-21</td>
       <td>Ver estado de desbloqueo</td>
       <td>Como usuario, quiero ver el estado de desbloqueo del vehículo en tiempo real.</td>
       <td>
@@ -449,7 +449,7 @@
       <td>EP-07</td>
     </tr>
     <tr>
-      <td>US-21</td>
+      <td>US-22</td>
       <td>Desbloqueo programado</td>
       <td>Como usuario, quiero programar el desbloqueo de un vehículo para una hora específica y asegurar su disponibilidad.</td>
       <td>
