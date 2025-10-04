@@ -480,25 +480,28 @@ Un mapa de impacto es una técnica colaborativa y visual de planificación estra
 
 ## 3.3. Product Backlog
 
+
 | N° Orden | User Story ID | Título                                   | Descripción                                                                                                    | Story points |
 |----------|---------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------|
-| 1        | US-01         | Filtro de vehículos                      | Como usuario quiero filtrar por tipo de vehículo (scooter / bici / moto) para encontrar el que necesito.       | 3            |
-| 2        | US-02         | Batería de vehículo                      | Como usuario quiero ver el nivel de batería del vehículo para asegurar que llegue a mi destino.                | 3            |
-| 3        | US-03         | Reserva de vehículo                      | Como usuario quiero reservar un vehículo por un tiempo limitado para garantizar su disponibilidad.             | 5            |
-| 4        | US-04         | Inicio de sesión y registro              | Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente.                      | 5            |
-| 5        | US-05         | Datos de usuario                         | Como usuario quiero poder crear un perfil para colocar mis datos.                                              | 2            |
-| 6        | US-06         | Suscripción de usuario                   | Como usuario quiero pagar una suscripción a través de planes para obtener un mejor acceso a los servicios.     | 8            |
-| 7        | US-07         | Selección de plan                        | Como usuario quiero seleccionar un plan específico para utilizar la app.                                       | 2            |
-| 8        | US-08         | Métodos de pago                          | Como usuario quiero agregar mi tarjeta de crédito para acceder a uno de los planes de suscripción              | 2            |
-| 9        | US-09         | Visualización de mapa                    | Como usuario quiero tener acceso a un mapa para acceder a los vehículos disponibles                            | 8            |
-| 10       | US-10         | Sección “Sobre Nosotros” de landing page | Como usuario quiero tener acceso a la información de la aplicación para estar informado de las actualizaciones.| 1            |
-| 11       | US-11         | Sección “Ubicaciones” de landing page    | Como usuario quiero saber dónde se ubican presencialmente para acudir a uno de los locales.                    | 1            |
-| 12       | US-12         | Sección “Contacto” de landing page       | Como usuario quiero contactar con el soporte de la aplicación para resolver mis dudas.                         | 2            |
-| 13       | US-13         | Notificación de fin de reserva      | Como usuario, quiero recibir una notificación antes de que finalice mi reserva para poder extenderla o prepararme para devolver el vehículo. | 3            |
-| 14       | US-14         | Reportar problema con vehículo      | Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.                 | 3            |
-| 15       | US-15         | Dashboard de estado de vehículos    | Como administrador, quiero ver el estado de la flota de vehículos para gestionar mantenimiento y redistribución.         | 8            |
-| 16       | US-16         | Calificación de viaje               | Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.                     | 2            |
-| 17       | US-17         | Desbloqueo de vehículo con QR       | Como usuario, quiero desbloquear el vehículo escaneando un QR para agilizar el inicio del viaje.                         | 3            |
-| 18       | US-18         | Historial de viajes                 | Como usuario, quiero ver el historial de mis viajes para trackear gastos y rutas.                                        | 2            |
-| 19       | US-19         | Compartir viaje en redes sociales   | Como usuario, quiero compartir mi viaje en redes sociales para promover la app y obtener descuentos.                     | 2            |
-| 20       | US-20         | Gestión de promociones              | Como administrador, quiero crear y gestionar promociones para atraer nuevos usuarios                                     | 5            |
+| 1        | US-01         | Inicio de sesión y registro              | Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente.                      | 5            |
+| 2        | US-02         | Introducir Número de Celular             | Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes. | 2            |
+| 3        | US-03         | Introducir código de verificación        | Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación.          | 2            |
+| 4        | US-04         | Datos de usuario                         | Como usuario quiero poder crear un perfil para colocar mis datos.                                              | 3            |
+| 5        | US-05         | Página Principal                         | Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio.               | 3            |
+| 6        | US-06         | Gestión y personalización de perfil      | Como usuario quiero acceder a mi perfil para administrar mi cuenta.                                            | 5            |
+| 7        | US-07         | Gestión y visualización de vehículos en Garaje | Como usuario quiero acceder al Garaje para gestionar los vehículos disponibles.                          | 5            |
+| 8        | US-08         | Filtrado de vehículos en Garaje          | Como usuario quiero filtrar los vehículos disponibles en el Garaje por tipo.                                   | 3            |
+| 9        | US-09         | Selección y pago de planes               | Como usuario quiero visualizar los diferentes planes disponibles.                                              | 5            |
+| 10       | US-10         | Proceso de pago de planes                | Como usuario quiero ingresar los datos de mi tarjeta para activar el plan seleccionado.                        | 5            |
+| 11       | US-11         | Seleccionar ubicación para ver vehículos cercanos disponibles | Como usuario, al seleccionar una ubicación del mapa quiero ver los vehículos cercanos disponibles. | 5            |
+| 12       | US-12         | Visualización de viaje en mapa           | Como usuario quiero ver mi trayecto actual en el mapa, junto con información relevante del vehículo.           | 5            |
+| 13       | US-13         | Historial de viajes                      | Como usuario, quiero ver el historial de mis viajes para trackear gastos y rutas.                              | 3            |
+| 14       | US-14         | Calificación de viaje                    | Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio.           | 2            |
+| 15       | US-15         | Reportar problema con vehículo           | Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida.       | 3            |
+| 16       | US-16         | Notificación de fin de reserva           | Como usuario, quiero recibir una notificación antes de que finalice mi reserva.                                | 3            |
+| 17       | US-17         | Crear una reserva                        | Como usuario, quiero reservar un vehículo desde la app.                                                        | 5            |
+| 18       | US-18         | Notificación de inicio y vencimiento     | Como usuario, quiero recibir notificaciones cuando mi reserva esté activa y cuando esté por expirar.           | 3            |
+| 19       | US-19         | Desbloqueo de vehículo con QR            | Como usuario, quiero desbloquear el vehículo escaneando un QR.                                                 | 3            |
+| 20       | US-20         | Desbloqueo de vehículo desde la app      | Como usuario, quiero desbloquear el vehículo directamente desde la aplicación.                                 | 3            |
+| 21       | US-21         | Ver estado de desbloqueo                 | Como usuario, quiero ver el estado de desbloqueo del vehículo en tiempo real.                                  | 2            |
+| 22       | US-22         | Desbloqueo programado                    | Como usuario, quiero programar el desbloqueo de un vehículo para una hora específica y asegurar su disponibilidad. | 5            |
