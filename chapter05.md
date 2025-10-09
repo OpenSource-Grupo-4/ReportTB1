@@ -75,13 +75,15 @@ Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, ma
 
 Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto para el informe como para la landing page. Esto facilitó la colaboración entre los miembros del equipo,aprovechando las herramientas útiles que esta plataforma ofrece para el manejo del código fuente y sus versiones.
 
-
 - URL del repositorio Report en GitHub: https://github.com/OpenSource-Grupo-4/ReportTB1
 - URL del repositorio Landing Page en GitHub: https://github.com/OpenSource-Grupo-4/Landing-Page
+- - Url del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
 
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+##### Landing Page:
 
 Para "**WeRide**", hemos utilizado "**HTML y CSS**". Para estructurar el contenido usamos etiquetas de section y divisiones para contenido específico de cada una de las secciones. Además, hemos empleado atributos como ***HTML Style*** para personalizar el aspecto visual, definiendo propiedades como color, tamaño de fuente y tipo de letra.
 
@@ -91,12 +93,26 @@ Los formularios, creados con **CSS**, permiten a los usuarios ingresar informaci
 
 Finalmente, en el **footer**, hemos incluido enlaces a las redes sociales de la organización para brindar a los usuarios una forma adicional de conectarse y seguir nuestras actualizaciones.
 
+##### Web Application:
+
+Para "**WeRide App**", hemos utilizado "**TypeScript, HTML y CSS**". La estructura del proyecto sigue el patrón de arquitectura de **Single Page Application (SPA)**, utilizando el framework **Angular** para organizar el código en módulos, componentes y servicios.
+
+Los componentes estan estructurados según DDD (Domain-Driven Design), donde cada componente representa un bounded context específico, como **auth**, **booking**, **garage**, **plans** y **trip**. Cada componente tiene su propio archivo HTML para la estructura, CSS para el estilo y TypeScript para la lógica y enrutamiento así como la comunicación entre componentes y servicios.
+
 ### 5.1.4. Software Deployment Configuration.
+
+##### Landing Page:
 
 Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De
 esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
 
 ![GithubReportRepo](/assets/chapter05/github-repo.png)
+
+##### Web Application:
+
+Utilizaremos Vercel para alojar nuestra Web Application.
+Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repositorio de GitHub. Vercel se encargará de la construcción y el despliegue de nuestra aplicación automáticamente cada vez que realicemos un push a la rama principal.
+
 
 ---
 
@@ -385,6 +401,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 ![Organización](https://github.com/OpenSource-Grupo-4)
 
 ![Reporte del Proyecto](https://github.com/OpenSource-Grupo-4/ReportTB1)
+
+![Repositorio de Frontend Web Application](https://github.com/OpenSource-Grupo-4/Frontend-WeRide)
 
 ![Repositorio de Landing Page](https://github.com/OpenSource-Grupo-4/Landing-Page)
 
