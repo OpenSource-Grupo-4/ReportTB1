@@ -233,31 +233,31 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 | Elemento | Detalle |
 |-----------|----------|
-| **Sprint** | 2 - Implementación de base de datos local (db.json) y funcionalidades principales de WeRide. |
+| **Sprint** | 2 - Implementación de base de datos local (db.json) y primera versión desplegado de WeRide. |
 | **Sprint Planning Background** |  |
-| **Fecha** | 01/10/2025 |
-| **Hora** | 22:00 horas (GMT-5) |
-| **Lugar** | Reunión virtual mediante Discord |
+| **Fecha** | 8/10/2025 |
+| **Hora** | 21:00 horas (GMT-5) |
+| **Lugar** | Reunión virtual mediante Google Meet |
 | **Preparado por** | [WeTech] |
 | **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ] |
-| **Sprint n-1 Review** | Se completó la Landing Page y su despliegue en GitHub Pages. |
-| **Sprint n-1 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas; se acordó reforzar la integración del backend en el siguiente Sprint. |
-| **Sprint Goal & User Stories** | 21-40 |
+| **Sprint n-2 Review** | Se completó la primera versión desplegada del Frontend Web Application de WeRide. |
+| **Sprint n-2 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas; se acordó reforzar la integración del backend en el siguiente Sprint. |
+| **Sprint Goal & User Stories** | 1-22 |
 | **Sprint 2 Velocity** | 20 puntos |
 | **Sum of Story Points** | 20 puntos |
 
 #### Objetivo del Sprint
-Implementar el archivo `db.json` como base de datos simulada y desarrollar las funcionalidades clave de la aplicación web: **registro de usuario**, **reserva de vehículo** y **procesamiento de pagos** mediante botones interactivos en la interfaz.
+Implementar el archivo `db.json` como base de datos simulada y desarrollar los bounded context clave de la aplicación web: **auth**, **booking** y **garage**, **plans** y **trip** mediante botones interactivos en la interfaz.
 
 #### User Stories seleccionadas para el Sprint 2
 
 | ID  | User Story | Puntos |
 |-----|-------------|--------|
-| 21  | Como usuario quiero registrar mis datos personales para acceder a las funcionalidades de la aplicación. | 5 |
-| 22  | Como usuario quiero ver una lista de vehículos disponibles para alquilar. | 4 |
-| 23  | Como usuario quiero reservar un vehículo seleccionando fecha y hora para mi viaje. | 4 |
-| 24  | Como usuario quiero realizar el pago de mi reserva mediante un sistema de pago integrado. | 5 |
-| 25  | Como desarrollador quiero disponer de un archivo `db.json` para almacenar usuarios, vehículos y reservas. | 2 |
+| 01  | Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente. | 5 |
+| 02  | Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes. | 4 |
+| 03  | Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación. | 4 |
+| 04  | Como usuario quiero poder crear un perfil para colocar mis datos. | 5 |
+| 05  | Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio. | 2 |
 
 **Total de puntos:** 20  
 
@@ -267,11 +267,11 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar las f
 
 | Team Member (Apellido, Nombre) | GitHub Username | Base de Datos (db.json) | Registro de Usuario | Reserva de Vehículo | Pagos | Integración y Pruebas |
 |--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
-| Bonifacio, Samuel | samuelbonifacio015 | C | L | C | C | C |
+| Bonifacio, Samuel | samuelbonifacio015 | L | L | L | L | L |
 | Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
 | Seminario, Diego | DiegoSeminario | C | C | L | C | C |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
-| Morales, Arnold | Arnold-TI | C | C | L | L | C |
+| Morales, Arnold | Arnold-TI | L | L| L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -293,58 +293,67 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar las f
 
 ### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2 se implementó el archivo `db.json` y las funcionalidades de **registro**, **reserva** y **pago** mediante botones en la aplicación web.  
-A continuación, se muestran los principales commits en GitHub que evidencian el desarrollo realizado:
+Durante el Sprint 2 se implementaron los principales módulos de la aplicación web, incluyendo el componente de **garaje, mapa de viajes, historial de viajes, gestión de planes, integración de pagos y el archivo db.json.** Cada funcionalidad fue desarrollada y registrada en los siguientes commits y ramas, evidenciando la colaboración del equipo:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|-------------|---------|-----------|----------------|----------------------|----------------------|
-| OpenSource-Grupo-4/Landing-Page | feature/dbjson | 8b3d2a4 | feat: create db.json with user & vehicle data | Se añadió el archivo db.json con la estructura de usuarios, vehículos y reservas. | 02/10/2025 |
-| OpenSource-Grupo-4/Landing-Page | feature/register | 9f6b2a1 | feat: add user registration form and logic | Se implementó el formulario de registro con conexión a db.json. | 03/10/2025 |
-| OpenSource-Grupo-4/Landing-Page | feature/reservation | 6ac3d55 | feat: add vehicle reservation functionality | Se desarrolló la lógica para reservas de vehículos y actualización del JSON. | 04/10/2025 |
-| OpenSource-Grupo-4/Landing-Page | feature/payments | 9ab4f1c | feat: integrate payment button and confirmation flow | Se implementó botón de pago y mensaje de confirmación. | 05/10/2025 |
-| OpenSource-Grupo-4/Landing-Page | develop | b7c8e11 | chore: integration testing and UI adjustments | Ajustes en interfaz y pruebas de flujo completo. | 06/10/2025 |
+| Repository | Branch | Commit Id | Commit Message | Autor | Committed on (Date) |
+|-------------|-----------------------------|-----------|-----------------------------------------------|--------------------------|----------------------|
+| OpenSource-Grupo-4/Landing-Page | samuel-1 | caa30aa | feat: added garage component (pending features) | samuelbonifacio015 | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | samuel-1 | 33a6fef | feat: added trip-map | samuelbonifacio015 | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | samuel-1 | c885f8f | feat: added db.json | samuelbonifacio015 | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | samuel-1 | 64615a8 | feat: plan component added | samuelbonifacio015 | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | samuel-1 | f078e3d | feat: added trip-history component | samuelbonifacio015 | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | jefferson | fbe7e9c | Implementation bounded-context booking | JeffersonCastroPariona | 06/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | diego | 38ba86c | us7,8 | DiegoSeminario | 07/10/2025 |
+| OpenSource-Grupo-4/Landing-Page | feature/US-05-Map | 3d5995a | feat(Map): add map component whit marker and location user | jhimyromeromeza | 07/10/2025 |
 
+Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de **WeRide.**
 
+**Reporte de commits:**
+
+![CommitsSprint2](/assets/chapter05/commits-2.png)
 
 ---
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
-Durante este sprint, el equipo se centró en la integración funcional de la aplicación, enlazando los módulos de registro, reserva y pago con el archivo `db.json`.  
-Se llevaron a cabo pruebas locales utilizando `json-server` para simular un entorno de backend.  
+En esta entrega, nos centramos en el desarrollo completo del desarrollo de la **Web Application** de WeRide.
 
-![ExecutionEvidence](/assets/chapter05/execution-sprint2.png)
+Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
+
+![ExecutionEvidence](/assets/chapter05/networkgraph-2.png)
 
 ---
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En este sprint se documentaron los endpoints locales utilizados con `json-server`:
+El db.json fue creado para simular una base de datos local y facilitar el desarrollo y pruebas de la aplicación web. Este archivo contiene datos estructurados en formato JSON, representando las entidades principales del sistema: **usuarios, vehículos, reservas y planes.**
 
-| Endpoint | Método | Descripción |
-|-----------|---------|-------------|
-| `/usuarios` | GET / POST | Permite obtener o registrar usuarios. |
-| `/vehiculos` | GET | Retorna la lista de vehículos disponibles. |
-| `/reservas` | POST | Registra una nueva reserva. |
-| `/pagos` | POST | Simula un pago de reserva y actualiza el estado del vehículo. |
+***json server:***
 
+![db.json](/assets/chapter05/json-server.png)
 ---
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-El avance del Sprint 2 fue desplegado en el mismo entorno de GitHub Pages, manteniendo la estructura del proyecto y permitiendo al equipo visualizar la interacción de los nuevos módulos con la base local `db.json`.  
+El objetivo del segundo Sprint fue el desarrollo e implementación de la Web Application. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
 
-![DeploymentEvidence](/assets/chapter05/deployment-sprint2.png)
+1. Se creó un repositorio para el desarrollo de la Web Application en GitHub. ![GithubRepoWebApp](/assets/chapter05/frontend-repo.png)
+2. Se creó el entorno de desarrollo con Node.js y Angular usando WebStorm como IDE. ![NodeAngular](/assets/chapter05/webstorm-setup.png)
+3. Se desplegó el db.json con json-server para simular una base de datos local. ![JsonServer](/assets/chapter05/json-server.png)
+4. Se desarrollaron los componentes usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDD](/assets/chapter05/bounded-context.png)
+5. Se desplegó el frontend en github pages para pruebas y visualización.
 
 ---
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 2 se evidenció una mejora en la coordinación de ramas (`feature/dbjson`, `feature/reservation`, `feature/payments`) y uso de pull requests.  
-Cada integrante realizó commits y revisiones cruzadas para garantizar la integración adecuada de las funcionalidades.
+A continuación, se adjuntan las capturas de evidencia de los insights del repositorio del desarrollo de la Web Application para evidenciar la participación de todos los miembros:
 
-- Insight Repository WeRide:  
-  ![InsightWeRide](/assets/chapter05/insight-sprint2.png)
+* Insight Web Application:
+  ![InsightWebApp](/assets/chapter05/commits-2.png)
+
+* Insight Report
+  ![InsightR](/assets/chapter05/insightR.png)
 
 
 ## Conclusiones
