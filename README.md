@@ -232,8 +232,12 @@ logro del student outcome.
         TB1: Me reuní presencial y virtualmente de manera efectiva para coordinar cada una de nuestra partes en el desarrollo del presente proyecto.<br>
         <strong>Romero Meza Jhimy Pool</strong><br>
         TB1: Presenté y expliqué de manera clara y efectiva los wireframes, mockups y otros puntos clave del proyecto, facilitando la comprensión de las propuestas al equipo y asegurando una comunicación alineada durante el desarrollo.<br>
+  <strong>Castro Pariona Jefferson Ernesto</strong><br>
+  TB1: Coordiné reuniones presenciales y virtuales, presenté propuestas de solución y participé en la revisión de wireframes y mockups para asegurar la alineación del equipo.<br>
         <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
         TP1: Me reuní presencial y virtualmente para la creación de cada bounded context (componente de la aplicación) y planeación de db.json.<br>
+  <strong>Castro Pariona Jefferson Ernesto</strong><br>
+  TP1: Participé en el diseño de bounded contexts y en la planificación de la base de datos (db.json), además de colaborar en la integración y pruebas iniciales del frontend.<br>
       </td>
       <td>
         TB1: Como equipo, logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, elaboración de User Stories, mockups, wireframes, entre otros.<br>
@@ -247,8 +251,12 @@ logro del student outcome.
         TB1: Se completó el deploy de Landing Page, modificación de wireframes &amp; mockups, documentación de Capítulo I, II, IV &amp; V.<br>
         <strong>Romero Meza Jhimy Pool</strong><br>
         TB1: Documenté y presenté de manera clara los wireframes, mockups y otros avances del proyecto, lo que facilitó la comprensión y el análisis por parte del equipo.<br>
+  <strong>Castro Pariona Jefferson Ernesto</strong><br>
+  TB1: Documenté capítulos del informe (I, III y V), redacté y revisé User Stories y contribuí a la documentación del repositorio y al README.<br>
         <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
         TP1: Se completó el desarrollo y deploy de Frontend Web Applications, se reformularon los User Stories, se desarrollaron los bounded context y creación de db.json.<br>
+  <strong>Castro Pariona Jefferson Ernesto</strong><br>
+  TP1: Contribuí al desarrollo y pruebas del frontend, además de colaborar en la creación y verificación de db.json y la documentación técnica asociada.<br>
       </td>
       <td>
         TB1: Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada. <br>
