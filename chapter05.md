@@ -371,6 +371,55 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](/assets/chapter05/insightR.png)
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+| Elemento | Detalle |
+|-----------|----------|
+| **Sprint** | 3 - Primera versión de backend y pruebas de conexión con MySQL Workbench |
+| **Sprint Planning Background** |  |
+| **Fecha** | 27/10/2025 |
+| **Hora** | 20:00 horas (GMT-5) |
+| **Lugar** | Reunión virtual mediante Google Meet |
+| **Preparado por** | [WeTech] |
+| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Arnold Morales ] |
+| **Sprint n-3 Review** | Se asignaron los bounded context para el backend y se inicializó con las primeras contribuciones en el repositorio. |
+| **Sprint n-3 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas. |
+| **Sprint Goal & User Stories** | 1-22 |
+| **Sprint 3 Velocity** | 20 puntos |
+| **Sum of Story Points** | 20 puntos |
+
+#### Objetivo del Sprint
+Implementar la primera versión del backend utilizando Java(Springboot) y establecer la conexión con una base de datos MySQL Workbench para gestionar usuarios, vehículos y reservas.
+
+#### User Stories seleccionadas para el Sprint 3
+
+| ID  | User Story | Puntos |
+|-----|-------------|--------|
+| 01  | Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente. | 5 |
+| 02  | Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes. | 4 |
+| 03  | Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación. | 4 |
+| 04  | Como usuario quiero poder crear un perfil para colocar mis datos. | 5 |
+| 05  | Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio. | 2 |
+
+**Total de puntos:** 20  
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Base de Datos | API REST | Gestión de Usuario | Pagos | Integración y Pruebas |
+|--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
+| Bonifacio, Samuel | samuelbonifacio015 | L | L | L | L | L |
+| Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
+| Seminario, Diego | DiegoSeminario | C | C | L | C | C |
+| Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
+| Morales, Arnold | Arnold-TI | L | L| L | L | C |
+
+**L:** Leader (Líder)  
+**C:** Collaborator (Colaborador)
+
 
 ## Conclusiones
 - El proyecto de micromovilidad eléctrica compartida responde a necesidades reales de movilidad en áreas urbanas peruanas: congestión, tiempos de traslado elevados, y demanda por alternativas más económicas y sostenibles. La combinación de scooters, bicicletas y motos eléctricas gestionadas desde una única plataforma web representa una propuesta con alto potencial de adopción, especialmente en segmentos juveniles y corporativos.
