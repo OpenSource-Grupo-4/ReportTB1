@@ -46,7 +46,7 @@
 </table>
 
 
-## FECHA: OCTUBRE 2025
+## FECHA: NOVIEMBRE 2025
 
 </div>
 
@@ -69,6 +69,12 @@
             <th>10.09.25</th>
             <th>G4 WeTech</th>
             <th>Se desplegó la primera versión de la Web Application y documentación respectiva.</th>
+        </tr>
+        <tr>
+          <th>V3.0</th>
+          <th>30.10.25</th>
+          <th>G4 WeTech</th>
+          <th>Se desplegó la primera versión de los Web Services.</th>
         </tr>
     </thead>
     <tbody></tbody>
