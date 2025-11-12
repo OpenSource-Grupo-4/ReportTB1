@@ -437,6 +437,25 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
+Durante el Sprint 3 se implementaron los principales módulos del backend, incluyendo el componente de **gestión de perfiles, reservas, historial de viajes y garage de autos.** A continuación se listan los commits más relevantes registrados en el repositorio del backend durante este Sprint (captura en el panel de commits):
+
+| Repository | Branch | Commit Id | Commit Message | Autor | Committed on (Date) |
+|------------|--------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------|----------------------|
+| OpenSource-Grupo-4/Backend-WeRide | feat/travelHistory | f7222d1 | feat(travelHistory): Add news endpoints for create TravelHistory and find TravelHistory by userId | jhimyromeromeza | 09/11/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | feature/profile | 6e8bd4f | feat: Implement Profile Bounded Context | Arnold-TI | 08/11/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | main | 69c362f | feat: implement JWT auth | samuelbonifacio015 | 29/10/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | main | e733cf1 | feat: added rest interfaces for iam | samuelbonifacio015 | 29/10/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | main | 7c22d3e | feat: added iam infrastructure | samuelbonifacio015 | 29/10/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | feat/booking | e3c8283 | feat(booking): update classes logic validation | JeffersonCastroPariona | 29/10/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | feat/booking | a60ea90 | feat(booking): implement aggregate and commands queries services | JeffersonCastroPariona | 28/10/2025 |
+| OpenSource-Grupo-4/Backend-WeRide | bc/garage | 5875d27 | bc/garage | DiegoSeminario | 11/11/2025 |
+
+Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos del Sprint, asegurando la trazabilidad y transparencia en el desarrollo de **WeRide.**
+
+**Reporte de commits (captura):**
+
+![CommitsSprint3](/assets/chapter05/commits-3.png)
+
 ---
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
@@ -445,7 +464,7 @@ En esta entrega, nos centramos en el desarrollo completo del desarrollo de los *
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![ExecutionEvidence](/assets/chapter05/networkgraph-2.png)
+![ExecutionEvidence](/assets/chapter05/networkgraph-backend.png)
 
 ---
 
@@ -584,7 +603,7 @@ El objetivo del tercer Sprint fue el desarrollo e implementación del Backend de
 A continuación, se adjuntan las capturas de evidencia de los insights del repositorio del desarrollo de los Web Services para evidenciar la participación de todos los miembros:
 
 * Insight Web Service:
-  ![InsightWebApp](/assets/chapter05/commits-2.png)
+  ![InsightWebServices](/assets/chapter05/commits-3.png)
 
 * Insight Report
   ![InsightR](/assets/chapter05/insightR.png)
