@@ -437,6 +437,18 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+En esta entrega, nos centramos en el desarrollo completo del desarrollo de los **Web Services** de WeRide.
+
+Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
+
+![ExecutionEvidence](/assets/chapter05/networkgraph-2.png)
+
+---
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Para el backend, hemos desarrollado nuestro API utilizando Java con el framework Spring Boot. Este backend se conecta a una base de datos MySQL Workbench para gestionar el inicio de sesión, gestión de perfiles, reservas, historial de viajes y garage de autos.
@@ -465,19 +477,117 @@ Para verificar que la optención de datos se realice correctamente, utilizamos S
 
 ![createtravelhistoryresource](/assets/chapter05/backend/createtravelhistoryresource.png)
 
+![user](/assets/chapter05/backend/user.png)
+
+![registerusercomand](/assets/chapter05/backend/registerusercommand.png)
+
+![pagebookingresource](/assets/chapter05/backend/pagebookingresource.png)
+
+![pageableobject](/assets/chapter05/backend/pageableobject.png)
+
+![sortobject](/assets/chapter05/backend/sortobject.png)
+
+![travelhistoryresource](/assets/chapter05/backend/travelhistoryresource.png)
+
+![reservation](/assets/chapter05/backend/reservation.png)
+
 *Swagger:*
 
-![accounts](/assets/chapter05/backend/accounts-endpoint.png)
+##### Accounts
+
+![accounts](/assets/chapter05/backend/accounts-endpoint.png)  
+
+![accountsGet](/assets/chapter05/backend/accountsGet.png)
+
+##### Authentication
 
 ![auth](/assets/chapter05/backend/auth-endpoint.png)
 
-![booking](/assets/chapter05/backend/bookincontroller-endpoint.png)
+##### SignUp:
+
+![authenticationPost](/assets/chapter05/backend/authenticationPost.png)
+
+##### SignIn:
+
+![authenticationPostSignIn](/assets/chapter05/backend/authenticationPostSignIn.png)
+
+##### Auth:
+
+![authLogin](/assets/chapter05/backend/authPost.png)
+
+![authRegister](/assets/chapter05/backend/authRegister.png)
+
+##### Reservations:
+
+![reservations](/assets/chapter05/backend/reservationsGet.png)
+
+![reservationsPost](/assets/chapter05/backend/reservationsPost.png)
+
+![reservationsPost2](/assets/chapter05/backend/reservationsPost2.png)
+
+##### Profiles:
 
 ![profiles](/assets/chapter05/backend/profiles-endpoint.png)
 
+![profilesPut](/assets/chapter05/backend/profilesPut.png)
+
+![profilesGet](/assets/chapter05/backend/profilesGet.png)
+
+##### Bookings:
+
+![booking](/assets/chapter05/backend/bookincontroller-endpoint.png)
+
+![bookingGet](/assets/chapter05/backend/boookingGet.png)
+
+![bookingsPost](/assets/chapter05/backend/bookingsPost.png)
+
+![bookingsDraftPost](/assets/chapter05/backend/bookingsDraftPost.png)
+
+![bookingsIdGet](/assets/chapter05/backend/bookingsIdGet.png)
+
+![bookingsDraftGet](/assets/chapter05/backend/bookingsDraftGet.png)
+
+##### Vehicles:
+
+![vehiclesGet](/assets/chapter05/backend/vehiclesGet.png)
+
+![vehiclesPost](/assets/chapter05/backend/vehiclesPost.png)
+
+##### Travel History:
+
 ![travelhistory](/assets/chapter05/backend/travelhistorycontroller-endpoint.png)
 
-##### PD: FALTA GARAGE
+![travelhistoryGet](/assets/chapter05/backend/travelhistoryGet.png)
+
+![travelhistoryPost](/assets/chapter05/backend/travelhistoryPost.png)
+
+##### Users:
+
+![usersGet](/assets/chapter05/backend/usersGet.png)
+
+--- 
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El objetivo del tercer Sprint fue el desarrollo e implementación del Backend de la Web Application. Para eso, utilizamos GitHub. El proceso del desarrollo fue el siguiente:
+
+1. Se creó un repositorio para el desarrollo del Backend en GitHub. ![GithubRepoBackend](/assets/chapter05/backend-repo.png)
+2. Se creó el entorno de desarrollo con Java(Springboot) y MySQL Workbench usando IntelliJ IDEA como IDE. ![JavaMySQL](/assets/chapter05/intelliJIdea-setup.png)
+3. Se desarrollaron los bounded context usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDDBackend](/assets/chapter05/bounded-context-backend.png)
+4. Se utilizó Swagger UI para documentar y probar los endpoints del API desarrollado.
+5. Se desplegó el backend en un servidor local para pruebas y visualización.
+   
+---
+   
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+A continuación, se adjuntan las capturas de evidencia de los insights del repositorio del desarrollo de los Web Services para evidenciar la participación de todos los miembros:
+
+* Insight Web Service:
+  ![InsightWebApp](/assets/chapter05/commits-2.png)
+
+* Insight Report
+  ![InsightR](/assets/chapter05/insightR.png)
 
 
 ## Conclusiones
