@@ -409,16 +409,75 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
-| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Base de Datos | API REST | Gestión de Usuario | Pagos | Integración y Pruebas |
+| Team Member (Apellido, Nombre) | GitHub Username | Deploy de Base de Datos | Historial de Viajes | Gestión de Perfiles | Reservas | Garage |
 |--------------------------------|------------------|-------------------------|---------------------|---------------------|-------|----------------------|
 | Bonifacio, Samuel | samuelbonifacio015 | L | L | L | L | L |
-| Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
-| Seminario, Diego | DiegoSeminario | C | C | L | C | C |
-| Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
+| Castro, Jefferson | JeffersonCastroPariona | L | C | L | L | C |
+| Seminario, Diego | DiegoSeminario | L | C | L | C | L |
+| Romero, Jhimy | jhimyromeromeza | L | C | C | C | C |
 | Morales, Arnold | Arnold-TI | L | L| L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
+
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+| ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
+|----|----------------|--------------|--------------------|--------------|--------|
+| US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
+| US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
+| US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
+| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
+| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
+
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para el backend, hemos desarrollado nuestro API utilizando Java con el framework Spring Boot. Este backend se conecta a una base de datos MySQL Workbench para gestionar el inicio de sesión, gestión de perfiles, reservas, historial de viajes y garage de autos.
+
+Para verificar que la optención de datos se realice correctamente, utilizamos Swagger UI, una herramienta que nos permite interactuar con nuestra API de manera visual y probar los diferentes endpoints que hemos creado.
+
+*Schemas:*
+
+![updateprofileresource](/assets/chapter05/backend/updateprofileresource.png)
+
+![profileresource](/assets/chapter05/backend/profileresource.png)
+
+![createbookingresource](/assets/chapter05/backend/createbookingresource.png)
+
+![localtime](/assets/chapter05/backend/localtime.png)
+
+![bookingresource](/assets/chapter05/backend/bookingresource.png)
+
+![signupresource](/assets/chapter05/backend/signupresource.png)
+
+![signinresource](/assets/chapter05/backend/signinresource.png)
+
+![accountResource](/assets/chapter05/backend/accountresource.png)
+
+![authenticatedaccountresource](/assets/chapter05/backend/authenticatedaccountresource.png)
+
+![createtravelhistoryresource](/assets/chapter05/backend/createtravelhistoryresource.png)
+
+*Swagger:*
+
+![accounts](/assets/chapter05/backend/accounts-endpoint.png)
+
+![auth](/assets/chapter05/backend/auth-endpoint.png)
+
+![booking](/assets/chapter05/backend/bookincontroller-endpoint.png)
+
+![profiles](/assets/chapter05/backend/profiles-endpoint.png)
+
+![travelhistory](/assets/chapter05/backend/travelhistorycontroller-endpoint.png)
+
+##### PD: FALTA GARAGE
 
 
 ## Conclusiones
