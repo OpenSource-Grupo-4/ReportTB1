@@ -76,6 +76,12 @@
           <th>G4 WeTech</th>
           <th>Se desplegó la primera versión de los Web Services.</th>
         </tr>
+        <tr>
+          <th>V4.0</th>
+          <th>16.11.25</th>
+          <th>G4 WeTech</th>
+          <th>Se realizó la documentación respectiva.</th>
+        </tr>        
     </thead>
     <tbody></tbody>
 </table>
@@ -244,10 +250,13 @@ logro del student outcome.
         TP1: Me reuní presencial y virtualmente para la creación de cada bounded context (componente de la aplicación) y planeación de db.json.<br>
   <strong>Castro Pariona Jefferson Ernesto</strong><br>
   TP1: Participé en el diseño de bounded contexts y en la planificación de la base de datos (db.json), además de colaborar en la integración y pruebas iniciales del frontend.<br>
+  <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
+  TB2: Me reuní presencial y virtualmente para la creación de cada bounded context (componente de la aplicación), organización de cada actividad individual y despliegue de Backend.<br>
       </td>
       <td>
         TB1: Como equipo, logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, elaboración de User Stories, mockups, wireframes, entre otros.<br>
-        TP1: Logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, reformulación de User Stories, creación de Web Application, entre otros.
+        TP1: Logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, reformulación de User Stories, creación de Web Application, entre otros.<br>
+        TB2: Logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, creación de Backend Application, entre otros.<br>
       </td>
     </tr>
     <tr>
@@ -263,10 +272,14 @@ logro del student outcome.
         TP1: Se completó el desarrollo y deploy de Frontend Web Applications, se reformularon los User Stories, se desarrollaron los bounded context y creación de db.json.<br>
   <strong>Castro Pariona Jefferson Ernesto</strong><br>
   TP1: Contribuí al desarrollo y pruebas del frontend, además de colaborar en la creación y verificación de db.json y la documentación técnica asociada.<br>
+  <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
+  TB2: Se completó el desarrollo y deploy de Backend Application, se desarrollaron los bounded context y documentación respectiva.<br>
       </td>
       <td>
         TB1: Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada. <br>
         TP1: Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada.<br>
+        TB2: Logramos la comunicación y efectividad esperada.
+        Entre las actividades individuales, bounded context y deploy del servicio.<br>
       </td>
     </tr>
   </tbody>
