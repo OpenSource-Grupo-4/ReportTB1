@@ -1158,6 +1158,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ---
 
 ## 5.4. Video About The Product
+<img src="./assets/chapter05/about-the-product.png" alt="Imagen Entrevistado" width="90%" style="text-align: center;"/>
+
+<a href="https://www.youtube.com/watch?v=UVP-NVpaT6Y" target="_blank" rel="noopener">Ver Video del Producto</a>
 
 ## Conclusiones
 - El proyecto de micromovilidad eléctrica compartida responde a necesidades reales de movilidad en áreas urbanas peruanas: congestión, tiempos de traslado elevados, y demanda por alternativas más económicas y sostenibles. La combinación de scooters, bicicletas y motos eléctricas gestionadas desde una única plataforma web representa una propuesta con alto potencial de adopción, especialmente en segmentos juveniles y corporativos.
