@@ -608,6 +608,87 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](/assets/chapter05/insightR.png)
 
+## 5.3 Validation Interviews
+
+### 5.3.1 Diseño de Entrevistas
+
+**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
+
+**Preguntas principales (Landing Page):**
+
+- "¿Qué entiendes que ofrece WeRide al ver la landing page?"
+  
+- "¿Cuál es el elemento que más te llama la atención o te genera confianza? (ej. precios, testimonios, método de pago)"
+  
+- "¿Qué información te falta para sentirte seguro al registrarte?"
+  
+- "¿Qué cambiarías en el diseño o en el copy para que la propuesta sea más clara?"
+
+- "¿El llamado a la acción (CTA) es claro y te invita a registrarte o saber más?"
+  
+- "¿Las imágenes y gráficos reflejan la experiencia real del servicio?"
+
+- "¿Confías en las formas de pago mostradas en la landing? ¿Por qué sí/no?"
+  
+- "¿La landing carga rápido y se ve bien en tu dispositivo móvil?"
+  
+**Preguntas principales (Frontend Web Application):**
+
+- "Si elegiste 'Continuar como invitado', ¿te quedó claro qué funcionalidades tendrías disponibles sin registrarte?"
+
+- "Al llegar a WeRide por primera vez, ¿qué impresión te causó la página de inicio? ¿Te resultó clara la propuesta de valor?"
+
+- "Después de acceder, ¿te resultó intuitivo entender cómo navegar por la aplicación? ¿Qué fue lo primero que intentaste hacer?"
+
+- "Si tuvieras que buscar el historial de tus viajes anteriores, ¿dónde buscarías primero? ¿Te parece lógica esa ubicación?"
+  
+- "Al buscar un vehículo, ¿la información mostrada (imagen, batería, marca, disponibilidad, precio) fue suficiente para decidir?"
+
+- "Si todos los vehículos cercanos estuvieran ocupados, ¿qué esperarías que la app te ofreciera? (notificaciones, reserva anticipada, alternativas)"
+  
+- "Describe el proceso de crear una reserva: ¿hubo pasos poco claros o que te generaron dudas?"
+  
+- "¿Qué te pareció el proceso de pago y los formularios asociados (tarjeta, selección de plan)?"
+  
+- "¿Hubo algún momento en que te sentiste perdido/a o no supiste qué hacer a continuación?"
+
+**Segmento 2: Empresas y Planes Corporativos (B2B)**
+
+**Preguntas principales (Landing Page):**
+- “Al ver la landing de WeRide, ¿qué entendiste que ofrece la plataforma específicamente para empresas?”
+
+- “¿La propuesta de valor empresarial te pareció clara o orientada más al usuario final?”
+
+- “¿Qué elemento visual o textual te transmitió mayor confianza para un uso corporativo?”
+
+- “¿Qué información clave te faltó para evaluar si esto es viable para tu empresa? (precios, soporte, infraestructura, contratos, SLA, mantenimiento…)”
+
+- “¿El CTA te orientó a una solución empresarial (‘solicitar demo’, ‘agendar llamada’, etc.) o lo sentiste más de consumo público?”
+
+- “¿Consideras que la landing diferencia bien entre los servicios B2C y B2B?”
+
+- “¿El diseño te transmite profesionalismo suficiente para un proveedor corporativo?”
+
+**Preguntas principales (Frontend Web Application):**
+- “¿Los empleados deberían poder reservar vehículos? ¿O prefieres uso inmediato sin reserva?”
+
+- “En una operación real, ¿cuánto antes se planifican los desplazamientos?”
+
+- “¿Se necesitarían restricciones personalizadas (por sede, por tipo de vehículo, por horas)?”
+
+- “Si todos los vehículos estuvieran ocupados, ¿qué solución esperas? (lista de espera, reserva prioritaria por cargo/área, flota adicional, alertas)”
+
+- “¿Qué tipo de procesos necesitan aprobación previa?”
+
+- “¿Qué modelo se adapta mejor a tu empresa: pago por uso, suscripción mensual, leasing de flota, tarifa fija por empleado?”
+
+- “¿La interfaz te transmite suficiente profesionalismo para un uso corporativo?”
+  
+---
+### 5.3.2 Registro de Entrevistas
+### 5.3.3 Evaluaciones según heuristicas
+
+## 5.4. Video About The Product
 
 ## Conclusiones
 - El proyecto de micromovilidad eléctrica compartida responde a necesidades reales de movilidad en áreas urbanas peruanas: congestión, tiempos de traslado elevados, y demanda por alternativas más económicas y sostenibles. La combinación de scooters, bicicletas y motos eléctricas gestionadas desde una única plataforma web representa una propuesta con alto potencial de adopción, especialmente en segmentos juveniles y corporativos.

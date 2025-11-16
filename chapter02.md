@@ -116,7 +116,7 @@ Del mismo modo, abordaremos las amenazas del mercado como la competencia naciona
 
 ### 2.2.1.Diseño de entrevistas.  
 **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
--**Preguntas principales:**
+**Preguntas principales:**
 
 
 - "¿Cómo te transportas actualmente en tu día a día?"
