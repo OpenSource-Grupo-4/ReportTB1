@@ -694,90 +694,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
   </div>
   <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
     <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 55</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
-      Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Cervantes Marreros, Melany</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Cervantes Marreros, Angelo Paolo</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Femenino / Edad: 19 / Residencia: Punchana
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="https://youtu.be/zXrmZiJsDoo" target="_blank" rel="noopener">https://youtu.be/zXrmZiJsDoo</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 16:18</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">[Escribe aquí el resumen de la entrevista]</div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 56</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
-      Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Cervantes Marreros, Melany</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Cervantes Marreros, Angelo Paolo</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Femenino / Edad: 19 / Residencia: Punchana
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="https://youtu.be/zXrmZiJsDoo" target="_blank" rel="noopener">https://youtu.be/zXrmZiJsDoo</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 16:18</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">[Escribe aquí el resumen de la entrevista]</div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 57</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
+      <strong>Vista Previa:</strong><br/>
+      <img src="./assets/chapter05/entrevista-segmento-1.png"/><br>
       Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
     </div>
   </div>
@@ -819,8 +737,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
   </div>
   <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
     <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 58</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
+      <strong>Vista Previa:</strong><br/>
+      <img src="./assets/chapter05/entrevista-segmento-2.png"/><br>
       Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
     </div>
   </div>
@@ -849,88 +767,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
       <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
         <strong>Resumen de Entrevista:</strong>
         <div style="margin-top:8px; white-space:pre-wrap;">Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción práctica para desplazamientos cortos si la propuesta es clara y el proceso de registro/pago es sencillo. Confían más si ven precios visibles, testimonios y métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco intuitivas (CTA poco visibles, botones inactivos).</div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 59</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
-      Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Cervantes Marreros, Melany</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Cervantes Marreros, Angelo Paolo</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Femenino / Edad: 19 / Residencia: Punchana
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="https://youtu.be/zXrmZiJsDoo" target="_blank" rel="noopener">https://youtu.be/zXrmZiJsDoo</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 16:18</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">[Escribe aquí el resumen de la entrevista]</div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Tabla 60</strong><br/>
-      <img src="./imagesChapter02/bigPicture/bigpicture1.png"/><br>
-      Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Cervantes Marreros, Melany</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Cervantes Marreros, Angelo Paolo</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Femenino / Edad: 19 / Residencia: Punchana
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="https://youtu.be/zXrmZiJsDoo" target="_blank" rel="noopener">https://youtu.be/zXrmZiJsDoo</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 16:18</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">[Escribe aquí el resumen de la entrevista]</div>
       </td>
     </tr>
   </table>
