@@ -64,6 +64,26 @@ Esta guía define las decisiones y acuerdos fundamentales para el desarrollo, ma
     <td><h4>Angular</h4>Framework robusto para el desarrollo de aplicaciones web modernas y escalables, basado en el patrón de Single Page Application (SPA),  facilita la creación de interfaces dinámicas mediante TypeScript.</td>
   </tr>
   <tr>
+    <td></td>
+    <td><h4>IntelliJIdea</h4>Entorno de desarrollo integrado (IDE) utilizado principalmente para el desarrollo en Java, que ofrece herramientas avanzadas para la codificación, depuración y pruebas.</td>
+  </tr>
+  <tr>
+  <td></td>
+    <td><h4>Java</h4>Lenguaje de programación orientado a objetos, utilizado para desarrollar aplicaciones robustas y portables.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Springboot</h4>Framework para el desarrollo de aplicaciones Java basadas en microservicios, que facilita la creación de aplicaciones robustas y escalables.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>Swagger</h4>Herramienta para diseñar, construir, documentar y consumir APIs RESTful.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><h4>MySQLWorkbench</h4>Herramienta visual para el diseño, modelado, generación y administración de bases de datos MySQL.</td>
+  </tr>
+  <tr>
     <td>Software Deployment</td>
     <td><h4>Github Pages</h4>Plataforma que nos permite realizar el despliegue de nuestro landing page.</td>
   </tr>
