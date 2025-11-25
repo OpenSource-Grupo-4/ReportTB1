@@ -1044,11 +1044,21 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## Anexos.
 
+![About The Team]()
+
+![About The Product](https://www.youtube.com/watch?v=UVP-NVpaT6Y)
+
 ![Organización](https://github.com/OpenSource-Grupo-4)
 
 ![Reporte del Proyecto](https://github.com/OpenSource-Grupo-4/ReportTB1)
 
 ![Repositorio de Frontend Web Application](https://github.com/OpenSource-Grupo-4/Frontend-WeRide)
+
+![Deploy de Frontend Web Application](https://frontend-we-ride-lake.vercel.app)
+
+![Repositorio de Backend Web Services](https://github.com/OpenSource-Grupo-4/Backend-WeRide)
+
+![Deploy de Backend Web Services](http://20.81.154.140:8080/swagger-ui/index.html)
 
 ![Repositorio de Landing Page](https://github.com/OpenSource-Grupo-4/Landing-Page)
 
