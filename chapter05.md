@@ -629,6 +629,26 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
+## 5.2.3. Sprint 4
+### 5.2.3.1.Sprint Planning 4.
+### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.3.Sprint Backlog 4.
+
+| ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
+|----|----------------|--------------|--------------------|--------------|--------|
+| US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
+| US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
+| US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
+| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
+| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+
 ## 5.3 Validation Interviews
 
 ### 5.3.1 Diseño de Entrevistas
