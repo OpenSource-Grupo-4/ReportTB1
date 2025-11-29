@@ -51,39 +51,38 @@
 </div>
 
 <table>
-    <thead>
-        <tr>
-            <th>Versión</th>
-            <th>Fecha</th>
-            <th>Autor</th>
-            <th>Descripción de modificación</th>
-        </tr>
-<tr>
-            <th>V1.0</th>
-            <th>21.09.25</th>
-            <th>G4 WeTech</th>
-            <th>Se realizo los 5 capítulos del informe y se desplegó la primera versión del landing page.</th>
-        </tr>
-        <tr>
-            <th>V2.0</th>
-            <th>10.09.25</th>
-            <th>G4 WeTech</th>
-            <th>Se desplegó la primera versión de la Web Application y documentación respectiva.</th>
-        </tr>
-        <tr>
-          <th>V3.0</th>
-          <th>30.10.25</th>
-          <th>G4 WeTech</th>
-          <th>Se desplegó la primera versión de los Web Services.</th>
-        </tr>
-        <tr>
-          <th>V4.0</th>
-          <th>16.11.25</th>
-          <th>G4 WeTech</th>
-          <th>Se realizó la documentación respectiva.</th>
-        </tr>        
-    </thead>
-    <tbody></tbody>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+    <tr>
+      <th>V1.0</th>
+      <th>21.09.25</th>
+      <th>G4 WeTech</th>
+      <th>Se realizo los 5 capítulos del informe y se desplegó la primera versión del landing page.</th>
+    </tr>
+    <tr>
+      <th>V2.0</th>
+      <th>10.09.25</th>
+      <th>G4 WeTech</th>
+      <th>Se desplegó la primera versión de la Web Application y documentación respectiva.</th>
+    </tr>
+    <tr>
+      <th>V3.0</th>
+      <th>30.10.25</th>
+      <th>G4 WeTech</th>
+      <th>Se desplegó la primera versión de los Web Services.</th>
+    </tr>
+    <tr>
+      <th>V4.0</th>
+      <th>16.11.25</th>
+      <th>G4 WeTech</th>
+      <th>Se realizó la documentación respectiva.</th>
+    </tr>        
+  </thead>
 </table>
 
 # Project Report Collaboration Insights
@@ -241,45 +240,54 @@ logro del student outcome.
       <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        TB1: Me reuní presencial y virtualmente de manera efectiva para coordinar cada una de nuestra partes en el desarrollo del presente proyecto.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Reuniones presenciales y virtuales para coordinar el desarrollo del proyecto.</li>
+          <li><b>TP1:</b> Coordinación presencial y virtual para la creación de bounded contexts y planeación de db.json.</li>
+          <li><b>TB2:</b> Organización de actividades individuales y despliegue de Backend.</li>
+        </ul>
         <strong>Romero Meza Jhimy Pool</strong><br>
-        TB1: Presenté y expliqué de manera clara y efectiva los wireframes, mockups y otros puntos clave del proyecto, facilitando la comprensión de las propuestas al equipo y asegurando una comunicación alineada durante el desarrollo.<br>
-  <strong>Castro Pariona Jefferson Ernesto</strong><br>
-  TB1: Coordiné reuniones presenciales y virtuales, presenté propuestas de solución y participé en la revisión de wireframes y mockups para asegurar la alineación del equipo.<br>
-        <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        TP1: Me reuní presencial y virtualmente para la creación de cada bounded context (componente de la aplicación) y planeación de db.json.<br>
-  <strong>Castro Pariona Jefferson Ernesto</strong><br>
-  TP1: Participé en el diseño de bounded contexts y en la planificación de la base de datos (db.json), además de colaborar en la integración y pruebas iniciales del frontend.<br>
-  <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-  TB2: Me reuní presencial y virtualmente para la creación de cada bounded context (componente de la aplicación), organización de cada actividad individual y despliegue de Backend.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Presentación y explicación clara de wireframes, mockups y puntos clave, facilitando la comprensión y alineación del equipo.</li>
+        </ul>
+        <strong>Castro Pariona Jefferson Ernesto</strong><br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Coordinación de reuniones, presentación de propuestas y revisión de wireframes y mockups para asegurar la alineación.</li>
+          <li><b>TP1:</b> Participación en diseño de bounded contexts, planificación de db.json, integración y pruebas iniciales del frontend.</li>
+        </ul>
       </td>
       <td>
-        TB1: Como equipo, logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, elaboración de User Stories, mockups, wireframes, entre otros.<br>
-        TP1: Logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, reformulación de User Stories, creación de Web Application, entre otros.<br>
-        TB2: Logramos comunicarnos de manera efectiva en distintos contextos y audiencias, coordinando nuestras actividades mediante presentaciones claras, creación de Backend Application, entre otros.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Comunicación efectiva en distintos contextos y audiencias, coordinación mediante presentaciones claras, User Stories, mockups y wireframes.</li>
+          <li><b>TP1:</b> Comunicación efectiva, coordinación y reformulación de User Stories, creación de Web Application.</li>
+          <li><b>TB2:</b> Comunicación efectiva, coordinación en actividades individuales, creación y despliegue de Backend Application.</li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
       <td>
         <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        TB1: Se completó el deploy de Landing Page, modificación de wireframes &amp; mockups, documentación de Capítulo I, II, IV &amp; V.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Deploy de Landing Page, modificación de wireframes y mockups, documentación de capítulos I, II, IV y V.</li>
+          <li><b>TP1:</b> Desarrollo y deploy de Frontend Web Application, reformulación de User Stories, desarrollo de bounded contexts y creación de db.json.</li>
+          <li><b>TB2:</b> Desarrollo y deploy de Backend Application, desarrollo de bounded contexts y documentación respectiva.</li>
+        </ul>
         <strong>Romero Meza Jhimy Pool</strong><br>
-        TB1: Documenté y presenté de manera clara los wireframes, mockups y otros avances del proyecto, lo que facilitó la comprensión y el análisis por parte del equipo.<br>
-  <strong>Castro Pariona Jefferson Ernesto</strong><br>
-  TB1: Documenté capítulos del informe (I, III y V), redacté y revisé User Stories y contribuí a la documentación del repositorio y al README.<br>
-        <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        TP1: Se completó el desarrollo y deploy de Frontend Web Applications, se reformularon los User Stories, se desarrollaron los bounded context y creación de db.json.<br>
-  <strong>Castro Pariona Jefferson Ernesto</strong><br>
-  TP1: Contribuí al desarrollo y pruebas del frontend, además de colaborar en la creación y verificación de db.json y la documentación técnica asociada.<br>
-  <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-  TB2: Se completó el desarrollo y deploy de Backend Application, se desarrollaron los bounded context y documentación respectiva.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Documentación y presentación clara de wireframes, mockups y avances, facilitando la comprensión y análisis del equipo.</li>
+        </ul>
+        <strong>Castro Pariona Jefferson Ernesto</strong><br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Documentación de capítulos I, III y V, redacción y revisión de User Stories, contribución a la documentación del repositorio y README.</li>
+          <li><b>TP1:</b> Desarrollo y pruebas del frontend, colaboración en creación y verificación de db.json y documentación técnica asociada.</li>
+        </ul>
       </td>
       <td>
-        TB1: Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada. <br>
-        TP1: Logramos una comunicación efectiva tanto oral como escrita, permitiendo coordinar actividades y sincronizar nuestros avances en el proyecto de manera organizada.<br>
-        TB2: Logramos la comunicación y efectividad esperada.
-        Entre las actividades individuales, bounded context y deploy del servicio.<br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
+          <li><b>TP1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
+          <li><b>TB2:</b> Comunicación y efectividad esperada en actividades individuales, bounded context y deploy del servicio.</li>
+        </ul>
       </td>
     </tr>
   </tbody>

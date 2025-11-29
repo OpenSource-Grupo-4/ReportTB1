@@ -316,19 +316,19 @@ Esta sección se expone la arquitectura de software del proyecto WeRide. La prop
 
 **Command Bounded Context**
 
-![EventStorming](/assets/Chapter04/eventStorming/event-storming1.jpg)
+![EventStorming](assets/Chapter04/eventStorming/event-storming1.jpg)
 
 **Vehicle Managment Bounded Context**
 
-![EventStorming](/assets/Chapter04/eventStorming/event-storming2.jpg)
+![EventStorming](assets/Chapter04/eventStorming/event-storming2.jpg)
 
 **Level & Storm Managment Bounded Context**
 
-![EventStorming](/assets/Chapter04/eventStorming/event-storming3.jpg)
+![EventStorming](assets/Chapter04/eventStorming/event-storming3.jpg)
 
 **Payment Managment Bounded Context**
 
-![EventStorming](/assets/Chapter04/eventStorming/event-storming4.jpg)
+![EventStorming](assets/Chapter04/eventStorming/event-storming4.jpg)
 
 ---
 

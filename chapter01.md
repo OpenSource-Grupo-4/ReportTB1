@@ -11,125 +11,135 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
 <table>
     <thead>
         <tr>
-          <th>Misión</th>
-          <th>Visión</th>
-          <th>Valores</th>
-        </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>Impulsar la transición hacia una movilidad urbana sostenible en el Perú, ofreciendo alternativas de transporte compartido que reduzcan el tráfico y mejoren la calidad de vida de nuestros usuarios.</th>
-        <th>Ser la opción principal en micromovilidad eléctrica reconocida por su innovación, impacto social y contribución a ciudades más limpias y conectadas.</th>
-        <th>
-          Confidencialidad: Garantizar a los clientes de la protección de los vehículos y datos proporcionados.
-          Innovación: Mejorar el servicio continuamente para proporcionar una plataforma actualizada.
-        </th>
-      </tr>
-    </tbody>
-</table>
-
-### 1.1.2. Perfiles de integrantes del equipo
-
+        <table>
+          <thead>
+            <tr>
+              <th>Misión</th>
+              <th>Visión</th>
+              <th>Valores</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ul style="margin:0; padding-left:18px;">
+                  <li>Impulsar la transición hacia una movilidad urbana sostenible en el Perú.</li>
+                  <li>Ofrecer alternativas de transporte compartido que reduzcan el tráfico.</li>
+                  <li>Mejorar la calidad de vida de nuestros usuarios.</li>
+                </ul>
+              </td>
+              <td>
+                <ul style="margin:0; padding-left:18px;">
+                  <li>Ser la opción principal en micromovilidad eléctrica.</li>
+                  <li>Reconocidos por innovación, impacto social y ciudades más limpias y conectadas.</li>
+                </ul>
+              </td>
+              <td>
+                <ul style="margin:0; padding-left:18px;">
+                  <li>Confidencialidad: Protección de vehículos y datos de clientes.</li>
+                  <li>Innovación: Mejora continua del servicio y plataforma.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 <table>
-    <thead>
-        <tr>
-            <th>Integrantes</th>
-            <th>Foto</th>
-            <th>Descripción del perfil</th>
-        </tr>
-    </thead>
-    <tbody>
-         <tr>
-            <td>Castro Pariona, Jefferson Ernesto</td>
-            <td><img src="assets/Integrantes/profile.jpeg" alt="Jeff's photo" /></td>
-            <td>Soy estudiante de la carrera de Ingeniería de Software y me gustaría trabajar para grandes empresas y tener mi propio negocio. Soy motivador y me gusta trabajar en equipo.</td>
-        </tr>
-        <tr>
-            <td>Bonifacio Jaramillo, Samuel Jesus</td>
-            <td><img src="/assets/Integrantes/Samuel.png" alt="Foto de Samuel" /></td>
-            <td>Estudiante de la carrera de ingenieria de Software en la UPC.  Actualmente me encuentro en 5to ciclo. Cuento con experiencia desarrollando aplicaciones en Javascript, C++, Typescript, React entre otros. Me apasiona la inteligencia artificial, ajedrez, música y el fútbol.</td>
-        </tr>
-        <tr>
-          <td>Romero Meza, Jhimy Pool</td>
-            <td><img src="./assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" /></td>
-            <td>Soy estudiante de la carrera de Ingeniería de Software en la UPC, actualmente cursando el 5to ciclo. Me apasiona la tecnología y cuento con conocimientos previos en el área, lo que me permite aportar valor en el desarrollo de proyectos. Me considero una persona responsable, comprometida con la entrega puntual de los trabajos y con la calidad de los resultados. Estoy dispuesto a colaborar activamente y compartir lo que sé para contribuir al éxito de mi equipo y la creación de proyectos sólidos e innovadores.</td>
-        </tr>
-        <tr>
-          <td>Seminario Castillo, Diego Vicente</td>
-            <td><img src="./assets/Integrantes/Diego.png" alt="Foto de Diego" /></td>
-            <td>Soy Diego, estudiante de Ingeniería de Software en la UPC. La tecnología me apasiona y tengo los conocimientos necesarios para contribuir en el desarrollo de proyectos con un enfoque práctico e innovador. Me caracteriza mi responsabilidad y compromiso para cumplir con los plazos y ofrecer resultados de calidad. Siempre dispuesto a colaborar y aportar lo que sé para asegurar el éxito de mis proyectos y de mi equipo.
-            </tr>
- <tr>
-          <td>Morales Sosa, Arnold Gabriel</td>
-            <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
-            <td>Estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. Tengo conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.
-            </tr>
-    
-        
-    
+  <thead>
+    <tr>
+      <th>Integrantes</th>
+      <th>Foto</th>
+      <th>Descripción del perfil</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Castro Pariona, Jefferson Ernesto</td>
+      <td><img src="assets/Integrantes/profile.jpeg" alt="Jeff's photo" /></td>
+      <td>
+        <ul style="margin:0; padding-left:18px;">
+          <li>Estudiante de Ingeniería de Software.</li>
+          <li>Motivador, trabajo en equipo.</li>
+          <li>Interés en grandes empresas y emprendimiento propio.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Bonifacio Jaramillo, Samuel Jesus</td>
+      <td><img src="assets/Integrantes/Samuel.png" alt="Foto de Samuel" /></td>
+      <td>
+        <ul style="margin:0; padding-left:18px;">
+          <li>Estudiante de Ingeniería de Software (5to ciclo).</li>
+          <li>Experiencia en Javascript, C++, Typescript, React.</li>
+          <li>Apasionado por IA, ajedrez, música y fútbol.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Romero Meza, Jhimy Pool</td>
+      <td><img src="./assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" /></td>
+      <td>
+        <ul style="margin:0; padding-left:18px;">
+          <li>Estudiante de Ingeniería de Software (5to ciclo).</li>
+          <li>Responsable, comprometido y colaborativo.</li>
+          <li>Conocimientos previos en tecnología y desarrollo de proyectos.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Seminario Castillo, Diego Vicente</td>
+      <td><img src="./assets/Integrantes/Diego.png" alt="Foto de Diego" /></td>
+      <td>
+        <ul style="margin:0; padding-left:18px;">
+          <li>Estudiante de Ingeniería de Software.</li>
+          <li>Responsable y comprometido con resultados de calidad.</li>
+          <li>Enfoque práctico e innovador, colaboración activa.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Morales Sosa, Arnold Gabriel</td>
+      <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
+      <td>
+        <ul style="margin:0; padding-left:18px;">
+          <li>Estudiante de Ingeniería de Software.</li>
+          <li>Experiencia en ensamblaje, mantenimiento, conectividad y desarrollo de software.</li>
+          <li>Conocimientos en C++, Python, Javascript, agile scrum, SQL, NOSQL, vue.js, jerkins.</li>
+          <li>Responsable, proactivo, creativo y facilidad para trabajo en equipo.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-## 1.2. Solution Profile
+1. El valor número 1 que un cliente quiere de mi servicio es la **disponibilidad y confiabilidad**: poder encontrar un vehículo cercano y operativo cuando lo necesita, sin retrasos ni fricciones.  
 
-WeRide es una aplicación que consta de un sistema integral de micro movilidad eléctrica compartida para los usuarios en Lima,Perú.  La plataforma permite que los usuarios puedan realizar reservas de motos eléctricas, scooters y bicicletas inteligentes equipadas con GPS, IoT y bloqueo remoto. A su misma vez, pueden ubicar, reservar y desbloquear cualquier vehículo desde esta app, pagando por uso único o por una suscripción con planes flexibles. WeRide busca ofrecer alternativas de transporte rápido, económico y sostenible en zonas urbanas con alta tasa de tráfico, con la ventaja de ser un servicio local, adaptado a la realidad peruana.
-
-### 1.2.1. Antecedentes y problemática
-
-Para el análisis de los antecedentes y la problemática, se utilizara la técnica de las 5W y 2H.
-
-#### 1.2.2.1. Lean UX Problem Statements.
-
-El propósito de **WeRide** es empoderar a los ciudadanos de Lima, especialmente jóvenes profesionales y estudiantes, con una solución de micromovilidad eléctrica compartida, asequible y fácil de usar, que transforme la experiencia de transporte urbano de una rutina lenta, costosa y contaminante a una alternativa rápida, sostenible y basada en tecnología de punta.
-
-El problema se manifiesta cuando los usuarios, ***debido a la congestión vehicular, la falta de opciones de transporte eficientes y la incertidumbre sobre la disponibilidad de vehículos***, toman decisiones de **movilidad subóptimas**. Actualmente, dependen de transporte público saturado, taxis costosos o vehículos privados, lo que no se adapta a las necesidades dinámicas de la ciudad ni a la urgencia de sus desplazamientos diarios.
-
-Hemos observado que esta situación conduce a un ciclo vicioso: el transporte ineficiente no solo genera pérdida de tiempo y altos costos, sino que también incrementa la contaminación y el estrés diario, afectando la calidad de vida de los usuarios. Esta insatisfacción, a su vez, limita la adopción de alternativas sostenibles y tecnológicas que podrían romper dicho ciclo. Ante esta problemática, surge la pregunta: **¿Cómo podríamos proporcionar a los ciudadanos una forma sencilla y económica de encontrar, reservar y usar vehículos eléctricos compartidos, permitiéndoles tomar el control de su movilidad diaria de manera eficiente y ecológica?**
-
-**Domain:** Micromovilidad Eléctrica, Smart Mobility, Internet de las Cosas (IoT).  
-**Customer Segments:** Jóvenes profesionales, estudiantes universitarios y trabajadores urbanos en Lima, Perú.  
-**Pain Points:** Pérdida de tiempo por tráfico, altos costos de transporte, contaminación, incertidumbre sobre disponibilidad de vehículos, falta de opciones sostenibles y accesibles.  
-**Gap:** No existe en el mercado peruano una solución integral de hardware y software para la micromovilidad eléctrica compartida que esté diseñada específicamente para ser accesible, asequible y fácil de usar por usuarios urbanos con diferentes niveles de experiencia tecnológica.  
-**Vision/Strategy:** Crear un ecosistema tecnológico que democratice el acceso a la micromovilidad eléctrica, comenzando con la optimización del uso de scooters, bicicletas y motos eléctricas, para mejorar la sostenibilidad, eficiencia y calidad de vida en las ciudades peruanas.  
-**Initial Segment:** Jóvenes universitarios y profesionales en Lima Metropolitana, quienes presentan mayor disposición a adoptar tecnología y buscan alternativas de transporte rápidas, económicas y sostenibles.
-
-#### 1.2.2.2. Lean UX Assumptions
-
-**Business Outcomes**  
-1. Mis clientes necesitan una solución rápida, confiable y accesible para desplazarse en Lima sin depender de autos privados o transporte público congestionado.  
-
-2. Estas necesidades se pueden resolver con una plataforma tecnológica que integre **reservas en tiempo real**, **geolocalización de vehículos** y **pagos digitales**, permitiendo una experiencia fluida y segura de uso compartido de motos eléctricas, scooters y bicicletas.  
-
-3. Mis clientes iniciales serán **jóvenes profesionales, estudiantes universitarios y trabajadores de oficina** que buscan transporte rápido y económico en zonas con alta congestión vehicular.  
-
-4. El valor número 1 que un cliente quiere de mi servicio es la **disponibilidad y confiabilidad**: poder encontrar un vehículo cercano y operativo cuando lo necesita, sin retrasos ni fricciones.  
-
-5. El cliente también puede obtener estos beneficios adicionales:  
+2. El cliente también puede obtener estos beneficios adicionales:  
    - Ahorro de tiempo en sus traslados diarios.  
    - Costos más bajos en comparación con taxis o vehículos privados.  
    - Contribución a la sostenibilidad y reducción de emisiones de CO₂.  
    - Flexibilidad de pago por uso o planes de suscripción.  
    - Seguridad gracias a rastreo GPS, bloqueo remoto y soporte en tiempo real.  
 
-6. Vamos a adquirir la mayoría de los clientes a través de estrategias de marketing digital, incluyendo redes sociales, campañas en Google Ads, influencers de movilidad sostenible, promociones para primeros usuarios y alianzas con universidades y empresas que incentiven el uso de transporte eco-friendly.  
+3. Vamos a adquirir la mayoría de los clientes a través de estrategias de marketing digital, incluyendo redes sociales, campañas en Google Ads, influencers de movilidad sostenible, promociones para primeros usuarios y alianzas con universidades y empresas que incentiven el uso de transporte eco-friendly.  
 
-7. Haré dinero a través de:  
+4. Haré dinero a través de:  
    - **Pagos por uso** (cobro por minuto o kilómetro).  
    - **Planes de suscripción** para usuarios frecuentes con descuentos.  
    - **Alianzas corporativas** para proveer movilidad a empresas como beneficio a sus empleados.  
 
-8. Mi competencia principal en el mercado serán servicios de movilidad existentes como **InDrive, Cabify, scooters particulares y transporte público informal**.  
+5. Mi competencia principal en el mercado serán servicios de movilidad existentes como **InDrive, Cabify, scooters particulares y transporte público informal**.  
 
-9. Los venceremos gracias a:  
+6. Los venceremos gracias a:  
    - Enfoque exclusivo en **vehículos eléctricos** con bajo impacto ambiental.  
    - Experiencia local adaptada a la realidad peruana (rutas, precios, disponibilidad).  
    - **Soporte técnico en tiempo real** y garantías de seguridad en cada viaje.  
    - Plataforma intuitiva y amigable para reservar, pagar y desbloquear en segundos.  
 
-10. Mi mayor riesgo es que los vehículos no estén disponibles en el momento que el usuario los necesita o que la experiencia técnica (app, GPS, pagos) falle, lo que afectaría la confianza en el servicio.  
+7.  Mi mayor riesgo es que los vehículos no estén disponibles en el momento que el usuario los necesita o que la experiencia técnica (app, GPS, pagos) falle, lo que afectaría la confianza en el servicio.  
 
-11. Resolveremos esto a través de una **gestión de flota inteligente**, mantenimiento preventivo, algoritmos de redistribución de vehículos en zonas de alta demanda, pruebas continuas de la app y un equipo de soporte disponible para resolver incidencias rápidamente.  
+8.  Resolveremos esto a través de una **gestión de flota inteligente**, mantenimiento preventivo, algoritmos de redistribución de vehículos en zonas de alta demanda, pruebas continuas de la app y un equipo de soporte disponible para resolver incidencias rápidamente.  
 
-12. **Otras suposiciones:**  
+9.  **Otras suposiciones:**  
    - Los usuarios estarán dispuestos a cambiar de transporte tradicional a micro movilidad eléctrica si el precio es competitivo.  
    - Los vehículos serán seguros y resistentes para el tráfico limeño.  
    - La infraestructura urbana (ciclovías, estacionamientos) será suficiente para operar sin problemas.  

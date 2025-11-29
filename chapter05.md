@@ -97,7 +97,8 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 
 - URL del repositorio Report en GitHub: https://github.com/OpenSource-Grupo-4/ReportTB1
 - URL del repositorio Landing Page en GitHub: https://github.com/OpenSource-Grupo-4/Landing-Page
-- - Url del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+- URL del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+- URL del respositorio de los Web Services en GitHub:https://github.com/OpenSource-Grupo-4/Backend-WeRide
 
 ---
 
@@ -126,7 +127,7 @@ Los componentes estan estructurados según DDD (Domain-Driven Design), donde cad
 Utilizaremos GitHub Pages para alojar nuestra Landing Page. Para lograrlo, subiremos los archivos esenciales (HTML, CSS, etc.) a un repositorio público en GitHub. De
 esta manera, nuestra página estará disponible en línea y accesible para todos los usuarios.
 
-![GithubReportRepo](/assets/chapter05/github-repo.png)
+![GithubReportRepo](assets/chapter05/github-repo.png)
 
 ##### Web Application:
 
@@ -229,7 +230,7 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 **Reporte de commits:**
 
-![Commits](/assets/chapter05/landing-commits.png)
+![Commits](assets/chapter05/landing-commits.png)
 
 ---
 
@@ -239,7 +240,7 @@ En esta entrega, nos centramos en el desarrollo completo de la Landing Page para
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![NetworkGraph](/assets/chapter05/networkgraph.png)
+![NetworkGraph](assets/chapter05/networkgraph.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -249,8 +250,8 @@ Para esta primera entrega no hubo implementación de APIs, pues solo se realizó
 
 El objetivo del primer Sprint fue el desarrollo e implementación de la Landing Page. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
 
-1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](/assets/chapter05/organization-os.png)
-2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](/assets/chapter05/commits.png)
+1. Se creó una organización en GitHub y, dentro de ella, se crearon dos repositorios. Uno para el informe del trabajo y otro para la Landing Page ![GithubOrg](assets/chapter05/organization-os.png)
+2. Luego, a través de los commits, el equipo fue editando los archivos index.html y styles.css, además de ir añadiendo imágenes a utilizar en el directorio images. ![Commits-example](assets/chapter05/commits.png)
 3. Finalmente, se implementó GitHub Pages en el repositorio de GitHub y se desplegó la Landing Page, la que se puede visitar en el siguiente link: https://opensource-grupo-4.github.io/Landing-Page
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
@@ -258,10 +259,10 @@ El objetivo del primer Sprint fue el desarrollo e implementación de la Landing 
 A continuación, se adjuntan las capturas de evidencia de los insights de los repositorios del informe y Landing Page para evidenciar la participación de todos los miembros:
 
 - Insight Landing Page:
-![InsightLP](/assets/chapter05/insightLP.png)
+![InsightLP](assets/chapter05/insightLP.png)
 
 - Insight Report
-![InsightR](/assets/chapter05/insightR.png)
+![InsightR](assets/chapter05/insightR.png)
 
 ## 5.2.2. Sprint 2
 
@@ -346,7 +347,7 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 **Reporte de commits:**
 
-![CommitsSprint2](/assets/chapter05/commits-2.png)
+![CommitsSprint2](assets/chapter05/commits-2.png)
 
 ---
 
@@ -356,7 +357,7 @@ En esta entrega, nos centramos en el desarrollo completo del desarrollo de la **
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![ExecutionEvidence](/assets/chapter05/networkgraph-2.png)
+![ExecutionEvidence](assets/chapter05/networkgraph-2.png)
 
 ---
 
@@ -366,17 +367,17 @@ El db.json fue creado para simular una base de datos local y facilitar el desarr
 
 ***json server:***
 
-![db.json](/assets/chapter05/json-server.png)
+![db.json](assets/chapter05/json-server.png)
 ---
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 El objetivo del segundo Sprint fue el desarrollo e implementación de la Web Application. Para eso, utilizamos GitHub y GitHub Pages. El proceso del desarrollo fue el siguiente:
 
-1. Se creó un repositorio para el desarrollo de la Web Application en GitHub. ![GithubRepoWebApp](/assets/chapter05/frontend-repo.png)
-2. Se creó el entorno de desarrollo con Node.js y Angular usando WebStorm como IDE. ![NodeAngular](/assets/chapter05/webstorm-setup.png)
-3. Se desplegó el db.json con json-server para simular una base de datos local. ![JsonServer](/assets/chapter05/json-server.png)
-4. Se desarrollaron los componentes usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDD](/assets/chapter05/bounded-context.png)
+1. Se creó un repositorio para el desarrollo de la Web Application en GitHub. ![GithubRepoWebApp](assets/chapter05/frontend-repo.png)
+2. Se creó el entorno de desarrollo con Node.js y Angular usando WebStorm como IDE. ![NodeAngular](assets/chapter05/webstorm-setup.png)
+3. Se desplegó el db.json con json-server para simular una base de datos local. ![JsonServer](assets/chapter05/json-server.png)
+4. Se desarrollaron los componentes usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDD](assets/chapter05/bounded-context.png)
 5. Se desplegó el frontend en github pages para pruebas y visualización.
 
 ---
@@ -386,10 +387,10 @@ El objetivo del segundo Sprint fue el desarrollo e implementación de la Web App
 A continuación, se adjuntan las capturas de evidencia de los insights del repositorio del desarrollo de la Web Application para evidenciar la participación de todos los miembros:
 
 * Insight Web Application:
-  ![InsightWebApp](/assets/chapter05/commits-2.png)
+  ![InsightWebApp](assets/chapter05/commits-2.png)
 
 * Insight Report
-  ![InsightR](/assets/chapter05/insightR.png)
+  ![InsightR](assets/chapter05/insightR.png)
 
 ## 5.2.3. Sprint 3
 
@@ -474,7 +475,7 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 **Reporte de commits (captura):**
 
-![CommitsSprint3](/assets/chapter05/commits-3.png)
+![CommitsSprint3](assets/chapter05/commits-3.png)
 
 ---
 
@@ -484,7 +485,7 @@ En esta entrega, nos centramos en el desarrollo completo del desarrollo de los *
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
-![ExecutionEvidence](/assets/chapter05/networkgraph-backend.png)
+![ExecutionEvidence](assets/chapter05/networkgraph-backend.png)
 
 ---
 
@@ -496,113 +497,113 @@ Para verificar que la optención de datos se realice correctamente, utilizamos S
 
 *Schemas:*
 
-![updateprofileresource](/assets/chapter05/backend/updateprofileresource.png)
+![updateprofileresource](assets/chapter05/backend/updateprofileresource.png)
 
-![profileresource](/assets/chapter05/backend/profileresource.png)
+![profileresource](assets/chapter05/backend/profileresource.png)
 
-![createbookingresource](/assets/chapter05/backend/createbookingresource.png)
+![createbookingresource](assets/chapter05/backend/createbookingresource.png)
 
-![localtime](/assets/chapter05/backend/localtime.png)
+![localtime](assets/chapter05/backend/localtime.png)
 
-![bookingresource](/assets/chapter05/backend/bookingresource.png)
+![bookingresource](assets/chapter05/backend/bookingresource.png)
 
-![signupresource](/assets/chapter05/backend/signupresource.png)
+![signupresource](assets/chapter05/backend/signupresource.png)
 
-![signinresource](/assets/chapter05/backend/signinresource.png)
+![signinresource](assets/chapter05/backend/signinresource.png)
 
-![accountResource](/assets/chapter05/backend/accountresource.png)
+![accountResource](assets/chapter05/backend/accountresource.png)
 
-![authenticatedaccountresource](/assets/chapter05/backend/authenticatedaccountresource.png)
+![authenticatedaccountresource](assets/chapter05/backend/authenticatedaccountresource.png)
 
-![createtravelhistoryresource](/assets/chapter05/backend/createtravelhistoryresource.png)
+![createtravelhistoryresource](assets/chapter05/backend/createtravelhistoryresource.png)
 
-![user](/assets/chapter05/backend/user.png)
+![user](assets/chapter05/backend/user.png)
 
-![registerusercomand](/assets/chapter05/backend/registerusercommand.png)
+![registerusercomand](assets/chapter05/backend/registerusercommand.png)
 
-![pagebookingresource](/assets/chapter05/backend/pagebookingresource.png)
+![pagebookingresource](assets/chapter05/backend/pagebookingresource.png)
 
-![pageableobject](/assets/chapter05/backend/pageableobject.png)
+![pageableobject](assets/chapter05/backend/pageableobject.png)
 
-![sortobject](/assets/chapter05/backend/sortobject.png)
+![sortobject](assets/chapter05/backend/sortobject.png)
 
-![travelhistoryresource](/assets/chapter05/backend/travelhistoryresource.png)
+![travelhistoryresource](assets/chapter05/backend/travelhistoryresource.png)
 
-![reservation](/assets/chapter05/backend/reservation.png)
+![reservation](assets/chapter05/backend/reservation.png)
 
 *Swagger:*
 
 ##### Accounts
 
-![accounts](/assets/chapter05/backend/accounts-endpoint.png)  
+![accounts](assets/chapter05/backend/accounts-endpoint.png)  
 
-![accountsGet](/assets/chapter05/backend/accountsGet.png)
+![accountsGet](assets/chapter05/backend/accountsGet.png)
 
 ##### Authentication
 
-![auth](/assets/chapter05/backend/auth-endpoint.png)
+![auth](assets/chapter05/backend/auth-endpoint.png)
 
 ##### SignUp:
 
-![authenticationPost](/assets/chapter05/backend/authenticationPost.png)
+![authenticationPost](assets/chapter05/backend/authenticationPost.png)
 
 ##### SignIn:
 
-![authenticationPostSignIn](/assets/chapter05/backend/authenticationPostSignIn.png)
+![authenticationPostSignIn](assets/chapter05/backend/authenticationPostSignIn.png)
 
 ##### Auth:
 
-![authLogin](/assets/chapter05/backend/authPost.png)
+![authLogin](assets/chapter05/backend/authPost.png)
 
-![authRegister](/assets/chapter05/backend/authRegister.png)
+![authRegister](assets/chapter05/backend/authRegister.png)
 
 ##### Reservations:
 
-![reservations](/assets/chapter05/backend/reservationsGet.png)
+![reservations](assets/chapter05/backend/reservationsGet.png)
 
-![reservationsPost](/assets/chapter05/backend/reservationsPost.png)
+![reservationsPost](assets/chapter05/backend/reservationsPost.png)
 
-![reservationsPost2](/assets/chapter05/backend/reservationsPost2.png)
+![reservationsPost2](assets/chapter05/backend/reservationsPost2.png)
 
 ##### Profiles:
 
-![profiles](/assets/chapter05/backend/profiles-endpoint.png)
+![profiles](assets/chapter05/backend/profiles-endpoint.png)
 
-![profilesPut](/assets/chapter05/backend/profilesPut.png)
+![profilesPut](assets/chapter05/backend/profilesPut.png)
 
-![profilesGet](/assets/chapter05/backend/profilesGet.png)
+![profilesGet](assets/chapter05/backend/profilesGet.png)
 
 ##### Bookings:
 
-![booking](/assets/chapter05/backend/bookincontroller-endpoint.png)
+![booking](assets/chapter05/backend/bookincontroller-endpoint.png)
 
-![bookingGet](/assets/chapter05/backend/boookingGet.png)
+![bookingGet](assets/chapter05/backend/boookingGet.png)
 
-![bookingsPost](/assets/chapter05/backend/bookingsPost.png)
+![bookingsPost](assets/chapter05/backend/bookingsPost.png)
 
-![bookingsDraftPost](/assets/chapter05/backend/bookingsDraftPost.png)
+![bookingsDraftPost](assets/chapter05/backend/bookingsDraftPost.png)
 
-![bookingsIdGet](/assets/chapter05/backend/bookingsIdGet.png)
+![bookingsIdGet](assets/chapter05/backend/bookingsIdGet.png)
 
-![bookingsDraftGet](/assets/chapter05/backend/bookingsDraftGet.png)
+![bookingsDraftGet](assets/chapter05/backend/bookingsDraftGet.png)
 
 ##### Vehicles:
 
-![vehiclesGet](/assets/chapter05/backend/vehiclesGet.png)
+![vehiclesGet](assets/chapter05/backend/vehiclesGet.png)
 
-![vehiclesPost](/assets/chapter05/backend/vehiclesPost.png)
+![vehiclesPost](assets/chapter05/backend/vehiclesPost.png)
 
 ##### Travel History:
 
-![travelhistory](/assets/chapter05/backend/travelhistorycontroller-endpoint.png)
+![travelhistory](assets/chapter05/backend/travelhistorycontroller-endpoint.png)
 
-![travelhistoryGet](/assets/chapter05/backend/travelhistoryGet.png)
+![travelhistoryGet](assets/chapter05/backend/travelhistoryGet.png)
 
-![travelhistoryPost](/assets/chapter05/backend/travelhistoryPost.png)
+![travelhistoryPost](assets/chapter05/backend/travelhistoryPost.png)
 
 ##### Users:
 
-![usersGet](/assets/chapter05/backend/usersGet.png)
+![usersGet](assets/chapter05/backend/usersGet.png)
 
 --- 
 
@@ -610,9 +611,9 @@ Para verificar que la optención de datos se realice correctamente, utilizamos S
 
 El objetivo del tercer Sprint fue el desarrollo e implementación del Backend de la Web Application. Para eso, utilizamos GitHub. El proceso del desarrollo fue el siguiente:
 
-1. Se creó un repositorio para el desarrollo del Backend en GitHub. ![GithubRepoBackend](/assets/chapter05/backend-repo.png)
-2. Se creó el entorno de desarrollo con Java(Springboot) y MySQL Workbench usando IntelliJ IDEA como IDE. ![JavaMySQL](/assets/chapter05/intelliJIdea-setup.png)
-3. Se desarrollaron los bounded context usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDDBackend](/assets/chapter05/bounded-context-backend.png)
+1. Se creó un repositorio para el desarrollo del Backend en GitHub. ![GithubRepoBackend](assets/chapter05/backend-repo.png)
+2. Se creó el entorno de desarrollo con Java(Springboot) y MySQL Workbench usando IntelliJ IDEA como IDE. ![JavaMySQL](assets/chapter05/intelliJIdea-setup.png)
+3. Se desarrollaron los bounded context usando el patrón de DDD (Domain-Driven Design) para estructurar el código. ![DDDBackend](assets/chapter05/bounded-context-backend.png)
 4. Se utilizó Swagger UI para documentar y probar los endpoints del API desarrollado.
 5. Se desplegó el backend en un servidor local para pruebas y visualización.
    
@@ -623,10 +624,10 @@ El objetivo del tercer Sprint fue el desarrollo e implementación del Backend de
 A continuación, se adjuntan las capturas de evidencia de los insights del repositorio del desarrollo de los Web Services para evidenciar la participación de todos los miembros:
 
 * Insight Web Service:
-  ![InsightWebServices](/assets/chapter05/commits-3.png)
+  ![InsightWebServices](assets/chapter05/commits-3.png)
 
 * Insight Report
-  ![InsightR](/assets/chapter05/insightR.png)
+  ![InsightR](assets/chapter05/insightR.png)
 
 ## 5.3 Validation Interviews
 
@@ -707,48 +708,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 ---
 ### 5.3.2 Registro de Entrevistas
 
-**Segmento 1**
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Vista Previa:</strong><br/>
-      <img src="./assets/chapter05/entrevista-segmento-1.png"/><br>
-      Entrevista con Melany Cervantes Marreros (Entrevistada) y Angelo Paolo Cervantes Marreros (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Cervantes Marreros, Melany</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Cervantes Marreros, Angelo Paolo</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Femenino / Edad: 19 / Residencia: Punchana
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="https://youtu.be/zXrmZiJsDoo" target="_blank" rel="noopener">https://youtu.be/zXrmZiJsDoo</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 16:18</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">[Escribe aquí el resumen de la entrevista]</div>
-      </td>
-    </tr>
-  </table>
-</div>
-
 **Segmento 2**
 
 <div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
@@ -758,7 +717,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
   <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
     <div style="font-style:italic; margin-bottom:6px;">
       <strong>Vista Previa:</strong><br/>
-      <img src="./assets/chapter05/entrevista-segmento-2.png"/><br>
+      <img src="assets/chapter05/entrevista-segmento-2.png"/><br>
       Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
     </div>
   </div>
@@ -1014,7 +973,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ---
 
 ## 5.4. Video About The Product
-<img src="./assets/chapter05/about-the-product.png" alt="Imagen Entrevistado" width="90%" style="text-align: center;"/>
+<img src="assets/chapter05/about-the-product.png" alt="Imagen Entrevistado" width="90%" style="text-align: center;"/>
 
 <a href="https://www.youtube.com/watch?v=UVP-NVpaT6Y" target="_blank" rel="noopener">Ver Video del Producto</a>
 

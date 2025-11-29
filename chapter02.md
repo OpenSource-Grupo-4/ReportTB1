@@ -13,10 +13,10 @@
   </tr>
   <tr>
     <td colspan="2"></td>
-    <td>WeRide<br><img src="/assets/chapter02/WeRide.png" alt="WeRide"></td>
-    <td>Lime<br><img src="/assets/chapter02/lime.png" alt="Lime"></td>
-    <td>CityBikeLima<br><img src="/assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
-    <td>Whoosh<br><img src="/assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
+    <td>WeRide<br><img src="assets/chapter02/WeRide.png" alt="WeRide"></td>
+    <td>Lime<br><img src="assets/chapter02/lime.png" alt="Lime"></td>
+    <td>CityBikeLima<br><img src="assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
+    <td>Whoosh<br><img src="assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
 </tr>
   <tr>
     <td rowspan="2">Perfil</td>
@@ -163,111 +163,320 @@ Preguntas principales:
 
 - "¿Han implementado soluciones verdes antes?"
 
-### 2.2.2. Registro de entrevistas  
-
-**Segmento Joven Universitario**  
-
 <table>
   <tr>
-    <th colspan="2">Entrevistado N° 1</th>
+    <th colspan="6">Competitive Analysis Landscape</th>
   </tr>
   <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="./assets/chapter02/EntrevistaBedith.png" alt="Imagen Entrevistado" width="90%" style="text-align: center;"/>
+    <td>¿Por qué llevar a cabo el análisis?</td>
+    <td colspan="5">El análisis competitivo es esencial para entender el mercado, identificar oportunidades que nos diferencien y anticipar amenazas. Permite ajustar la estrategia para ganar ventaja sobre la competencia y asegurar el éxito del producto.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>WeRide<br><img src="assets/chapter02/WeRide.png" alt="WeRide" width="60"></td>
+    <td>Lime<br><img src="assets/chapter02/lime.png" alt="Lime" width="60"></td>
+    <td>CityBikeLima<br><img src="assets/chapter02/CityBikeLima.png" alt="CityBikeLima" width="60"></td>
+    <td>Whoosh<br><img src="assets/chapter02/Whoosh.svg" alt="Whoosh" width="60"></td>
+  </tr>
+  <tr>
+    <td>Perfil - Overview</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Optimiza micromovilidad eléctrica (motos, scooters, bicis inteligentes con IoT).</li>
+        <li>Mejora experiencia de usuario y resuelve problemas de tránsito vehicular.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Multinacional líder en scooters y bicicletas eléctricas compartidas.</li>
+        <li>Presente en múltiples ciudades globales.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Programa público de bicicletas compartidas en Lima.</li>
+        <li>Operado con soporte municipal.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Plataforma internacional de scooters eléctricos compartidos.</li>
+        <li>Foco en Europa y Latinoamérica.</li>
+      </ul>
     </td>
   </tr>
   <tr>
-    <td><b>Nombre y Apellido:</b> Bedith Lozano Isuiza</td>
-    <td><b>Edad:</b> 24</td>
-  </tr>
-  <tr>
-    <td><b>Profesión:</b> Ing. Sistemas</td>
-    <td><b>Sexo:</b> Femenino</td>
-  </tr>
-  <tr>
-    <td><b>Instante de inicio:</b> 10:00 am</td>
-    <td><b>Duración:</b> 25 min</td>
-  </tr>
-  <tr>
-    <td><b>Link de entrevista:</b> https://drive.google.com/file/d/1G56E-FBhCQfqBhVJEFNQjhBQdrC37pq6/view?usp=sharing</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Resumen de entrevista:</b><br>
-      El entrevistado es un estudiante universitario que invierte entre 1.5 a 2 horas diarias en transporte, utilizando principalmente buses y taxis por aplicación.  
-      Sus principales frustraciones son el tráfico, los altos costos de taxis y la inseguridad en transporte público.  
-      En cuanto a hábitos tecnológicos, está familiarizado con Uber, InDriver, Google Maps y realiza la mayoría de pagos mediante Yape y Plin, lo cual encaja perfectamente con el modelo de negocio propuesto.  
-      Además, mostró interés en una alternativa rápida, segura y económica como scooters, bicicletas y motos eléctricas, sobre todo si se ofrecen planes con descuentos estudiantiles.
+    <td>Ventaja competitiva</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Enfoque local: pagos peruanos (Yape/Plin).</li>
+        <li>Tarifas accesibles y flotas adaptadas al contexto nacional.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Cobertura internacional, marca reconocida.</li>
+        <li>Gran inversión en tecnología.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Accesibilidad y precios bajos.</li>
+        <li>Integración con transporte público.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Experiencia de usuario optimizada.</li>
+        <li>Flota moderna y rápida expansión.</li>
+      </ul>
     </td>
   </tr>
-</table>  
+  <tr>
+    <td>Mercado Objetivo</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Jóvenes, estudiantes, profesionales urbanos, turistas en Lima y otras ciudades peruanas.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Usuarios urbanos globales que buscan movilidad rápida y sostenible.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Ciudadanos limeños que necesitan transporte económico y ecológico en zonas céntricas.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Usuarios de centros urbanos en expansión que buscan transporte práctico.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Estrategias de Marketing</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Campañas digitales locales.</li>
+        <li>Alianzas con universidades y municipalidades.</li>
+        <li>Enfoque en sostenibilidad.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Publicidad global, branding fuerte.</li>
+        <li>Promociones en apps y eventos verdes.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Marketing institucional con apoyo municipal.</li>
+        <li>Señalética en estaciones.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Marketing digital.</li>
+        <li>Descuentos por uso recurrente.</li>
+        <li>Gamificación en la app.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Productos y Servicios</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Scooters, motos eléctricas y bicicletas compartidas con IoT.</li>
+        <li>App para reserva y pago.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Scooters y bicicletas eléctricas compartidas con geolocalización.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Bicicletas mecánicas y eléctricas en estaciones físicas.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Scooters eléctricos con desbloqueo vía app.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Precios y Costos</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Planes de suscripción escalonados según usuarios y servicios.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Tarifas más altas, variables según ciudad.</li>
+        <li>Paquetes promocionales.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Bajos costos de alquiler por tiempo (subvencionados).</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Planes semanales con opciones de servicios premium.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Canales de distribución</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Sitio Web</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Sitio Web</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Sitio Web</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Sitio Web y móvil</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>SWOT - Fortalezas</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Conocimiento local.</li>
+        <li>Integración con pagos peruanos.</li>
+        <li>Tarifas accesibles.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Escala internacional.</li>
+        <li>Financiamiento robusto.</li>
+        <li>Marca reconocida.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Respaldo municipal.</li>
+        <li>Precios muy bajos.</li>
+        <li>Simpleza.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Flota moderna.</li>
+        <li>App fácil de usar.</li>
+        <li>Expansión ágil.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>SWOT - Debilidades</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Escala inicial limitada.</li>
+        <li>Menor financiamiento comparado a multinacionales.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Altos precios en algunos mercados.</li>
+        <li>Críticas por sostenibilidad real.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Limitada cobertura.</li>
+        <li>Infraestructura básica.</li>
+        <li>Tecnología rezagada.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Menor reconocimiento global que Lime.</li>
+        <li>Cobertura desigual.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>SWOT - Oportunidades</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Expandir a más ciudades peruanas.</li>
+        <li>Integrar con transporte público y turismo.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Crecer en mercados emergentes.</li>
+        <li>Integrar más tipos de vehículos.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Modernizar flota con bicicletas eléctricas.</li>
+        <li>Mejorar app.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Expandirse en LATAM con asociaciones estratégicas.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>SWOT - Amenazas</td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Competencia internacional (Lime, Whoosh).</li>
+        <li>Trabas regulatorias locales.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Regulaciones urbanas.</li>
+        <li>Vandalismo y saturación de mercado.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Dependencia de apoyo municipal.</li>
+        <li>Presupuesto público.</li>
+      </ul>
+    </td>
+    <td>
+      <ul style="margin:0; padding-left:18px;">
+        <li>Competencia fuerte (Lime, WeRide).</li>
+        <li>Regulaciones urbanas.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <table>
-  <tr>
-    <th colspan="2">Entrevistado N° 2</th>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="https://github.com/user-attachments/assets/c3606129-5f9e-4940-96b3-6e5c13b7757b" alt="Entrevista joven universitario" width="90%"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre y Apellido:</b> Patrick Correa</td>
-    <td><b>Edad:</b> 18</td>
-  </tr>
-  <tr>
-    <td><b>Profesión:</b> Ing. Mecatrónica</td>
-    <td><b>Sexo:</b> Masculino</td>
-  </tr>
-  <tr>
-    <td><b>Instante de inicio:</b> 08:00 pm</td>
-    <td><b>Duración:</b> 13:25 min</td>
-  </tr>
-  <tr>
-    <td><b>Link de entrevista:</b> https://goo.su/PM0wN</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Resumen de entrevista:</b><br>
-      El entrevistado es un estudiante universitario que reside cerca de su centro de estudios, pero que aún así se le hace dificil ir por el tráfico aún en un tramo no tan largo.
-      Sus principales frustraciones son el tráfico, la poca accesibilidad a buses que vayan a su destino y la inseguridad ciudadana.
-      En cuanto a hábitos tecnológicos, está familiarizado con las apps de taxis como Uber, InDrive, pero los usa a veces en otras situaciones. Nunca ha usado apps de alquiler de scooters o bicicletas y prefiere siempre pagar por efectivo.  
-      Además, mostró interés en una alternativa rápida, segura y económica como scooters, bicicletas y motos eléctricas. Dice que sería una experiencia interesante y que podría aprender a usarlos rápidamente para poder solventar este problema que tiene en su día a día.
-    </td>
-  </tr>
-</table>  
-
-**Segmento Empresas**  
-<table>
-  <tr>
-    <th colspan="2">Entrevistado N° 1</th>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre y Apellido:</b> Angie Santos Fernandez /td>
-    <td><b>Edad:</b> 23</td>
-  </tr>
-  <tr>
-    <td><b>Profesión:</b> Ing. Sistemas</td>
-    <td><b>Sexo:</b> Femenino</td>
-  </tr>
-  <tr>
-    <td><b>Instante de inicio:</b> 10:00 am</td>
-    <td><b>Duración:</b> 5:20 min</td>
-  </tr>
   <tr>
     <td><b>Link de entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u201822516_upc_edu_pe/EeNpfpYFk9hJnAitYBXBWdIBWmEfDnOJZkQpQ3uTIbt3pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K39Xx6</b> ""</td>
   </tr>
   <tr>
     <td colspan="2">
       <b>Resumen de entrevista:</b><br>
-      Angie es una tomadora de decisiones en una empresa que realiza entregas urbanas. Se muestra interesada pero cautelosa ante nuevas soluciones.
-
-Sus principales problemas son los altos costos de los servicios de mensajería externos y el mantenimiento de su flota propia de motos, además de la pérdida de tiempo por el tráfico y problemas de estacionamiento.
+      Angie es una tomadora de decisiones en una empresa que realiza entregas urbanas. Se muestra interesada pero cautelosa ante nuevas soluciones. Sus principales problemas son los altos costos de los servicios de mensajería externos y el mantenimiento de su flota propia de motos, además de la pérdida de tiempo por el tráfico y problemas de estacionamiento.
 
 Valora especialmente la eficiencia, la trazabilidad en tiempo real y la seguridad de sus empleados. Prefiere un modelo de pago por uso para mayor flexibilidad y ve el valor competitivo de la sostenibilidad.
 
@@ -434,29 +643,29 @@ Este análisis muestra que el interés de las empresas de consultoría no solo s
 El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
 
 ### Segmento 1: Jovenes Universitarios. 
-<img src="./assets/chapter02/jovenes.png" alt="User Journey" width="1000">
+<img src="assets/chapter02/jovenes.png" alt="User Journey" width="1000">
 
 ### Segmento 2: Empresas.
 
-<img src="./assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
+<img src="assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
 
 
 ### 2.3.4.Empathy Mapping.  
 
 - Camila Torres:  
 
-![CamilaTorres](./assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
+![CamilaTorres](assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
 
 - Luis Salazar:  
 
-![LuisSalazar](./assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
+![LuisSalazar](assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
 
 
 ## 2.4.Big Picture Event Storming.
 El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
 Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
 
-![eventstorming](https://github.com/user-attachments/assets/c71c198d-74d0-45c2-bd13-45433e2a8969)
+![eventstorming](https://github.com/user-attachmentsassets/c71c198d-74d0-45c2-bd13-45433e2a8969)
 
 ## 2.5.Ubiquitous Language.
 
