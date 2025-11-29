@@ -629,25 +629,29 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
-## 5.2.3. Sprint 4
-### 5.2.3.1.Sprint Planning 4.
-### 5.2.3.2. Aspect Leaders and Collaborators.
-### 5.2.3.3.Sprint Backlog 4.
+## 5.2.4. Sprint 4
+### 5.2.4.1.Sprint Planning 4.
+### 5.2.4.2. Aspect Leaders and Collaborators.
+### 5.2.4.3.Sprint Backlog 4.
+
 
 | ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
-|----|----------------|--------------|--------------------|--------------|--------|
-| US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
-| US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
-| US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
-| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
-| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
-| US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
+|:---|:---|:---|:---:|:---|:---:|
+| **US-02** | Introducir Número de Celular | Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes. | 8 | Samuel Jesus Bonifacio Jaramillo | Done |
+| **US-11** | Seleccionar ubicación para ver vehículos | Como usuario, al seleccionar una ubicación del mapa quiero ver los vehículos cercanos disponibles. | 12 | Jefferson Ernesto Castro Pariona | Done |
+| **US-12** | Visualización de viaje en mapa | Como usuario quiero ver mi trayecto actual en el mapa, junto con información relevante del vehículo. | 12 | Arnold Gabriel Morales Sosa | Done |
+| **US-14** | Calificación de viaje | Como usuario, quiero calificar mi experiencia después del viaje para feedback y mejora del servicio. | 5 | Diego Vicente Seminario Castillo | Done |
+| **US-15** | Reportar problema con vehículo | Como usuario, quiero reportar un problema con el vehículo para alertar a soporte y obtener ayuda rápida. | 8 | Jhimy Pool Romero Meza | Done |
+| **US-16** | Notificación de fin de reserva | Como usuario, quiero recibir una notificación antes de que finalice mi reserva. | 3 | Diego Vicente Seminario Castillo | Done |
+| **US-18** | Notificación de inicio y vencimiento | Como usuario, quiero recibir notificaciones cuando mi reserva esté activa y cuando esté por expirar. | 3 | Diego Vicente Seminario Castillo | Done |
+| **US-21** | Ver estado de desbloqueo | Como usuario, quiero ver el estado de desbloqueo del vehículo en tiempo real. | 8 | Todos | Done |
+| **US-22** | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
-### 5.2.3.4.Development Evidence for Sprint Review.
-### 5.2.3.5.Execution Evidence for Sprint Review.
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-### 5.2.3.8.Team Collaboration Insights during Sprint.
+### 5.2.4.4.Development Evidence for Sprint Review.
+### 5.2.4.5.Execution Evidence for Sprint Review.
+### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+### 5.2.4.8.Team Collaboration Insights during Sprint.
 
 ## 5.3 Validation Interviews
 
