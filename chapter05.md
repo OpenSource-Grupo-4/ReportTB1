@@ -1004,7 +1004,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## Anexos.
 
-
 <a href="https://www.youtube.com/watch?v=UVP-NVpaT6Y" target="_blank" rel="noopener">About The Product</a>
 
 <a href="https://github.com/OpenSource-Grupo-4" target="_blank" rel="noopener">Organización</a>
