@@ -111,7 +111,7 @@ Implementamos el flujo de trabajo gitflow para el control de versiones con branc
 La rama principal de producción del proyecto es la Main branch. En esta rama reside el código estable que actualmente se encuentra desplegado en producción (Vercel/GitHub Pages).
 
 Notación: main
-(Nota: Nosotros también utilizamos la rama develop para la integración continua antes de pasar a main).
+(Nota: También se ha usado la rama develop para la integración continua antes de pasar a main).
 
 **Conventional Commits**
 
