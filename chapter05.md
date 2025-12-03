@@ -97,9 +97,44 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 
 - URL del repositorio Report en GitHub: https://github.com/OpenSource-Grupo-4/ReportTB1
 - URL del repositorio Landing Page en GitHub: https://github.com/OpenSource-Grupo-4/Landing-Page
-- URL del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
-- URL del respositorio de los Web Services en GitHub:https://github.com/OpenSource-Grupo-4/Backend-WeRide
+- URL del repositorio de la Web Application en GitHub: https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+- URL del respositorio de los Web Services en GitHub: https://github.com/OpenSource-Grupo-4/Backend-WeRide
 
+- Gitflow Implementation:
+- 
+Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
+
+![GitFlow](/assets/chapter05/Gitflow.jpg)
+
+**Main branch**
+La rama principal de producción del proyecto es la Main branch. En esta rama reside el código estable que actualmente se encuentra desplegado en producción (Vercel/GitHub Pages).
+
+Notación: main
+(Nota: Nosotros también utilizamos la rama develop para la integración continua antes de pasar a main).
+
+**Conventional Commits**
+
+"Conventional Commits" es una convención para estructurar los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación automática de registros de cambios (changelogs).
+En el proyecto WeRide, los commits siguen la siguiente estructura, tal como se evidencia en el historial del repositorio:
+
+```
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+
+**Tipos De Conventional Commits**
+
+A continuación, se definen los tipos utilizados para categorizar los cambios:
+
+```
+1. feat: Se utiliza para describir una nueva característica o funcionalidad añadida al código (ej. feat: added navbar & hero section).
+2. fix: Indica la corrección de un error (bug) o la solución a un problema (ej. hero-ui-fix).
+3. docs: Empleado para cambios o mejoras en la documentación del código o del proyecto.
+4. style: Describe cambios relacionados con el formato del código (espacios en blanco, indentación, puntos y coma) que no afectan su funcionalidad (ej. styles: updated responsive for steps cards).
+5. refactor: Utilizado para modificaciones en el código que no arreglan errores ni añaden funcionalidades, sino que mejoran su estructura o legibilidad (ej. chore: index file refactor).
+6. test: Indica la adición o modificación de pruebas unitarias o funcionales.
+7. chore: Se utiliza para cambios en el proceso de construcción, herramientas auxiliares o tareas de mantenimiento que no están directamente relacionadas con el código de la aplicación (ej. chore: added imgs & syntax updates).
+8. perf: Describe mejoras de rendimiento en el código.
+```
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
