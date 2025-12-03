@@ -732,8 +732,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 1
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
@@ -753,8 +753,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 2
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
@@ -774,8 +774,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 3
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
@@ -796,8 +796,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 1
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
@@ -817,8 +817,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 2
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/matias.png" alt="Matias Flores" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/matias.png" alt="Matias Flores" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
@@ -838,8 +838,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 #### Entrevista 3
 
-<div style="text-align: center; margin-bottom: 20px;">
-<img src="assets/chapter05/angie.png" alt="Angie Santos" style="width: 300px; height: auto;" />
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter05/angie.png" alt="Angie Santos" style="width: 500px; height: auto;" />
 </div>
 
 | Campo | Valor |
