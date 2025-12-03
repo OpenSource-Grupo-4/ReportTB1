@@ -187,8 +187,8 @@
     <td>Luis Gutierrez (Estudiante Universitario)</td>
     <td>18</td>
     <td>SMP</td>
-    <td>
-      <img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td style="word-break: break-all;">
       <a href="https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls" target="_blank">
@@ -205,8 +205,8 @@
     <td>María Fernanda López (Estudiante Universitaria)</td>
     <td>20</td>
     <td>La Molina</td>
-    <td>
-      <img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td>—</td>
     <td>—</td>
@@ -219,8 +219,8 @@
     <td>Carlos Alberto Ramírez (Joven Profesional)</td>
     <td>22</td>
     <td>San Borja</td>
-    <td>
-      <img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td>—</td>
     <td>—</td>
@@ -250,8 +250,8 @@
     <td>Angie Santos (Jefe de RR.HH.)</td>
     <td>33</td>
     <td>San Isidro</td>
-    <td>
-      <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td style="word-break: break-all;">
       <a href="https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3" target="_blank">
@@ -268,8 +268,8 @@
     <td>Ana María Delgado (Gerente de Operaciones – Empresa de Mensajería)</td>
     <td>35</td>
     <td>Lima</td>
-    <td>
-      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td style="word-break: break-all;">
       <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
@@ -286,8 +286,8 @@
     <td>Luis Fernando Rivas (Jefe de Operaciones)</td>
     <td>33</td>
     <td>Jesús María</td>
-    <td>
-      <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:400px; height:auto; display:block; margin:auto;" />
+    <td style="width: 600px;">
+      <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:600px; height:auto; display:block; margin:auto;" />
     </td>
     <td style="word-break: break-all;">
       <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
