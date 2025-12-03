@@ -281,19 +281,19 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![Landing](assets/chapter05/landing%20page.jpg)
 
-![Landing](assets/chapter05/landing%20page%2.jpg)
+![Landing](/assets/chapter05/landing%20page%202.png)
 
-![Landing](assets/chapter05/landing%20page%3.jpg)
+![Landing](/assets/chapter05/landing%20page%203.png)
 
-![Landing](assets/chapter05/landing%20page%4.jpg)
+![Landing](assets/chapter05/landing%20page%204.png)
 
-![Landing](assets/chapter05/landing%20page%5.jpg)
+![Landing](assets/chapter05/landing%20page%205.png)
 
-![Landing](assets/chapter05/landing%20page%6.jpg)
+![Landing](assets/chapter05/landing%20page%206.png)
 
-![Landing](assets/chapter05/landing%20page%7.jpg)
+![Landing](assets/chapter05/landing%20page%207.png)
 
-![Landing](assets/chapter05/landing%20page%8.jpg)
+![Landing](assets/chapter05/landing%20page%208.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
