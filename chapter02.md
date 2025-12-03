@@ -169,135 +169,135 @@
 
   **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;">
+<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;">
   <tr>
-    <th>#</th>
-    <th style="min-width:150px;">Nombre y Apellidos</th>
-    <th>Edad</th>
-    <th>Distrito</th>
-    <th style="min-width:500px;">Screenshot del video</th>
-    <th style="min-width:300px;">URL del Video (YouTube)</th>
-    <th>Timing de inicio</th>
-    <th>Duración</th>
-    <th style="min-width:200px;">Resumen descriptivo</th>
-    <th style="min-width:200px;">Características Objetivas</th>
+    <th style="min-width:40px;">#</th>
+    <th style="min-width:120px;">Nombre</th>
+    <th style="min-width:30px;">Edad</th>
+    <th style="min-width:50px;">Distrito</th>
+    <th style="min-width:280px;">Screenshot</th>
+    <th style="min-width:200px;">URL Video</th>
+    <th style="min-width:40px;">Timing</th>
+    <th style="min-width:50px;">Duración</th>
+    <th style="min-width:180px;">Resumen</th>
+    <th style="min-width:180px;">Características</th>
   </tr>
   <tr>
     <td>1</td>
-    <td>Luis Gutierrez (Estudiante Universitario)</td>
+    <td>Luis Gutierrez<br/>(Estudiante)</td>
     <td>18</td>
     <td>SMP</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="width:280px; height:auto;" />
     </td>
-    <td style="word-break: break-all;">
+    <td style="word-break: break-all; font-size: 9px;">
       <a href="https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls" target="_blank">
         https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls
       </a>
     </td>
     <td>00:00</td>
     <td>13:25</td>
-    <td style="text-align: justify;">Estudiante universitario que se moviliza diariamente desde su casa en SMP hacia su universidad. Señala que enfrenta problemas de congestión y transporte costoso.</td>
-    <td style="text-align: justify;">Uso de transporte público o apps de movilidad; interés en rutas rápidas y seguras.</td>
+    <td style="text-align: justify; font-size: 10px;">Se moviliza diariamente desde SMP. Problemas de congestión y transporte costoso.</td>
+    <td style="text-align: justify; font-size: 10px;">Transporte público; rutas rápidas y seguras.</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>María Fernanda López (Estudiante Universitaria)</td>
+    <td>María Fernanda<br/>(Estudiante)</td>
     <td>20</td>
     <td>La Molina</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/mariafernanda.png" alt="María Fernanda López" style="width:280px; height:auto;" />
     </td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
-    <td style="text-align: justify;">Universitaria que se traslada desde La Molina hasta el campus central. Comenta que el tráfico es impredecible.</td>
-    <td style="text-align: justify;">Movilidad diaria con transporte público y aplicaciones de transporte.</td>
+    <td style="text-align: justify; font-size: 10px;">Se traslada desde La Molina. Tráfico impredecible.</td>
+    <td style="text-align: justify; font-size: 10px;">Transporte público y apps.</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Carlos Alberto Ramírez (Joven Profesional)</td>
+    <td>Carlos Ramírez<br/>(Joven Prof.)</td>
     <td>22</td>
     <td>San Borja</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/carlosramirez.png" alt="Carlos Alberto Ramírez" style="width:280px; height:auto;" />
     </td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
-    <td style="text-align: justify;">Joven profesional que trabaja y estudia a tiempo parcial. Indica que su principal problema es la congestión.</td>
-    <td style="text-align: justify;">Uso de transporte público y aplicaciones de movilidad; interés en eficiencia.</td>
+    <td style="text-align: justify; font-size: 10px;">Trabaja y estudia a tiempo parcial. Problema: congestión.</td>
+    <td style="text-align: justify; font-size: 10px;">Transporte público; interés en eficiencia.</td>
   </tr>
 </table>
 
   **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;">
+<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;">
   <tr>
-    <th>#</th>
-    <th style="min-width:150px;">Nombre y Apellidos</th>
-    <th>Edad</th>
-    <th>Distrito</th>
-    <th style="min-width:500px;">Screenshot del video</th>
-    <th style="min-width:300px;">URL del Video (YouTube)</th>
-    <th>Timing de inicio</th>
-    <th>Duración</th>
-    <th style="min-width:250px;">Resumen descriptivo</th>
-    <th style="min-width:220px;">Características Objetivas</th>
+    <th style="min-width:40px;">#</th>
+    <th style="min-width:120px;">Nombre</th>
+    <th style="min-width:30px;">Edad</th>
+    <th style="min-width:50px;">Distrito</th>
+    <th style="min-width:280px;">Screenshot</th>
+    <th style="min-width:200px;">URL Video</th>
+    <th style="min-width:40px;">Timing</th>
+    <th style="min-width:50px;">Duración</th>
+    <th style="min-width:180px;">Resumen</th>
+    <th style="min-width:180px;">Características</th>
   </tr>
   <tr>
     <td>1</td>
-    <td>Angie Santos (Jefe de RR.HH.)</td>
+    <td>Angie Santos<br/>(Jefe RR.HH.)</td>
     <td>33</td>
     <td>San Isidro</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/angie1.png" alt="Angie Santos" style="width:280px; height:auto;" />
     </td>
-    <td style="word-break: break-all;">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3" target="_blank">
-        https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3
+    <td style="word-break: break-all; font-size: 9px;">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4" target="_blank">
+        https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/...
       </a>
     </td>
     <td>00:00</td>
     <td>5:22</td>
-    <td style="text-align: justify;">Jefe de RR.HH. en consultora con más de 150 colaboradores. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Considera viable el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo.</td>
-    <td style="text-align: justify;">Gestión de RR.HH.; plan corporativo mensual de movilidad; integración con plataforma web de reservas; seguimiento de indicadores de ahorro de tiempo.</td>
+    <td style="text-align: justify; font-size: 10px;">Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable: scooters y motos eléctricas.</td>
+    <td style="text-align: justify; font-size: 10px;">Plan mensual; integración web; indicadores ahorro.</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Ana María Delgado (Gerente de Operaciones – Empresa de Mensajería)</td>
+    <td>Ana María<br/>(Gerente Op.)</td>
     <td>35</td>
     <td>Lima</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/entrvista-segmento2.png" alt="Ana María Delgado" style="width:280px; height:auto;" />
     </td>
-    <td style="word-break: break-all;">
+    <td style="word-break: break-all; font-size: 9px;">
       <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
         https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
       </a>
     </td>
     <td>10:00 am</td>
     <td>6:20</td>
-    <td style="text-align: justify;">Gerente de Operaciones de empresa de mensajería con flota de 25 motos a gasolina. Problemas: altos costos de combustible, mantenimiento y retrasos por tráfico. Abierta a solución de micromovilidad eléctrica con GPS.</td>
-    <td style="text-align: justify;">Flota de 25 motos; seguimiento GPS; informes mensuales; medidas de seguridad; plan corporativo por flota.</td>
+    <td style="text-align: justify; font-size: 10px;">Mensajería 25 motos gasolina. Costos, mantenimiento, retrasos. Abierta a eléctrica con GPS.</td>
+    <td style="text-align: justify; font-size: 10px;">Flota GPS; informes; seguridad; plan corporativo.</td>
   </tr>
   <tr>
     <td>3</td>
-    <td>Luis Fernando Rivas (Jefe de Operaciones)</td>
+    <td>Luis Fernando<br/>(Jefe Op.)</td>
     <td>33</td>
     <td>Jesús María</td>
-    <td style="width: 800px;">
-      <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:800px; height:auto; display:block; margin:auto;" />
+    <td style="padding: 8px;">
+      <img src="assets/chapter02/entrevista-empresas2.png" alt="Luis Fernando Rivas" style="width:280px; height:auto;" />
     </td>
-    <td style="word-break: break-all;">
+    <td style="word-break: break-all; font-size: 9px;">
       <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
         https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
       </a>
     </td>
     <td>10:00 am</td>
     <td>5:30</td>
-    <td style="text-align: justify;">Jefe de Operaciones en consultora con más de 150 colaboradores. Problemas de movilidad: impuntualidad y alto gasto en subsidios de transporte. Considera viable plan corporativo con scooters.</td>
-    <td style="text-align: justify;">Gestión de operaciones; planificación de movilidad corporativa; seguimiento de indicadores de ahorro de tiempo.</td>
+    <td style="text-align: justify; font-size: 10px;">Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable plan corporativo.</td>
+    <td style="text-align: justify; font-size: 10px;">Planificación movilidad; indicadores ahorro.</td>
   </tr>
 </table>
   **1er segmento: Jóvenes universitarios**
