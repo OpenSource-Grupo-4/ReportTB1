@@ -181,7 +181,7 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 
 | Elemento                        | Detalle                                                                                       |
 |----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de WeRide                   |
+| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de WeRide (Landing Page)                  |
 | **Fecha**                       | 19/09/2025                                                                                   |
 | **Hora**                        | 22:00 horas (GMT-5)                                                                          |
 | **Lugar**                       | Reunión virtual mediante Google Meet                                                              |
@@ -189,12 +189,12 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 | **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ]                                                             |
 | **Sprint n-1 Review**           | Se creó la organización de WeTech en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
 | **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
-| **Sprint Goal & User Stories**  | Construir y estilizar la Landinhg Page más las funcionalidades básicas de registro e inicio de sesión para los usuarios de WeRide, asegurando diseño responsivo y navegación funcional (1-20)                                                                                         |
+| **Sprint Goal & User Stories**  | Construir y estilizar la Landing Page para los visitantes y posibles usuarios de WeRide, asegurando diseño responsivo y navegación funcional (1-20)                                                                                         |
 | **Sprint 1 Velocity**           | 17 puntos                                                                                    |
 | **Sum of Story Points**         | 17 puntos                                                                                    |
 
 #### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de WeRide.
+Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas para los usuarios y visitantes de WeRide.
 
 #### User Stories seleccionadas para el Sprint 1
 
