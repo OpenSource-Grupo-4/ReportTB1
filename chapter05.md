@@ -629,133 +629,10 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
-## 5.2.4. Sprint 4
-### 5.2.4.1.Sprint Planning 4.
-Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
-
-<table align="center"  border="1" width="90%" style="text-align:center;">
-    <tr align="left">
-        <td>
-            <b>Sprint 4</b>
-        </td>
-        <td>
-            <b>Sprint 4</b>           
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            01/12/25
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            9:00 PM         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Modalidad Remota por Google Meat  
-        </td>
-    </tr>
-     </tr>
-       <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            Seminario Castillo, Diego Vicente
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Attendess (to planning meeting)</b>
-        </td>
-        <td>
-            - Castro Pariona, Jefferson Ernesto<br>
-            - Bonifacio Jaramillo, Samuel Jesus <br>
-            - Seminario Castillo, Diego Vicente <br>
-            -  Romero Meza, Jhimy Pool<br>
-            -  Morales Sosa, Arnold Gabriel<br>
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Goal & User Stories</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Goal</b>
-        </td>
-        <td>
-            Para el desarrollo del sprint 4, el equipo publicara la ultima version del frontend y backend corrigiendo las errores indicados además de añadir las secciones faltantes en el reporte. Además de realizar la conexión entre ambos apartados.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Velocity</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
-</table>
-
-### 5.2.4.2. Aspect Leaders and Collaborators.
-Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
-Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
-
-| **Team Member (Last Name, First Name)** | **GitHub Username**                                                | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
-|-----------------------------------------|--------------------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
-| **Castro Pariona, Jefferson Ernesto**   | [@JeffersonCastroPariona](https://github.com/JeffersonCastroPariona) | L                                                        | C                                                                         | C                                                     | C                                   |
-| **Bonifacio Jaramillo, Samuel Jesus**   | [@samuelbonifacio015](https://github.com/samuelbonifacio015)                 | C                                                        | L                                                                         | C                                                     | C                                   |
-| **Seminario Castillo ,Diego Vicente**   | [@DiegoSeminario](https://github.com/DiegoSeminario)               | C                                                        | C                                                                         | C                                                     | L                                   |
-| **Morales Sosa, Arnold Gabriel**        | [@Arnold-TI](https://github.com/Arnold-TI)                         |                                                          |                                                                           |                                                       |                                     |
-| **Romero Meza, Jhimy Pool**             | [@jhimyromeromeza](https://github.com/jhimyromeromeza)                     | C                                                        | C                                                                         | C                                                     | L                                   |
-
-### 5.2.4.3.Sprint Backlog 4.
+## 5.2.3. Sprint 4
+### 5.2.3.1.Sprint Planning 4.
+### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.3.Sprint Backlog 4.
 
 | ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
 |----|----------------|--------------|--------------------|--------------|--------|
@@ -766,21 +643,11 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
 | US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
-### 5.2.4.4.Development Evidence for Sprint Review.
-| **Repository**  | **Branch**            | **Commit ID**                            | **Author**             | **Time ago** |
-|-----------------|-----------------------|------------------------------------------|------------------------|--------------|
-| Backend-WeRide  | develop               | 538a2e9a51d6fe0d2a8c95d429a24bbeb598237f | samuelbonifacio015     | 4 days ago   |
-| Backend-WeRide | feature/garage        | 5875d271c3a5cbbdeb171e9f6cabbe8d3c95f24c | DiegoSeminario         | 5 days ago   |
-| Backend-WeRide  | feature/travelhistory | f7222d1cf6576893ce94db44932de35a96058eae | jhimyromeromeza        | 4 days ago   |
-| Backend-WeRide  | Arnold                | 6e8bd4fc9fa6ef5ad2faf2109d06f411ba538402 | Arnold-TI              | 15 days ago  |
-| Backend-WeRide  | samuel                | bfd7ddf55775bc30cdd1eb003c869e8ec897045b | samuelbonifacio015     | 1 days ago   |
-| Backend-WeRide  | jefferson             | e3c8283af91b64fd807e18d1bfd90f27fa7fd04b | JeffersonCastroPariona | 6 days ago   |
-### 5.2.4.5.Execution Evidence for Sprint Review.
-En esta entrega nos centramos en el ajuste del backend y el deploy del mismo , asi mismo la union del frontend con el backend.
-### 5.2.4.6.Services Documentation Evidence for Sprint Review.
-
-### 5.2.4.7.Software Deployment Evidence for Sprint Review.
-### 5.2.4.8.Team Collaboration Insights during Sprint.
+### 5.2.3.4.Development Evidence for Sprint Review.
+### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 ## 5.3 Validation Interviews
 

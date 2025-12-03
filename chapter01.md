@@ -98,7 +98,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
     </tr>
     <tr>
       <td>Morales Sosa, Arnold Gabriel</td>
-      <td><img src="https://github.com/user-attachments/assets/20e7f70a-36b2-46e3-8bd8-eb15f2c5c655" alt="Foto de Arnold" /></td>
+      <td><img src="./assets/Integrantes/ArnoldProfile.png" alt="Foto de Arnold" /></td>
       <td>
         <ul style="margin:0; padding-left:18px;">
           <li>Estudiante de Ingeniería de Software.</li>
