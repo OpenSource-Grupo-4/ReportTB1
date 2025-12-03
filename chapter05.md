@@ -412,8 +412,6 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![ExecutionEvidence](assets/chapter05/networkgraph-2.png)
 
----
-
 **Sección de Login and Register:** Se implementó la sección de login and register.
 
 ![Login](assets/chapter05/login.png)
@@ -444,6 +442,8 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![Historial](assets/chapter05/Planes.png)
 
+---
+
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 El db.json fue creado para simular una base de datos local y facilitar el desarrollo y pruebas de la aplicación web. Este archivo contiene datos estructurados en formato JSON, representando las entidades principales del sistema: **usuarios, vehículos, reservas y planes.**
@@ -451,6 +451,9 @@ El db.json fue creado para simular una base de datos local y facilitar el desarr
 ***json server:***
 
 ![db.json](assets/chapter05/json-server.png)
+
+![dbjson](/assets/chapter05/dbjson.png)
+
 ---
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -474,6 +477,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
+
+---
 
 ## 5.2.3. Sprint 3
 
@@ -711,6 +716,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
+---
+
 ## 5.2.3. Sprint 4
 ### 5.2.3.1. Sprint Planning 4.
 
@@ -744,6 +751,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+---
 
 ## 5.3 Validation Interviews
 
@@ -822,6 +831,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 - “¿La interfaz te transmite suficiente profesionalismo para un uso corporativo?”
   
 ---
+
 ### 5.3.2 Registro de Entrevistas
 
 **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
