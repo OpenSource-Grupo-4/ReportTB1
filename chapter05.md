@@ -417,10 +417,14 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 ![ubicacion](/assets/chapter05/ubicacion.png)
 
 
-**Sección del Historial:** Se implementó la sección del historial de viajes y reservas realizados.
+**Sección del Historial:** Se implementó la sección del historial de viajes.
 
 ![Historial](assets/chapter05/historial.png)
 
+
+**Sección de Reservas:** Se implementó la sección de reservas de los vehículos.
+
+![Reservas](assets/chapter05/reservas.png)
 
 **Sección de Planes:** Se implementó la sección de plan de precios.
 
