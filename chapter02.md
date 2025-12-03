@@ -234,8 +234,8 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Nombre** | Angie Santos (Jefe RR.HH.) |
-| **Edad** | 33 años |
+| **Nombre** | Angie Santos (Jefe de TI) |
+| **Edad** | 46 años |
 | **Distrito** | San Isidro |
 | **URL Video** | [https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4](https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4) |
 | **Timing** | 00:00 |
