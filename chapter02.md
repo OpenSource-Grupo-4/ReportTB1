@@ -348,7 +348,7 @@
   El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
   Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
 
-  ![eventstorming](https://github.com/user-attachmentsassets/c71c198d-74d0-45c2-bd13-45433e2a8969)
+  ![eventstorming](/assets/chapter02/eventstormingweride.jpg)
 
   ## 2.5.Ubiquitous Language.
 
