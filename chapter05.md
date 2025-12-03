@@ -318,7 +318,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 | **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ] |
 | **Sprint n-2 Review** | Se completó la primera versión desplegada del Frontend Web Application de WeRide. |
 | **Sprint n-2 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas; se acordó reforzar la integración del backend en el siguiente Sprint. |
-| **Sprint Goal & User Stories** | 1-22 |
+| **Sprint Goal & User Stories** | Avanzar con el FrontEnd y tener la primera versión desplegada (1-22) |
 | **Sprint 2 Velocity** | 20 puntos |
 | **Sum of Story Points** | 20 puntos |
 
@@ -361,8 +361,8 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
 | US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
 | US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
-| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
-| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Morales Sosa, Arnold Gabriel | Done |
 | US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
 ---
@@ -399,6 +399,32 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 ![ExecutionEvidence](assets/chapter05/networkgraph-2.png)
 
 ---
+
+**Sección de Login and Register:** Se implementó la sección de login and register.
+
+![Login](assets/chapter05/login.png)
+
+
+**Sección de Componente de Garaje:** Se implementó la sección de garaje de vehículos.
+
+![Garaje](assets/chapter05/garaje.png)
+
+
+**Sección del Mapa de Viaje:** Se implementó la sección del mapa de viaje con la ubicación de los vehículos y el marcador del tiempo.
+
+![viaje](/assets/chapter05/viaje.png)
+
+![ubicacion](/assets/chapter05/ubicacion.png)
+
+
+**Sección del Historial:** Se implementó la sección del historial de viajes y reservas realizados.
+
+![Historial](assets/chapter05/historial.png)
+
+
+**Sección de Planes:** Se implementó la sección de plan de precios.
+
+![Historial](assets/chapter05/Planes.png)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -679,9 +705,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 | **Preparado por**               | [WeTech]                                                       |
 | **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ]                                                             |
 | **Sprint n-1 Review**           | En esta sección se corrigieron los errores dentro del informe, se mejoró el frontend y el backend para hacer la conexión con la API y el sitio web. |
-| **Sprint n-1 Retrospective**    | En esta sección todos los integrantes mencionaron tener aciertos en algunas partes del código desarrollado. Sin embargo, se pudo hacer un consenso y mejorar nuestras habilidades al realizar la conexión con la API y el sitio web. Además, se colaboró en la culminación de las entrevistas, el informe en general y arreglar los errores del mismo      |
-| **Sprint Goal & User Stories**  | Corregir errores e implementar la conexión entre el front y el back con la API y el sitio web.
- (21-26)                                                                                         |
+| **Sprint n-1 Retrospective**    | En esta sección todos los integrantes mencionaron tener aciertos en algunas partes del código desarrollado. Sin embargo, se pudo hacer un consenso y mejorar nuestras habilidades al realizar la conexión con la API y el sitio web. Además, se colaboró en la culminación de las entrevistas, el informe en general y arreglar los errores del mismo.      |
+| **Sprint Goal & User Stories**  | Corregir errores e implementar la conexión entre el front y el back con la API y el sitio web. (21-26)                                         |
 | **Sprint 1 Velocity**           | 25 puntos                                                                                    |
 | **Sum of Story Points**         | 25 puntos                                                                                    |
 ### 5.2.3.2. Aspect Leaders and Collaborators.
