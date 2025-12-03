@@ -169,137 +169,117 @@
 
   **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;">
-  <tr>
-    <th style="min-width:40px;">#</th>
-    <th style="min-width:120px;">Nombre</th>
-    <th style="min-width:30px;">Edad</th>
-    <th style="min-width:50px;">Distrito</th>
-    <th style="min-width:280px;">Screenshot</th>
-    <th style="min-width:200px;">URL Video</th>
-    <th style="min-width:40px;">Timing</th>
-    <th style="min-width:50px;">Duración</th>
-    <th style="min-width:180px;">Resumen</th>
-    <th style="min-width:180px;">Características</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Luis Gutierrez<br/>(Estudiante)</td>
-    <td>18</td>
-    <td>SMP</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="width:280px; height:auto;" />
-    </td>
-    <td style="word-break: break-all; font-size: 9px;">
-      <a href="https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls" target="_blank">
-        https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls
-      </a>
-    </td>
-    <td>00:00</td>
-    <td>13:25</td>
-    <td style="text-align: justify; font-size: 10px;">Se moviliza diariamente desde SMP. Problemas de congestión y transporte costoso.</td>
-    <td style="text-align: justify; font-size: 10px;">Transporte público; rutas rápidas y seguras.</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>María Fernanda<br/>(Estudiante)</td>
-    <td>20</td>
-    <td>La Molina</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/mariafernanda.png" alt="María Fernanda López" style="width:280px; height:auto;" />
-    </td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td style="text-align: justify; font-size: 10px;">Se traslada desde La Molina. Tráfico impredecible.</td>
-    <td style="text-align: justify; font-size: 10px;">Transporte público y apps.</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Carlos Ramírez<br/>(Joven Prof.)</td>
-    <td>22</td>
-    <td>San Borja</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/carlosramirez.png" alt="Carlos Alberto Ramírez" style="width:280px; height:auto;" />
-    </td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td style="text-align: justify; font-size: 10px;">Trabaja y estudia a tiempo parcial. Problema: congestión.</td>
-    <td style="text-align: justify; font-size: 10px;">Transporte público; interés en eficiencia.</td>
-  </tr>
-</table>
+#### Entrevista 1
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | Luis Gutierrez (Estudiante) |
+| **Edad** | 18 años |
+| **Distrito** | SMP |
+| **URL Video** | [https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls](https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls) |
+| **Timing** | 00:00 |
+| **Duración** | 13:25 |
+| **Resumen** | Se moviliza diariamente desde SMP. Problemas de congestión y transporte costoso. |
+| **Características** | Transporte público; rutas rápidas y seguras. |
+
+---
+
+#### Entrevista 2
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/mariafernanda.png" alt="María Fernanda López" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | María Fernanda (Estudiante) |
+| **Edad** | 20 años |
+| **Distrito** | La Molina |
+| **URL Video** | — |
+| **Timing** | — |
+| **Duración** | — |
+| **Resumen** | Se traslada desde La Molina. Tráfico impredecible. |
+| **Características** | Transporte público y apps. |
+
+---
+
+#### Entrevista 3
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/carlosramirez.png" alt="Carlos Alberto Ramírez" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | Carlos Ramírez (Joven Prof.) |
+| **Edad** | 22 años |
+| **Distrito** | San Borja |
+| **URL Video** | — |
+| **Timing** | — |
+| **Duración** | — |
+| **Resumen** | Trabaja y estudia a tiempo parcial. Problema: congestión. |
+| **Características** | Transporte público; interés en eficiencia. |
 
   **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;">
-  <tr>
-    <th style="min-width:40px;">#</th>
-    <th style="min-width:120px;">Nombre</th>
-    <th style="min-width:30px;">Edad</th>
-    <th style="min-width:50px;">Distrito</th>
-    <th style="min-width:280px;">Screenshot</th>
-    <th style="min-width:200px;">URL Video</th>
-    <th style="min-width:40px;">Timing</th>
-    <th style="min-width:50px;">Duración</th>
-    <th style="min-width:180px;">Resumen</th>
-    <th style="min-width:180px;">Características</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Angie Santos<br/>(Jefe RR.HH.)</td>
-    <td>33</td>
-    <td>San Isidro</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/angie1.png" alt="Angie Santos" style="width:280px; height:auto;" />
-    </td>
-    <td style="word-break: break-all; font-size: 9px;">
-      <a href="https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4" target="_blank">
-        https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/...
-      </a>
-    </td>
-    <td>00:00</td>
-    <td>5:22</td>
-    <td style="text-align: justify; font-size: 10px;">Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable: scooters y motos eléctricas.</td>
-    <td style="text-align: justify; font-size: 10px;">Plan mensual; integración web; indicadores ahorro.</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Ana María<br/>(Gerente Op.)</td>
-    <td>35</td>
-    <td>Lima</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/entrvista-segmento2.png" alt="Ana María Delgado" style="width:280px; height:auto;" />
-    </td>
-    <td style="word-break: break-all; font-size: 9px;">
-      <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
-        https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
-      </a>
-    </td>
-    <td>10:00 am</td>
-    <td>6:20</td>
-    <td style="text-align: justify; font-size: 10px;">Mensajería 25 motos gasolina. Costos, mantenimiento, retrasos. Abierta a eléctrica con GPS.</td>
-    <td style="text-align: justify; font-size: 10px;">Flota GPS; informes; seguridad; plan corporativo.</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Luis Fernando<br/>(Jefe Op.)</td>
-    <td>33</td>
-    <td>Jesús María</td>
-    <td style="padding: 8px;">
-      <img src="assets/chapter02/entrevista-empresas2.png" alt="Luis Fernando Rivas" style="width:280px; height:auto;" />
-    </td>
-    <td style="word-break: break-all; font-size: 9px;">
-      <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
-        https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
-      </a>
-    </td>
-    <td>10:00 am</td>
-    <td>5:30</td>
-    <td style="text-align: justify; font-size: 10px;">Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable plan corporativo.</td>
-    <td style="text-align: justify; font-size: 10px;">Planificación movilidad; indicadores ahorro.</td>
-  </tr>
-</table>
+#### Entrevista 1
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/angie1.png" alt="Angie Santos" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | Angie Santos (Jefe RR.HH.) |
+| **Edad** | 33 años |
+| **Distrito** | San Isidro |
+| **URL Video** | [https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4](https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4) |
+| **Timing** | 00:00 |
+| **Duración** | 5:22 |
+| **Resumen** | Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable: scooters y motos eléctricas. |
+| **Características** | Plan mensual; integración web; indicadores ahorro. |
+
+---
+
+#### Entrevista 2
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/entrvista-segmento2.png" alt="Ana María Delgado" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | Ana María (Gerente Op.) |
+| **Edad** | 35 años |
+| **Distrito** | Lima |
+| **URL Video** | [https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing](https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing) |
+| **Timing** | 10:00 am |
+| **Duración** | 6:20 |
+| **Resumen** | Mensajería 25 motos gasolina. Costos, mantenimiento, retrasos. Abierta a eléctrica con GPS. |
+| **Características** | Flota GPS; informes; seguridad; plan corporativo. |
+
+---
+
+#### Entrevista 3
+
+<div style="text-align: center; margin-bottom: 40px;">
+<img src="assets/chapter02/entrevista-empresas2.png" alt="Luis Fernando Rivas" style="width: 500px; height: auto;" />
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Nombre** | Luis Fernando (Jefe Op.) |
+| **Edad** | 33 años |
+| **Distrito** | Jesús María |
+| **URL Video** | [https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing](https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing) |
+| **Timing** | 10:00 am |
+| **Duración** | 5:30 |
+| **Resumen** | Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable plan corporativo. |
+| **Características** | Planificación movilidad; indicadores ahorro. |
   **1er segmento: Jóvenes universitarios**
 
   ![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
