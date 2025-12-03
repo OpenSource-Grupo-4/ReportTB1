@@ -668,7 +668,22 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
   ![InsightR](assets/chapter05/insightR.png)
 
 ## 5.2.3. Sprint 4
-### 5.2.3.1.Sprint Planning 4.
+### 5.2.3.1. Sprint Planning 4.
+
+| Elemento                        | Detalle                                                                                       |
+|----------------------------------|----------------------------------------------------------------------------------------------|
+| **Sprint**                      | 4 - Última versión del frontend y backend, corrección de errores en el informe y conexión con la API y sitio web.               |
+| **Fecha**                       | 24/11/2025                                                                                   |
+| **Hora**                        | 21:00 horas (GMT-5)                                                                          |
+| **Lugar**                       | Reunión virtual mediante Google Meet                                                              |
+| **Preparado por**               | [WeTech]                                                       |
+| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ]                                                             |
+| **Sprint n-1 Review**           | En esta sección se corrigieron los errores dentro del informe, se mejoró el frontend y el backend para hacer la conexión con la API y el sitio web. |
+| **Sprint n-1 Retrospective**    | En esta sección todos los integrantes mencionaron tener aciertos en algunas partes del código desarrollado. Sin embargo, se pudo hacer un consenso y mejorar nuestras habilidades al realizar la conexión con la API y el sitio web. Además, se colaboró en la culminación de las entrevistas, el informe en general y arreglar los errores del mismo      |
+| **Sprint Goal & User Stories**  | Corregir errores e implementar la conexión entre el front y el back con la API y el sitio web.
+ (21-26)                                                                                         |
+| **Sprint 1 Velocity**           | 25 puntos                                                                                    |
+| **Sum of Story Points**         | 25 puntos                                                                                    |
 ### 5.2.3.2. Aspect Leaders and Collaborators.
 ### 5.2.3.3.Sprint Backlog 4.
 
