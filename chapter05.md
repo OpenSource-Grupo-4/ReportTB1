@@ -730,12 +730,130 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;"> <tr> <th style="min-width:40px;">#</th> <th style="min-width:120px;">Nombre</th> <th style="min-width:30px;">Edad</th> <th style="min-width:50px;">Distrito</th> <th style="min-width:280px;">Screenshot</th> <th style="min-width:200px;">URL Video</th> <th style="min-width:40px;">Timing</th> <th style="min-width:50px;">Duración</th> <th style="min-width:250px;">Resumen</th> <th style="min-width:220px;">Objetivas</th> <th style="min-width:220px;">Subjetivas</th> </tr> <tr> <td>1</td> <td>Williams Avendaño<br/>(ESAN)</td> <td>20</td> <td>Surco</td> <td style="padding: 8px;"> <img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=vxBR4mxMcmQ" target="_blank">https://www.youtube.com/watch?v=vxBR4mxMcmQ</a></td> <td>00:00:00</td> <td>10:44</td> <td style="text-align: justify; font-size: 10px;">Usa Beat y scooters. Le interesa WeRide por ahorro y economía. Sugiere info sobre cobertura. Valora facilidad de uso.</td> <td style="text-align: justify; font-size: 10px;">iPhone 12, ASUS; Google Maps, Beat, Yape, WhatsApp.</td> <td style="text-align: justify; font-size: 10px;">Organizado, práctico; marcas confiables; amigos, TikTok.</td> </tr> <tr> <td>2</td> <td>Patrick Cárdenas<br/>(PUCP)</td> <td>19</td> <td>Ate</td> <td style="padding: 8px;"> <img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=vxBR4mxMcmQ" target="_blank">https://www.youtube.com/watch?v=vxBR4mxMcmQ</a></td> <td>00:10:45</td> <td>8:30</td> <td style="text-align: justify; font-size: 10px;">Se mueve entre casa, uni y prácticas. Buses y motos por apps. Sugiere mapa en tiempo real. Landing clara.</td> <td style="text-align: justify; font-size: 10px;">Samsung A52, Lenovo; Moovit, Maps, Uber Moto, Plin.</td> <td style="text-align: justify; font-size: 10px;">Extrovertido, sociable; rapidez; Samsung/Xiaomi; YouTube.</td> </tr> <tr> <td>3</td> <td>Patrick Correa<br/>(U. Lima)</td> <td>20</td> <td>San Miguel</td> <td style="padding: 8px;"> <img src="assets/chapter05/correa.png" alt="Patrick Correa" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=vxBR4mxMcmQ" target="_blank">https://www.youtube.com/watch?v=vxBR4mxMcmQ</a></td> <td>00:19:16</td> <td>28:22</td> <td style="text-align: justify; font-size: 10px;">Transporte público y bici. WeRide útil cerca uni. Landing clara, pide info seguridad. App intuitiva, sugiere tutoriales.</td> <td style="text-align: justify; font-size: 10px;">iPhone XR, iPad; Maps, Cabify, Duolingo, Instagram.</td> <td style="text-align: justify; font-size: 10px;">Tranquilo, analítico; diseños minimalistas; TikTok.</td> </tr> </table>
+#### 1. Williams Avendaño
+
+<div style="text-align: center;">
+<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Williams Avendaño</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 20 años |
+| **Distrito** | Surco |
+| **Institución** | Estudiante ESAN |
+| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
+| **Timing** | 00:00:00 – 00:10:44 |
+| **Duración** | 10:44 |
+| **Resumen** | Williams comenta que usa apps como Beat y scooters públicos para moverse. Le interesa WeRide porque ahorra tiempo y es más económico. Sugiere más información sobre cobertura. Valora que la app sea fácil de usar y que permita reservar vehículos. |
+| **Características Objetivas** | iPhone 12, laptop ASUS; apps: Google Maps, Beat, Yape, WhatsApp. |
+| **Características Subjetivas** | Organizado, práctico; prefiere marcas confiables (Apple, Nike); influenciado por amigos y TikTok. |
+
+---
+
+#### 2. Patrick Cárdenas
+
+<div style="text-align: center;">
+<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Patrick Cárdenas</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 19 años |
+| **Distrito** | Ate |
+| **Institución** | Estudiante PUCP |
+| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
+| **Timing** | 00:10:45 – 00:19:15 |
+| **Duración** | 8:30 |
+| **Resumen** | Patrick se mueve entre casa, universidad y prácticas. Usa buses y motos por apps. Sugiere agregar un mapa de disponibilidad en tiempo real. La landing y la app le parecen claras y profesionales. |
+| **Características Objetivas** | Samsung A52, laptop Lenovo; apps: Moovit, Google Maps, Uber Moto, Plin. |
+| **Características Subjetivas** | Extrovertido, sociable; busca rapidez. Prefiere Samsung/Xiaomi; influido por YouTube. |
+
+---
+
+#### 3. Patrick Correa
+
+<div style="text-align: center;">
+<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Patrick Correa</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 20 años |
+| **Distrito** | San Miguel |
+| **Institución** | Estudiante Universidad de Lima |
+| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
+| **Timing** | 00:19:16 – 00:47:42 |
+| **Duración** | 28:22 |
+| **Resumen** | Correa usa transporte público y bicicleta. Percibe WeRide como útil si opera cerca de su universidad. Entendió bien la landing, pero pide más información sobre seguridad. La app le parece intuitiva e incluso sugiere incluir tutoriales para nuevos usuarios. |
+| **Características Objetivas** | iPhone XR, iPad 8th gen; apps: Google Maps, Cabify, Duolingo, Instagram. |
+| **Características Subjetivas** | Tranquilo, analítico; prefiere diseños minimalistas; influido por TikTokers y creadores estudiantiles. |
 
 
 **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center; font-size: 11px;"> <tr> <th style="min-width:40px;">#</th> <th style="min-width:120px;">Nombre</th> <th style="min-width:30px;">Edad</th> <th style="min-width:50px;">Distrito</th> <th style="min-width:280px;">Screenshot</th> <th style="min-width:200px;">URL Video</th> <th style="min-width:40px;">Timing</th> <th style="min-width:50px;">Duración</th> <th style="min-width:250px;">Resumen</th> <th style="min-width:220px;">Objetivas</th> <th style="min-width:220px;">Subjetivas</th> </tr> <tr> <td>1</td> <td>Ricardo Del Aguila<br/>(Inmobiliaria)</td> <td>27</td> <td>San Miguel</td> <td style="padding: 8px;"> <img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=0qsQ9NOwHMc" target="_blank">https://www.youtube.com/watch?v=0qsQ9NOwHMc</a></td> <td>00:00:00</td> <td>13:14</td> <td style="text-align: justify; font-size: 10px;">WeRide ofrece movilidad interna eficiente. Landing más B2C. Pide info SLA, costos, soporte. Panel corporativo inspira confianza. Sugiere casos éxito.</td> <td style="text-align: justify; font-size: 10px;">Dell Latitude, iPhone 14 Pro; Slack, Teams, Trello, Google Workspace.</td> <td style="text-align: justify; font-size: 10px;">Analítico, orientado procesos. Valora confiabilidad y soporte técnico. Benchmarks del sector.</td> </tr> <tr> <td>2</td> <td>Matias Flores<br/>(RRHH)</td> <td>26</td> <td>San Isidro</td> <td style="padding: 8px;"> <img src="assets/chapter05/matias.png" alt="Matias Flores" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=vxBR4mxMcmQ" target="_blank">https://www.youtube.com/watch?v=vxBR4mxMcmQ</a></td> <td>00:13:15</td> <td>9:20</td> <td style="text-align: justify; font-size: 10px;">WeRide movilidad sostenible para colaboradores. Landing profesional, falta segmentación B2B. Requiere modelos pago/empleado, restricciones por sede, flujos aprobación.</td> <td style="text-align: justify; font-size: 10px;">iPhone 13, MacBook Air M1; Teams, Outlook, BambooHR, Zoom.</td> <td style="text-align: justify; font-size: 10px;">Empático, bienestar laboral. Marcas modernas, sostenibles. HR Tech, LinkedIn.</td> </tr> <tr> <td>3</td> <td>Angie Santos<br/>(TI)</td> <td>46</td> <td>Santiago Surco</td> <td style="padding: 8px;"> <img src="assets/chapter05/angie.png" alt="Angie Santos" style="width:280px; height:auto;" /> </td> <td style="word-break: break-all; font-size: 9px;"><a href="https://www.youtube.com/watch?v=vxBR4mxMcmQ" target="_blank">https://www.youtube.com/watch?v=vxBR4mxMcmQ</a></td> <td>00:22:36</td> <td>7:31</td> <td style="text-align: justify; font-size: 10px;">WeRide integración tecnológica con trazabilidad. Landing sólida, necesita datos técnicos: API, integraciones, seguridad. Requiere tiempo real, alertas automáticas, suscripción leasing.</td> <td style="text-align: justify; font-size: 10px;">ThinkPad T, Pixel 7 Pro; Azure AD, Jira, Confluence, Power BI, Admin.</td> <td style="text-align: justify; font-size: 10px;">Estratégica, exigente ciberseguridad. Soluciones escalables, soporte 24/7. Estándares internacionales.</td> </tr> </table>
+#### 1. Ricardo Del Aguila
+
+<div style="text-align: center;">
+<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Ricardo Del Aguila</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 27 años |
+| **Distrito** | San Miguel |
+| **Cargo** | Jefe de inmobiliaria Grupo Horc |
+| **Video** | [https://www.youtube.com/watch?v=0qsQ9NOwHMc](https://www.youtube.com/watch?v=0qsQ9NOwHMc) |
+| **Timing** | 00:00:00 – 00:13:14 |
+| **Duración** | 13:14 |
+| **Resumen** | Ricardo entiende que WeRide ofrece movilidad interna eficiente y controlable para empresas. La landing le pareció más dirigida al usuario final, pero identifica potencial corporativo. Señala que necesita información sobre SLA, costos y soporte técnico. Destaca que la interfaz del panel corporativo inspira confianza. Sugiere agregar casos de éxito y comparativas de ahorro. |
+| **Características Objetivas** | Laptop Dell Latitude corporativa, iPhone 14 Pro; usa Slack, Microsoft Teams, Trello, Google Workspace; maneja dashboards a diario. |
+| **Características Subjetivas** | Perfil analítico, orientado a procesos. Prefiere soluciones confiables y con respaldo técnico. Le influyen benchmarks y referencias de otras empresas del sector. |
+
+---
+
+#### 2. Matias Flores Flores
+
+<div style="text-align: center;">
+<img src="assets/chapter05/matias.png" alt="Matias Flores" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Matias Flores Flores</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 26 años |
+| **Distrito** | San Isidro |
+| **Cargo** | Jefe de Recursos Humanos – empresa de servicios |
+| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
+| **Timing** | 00:13:15 – 00:22:35 |
+| **Duración** | 9:20 |
+| **Resumen** | Matias percibe que WeRide ofrece una alternativa sostenible de movilidad para colaboradores, reduciendo tiempos muertos. Considera que la landing transmite profesionalismo, pero falta segmentación clara B2B/B2C. Requiere información sobre modelos de pago por empleado y contratos mensuales. En el frontend destaca la necesidad de restricciones por sede y roles. También menciona que valoraría flujos de aprobación por jefatura. |
+| **Características Objetivas** | iPhone 13, laptop MacBook Air M1; apps: Teams, Outlook, BambooHR, Zoom; gestión constante de personal. |
+| **Características Subjetivas** | Empático, orientado a bienestar laboral. Prefiere marcas con enfoque moderno y sostenible (Apple, Notion). Influenciado por tendencias de HR Tech y recomendaciones en LinkedIn. |
+
+---
+
+#### 3. Angie Santos
+
+<div style="text-align: center;">
+<img src="assets/chapter05/angie.png" alt="Angie Santos" style="height:auto; margin:20px auto;" />
+<p style="margin:10px 0;"><strong>Angie Santos</strong></p>
+</div>
+
+| Campo | Valor |
+|-------|-------|
+| **Edad** | 46 años |
+| **Distrito** | Santiago de Surco |
+| **Cargo** | Jefa de TI – empresa corporativa multisede |
+| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
+| **Timing** | 00:22:36 – 00:29:05 |
+| **Duración** | 7:31 |
+| **Resumen** | Angie entendió que WeRide puede integrarse como una solución tecnológica para movilidad interna, con trazabilidad y control. La landing le pareció visualmente sólida, pero requiere información técnica: API, integraciones, seguridad, infraestructura y tiempos de mantenimiento. En la app considera importante la disponibilidad en tiempo real y alertas automáticas. Prefiere modelos de suscripción con leasing de flota. |
+| **Características Objetivas** | Laptop ThinkPad serie T, Pixel 7 Pro; apps: Azure AD, Jira, Confluence, Power BI, Google Admin; revisa métricas y KPIs a diario. |
+| **Características Subjetivas** | Perfil estratégico y exigente en temas de ciberseguridad. Prefiere soluciones escalables y con soporte 24/7. Influenciada por estándares internacionales y casos de integración tecnológica. |
 
 ### 5.3.3 Evaluaciones según heuristicas
 
