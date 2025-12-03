@@ -100,13 +100,14 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 - URL del repositorio de la Web Application en GitHub: https://github.com/OpenSource-Grupo-4/Frontend-WeRide
 - URL del respositorio de los Web Services en GitHub: https://github.com/OpenSource-Grupo-4/Backend-WeRide
 
-- Gitflow Implementation:
-- 
+**Gitflow Implementation:**
+
 Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
 
 ![GitFlow](/assets/chapter05/Gitflow.jpg)
 
 **Main branch**
+
 La rama principal de producción del proyecto es la Main branch. En esta rama reside el código estable que actualmente se encuentra desplegado en producción (Vercel/GitHub Pages).
 
 Notación: main
