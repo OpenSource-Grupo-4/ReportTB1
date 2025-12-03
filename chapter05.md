@@ -277,6 +277,10 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![NetworkGraph](assets/chapter05/networkgraph.png)
 
+-Landing Page principal (index.htrml): incluye seccion de bienvenida, about us, los vehiculos disponibles y llamado a la acción.
+
+![Landing](assets/chapter05/landing%20page.jpg)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
