@@ -730,15 +730,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-#### 1. Williams Avendaño
+#### Entrevista 1
 
-<div style="text-align: center;">
-<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Williams Avendaño</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Williams Avendaño |
 | **Edad** | 20 años |
 | **Distrito** | Surco |
 | **Institución** | Estudiante ESAN |
@@ -751,15 +751,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 ---
 
-#### 2. Patrick Cárdenas
+#### Entrevista 2
 
-<div style="text-align: center;">
-<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Patrick Cárdenas</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Patrick Cárdenas |
 | **Edad** | 19 años |
 | **Distrito** | Ate |
 | **Institución** | Estudiante PUCP |
@@ -772,15 +772,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 ---
 
-#### 3. Patrick Correa
+#### Entrevista 3
 
-<div style="text-align: center;">
-<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Patrick Correa</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Patrick Correa |
 | **Edad** | 20 años |
 | **Distrito** | San Miguel |
 | **Institución** | Estudiante Universidad de Lima |
@@ -794,15 +794,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-#### 1. Ricardo Del Aguila
+#### Entrevista 1
 
-<div style="text-align: center;">
-<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Ricardo Del Aguila</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Ricardo Del Aguila |
 | **Edad** | 27 años |
 | **Distrito** | San Miguel |
 | **Cargo** | Jefe de inmobiliaria Grupo Horc |
@@ -815,15 +815,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 ---
 
-#### 2. Matias Flores Flores
+#### Entrevista 2
 
-<div style="text-align: center;">
-<img src="assets/chapter05/matias.png" alt="Matias Flores" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Matias Flores Flores</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/matias.png" alt="Matias Flores" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Matias Flores Flores |
 | **Edad** | 26 años |
 | **Distrito** | San Isidro |
 | **Cargo** | Jefe de Recursos Humanos – empresa de servicios |
@@ -836,15 +836,15 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 ---
 
-#### 3. Angie Santos
+#### Entrevista 3
 
-<div style="text-align: center;">
-<img src="assets/chapter05/angie.png" alt="Angie Santos" style="height:auto; margin:20px auto;" />
-<p style="margin:10px 0;"><strong>Angie Santos</strong></p>
+<div style="text-align: center; margin-bottom: 20px;">
+<img src="assets/chapter05/angie.png" alt="Angie Santos" style="width: 300px; height: auto;" />
 </div>
 
 | Campo | Valor |
 |-------|-------|
+| **Nombre** | Angie Santos |
 | **Edad** | 46 años |
 | **Distrito** | Santiago de Surco |
 | **Cargo** | Jefa de TI – empresa corporativa multisede |
