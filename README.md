@@ -249,6 +249,13 @@ logro del student outcome.
         <ul style="margin:0; padding-left:18px;">
           <li><b>TB1:</b> Presentación y explicación clara de wireframes, mockups y puntos clave, facilitando la comprensión y alineación del equipo.</li>
         </ul>
+         <strong>Morales Sosa Arnold Gabriel</strong><br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Participe activamente en el Sprint Planning 1. Coordiné la definición de tareas para la sección de Footer y Redes Sociales. Presenté mis avances sobre la implementación de la Landing Page.</li>
+          <li><b>TP1:</b> Comuniqué sobre los requerimientos y flujo del usuario para la Historia de Usuario US-24 durante el Sprint Planning 2, planificación del db.json. Coordiné con mi equipo para la integración de los pagos y el db.json.</li>
+          <li><b>TB2:</b> Me encargué del apartado del backend sobre el Bounded Context de "Gestión de Perfiles" durante el Spring Planning 3. Me fijé en la arquitectura de Profile a mis compañeros para su consumo desde otros microservicios.</li>
+          <li><b>TF:</b> Particié en la validación final del producto y coordinación para la integración completa de los servicios para el despliegue final. Además de arreglar el informe levantando errores dados por el profesor.</li>
+        </ul>
         <strong>Castro Pariona Jefferson Ernesto</strong><br>
         <ul style="margin:0; padding-left:18px;">
           <li><b>TB1:</b> Coordinación de reuniones, presentación de propuestas y revisión de wireframes y mockups para asegurar la alineación.</li>
@@ -260,6 +267,7 @@ logro del student outcome.
           <li><b>TB1:</b> Comunicación efectiva en distintos contextos y audiencias, coordinación mediante presentaciones claras, User Stories, mockups y wireframes.</li>
           <li><b>TP1:</b> Comunicación efectiva, coordinación y reformulación de User Stories, creación de Web Application.</li>
           <li><b>TB2:</b> Comunicación efectiva, coordinación en actividades individuales, creación y despliegue de Backend Application.</li>
+          <li><b>TF:</b> Comunicación fluida durante la fase de cierre, asegurando que sus módulos se integraran correctamente en la versión final del producto.</li>
         </ul>
       </td>
     </tr>
@@ -276,6 +284,13 @@ logro del student outcome.
         <ul style="margin:0; padding-left:18px;">
           <li><b>TB1:</b> Documentación y presentación clara de wireframes, mockups y avances, facilitando la comprensión y análisis del equipo.</li>
         </ul>
+        <strong>Morales Sosa Arnold Gabriel</strong><br>
+        <ul style="margin:0; padding-left:18px;">
+          <li><b>TB1:</b> Documenté la User Story US-05 (Footer y Redes Sociales) en el Sprint Backlog. Redacté el código semántico HTML/CSS para la Landing Page y commits descriptivos en GitHub.</li>
+          <li><b>TP1:</b> Hice la documentación técnica de la funcionalidad de "Pago en Línea" y del db.json. Registré los avances en el Project Management y redacté los criterios de aceptación para las historias de usuario de pagos.</li>
+          <li><b>TB2:</b> Implementé el código en Java/Spring Boot con estructura clara y commits bajo la convención Conventional Commits del Bounded Countext Profile</li>
+          <li><b>TF:</b> Elaboré la documentación final técnica y de usuario para los módulos bajo su responsabilidad. Actualicé el reporte final corrigiendo errores y siguiendo los lineamientos de la rúbrica.</li>
+        </ul>
         <strong>Castro Pariona Jefferson Ernesto</strong><br>
         <ul style="margin:0; padding-left:18px;">
           <li><b>TB1:</b> Documentación de capítulos I, III y V, redacción y revisión de User Stories, contribución a la documentación del repositorio y README.</li>
@@ -287,6 +302,7 @@ logro del student outcome.
           <li><b>TB1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
           <li><b>TP1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
           <li><b>TB2:</b> Comunicación y efectividad esperada en actividades individuales, bounded context y deploy del servicio.</li>
+          <li><b>TF:</b> La documentación final consolidada reflejó con precisión el trabajo realizado, demostrando capacidad para sintetizar información técnica y funcional para audiencias académicas y técnicas.</li>
         </ul>
       </td>
     </tr>
