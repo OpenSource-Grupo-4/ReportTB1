@@ -728,48 +728,14 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 ---
 ### 5.3.2 Registro de Entrevistas
 
-**Segmento 2**
+**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
-  <div style="padding:6px 4px 18px 4px;">
-    <strong>Entrevista N°1:</strong>
-  </div>
-  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
-    <div style="font-style:italic; margin-bottom:6px;">
-      <strong>Vista Previa:</strong><br/>
-      <img src="assets/chapter05/entrevista-segmento-2.png"/><br>
-      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
-    </div>
-  </div>
-  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Flores Flores, Matias</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Castro Pariona, Jefferson</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Información del entrevistado:</strong><br/>
-        Sexo: Masculino / Edad: 25 / Residencia: Lima
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
-        <strong>Enlace Entrevista:</strong>
-        <a href="" target="_blank" rel="noopener">https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
-      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 09:41</td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
-        <strong>Resumen de Entrevista:</strong>
-        <div style="margin-top:8px; white-space:pre-wrap;">Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción práctica para desplazamientos cortos si la propuesta es clara y el proceso de registro/pago es sencillo. Confían más si ven precios visibles, testimonios y métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco intuitivas (CTA poco visibles, botones inactivos).</div>
-      </td>
-    </tr>
-  </table>
-</div>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px; text-align:center;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> <th style="min-width:220px;">Características Subjetivas</th> </tr> <tr> <td>1</td> <td>Williams Avendaño (Estudiante Universidad ESAN)</td> <td>20</td> <td>Surco</td> <td style="text-align:center;"> <img src="assets/chapter05/willy.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">https://www.youtube.com/watch?v=vxBR4mxMcmQ</td> <td>00:00:00 – 00:10:44</td> <td>(10:44)</td> <td>Williams comenta que usa apps como Beat y scooters públicos para moverse. Le interesa WeRide porque ahorra tiempo y es más económico. Sugiere más información sobre cobertura. Valora que la app sea fácil de usar y que permita reservar vehículos.</td> <td>iPhone 12, laptop ASUS; apps: Google Maps, Beat, Yape, WhatsApp.</td> <td>Organizado, práctico; prefiere marcas confiables (Apple, Nike); influenciado por amigos y TikTok.</td> </tr> <tr> <td>2</td> <td>Patrick Cárdenas (Estudiante PUCP)</td> <td>19</td> <td>Ate</td> <td style="text-align:center;"> <img src="assets/chapter05/cardenas.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">https://www.youtube.com/watch?v=vxBR4mxMcmQ</td> <td>00:10:45 – 00:19:15</td> <td>(8:30)</td> <td>Patrick se mueve entre casa, universidad y prácticas. Usa buses y motos por apps. Sugiere agregar un mapa de disponibilidad en tiempo real. La landing y la app le parecen claras y profesionales.</td> <td>Samsung A52, laptop Lenovo; apps: Moovit, Google Maps, Uber Moto, Plin.</td> <td>Extrovertido, sociable; busca rapidez. Prefiere Samsung/Xiaomi; influido por YouTube.</td> </tr> <tr> <td>3</td> <td>Patrick Correa (Estudiante Universidad de Lima)</td> <td>20</td> <td>San Miguel</td> <td style="text-align:center;"> <img src="assets/chapter05/correa.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">https://www.youtube.com/watch?v=vxBR4mxMcmQ</td> <td>00:19:16 – 00:47:42</td> <td>(28:22)</td> <td>Correa usa transporte público y bicicleta. Percibe WeRide como útil si opera cerca de su universidad. Entendió bien la landing, pero pide más información sobre seguridad. La app le parece intuitiva e incluso sugiere incluir tutoriales para nuevos usuarios.</td> <td>iPhone XR, iPad 8th gen; apps: Google Maps, Cabify, Duolingo, Instagram.</td> <td>Tranquilo, analítico; prefiere diseños minimalistas; influido por TikTokers y creadores estudiantiles.</td> </tr> </table>
+
+
+**Segmento 2: Empresas y Planes Corporativos (B2B)**
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px; text-align:center;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> <th style="min-width:220px;">Características Subjetivas</th> </tr> <!-- ENTREVISTA 1 --> <tr> <td>1</td> <td>Ricardo Del Aguila (Jefe de inmobiliaria Grupo Horc)</td> <td>27</td> <td>San Miguel</td> <td style="text-align:center;"> <img src="assets/chapter05/ricardo.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">https://www.youtube.com/watch?v=0qsQ9NOwHMc</td> <td>00:00:00 – 00:13:14</td> <td>13 min 14 s</td> <td>Ricardo entiende que WeRide ofrece movilidad interna eficiente y controlable para empresas. La landing le pareció más dirigida al usuario final, pero identifica potencial corporativo. Señala que necesita información sobre SLA, costos y soporte técnico. Destaca que la interfaz del panel corporativo inspira confianza. Sugiere agregar casos de éxito y comparativas de ahorro.</td> <td>Laptop Dell Latitude corporativa, iPhone 14 Pro; usa Slack, Microsoft Teams, Trello, Google Workspace; maneja dashboards a diario.</td> <td>Perfil analítico, orientado a procesos. Prefiere soluciones confiables y con respaldo técnico. Le influyen benchmarks y referencias de otras empresas del sector.</td> </tr> <!-- ENTREVISTA 2 --> <tr> <td>2</td> <td>Matias Flores Flores (Jefe de Recursos Humanos – empresa de servicios)</td> <td>26</td> <td>San Isidro</td> <td style="text-align:center;"> <img src="assets/chapter05/matias.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">(mismo enlace o pendiente)</td> <td>00:13:15 – 00:22:35</td> <td>9 min 20 s</td> <td>Matias percibe que WeRide ofrece una alternativa sostenible de movilidad para colaboradores, reduciendo tiempos muertos. Considera que la landing transmite profesionalismo, pero falta segmentación clara B2B/B2C. Requiere información sobre modelos de pago por empleado y contratos mensuales. En el frontend destaca la necesidad de restricciones por sede y roles. También menciona que valoraría flujos de aprobación por jefatura.</td> <td>iPhone 13, laptop MacBook Air M1; apps: Teams, Outlook, BambooHR, Zoom; gestión constante de personal.</td> <td>Empático, orientado a bienestar laboral. Prefiere marcas con enfoque moderno y sostenible (Apple, Notion). Influenciado por tendencias de HR Tech y recomendaciones en LinkedIn.</td> </tr> <!-- ENTREVISTA 3 --> <tr> <td>3</td> <td>Angie Santos (Jefa de TI – empresa corporativa multisede)</td> <td>46</td> <td>Santiago de Surco</td> <td style="text-align:center;"> <img src="assets/chapter05/angie.png" alt="Imagen Entrevistado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td style="text-align:center;">(mismo enlace o pendiente)</td> <td>00:22:36 – 00:29:05</td> <td>7 min 31 s</td> <td>Angie entendió que WeRide puede integrarse como una solución tecnológica para movilidad interna, con trazabilidad y control. La landing le pareció visualmente sólida, pero requiere información técnica: API, integraciones, seguridad, infraestructura y tiempos de mantenimiento. En la app considera importante la disponibilidad en tiempo real y alertas automáticas. Prefiere modelos de suscripción con leasing de flota.</td> <td>Laptop ThinkPad serie T, Pixel 7 Pro; apps: Azure AD, Jira, Confluence, Power BI, Google Admin; revisa métricas y KPIs a diario.</td> <td>Perfil estratégico y exigente en temas de ciberseguridad. Prefiere soluciones escalables y con soporte 24/7. Influenciada por estándares internacionales y casos de integración tecnológica.</td> </tr> </table>
 
 ### 5.3.3 Evaluaciones según heuristicas
 

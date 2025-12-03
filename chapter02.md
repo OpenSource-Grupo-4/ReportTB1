@@ -1,693 +1,271 @@
- # Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
+  # Capítulo II: Requirements Elicitation & Analysis
+  ## 2.1. Competidores
 
-### 2.1.1 Análisis Competitivo
+  ### 2.1.1 Análisis Competitivo
 
-<table>
-  <tr>
-    <th colspan="22">Competitive Analysis Landscape</th>
-  </tr>
-  <tr>
-    <td colspan="1">¿Por qué llevar a cabo el análisis?</td>
-    <td colspan="17">El análisis competitivo es esencial para entender el mercado, identificar oportunidades que nos diferencien y anticipar amenazas. Permite ajustar la estrategia para ganar ventaja sobre la competencia y asegurar el éxito del producto.</td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-    <td>WeRide<br><img src="assets/chapter02/WeRide.png" alt="WeRide"></td>
-    <td>Lime<br><img src="assets/chapter02/lime.png" alt="Lime"></td>
-    <td>CityBikeLima<br><img src="assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
-    <td>Whoosh<br><img src="assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
-</tr>
-  <tr>
-    <td rowspan="2">Perfil</td>
-    <td>Overview</td>
-    <td>Plataforma diseñada para optimizar la  micromovilidad eléctrica enfocada en motos, scooters y bicis inteligentes con IoT, mejorando la experiencia de usuarios y solucionando problemas como la alta tasa de tránsito vehícular.</td>
-    <td>Multinacional líder en scooters y bicicletas eléctricas compartidas, presente en múltiples ciudades globales.</td>
-    <td>Programa público de bicicletas compartidas en Lima, operado con soporte municipa</td>
-    <td>Plataforma internacional de scooters eléctricos compartidos con foco en Europa y Latinoamérica</td>
-</tr>
-  <tr>
-  <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td>Enfoque local: integra pagos peruanos (Yape/Plin), tarifas accesibles y flotas adaptadas al contexto nacional.</td>
-    <td>Amplia cobertura internacional, marca reconocida y gran inversión en tecnología.</td>
-    <td>Accesibilidad y precios bajos, integración con transporte público.</td>
-    <td>Experiencia de usuario optimizada, flota moderna y rápida expansión.</td>
+  <table>
+    <tr>
+      <th colspan="22">Competitive Analysis Landscape</th>
     </tr>
-<tr>
-    <td rowspan="2">Perfil de Marketing</td>
-    <td>Mercado Objetivo</td>
-    <td>Jóvenes, estudiantes, profesionales urbanos, turistas en Lima y otras ciudades peruanas.</td>
-    <td>Usuarios urbanos globales que buscan movilidad rápida y sostenible.</td>
-    <td>Ciudadanos limeños que necesitan transporte económico y ecológico en zonas céntricas.</td>
-    <td>Usuarios de centros urbanos en expansión que buscan transporte práctico.</td>
-  </tr>
-  <tr>
-  <td>Estrategias de Marketing</td>
-    <td>Campañas digitales locales, alianzas con universidades y municipalidades, enfoque en sostenibilidad.</td>
-    <td>Publicidad global, branding fuerte, promociones en apps y eventos verdes.</td>
-    <td>Marketing institucional con apoyo municipal, señalética en estaciones.</td>
-    <td>Marketing digital, descuentos por uso recurrente, gamificación en la app.</td>
+    <tr>
+      <td colspan="1">¿Por qué llevar a cabo el análisis?</td>
+      <td colspan="17">El análisis competitivo es esencial para entender el mercado, identificar oportunidades que nos diferencien y anticipar amenazas. Permite ajustar la estrategia para ganar ventaja sobre la competencia y asegurar el éxito del producto.</td>
     </tr>
-<tr>
-    <td rowspan="3">Perfil de Producto</td>
-    <td>Productos y Servicios</td>
-    <td>Scooters, motos eléctricas y bicicletas compartidas con IoT, app para reserva y pago.</td>
-    <td>Scooters y bicicletas eléctricas compartidas con geolocalización.</td>
-    <td>Bicicletas mecánicas y eléctricas en estaciones físicas.</td>
-    <td>Scooters eléctricos con desbloqueo vía app.</td>
+    <tr>
+      <td colspan="2"></td>
+      <td>WeRide<br><img src="assets/chapter02/WeRide.png" alt="WeRide"></td>
+      <td>Lime<br><img src="assets/chapter02/lime.png" alt="Lime"></td>
+      <td>CityBikeLima<br><img src="assets/chapter02/CityBikeLima.png" alt="CityBikeLima"></td>
+      <td>Whoosh<br><img src="assets/chapter02/Whoosh.svg" alt="Whoosh"></td>
   </tr>
+    <tr>
+      <td rowspan="2">Perfil</td>
+      <td>Overview</td>
+      <td>Plataforma diseñada para optimizar la  micromovilidad eléctrica enfocada en motos, scooters y bicis inteligentes con IoT, mejorando la experiencia de usuarios y solucionando problemas como la alta tasa de tránsito vehícular.</td>
+      <td>Multinacional líder en scooters y bicicletas eléctricas compartidas, presente en múltiples ciudades globales.</td>
+      <td>Programa público de bicicletas compartidas en Lima, operado con soporte municipa</td>
+      <td>Plataforma internacional de scooters eléctricos compartidos con foco en Europa y Latinoamérica</td>
+  </tr>
+    <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+      <td>Enfoque local: integra pagos peruanos (Yape/Plin), tarifas accesibles y flotas adaptadas al contexto nacional.</td>
+      <td>Amplia cobertura internacional, marca reconocida y gran inversión en tecnología.</td>
+      <td>Accesibilidad y precios bajos, integración con transporte público.</td>
+      <td>Experiencia de usuario optimizada, flota moderna y rápida expansión.</td>
+      </tr>
   <tr>
-  <td>Precios y Costos</td>
-    <td>Planes de suscripción escalonados según el número de usuarios y servicios adicionales.</td>
-    <td>Tarifas más altas, variables según ciudad; paquetes promocionales.</td>
-    <td>Bajos costos de alquiler por tiempo (subvencionados)</td>
-    <td>Planes semanales con opciones de servicios premium.</td>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Mercado Objetivo</td>
+      <td>Jóvenes, estudiantes, profesionales urbanos, turistas en Lima y otras ciudades peruanas.</td>
+      <td>Usuarios urbanos globales que buscan movilidad rápida y sostenible.</td>
+      <td>Ciudadanos limeños que necesitan transporte económico y ecológico en zonas céntricas.</td>
+      <td>Usuarios de centros urbanos en expansión que buscan transporte práctico.</td>
     </tr>
-<td>Canales de distribución (Web y/o Móvil)</td>
-    <td>Sitio Web</td>
-    <td>Sitio Web</td>
-    <td>Sitio Web</td>
-    <td>Sitio Web y móvil.</td>
-<tr>
-    <td rowspan="4">Análisis SWOT</td>
-    <td>Fortalezas</td>
-    <td>Conocimiento local, integración con pagos peruanos, tarifas accesibles.</td>
-    <td>Escala internacional, financiamiento robusto, marca reconocida.</td>
-    <td>Respaldo municipal, precios muy bajos, simpleza.</td>
-    <td>Flota moderna, app fácil de usar, expansión ágil.</td>
-  </tr>
-  <tr>
-  <td>Debilidades</td>
-    <td>Escala inicial limitada, menor financiamiento comparado a multinacionales.</td>
-    <td>Altos precios en algunos mercados, críticas por sostenibilidad real.</td>
-    <td>Limitada cobertura, infraestructura básica, tecnología rezagada.</td>
-    <td>Menor reconocimiento global que Lime, cobertura desigual.</td>
-    </tr>
-  <tr>
-<td>Oportunidades</td>
-    <td>Expandir a más ciudades peruanas, integrar con transporte público y turismo.</td>
-    <td>Crecer en mercados emergentes, integrar más tipos de vehículos.</td>
-    <td>Modernizar flota con bicicletas eléctricas, mejorar app.</td>
-    <td>Expandirse en LATAM con asociaciones estratégicas.</td>
-</tr>
-  <tr>
-<td>Amenazas</td>
-    <td>Competencia internacional (Lime, Whoosh), trabas regulatorias locales.</td>
-    <td>Regulaciones urbanas, vandalismo y saturación de mercado.
-</td>
-    <td>Dependencia de apoyo municipal y presupuesto público.</td>
-    <td>Competencia fuerte (Lime, WeRide), regulaciones urbanas.</td>
-</tr>
-</table>
-
----
-
-### 2.1.2. Estrategias y tácticas frente a competidores.
-
-Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
-
-En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
-
-Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades.
-
----
-
-## 2.2.Entrevistas.  
-
-### 2.2.1.Diseño de entrevistas.  
-**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
-**Preguntas principales:**
-
-
-- "¿Cómo te transportas actualmente en tu día a día?"
-
-- "¿Qué rutas sueles tomar y cuánto tiempo pierdes en tráfico?"
-
-- "¿Qué problemas enfrentas (costo, inseguridad, congestión)?"
-
-- "¿Qué apps usas para moverte o pagar transporte?"
-
-- "¿Usas Yape, Plin o tarjetas?"
-
-- "¿Has usado scooters, bicis o motos eléctricas?"
-
-- "¿Qué te impediría o motivaría a usarlas?"
-
-- "¿Pagarias por un plan de suscripción para usar estos vehículos diariamente?"
-
-- "¿Qué funcionalidades debería tener la app?"
-
-- "¿Qué te parece más importante: precio, conveniencia o sostenibilidad?"
-
-- "¿Cómo te enteras de nuevas apps o servicios?"
-
-**Segmento 2: Empresas (B2B)**
-Preguntas principales:
-- ¿Cómo manejan la movilidad de sus colaboradores o entregas?"
-
-- "¿Qué problemas tienen (costos, retrasos, mantenimiento)?"
-
-- "¿Considerarían usar vehículos eléctricos compartidos para su operación?"
-
-- "¿Para qué casos de uso (entregas rápidas, transporte de colaboradores, etc.)?"
-
-- "¿Necesitarían integración con su sistema de gestión?"
-
-- "¿Qué medidas de seguridad esperarían?"
-
-- "¿Prefieren alquiler por flota, plan corporativo o pago por uso?"
-
-- "¿Qué información necesitarían para tomar una decisión?"
-
-- "¿Cómo miden el ROI en temas de movilidad?"
-
-- "¿Han implementado soluciones verdes antes?"
-
-<table>
-  <tr>
-    <th colspan="6">Competitive Analysis Landscape</th>
-  </tr>
-  <tr>
-    <td>¿Por qué llevar a cabo el análisis?</td>
-    <td colspan="5">El análisis competitivo es esencial para entender el mercado, identificar oportunidades que nos diferencien y anticipar amenazas. Permite ajustar la estrategia para ganar ventaja sobre la competencia y asegurar el éxito del producto.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>WeRide<br><img src="assets/chapter02/WeRide.png" alt="WeRide" width="60"></td>
-    <td>Lime<br><img src="assets/chapter02/lime.png" alt="Lime" width="60"></td>
-    <td>CityBikeLima<br><img src="assets/chapter02/CityBikeLima.png" alt="CityBikeLima" width="60"></td>
-    <td>Whoosh<br><img src="assets/chapter02/Whoosh.svg" alt="Whoosh" width="60"></td>
-  </tr>
-  <tr>
-    <td>Perfil - Overview</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Optimiza micromovilidad eléctrica (motos, scooters, bicis inteligentes con IoT).</li>
-        <li>Mejora experiencia de usuario y resuelve problemas de tránsito vehicular.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Multinacional líder en scooters y bicicletas eléctricas compartidas.</li>
-        <li>Presente en múltiples ciudades globales.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Programa público de bicicletas compartidas en Lima.</li>
-        <li>Operado con soporte municipal.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Plataforma internacional de scooters eléctricos compartidos.</li>
-        <li>Foco en Europa y Latinoamérica.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>Ventaja competitiva</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Enfoque local: pagos peruanos (Yape/Plin).</li>
-        <li>Tarifas accesibles y flotas adaptadas al contexto nacional.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Cobertura internacional, marca reconocida.</li>
-        <li>Gran inversión en tecnología.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Accesibilidad y precios bajos.</li>
-        <li>Integración con transporte público.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Experiencia de usuario optimizada.</li>
-        <li>Flota moderna y rápida expansión.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>Mercado Objetivo</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Jóvenes, estudiantes, profesionales urbanos, turistas en Lima y otras ciudades peruanas.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Usuarios urbanos globales que buscan movilidad rápida y sostenible.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Ciudadanos limeños que necesitan transporte económico y ecológico en zonas céntricas.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Usuarios de centros urbanos en expansión que buscan transporte práctico.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
+    <tr>
     <td>Estrategias de Marketing</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Campañas digitales locales.</li>
-        <li>Alianzas con universidades y municipalidades.</li>
-        <li>Enfoque en sostenibilidad.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Publicidad global, branding fuerte.</li>
-        <li>Promociones en apps y eventos verdes.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Marketing institucional con apoyo municipal.</li>
-        <li>Señalética en estaciones.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Marketing digital.</li>
-        <li>Descuentos por uso recurrente.</li>
-        <li>Gamificación en la app.</li>
-      </ul>
-    </td>
-  </tr>
+      <td>Campañas digitales locales, alianzas con universidades y municipalidades, enfoque en sostenibilidad.</td>
+      <td>Publicidad global, branding fuerte, promociones en apps y eventos verdes.</td>
+      <td>Marketing institucional con apoyo municipal, señalética en estaciones.</td>
+      <td>Marketing digital, descuentos por uso recurrente, gamificación en la app.</td>
+      </tr>
   <tr>
-    <td>Productos y Servicios</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Scooters, motos eléctricas y bicicletas compartidas con IoT.</li>
-        <li>App para reserva y pago.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Scooters y bicicletas eléctricas compartidas con geolocalización.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Bicicletas mecánicas y eléctricas en estaciones físicas.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Scooters eléctricos con desbloqueo vía app.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
+      <td rowspan="3">Perfil de Producto</td>
+      <td>Productos y Servicios</td>
+      <td>Scooters, motos eléctricas y bicicletas compartidas con IoT, app para reserva y pago.</td>
+      <td>Scooters y bicicletas eléctricas compartidas con geolocalización.</td>
+      <td>Bicicletas mecánicas y eléctricas en estaciones físicas.</td>
+      <td>Scooters eléctricos con desbloqueo vía app.</td>
+    </tr>
+    <tr>
     <td>Precios y Costos</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Planes de suscripción escalonados según usuarios y servicios.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Tarifas más altas, variables según ciudad.</li>
-        <li>Paquetes promocionales.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Bajos costos de alquiler por tiempo (subvencionados).</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Planes semanales con opciones de servicios premium.</li>
-      </ul>
-    </td>
-  </tr>
+      <td>Planes de suscripción escalonados según el número de usuarios y servicios adicionales.</td>
+      <td>Tarifas más altas, variables según ciudad; paquetes promocionales.</td>
+      <td>Bajos costos de alquiler por tiempo (subvencionados)</td>
+      <td>Planes semanales con opciones de servicios premium.</td>
+      </tr>
+  <td>Canales de distribución (Web y/o Móvil)</td>
+      <td>Sitio Web</td>
+      <td>Sitio Web</td>
+      <td>Sitio Web</td>
+      <td>Sitio Web y móvil.</td>
   <tr>
-    <td>Canales de distribución</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Sitio Web</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Sitio Web</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Sitio Web</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Sitio Web y móvil</li>
-      </ul>
-    </td>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Conocimiento local, integración con pagos peruanos, tarifas accesibles.</td>
+      <td>Escala internacional, financiamiento robusto, marca reconocida.</td>
+      <td>Respaldo municipal, precios muy bajos, simpleza.</td>
+      <td>Flota moderna, app fácil de usar, expansión ágil.</td>
+    </tr>
+    <tr>
+    <td>Debilidades</td>
+      <td>Escala inicial limitada, menor financiamiento comparado a multinacionales.</td>
+      <td>Altos precios en algunos mercados, críticas por sostenibilidad real.</td>
+      <td>Limitada cobertura, infraestructura básica, tecnología rezagada.</td>
+      <td>Menor reconocimiento global que Lime, cobertura desigual.</td>
+      </tr>
+    <tr>
+  <td>Oportunidades</td>
+      <td>Expandir a más ciudades peruanas, integrar con transporte público y turismo.</td>
+      <td>Crecer en mercados emergentes, integrar más tipos de vehículos.</td>
+      <td>Modernizar flota con bicicletas eléctricas, mejorar app.</td>
+      <td>Expandirse en LATAM con asociaciones estratégicas.</td>
   </tr>
-  <tr>
-    <td>SWOT - Fortalezas</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Conocimiento local.</li>
-        <li>Integración con pagos peruanos.</li>
-        <li>Tarifas accesibles.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Escala internacional.</li>
-        <li>Financiamiento robusto.</li>
-        <li>Marca reconocida.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Respaldo municipal.</li>
-        <li>Precios muy bajos.</li>
-        <li>Simpleza.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Flota moderna.</li>
-        <li>App fácil de usar.</li>
-        <li>Expansión ágil.</li>
-      </ul>
-    </td>
+    <tr>
+  <td>Amenazas</td>
+      <td>Competencia internacional (Lime, Whoosh), trabas regulatorias locales.</td>
+      <td>Regulaciones urbanas, vandalismo y saturación de mercado.
+  </td>
+      <td>Dependencia de apoyo municipal y presupuesto público.</td>
+      <td>Competencia fuerte (Lime, WeRide), regulaciones urbanas.</td>
   </tr>
-  <tr>
-    <td>SWOT - Debilidades</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Escala inicial limitada.</li>
-        <li>Menor financiamiento comparado a multinacionales.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Altos precios en algunos mercados.</li>
-        <li>Críticas por sostenibilidad real.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Limitada cobertura.</li>
-        <li>Infraestructura básica.</li>
-        <li>Tecnología rezagada.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Menor reconocimiento global que Lime.</li>
-        <li>Cobertura desigual.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>SWOT - Oportunidades</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Expandir a más ciudades peruanas.</li>
-        <li>Integrar con transporte público y turismo.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Crecer en mercados emergentes.</li>
-        <li>Integrar más tipos de vehículos.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Modernizar flota con bicicletas eléctricas.</li>
-        <li>Mejorar app.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Expandirse en LATAM con asociaciones estratégicas.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>SWOT - Amenazas</td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Competencia internacional (Lime, Whoosh).</li>
-        <li>Trabas regulatorias locales.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Regulaciones urbanas.</li>
-        <li>Vandalismo y saturación de mercado.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Dependencia de apoyo municipal.</li>
-        <li>Presupuesto público.</li>
-      </ul>
-    </td>
-    <td>
-      <ul style="margin:0; padding-left:18px;">
-        <li>Competencia fuerte (Lime, WeRide).</li>
-        <li>Regulaciones urbanas.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+  </table>
 
-<table>
-  <tr>
-    <td><b>Link de entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u201822516_upc_edu_pe/EeNpfpYFk9hJnAitYBXBWdIBWmEfDnOJZkQpQ3uTIbt3pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K39Xx6</b> ""</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Resumen de entrevista:</b><br>
-      Angie es una tomadora de decisiones en una empresa que realiza entregas urbanas. Se muestra interesada pero cautelosa ante nuevas soluciones. Sus principales problemas son los altos costos de los servicios de mensajería externos y el mantenimiento de su flota propia de motos, además de la pérdida de tiempo por el tráfico y problemas de estacionamiento.
+  ---
 
-Valora especialmente la eficiencia, la trazabilidad en tiempo real y la seguridad de sus empleados. Prefiere un modelo de pago por uso para mayor flexibilidad y ve el valor competitivo de la sostenibilidad.
+  ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-Para avanzar, necesita ver números concretos de ahorro (ROI) y realizar una prueba piloto con 3-4 scooters antes de tomar una decisión final.
-  </tr>
-</table>  
+  Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
 
-<table>
-  <tr>
-    <th colspan="2">Entrevistado N° 2</th>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Entrevistado" width="150"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre y Apellido:</b> Ana María Delgado</td>
-    <td><b>Edad:</b> 35</td>
-  </tr>
-  <tr>
-    <td><b>Profesión:</b>Gerente de Operaciones – Empresa de Mensajería</td>
-    <td><b>Sexo:</b> Femenino</td>
-  </tr>
-  <tr>
-    <td><b>Instante de inicio:</b> 10:00 am</td>
-    <td><b>Duración:</b> 6:20 min</td>
-  </tr>
-  <tr>
-    <td><b>Link de entrevista:</b> https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Resumen de entrevista:</b><br>
-      La entrevistada es gerente de operaciones de una empresa de mensajería que maneja una flota de 25 motos a gasolina. Señala que los principales problemas son los altos costos de combustible, el mantenimiento constante y los retrasos por tráfico en Lima. Actualmente gestionan la movilidad de los colaboradores con un sistema interno, pero considera que integrar una solución de vehículos eléctricos compartidos sería una opción viable para las entregas rápidas en zonas urbanas congestionadas.
-      Ana María indicó que le interesaría un plan corporativo por flota, siempre que exista monitoreo GPS en tiempo real, medidas de seguridad como bloqueo remoto y la posibilidad de recibir informes mensuales de uso y costos. Además, destacó que la empresa busca reducir su huella ambiental y que un proyecto verde sería positivo para su imagen de marca frente a clientes corporativos.
-  </tr>
-</table>  
+  En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
 
-<table>
-  <tr>
-    <th colspan="2">Entrevistado N° 3</th>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="assets/chapter02/entrevistaempresas1.png" alt="Imagen Entrevistado" width="150"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Nombre y Apellido:</b> Luis Fernando Rivas</td>
-    <td><b>Edad:</b> 27</td>
-  </tr>
-  <tr>
-    <td><b>Profesión:</b> Jefe de Recursos Humanos – Empresa de Consultoría</td>
-    <td><b>Sexo:</b> Masculino</td>
-  </tr>
-  <tr>
-    <td><b>Instante de inicio:</b> 10:00 am</td>
-    <td><b>Duración:</b> 5:30 min</td>
-  </tr>
-  <tr>
-    <td><b>Link de entrevista:</b> https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <b>Resumen de entrevista:</b><br>
-      El entrevistado es jefe de RR.HH. en una consultora con más de 150 colaboradores, ubicada en San Isidro. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Comentó que estarían dispuestos a considerar el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo, especialmente para los colaboradores que viven cerca y podrían ahorrar tiempo en traslados cortos.
-      Luis Fernando resaltó que la modalidad ideal sería un plan corporativo con pases mensuales, con la opción de gestionar reservas desde una plataforma web integrada al sistema de RR.HH.. También mencionó que el área valora indicadores como ahorro de tiempo en traslados, reducción de costos y satisfacción de los colaboradores. Por último, indicó que implementar una solución de micromovilidad eléctrica podría alinearse con las políticas de sostenibilidad corporativa que la empresa promueve.
-  </tr>
-</table>  
+  Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades.
 
-### 2.2.3.Análisis de entrevistas.  
+  ---
 
-**Segmento Jovenes Universitarios**
+  ## 2.2.Entrevistas.  
 
-La entrevista revela un alto nivel de insatisfacción con el transporte actual en Lima Metropolitana, caracterizado por demoras e inseguridad. El usuario objetivo (universitario) demuestra disposición a cambiar de medio de transporte si se le ofrece una solución más rápida, confiable y accesible.  
+  ### 2.2.1.Diseño de entrevistas.  
+  **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-**El factor diferenciador clave será:**  
-
-- Precio competitivo (más barato que taxi y accesible frente a bus).  
-
-- Pagos digitales simples (Yape/Plin) y otros medios de pago para los que prefieran tener el dinero en mano como PagoEfectivo. 
-
-- Beneficios estudiantiles (descuentos o planes especiales).  
-
-Esto confirma que el modelo de micromovilidad eléctrica compartida tiene alto potencial de adopción entre jóvenes universitarios, siempre que se garantice conveniencia, ahorro y seguridad.  
-
----
-**Segmento Empresas**
-
-La entrevista  revela una alta insatisfacción con los modelos tradicionales de mensajería, caracterizados por altos costos operativos e ineficiencia en la movilidad urbana. La cliente demuestra disposición a adoptar una solución de micromovilidad que resuelva problemas concretos de costos, trazabilidad y estacionamiento.
-
-**Los factores diferenciadores clave serán:**
-
-- Modelo flexible de pago por uso (vs. costos fijos de mantenimiento de flota propia o servicios externos premium).
-
-- Integración tecnológica (dashboard en tiempo real y API con sus sistemas de gestión existentes).
-
-- Seguridad integral (seguros, capacitación y geolimitación operativa).
-
-- Ventaja competitiva sostenible (entregas cero emisiones como valor de marca).
-
-Esto confirma que el modelo de scooters compartidos dedicados tiene alto potencial de adopción en el sector logístico, siempre que demuestre un ROI claro, reduzca la complejidad operativa y ofrezca control total sobre los desplazamientos.
-
-**Análisis de entrevista 2 – Ana María Delgado (Gerente de Operaciones, Empresa de Mensajería)**  
-
-La entrevista con la gerente de operaciones permitió identificar dolores específicos en el sector logístico, donde la empresa enfrenta altos costos operativos debido al consumo de combustible, mantenimiento de flota a gasolina y retrasos por tráfico. La entrevistada mostró apertura hacia una solución de micromovilidad eléctrica compartida, siempre que se garantice la seguridad (GPS, bloqueo remoto) y se provean informes de uso y costos que permitan tomar decisiones basadas en datos.  
-
-Este análisis revela que el mercado de mensajería y última milla en Lima es un segmento con alta necesidad de alternativas de movilidad sostenibles y eficientes, dispuesto a considerar un modelo de planes corporativos por flota. Asimismo, se confirma que la sostenibilidad ambiental y la imagen de marca verde son factores de peso en la decisión de adopción de este tipo de soluciones. 
-
-**Análisis de entrevista 3 – Luis Fernando Rivas (Jefe de Recursos Humanos, Empresa de Consultoría)**  
-
-La entrevista con el jefe de RR.HH. evidencia que en empresas de servicios y consultoría, los principales problemas de movilidad se relacionan con la impuntualidad de los colaboradores y el alto gasto en subsidios de transporte. El entrevistado consideró viable implementar planes de micromovilidad eléctrica, en especial mediante pases corporativos mensuales para colaboradores que vivan cerca de la sede.  
-
-Este análisis muestra que el interés de las empresas de consultoría no solo se enfoca en el ahorro económico, sino también en la productividad laboral y en la satisfacción del personal. La posibilidad de integrar la plataforma con los sistemas internos de RR.HH. es un requerimiento clave para garantizar un uso ordenado. Finalmente, se resalta que el alineamiento con políticas de sostenibilidad corporativa constituye un factor motivador adicional para la adopción de este servicio.  
-
-## 2.3.Needfinding.
-
-### 2.3.1.User Personas.
-
-**1er segmento: Jóvenes universitarios**
-
-![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
+  **Preguntas principales:**
 
 
-**2do segmento:  Empresas**
+  - "¿Cómo te transportas actualmente en tu día a día?"
 
-![User Persona](assets/chapter02/PERSONA%20-%20Light3.png)
+  - "¿Qué rutas sueles tomar y cuánto tiempo pierdes en tráfico?"
 
----
+  - "¿Qué problemas enfrentas (costo, inseguridad, congestión)?"
 
-### 2.3.2.User Task Matrix.
+  - "¿Qué apps usas para moverte o pagar transporte?"
 
-**Camila Torres (Joven universitaria)**
+  - "¿Usas Yape, Plin o tarjetas?"
 
-| **Tareas / Tasks**                             | **Frecuencia** | **Importancia** |
-|-------------------------------------------------|---------------|----------------|
-| Buscar información para trabajos                | Alta          | Alta           |
-| Coordinar con compañeros de grupo               | Alta          | Alta           |
-| Acceder a material de estudio (libros, PDFs, videos) | Alta      | Alta           |
-| Planificar tiempo para estudiar                 | Alta          | Alta           |
-| Asistir a clases / capacitaciones               | Alta          | Alta           |
-| Comunicar avances de proyecto                   | Media         | Alta           |
-| Resolver dudas con expertos                     | Media         | Alta           |
-| Evaluar proveedores de herramientas/servicios   | Baja          | Media          |
-| Preparar reportes de resultados                 | Baja          | Media          |
+  - "¿Has usado scooters, bicis o motos eléctricas?"
 
----
+  - "¿Qué te impediría o motivaría a usarlas?"
 
-**Luis Salazar (Gerente de Operaciones)**
+  - "¿Pagarias por un plan de suscripción para usar estos vehículos diariamente?"
 
-| **Tareas / Tasks**                              | **Frecuencia** | **Importancia** |
-|-------------------------------------------------|---------------|----------------|
-| Buscar información para proyectos               | Media         | Media          |
-| Planificar tiempo de trabajo                    | Media         | Alta           |
-| Asistir a reuniones/capacitaciones              | Media         | Alta           |
-| Comunicar avances de proyecto                   | Alta          | Alta           |
-| Resolver dudas con expertos                     | Alta          | Alta           |
-| Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
-| Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
-| Preparar reportes de resultados                 | Alta          | Alta           |  
+  - "¿Qué funcionalidades debería tener la app?"
 
-### 2.3.3.User Journey Mapping. 
-El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
+  - "¿Qué te parece más importante: precio, conveniencia o sostenibilidad?"
 
-### Segmento 1: Jovenes Universitarios. 
-<img src="assets/chapter02/jovenes.png" alt="User Journey" width="1000">
+  - "¿Cómo te enteras de nuevas apps o servicios?"
 
-### Segmento 2: Empresas.
+  **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-<img src="assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
+  Preguntas principales:
+  - ¿Cómo manejan la movilidad de sus colaboradores o entregas?"
+
+  - "¿Qué problemas tienen (costos, retrasos, mantenimiento)?"
+
+  - "¿Considerarían usar vehículos eléctricos compartidos para su operación?"
+
+  - "¿Para qué casos de uso (entregas rápidas, transporte de colaboradores, etc.)?"
+
+  - "¿Necesitarían integración con su sistema de gestión?"
+
+  - "¿Qué medidas de seguridad esperarían?"
+
+  - "¿Prefieren alquiler por flota, plan corporativo o pago por uso?"
+
+  - "¿Qué información necesitarían para tomar una decisión?"
+
+  - "¿Cómo miden el ROI en temas de movilidad?"
+
+  - "¿Han implementado soluciones verdes antes?"
+
+  ### 2.2.2. Registro de entrevistas.
+
+  **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> </tr> <tr> <td>1</td> <td>Luis Gutierrez (Estudiante Universitario)</td> <td>18</td> <td>SMP</td> <td><img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls</td> <td>00:00</td> <td>13:25</td> <td style="text-align: justify;">Estudiante universitario que se moviliza diariamente desde su casa en SMP hacia su universidad. Señala que enfrenta problemas de congestión y transporte costoso. Prefiere opciones de transporte flexibles, rápidas y económicas. Está interesado en soluciones tecnológicas que permitan seguimiento de rutas y pagos digitales fáciles.</td> <td style="text-align: justify;">Uso de transporte público o apps de movilidad; interés en rutas rápidas y seguras; busca ahorro de tiempo y dinero; disposición a probar nuevas soluciones tecnológicas para movilidad.</td> </tr> <tr> <td>2</td> <td>María Fernanda López (Estudiante Universitaria)</td> <td>20</td> <td>La Molina</td> <td><img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>—</td> <td>—</td> <td>—</td> <td style="text-align: justify;">Universitaria que se traslada desde La Molina hasta el campus central. Comenta que el tráfico es impredecible y los costos de transporte afectan su presupuesto mensual. Le interesa una solución que le permita conocer rutas alternativas y tiempos estimados, además de tener un pago seguro mediante apps.</td> <td style="text-align: justify;">Movilidad diaria con transporte público y aplicaciones de transporte; busca optimizar tiempo y costos; interesada en pagos digitales y seguimiento de rutas.</td> </tr> <tr> <td>3</td> <td>Carlos Alberto Ramírez (Joven Profesional)</td> <td>22</td> <td>San Borja</td> <td><img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>—</td> <td>—</td> <td>—</td> <td style="text-align: justify;">Joven profesional que trabaja y estudia a tiempo parcial. Indica que su principal problema es la congestión y la imprevisibilidad del transporte público. Le interesa probar servicios de micromovilidad eléctrica o apps que le permitan reservar transporte rápidamente para cumplir con horarios estrictos.</td> <td style="text-align: justify;">Uso de transporte público y aplicaciones de movilidad; interés en eficiencia y ahorro de tiempo; busca opciones rápidas, seguras y tecnológicas de transporte.</td> </tr> </table>
+
+  **Segmento 2: Empresas y Planes Corporativos (B2B)**
+
+  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> </tr> <tr> <td>1</td> <td>Angie Santos (Jefe de RR.HH.)</td> <td>33</td> <td>San Isidro</td> <td> <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3</td> <td>00:00</td> <td>5:22</td> <td style="text-align: justify;">Jefe de RR.HH. en consultora con más de 150 colaboradores. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Considera viable el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo, especialmente para colaboradores cercanos. Prefiere un plan corporativo con pases mensuales y gestión de reservas desde una plataforma web integrada al sistema de RR.HH. Valora indicadores como ahorro de tiempo en traslados, reducción de costos y satisfacción de los colaboradores. Implementar micromovilidad eléctrica se alinea con las políticas de sostenibilidad corporativa de la empresa.</td> <td style="text-align: justify;">Gestión de RR.HH.; plan corporativo mensual de movilidad; integración con plataforma web de reservas; seguimiento de indicadores de ahorro de tiempo, reducción de costos y satisfacción; alineamiento con políticas de sostenibilidad corporativa.</td> </tr> <tr> <td>2</td> <td>Ana María Delgado (Gerente de Operaciones – Empresa de Mensajería)</td> <td>35</td> <td>Lima</td> <td> <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td> <td>10:00 am</td> <td>6:20</td> <td style="text-align: justify;">Gerente de Operaciones de empresa de mensajería con flota de 25 motos a gasolina. Problemas: altos costos de combustible, mantenimiento y retrasos por tráfico. Abierta a solución de micromovilidad eléctrica con GPS, bloqueo remoto e informes de uso y costos. Busca sostenibilidad y mejora de imagen de marca.</td> <td style="text-align: justify;">Flota de 25 motos; seguimiento GPS; informes mensuales; medidas de seguridad; plan corporativo por flota.</td> </tr> <tr> <td>3</td> <td>Luis Fernando Rivas (Jefe de Operaciones)</td> <td>33</td> <td>Jesús María</td> <td> <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td> <td>10:00 am</td> <td>5:30</td> <td style="text-align: justify;">Jefe de Operaciones en consultora con más de 150 colaboradores. Problemas de movilidad: impuntualidad y alto gasto en subsidios de transporte. Considera viable plan corporativo con scooters, bicicletas y motos eléctricas compartidas para colaboradores cercanos. Valora ahorro de tiempo, reducción de costos y satisfacción del personal, además de alineamiento con políticas de sostenibilidad corporativa.</td> <td style="text-align: justify;">Gestión de operaciones; planificación de movilidad corporativa; seguimiento de indicadores de ahorro de tiempo y reducción de costos; apoyo a políticas de sostenibilidad corporativa.</td> </tr> </table>
+
+  **1er segmento: Jóvenes universitarios**
+
+  ![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
 
 
-### 2.3.4.Empathy Mapping.  
+  **2do segmento:  Empresas y Planes Corporativos (B2B)**
 
-- Camila Torres:  
+  ![User Persona](assets/chapter02/PERSONA%20-%20Light3.png)
 
-![CamilaTorres](assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
+  ---
 
-- Luis Salazar:  
+  ### 2.3.2.User Task Matrix.
 
-![LuisSalazar](assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
+  **Camila Torres (Joven universitaria)**
+
+  | **Tareas / Tasks**                             | **Frecuencia** | **Importancia** |
+  |-------------------------------------------------|---------------|----------------|
+  | Buscar información para trabajos                | Alta          | Alta           |
+  | Coordinar con compañeros de grupo               | Alta          | Alta           |
+  | Acceder a material de estudio (libros, PDFs, videos) | Alta      | Alta           |
+  | Planificar tiempo para estudiar                 | Alta          | Alta           |
+  | Asistir a clases / capacitaciones               | Alta          | Alta           |
+  | Comunicar avances de proyecto                   | Media         | Alta           |
+  | Resolver dudas con expertos                     | Media         | Alta           |
+  | Evaluar proveedores de herramientas/servicios   | Baja          | Media          |
+  | Preparar reportes de resultados                 | Baja          | Media          |
+
+  ---
+
+  **Luis Salazar (Gerente de Operaciones)**
+
+  | **Tareas / Tasks**                              | **Frecuencia** | **Importancia** |
+  |-------------------------------------------------|---------------|----------------|
+  | Buscar información para proyectos               | Media         | Media          |
+  | Planificar tiempo de trabajo                    | Media         | Alta           |
+  | Asistir a reuniones/capacitaciones              | Media         | Alta           |
+  | Comunicar avances de proyecto                   | Alta          | Alta           |
+  | Resolver dudas con expertos                     | Alta          | Alta           |
+  | Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
+  | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
+  | Preparar reportes de resultados                 | Alta          | Alta           |  
+
+  ### 2.3.3.User Journey Mapping. 
+  El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
+
+  ### Segmento 1: Jovenes Universitarios. 
+  <img src="assets/chapter02/jovenes.png" alt="User Journey" width="1000">
+
+  ### Segmento 2: Empresas y Planes Corporativos (B2B)
+
+  <img src="assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
 
 
-## 2.4.Big Picture Event Storming.
-El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
-Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
+  ### 2.3.4.Empathy Mapping.  
 
-![eventstorming](https://github.com/user-attachmentsassets/c71c198d-74d0-45c2-bd13-45433e2a8969)
+  - Camila Torres:  
 
-## 2.5.Ubiquitous Language.
+  ![CamilaTorres](assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
 
-| Término                 | Tipo               | Definición                                                                 |
-|--------------------------|--------------------|-----------------------------------------------------------------------------|
-| Usuario                 | Actor              | Persona registrada que utiliza la app para alquilar scooters.              |
-| Administrador           | Actor              | Responsable de gestionar flota, usuarios y soporte desde el sistema.       |
-| Scooter                 | Entidad            | Vehículo eléctrico disponible para alquiler dentro de la plataforma.       |
-| Estación Virtual        | Entidad            | Punto geográfico donde los scooters pueden ser recogidos o dejados.        |
-| Reserva                 | Evento/Entidad     | Acción de apartar un scooter disponible antes de iniciar el alquiler.      |
-| Alquiler                | Evento/Entidad     | Proceso activo en el que el usuario usa un scooter y se mide en tiempo/distancia. |
-| Pago                    | Evento             | Transacción realizada por el usuario para completar un alquiler.           |
-| Tarifa                  | Entidad            | Costo asociado al alquiler, calculado según tiempo y distancia.            |
-| Desbloqueo              | Comando/Evento     | Acción de habilitar el scooter tras confirmar la reserva y el pago inicial. |
-| Devolución              | Evento             | Acción de finalizar el uso y dejar el scooter en una estación virtual.     |
-| Mantenimiento           | Proceso            | Revisión y reparación de scooters por parte del personal técnico.          |
-| Penalización            | Evento/Entidad     | Cargo adicional aplicado por mal uso, retraso o devolución fuera de zona.  |
-| Historial de Viajes     | Vista              | Registro de reservas, alquileres y pagos asociados a cada usuario.         |
-| Soporte                 | Servicio           | Canal de ayuda en la app para resolver incidencias de los usuarios.        |
-| Flota                   | Entidad/Conjunto   | Conjunto de scooters activos disponibles en la ciudad.                     |
-| Ubicación en Tiempo Real| Información        | Datos GPS que muestran dónde se encuentra cada scooter.                     |
-| Sesión de Usuario       | Entidad            | Periodo en que el usuario está logueado y utilizando la app.               |
+  - Luis Salazar:  
+
+  ![LuisSalazar](assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
+
+
+  ## 2.4.Big Picture Event Storming.
+  El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
+  Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
+
+  ![eventstorming](https://github.com/user-attachmentsassets/c71c198d-74d0-45c2-bd13-45433e2a8969)
+
+  ## 2.5.Ubiquitous Language.
+
+  | Término                 | Tipo               | Definición                                                                 |
+  |--------------------------|--------------------|-----------------------------------------------------------------------------|
+  | Usuario                 | Actor              | Persona registrada que utiliza la app para alquilar scooters.              |
+  | Administrador           | Actor              | Responsable de gestionar flota, usuarios y soporte desde el sistema.       |
+  | Scooter                 | Entidad            | Vehículo eléctrico disponible para alquiler dentro de la plataforma.       |
+  | Estación Virtual        | Entidad            | Punto geográfico donde los scooters pueden ser recogidos o dejados.        |
+  | Reserva                 | Evento/Entidad     | Acción de apartar un scooter disponible antes de iniciar el alquiler.      |
+  | Alquiler                | Evento/Entidad     | Proceso activo en el que el usuario usa un scooter y se mide en tiempo/distancia. |
+  | Pago                    | Evento             | Transacción realizada por el usuario para completar un alquiler.           |
+  | Tarifa                  | Entidad            | Costo asociado al alquiler, calculado según tiempo y distancia.            |
+  | Desbloqueo              | Comando/Evento     | Acción de habilitar el scooter tras confirmar la reserva y el pago inicial. |
+  | Devolución              | Evento             | Acción de finalizar el uso y dejar el scooter en una estación virtual.     |
+  | Mantenimiento           | Proceso            | Revisión y reparación de scooters por parte del personal técnico.          |
+  | Penalización            | Evento/Entidad     | Cargo adicional aplicado por mal uso, retraso o devolución fuera de zona.  |
+  | Historial de Viajes     | Vista              | Registro de reservas, alquileres y pagos asociados a cada usuario.         |
+  | Soporte                 | Servicio           | Canal de ayuda en la app para resolver incidencias de los usuarios.        |
+  | Flota                   | Entidad/Conjunto   | Conjunto de scooters activos disponibles en la ciudad.                     |
+  | Ubicación en Tiempo Real| Información        | Datos GPS que muestran dónde se encuentra cada scooter.                     |
+  | Sesión de Usuario       | Entidad            | Periodo en que el usuario está logueado y utilizando la app.               |
 
 
 
