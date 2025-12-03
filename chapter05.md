@@ -181,7 +181,7 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 
 | Elemento                        | Detalle                                                                                       |
 |----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de WeRide (Landing Page)                  |
+| **Sprint**                      | 1 - Implementación de funcionalidades básicas de inicio de sesión y diseño inicial de WeRide (Landing Page)                  |
 | **Fecha**                       | 19/09/2025                                                                                   |
 | **Hora**                        | 22:00 horas (GMT-5)                                                                          |
 | **Lugar**                       | Reunión virtual mediante Google Meet                                                              |
@@ -194,7 +194,7 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 | **Sum of Story Points**         | 17 puntos                                                                                    |
 
 #### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas para los usuarios y visitantes de WeRide.
+Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas como inicio de sesión y registro para los usuarios y visitantes de WeRide.
 
 #### User Stories seleccionadas para el Sprint 1
 
@@ -271,19 +271,20 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
+En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
 ![NetworkGraph](assets/chapter05/networkgraph.png)
 
--Landing Page principal (index.htrml): incluye seccion de bienvenida, about us, los vehiculos disponibles y llamado a la acción.
+- Landing Page principal (index.htrml): incluye seccion de bienvenida, about us, los vehiculos disponibles y llamado a la acción.
 
 ![Landing](assets/chapter05/landing%20page.jpg)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -310,7 +311,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 | Elemento | Detalle |
 |-----------|----------|
 | **Sprint** | 2 - Implementación de base de datos local (db.json) y primera versión desplegado de WeRide. |
-| **Sprint Planning Background** |  |
 | **Fecha** | 8/10/2025 |
 | **Hora** | 21:00 horas (GMT-5) |
 | **Lugar** | Reunión virtual mediante Google Meet |
@@ -347,7 +347,7 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
 | Seminario, Diego | DiegoSeminario | C | C | L | C | C |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
-| Morales, Arnold | Arnold-TI | L | L| L | L | C |
+| Morales, Arnold | Arnold-TI | L | L | L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -438,7 +438,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 | Elemento | Detalle |
 |-----------|----------|
 | **Sprint** | 3 - Primera versión de backend y pruebas de conexión con MySQL Workbench |
-| **Sprint Planning Background** |  |
 | **Fecha** | 27/10/2025 |
 | **Hora** | 20:00 horas (GMT-5) |
 | **Lugar** | Reunión virtual mediante Google Meet |
@@ -475,7 +474,7 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 | Castro, Jefferson | JeffersonCastroPariona | L | C | L | L | C |
 | Seminario, Diego | DiegoSeminario | L | C | L | C | L |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | C |
-| Morales, Arnold | Arnold-TI | L | L| L | L | C |
+| Morales, Arnold | Arnold-TI | L | L | L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
