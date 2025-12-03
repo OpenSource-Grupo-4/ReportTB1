@@ -169,12 +169,137 @@
 
   **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> </tr> <tr> <td>1</td> <td>Luis Gutierrez (Estudiante Universitario)</td> <td>18</td> <td>SMP</td> <td><img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls</td> <td>00:00</td> <td>13:25</td> <td style="text-align: justify;">Estudiante universitario que se moviliza diariamente desde su casa en SMP hacia su universidad. Señala que enfrenta problemas de congestión y transporte costoso. Prefiere opciones de transporte flexibles, rápidas y económicas. Está interesado en soluciones tecnológicas que permitan seguimiento de rutas y pagos digitales fáciles.</td> <td style="text-align: justify;">Uso de transporte público o apps de movilidad; interés en rutas rápidas y seguras; busca ahorro de tiempo y dinero; disposición a probar nuevas soluciones tecnológicas para movilidad.</td> </tr> <tr> <td>2</td> <td>María Fernanda López (Estudiante Universitaria)</td> <td>20</td> <td>La Molina</td> <td><img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>—</td> <td>—</td> <td>—</td> <td style="text-align: justify;">Universitaria que se traslada desde La Molina hasta el campus central. Comenta que el tráfico es impredecible y los costos de transporte afectan su presupuesto mensual. Le interesa una solución que le permita conocer rutas alternativas y tiempos estimados, además de tener un pago seguro mediante apps.</td> <td style="text-align: justify;">Movilidad diaria con transporte público y aplicaciones de transporte; busca optimizar tiempo y costos; interesada en pagos digitales y seguimiento de rutas.</td> </tr> <tr> <td>3</td> <td>Carlos Alberto Ramírez (Joven Profesional)</td> <td>22</td> <td>San Borja</td> <td><img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:680px; height:auto; display:block; margin:auto;" /></td> <td>—</td> <td>—</td> <td>—</td> <td style="text-align: justify;">Joven profesional que trabaja y estudia a tiempo parcial. Indica que su principal problema es la congestión y la imprevisibilidad del transporte público. Le interesa probar servicios de micromovilidad eléctrica o apps que le permitan reservar transporte rápidamente para cumplir con horarios estrictos.</td> <td style="text-align: justify;">Uso de transporte público y aplicaciones de movilidad; interés en eficiencia y ahorro de tiempo; busca opciones rápidas, seguras y tecnológicas de transporte.</td> </tr> </table>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;">
+  <tr>
+    <th>#</th>
+    <th style="min-width:150px;">Nombre y Apellidos</th>
+    <th>Edad</th>
+    <th>Distrito</th>
+    <th style="min-width:220px;">Screenshot del video</th>
+    <th style="min-width:300px;">URL del Video (YouTube)</th>
+    <th>Timing de inicio</th>
+    <th>Duración</th>
+    <th style="min-width:200px;">Resumen descriptivo</th>
+    <th style="min-width:200px;">Características Objetivas</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Luis Gutierrez (Estudiante Universitario)</td>
+    <td>18</td>
+    <td>SMP</td>
+    <td>
+      <img src="assets/chapter02/guti.png" alt="Imagen Luis Gutierrez" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td style="word-break: break-all;">
+      <a href="https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls" target="_blank">
+        https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls
+      </a>
+    </td>
+    <td>00:00</td>
+    <td>13:25</td>
+    <td style="text-align: justify;">Estudiante universitario que se moviliza diariamente desde su casa en SMP hacia su universidad. Señala que enfrenta problemas de congestión y transporte costoso.</td>
+    <td style="text-align: justify;">Uso de transporte público o apps de movilidad; interés en rutas rápidas y seguras.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>María Fernanda López (Estudiante Universitaria)</td>
+    <td>20</td>
+    <td>La Molina</td>
+    <td>
+      <img src="assets/chapter02/mariafernanda.png" alt="Imagen María Fernanda López" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td style="text-align: justify;">Universitaria que se traslada desde La Molina hasta el campus central. Comenta que el tráfico es impredecible.</td>
+    <td style="text-align: justify;">Movilidad diaria con transporte público y aplicaciones de transporte.</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Carlos Alberto Ramírez (Joven Profesional)</td>
+    <td>22</td>
+    <td>San Borja</td>
+    <td>
+      <img src="assets/chapter02/carlosramirez.png" alt="Imagen Carlos Alberto Ramírez" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td style="text-align: justify;">Joven profesional que trabaja y estudia a tiempo parcial. Indica que su principal problema es la congestión.</td>
+    <td style="text-align: justify;">Uso de transporte público y aplicaciones de movilidad; interés en eficiencia.</td>
+  </tr>
+</table>
 
   **Segmento 2: Empresas y Planes Corporativos (B2B)**
 
-  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;"> <tr> <th>#</th> <th style="min-width:180px;">Nombre y Apellidos</th> <th>Edad</th> <th>Distrito</th> <th style="min-width:700px;">Screenshot del video</th> <th style="min-width:220px;">URL del Video (YouTube)</th> <th>Timing de inicio</th> <th>Duración</th> <th style="min-width:260px;">Resumen descriptivo</th> <th style="min-width:220px;">Características Objetivas</th> </tr> <tr> <td>1</td> <td>Angie Santos (Jefe de RR.HH.)</td> <td>33</td> <td>San Isidro</td> <td> <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3</td> <td>00:00</td> <td>5:22</td> <td style="text-align: justify;">Jefe de RR.HH. en consultora con más de 150 colaboradores. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Considera viable el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo, especialmente para colaboradores cercanos. Prefiere un plan corporativo con pases mensuales y gestión de reservas desde una plataforma web integrada al sistema de RR.HH. Valora indicadores como ahorro de tiempo en traslados, reducción de costos y satisfacción de los colaboradores. Implementar micromovilidad eléctrica se alinea con las políticas de sostenibilidad corporativa de la empresa.</td> <td style="text-align: justify;">Gestión de RR.HH.; plan corporativo mensual de movilidad; integración con plataforma web de reservas; seguimiento de indicadores de ahorro de tiempo, reducción de costos y satisfacción; alineamiento con políticas de sostenibilidad corporativa.</td> </tr> <tr> <td>2</td> <td>Ana María Delgado (Gerente de Operaciones – Empresa de Mensajería)</td> <td>35</td> <td>Lima</td> <td> <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td> <td>10:00 am</td> <td>6:20</td> <td style="text-align: justify;">Gerente de Operaciones de empresa de mensajería con flota de 25 motos a gasolina. Problemas: altos costos de combustible, mantenimiento y retrasos por tráfico. Abierta a solución de micromovilidad eléctrica con GPS, bloqueo remoto e informes de uso y costos. Busca sostenibilidad y mejora de imagen de marca.</td> <td style="text-align: justify;">Flota de 25 motos; seguimiento GPS; informes mensuales; medidas de seguridad; plan corporativo por flota.</td> </tr> <tr> <td>3</td> <td>Luis Fernando Rivas (Jefe de Operaciones)</td> <td>33</td> <td>Jesús María</td> <td> <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:680px; height:auto; display:block; margin:auto;" /> </td> <td>https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing</td> <td>10:00 am</td> <td>5:30</td> <td style="text-align: justify;">Jefe de Operaciones en consultora con más de 150 colaboradores. Problemas de movilidad: impuntualidad y alto gasto en subsidios de transporte. Considera viable plan corporativo con scooters, bicicletas y motos eléctricas compartidas para colaboradores cercanos. Valora ahorro de tiempo, reducción de costos y satisfacción del personal, además de alineamiento con políticas de sostenibilidad corporativa.</td> <td style="text-align: justify;">Gestión de operaciones; planificación de movilidad corporativa; seguimiento de indicadores de ahorro de tiempo y reducción de costos; apoyo a políticas de sostenibilidad corporativa.</td> </tr> </table>
-
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;">
+  <tr>
+    <th>#</th>
+    <th style="min-width:150px;">Nombre y Apellidos</th>
+    <th>Edad</th>
+    <th>Distrito</th>
+    <th style="min-width:220px;">Screenshot del video</th>
+    <th style="min-width:300px;">URL del Video (YouTube)</th>
+    <th>Timing de inicio</th>
+    <th>Duración</th>
+    <th style="min-width:250px;">Resumen descriptivo</th>
+    <th style="min-width:220px;">Características Objetivas</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Angie Santos (Jefe de RR.HH.)</td>
+    <td>33</td>
+    <td>San Isidro</td>
+    <td>
+      <img src="assets/chapter02/angie1.png" alt="Imagen Angie Santos" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td style="word-break: break-all;">
+      <a href="https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3" target="_blank">
+        https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb52faea2%2D9c93%2D44b9%2D853a%2D0028a0319fe3
+      </a>
+    </td>
+    <td>00:00</td>
+    <td>5:22</td>
+    <td style="text-align: justify;">Jefe de RR.HH. en consultora con más de 150 colaboradores. Señaló que el mayor problema de movilidad es la impuntualidad de los trabajadores debido al tráfico y el alto gasto mensual en subsidios de transporte. Considera viable el uso de scooters, bicicletas y motos eléctricas compartidas como beneficio corporativo.</td>
+    <td style="text-align: justify;">Gestión de RR.HH.; plan corporativo mensual de movilidad; integración con plataforma web de reservas; seguimiento de indicadores de ahorro de tiempo.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ana María Delgado (Gerente de Operaciones – Empresa de Mensajería)</td>
+    <td>35</td>
+    <td>Lima</td>
+    <td>
+      <img src="assets/chapter02/entrvista-segmento2.png" alt="Imagen Ana María Delgado" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td style="word-break: break-all;">
+      <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
+        https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
+      </a>
+    </td>
+    <td>10:00 am</td>
+    <td>6:20</td>
+    <td style="text-align: justify;">Gerente de Operaciones de empresa de mensajería con flota de 25 motos a gasolina. Problemas: altos costos de combustible, mantenimiento y retrasos por tráfico. Abierta a solución de micromovilidad eléctrica con GPS.</td>
+    <td style="text-align: justify;">Flota de 25 motos; seguimiento GPS; informes mensuales; medidas de seguridad; plan corporativo por flota.</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Luis Fernando Rivas (Jefe de Operaciones)</td>
+    <td>33</td>
+    <td>Jesús María</td>
+    <td>
+      <img src="assets/chapter02/entrevista-empresas2.png" alt="Imagen Luis Fernando Rivas" style="width:200px; height:auto; display:block; margin:auto;" />
+    </td>
+    <td style="word-break: break-all;">
+      <a href="https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing" target="_blank">
+        https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
+      </a>
+    </td>
+    <td>10:00 am</td>
+    <td>5:30</td>
+    <td style="text-align: justify;">Jefe de Operaciones en consultora con más de 150 colaboradores. Problemas de movilidad: impuntualidad y alto gasto en subsidios de transporte. Considera viable plan corporativo con scooters.</td>
+    <td style="text-align: justify;">Gestión de operaciones; planificación de movilidad corporativa; seguimiento de indicadores de ahorro de tiempo.</td>
+  </tr>
+</table>
   **1er segmento: Jóvenes universitarios**
 
   ![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
