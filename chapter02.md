@@ -1,9 +1,6 @@
-  # Capítulo II: Requirements Elicitation & Analysis
-  ## 2.1. Competidores
-
-  ### 2.1.1 Análisis Competitivo
-
-  <table>
+## 2.1. Competidores.
+### 2.1.1. Análisis competitivo.
+<table>
     <tr>
       <th colspan="22">Competitive Analysis Landscape</th>
     </tr>
@@ -101,186 +98,536 @@
   </table>
 
   ---
+### 2.1.2. Estrategias y tácticas frente a competidores.
 
-  ### 2.1.2. Estrategias y tácticas frente a competidores.
+Para fortalecer nuestra posición en el mercado peruano de micromovilidad eléctrica, WeRide priorizará una estrategia basada en el aprovechamiento de sus principales ventajas competitivas. Nuestra propuesta se centra en la integración de pagos locales (Yape y Plin), tarifas accesibles y un ecosistema integral de micromovilidad compuesto por scooters, bicicletas y motos eléctricas con tecnología IoT. Estas capacidades nos permiten diferenciarnos de competidores globales como Lime o Whoosh, cuya oferta no está adaptada al comportamiento, necesidades y hábitos de movilidad del usuario urbano peruano. Al ofrecer una experiencia más local, flexible y alineada a la realidad nacional, WeRide se posicionará como la alternativa más conveniente, cercana y sostenible.
 
-  Para fortalecer nuestra posición en el mercado, WeRide se centrará en aprovechar sus principales fortalezas: la integración de pagos locales como Yape y Plin, tarifas accesibles para los usuarios y la oferta de un sistema integral de micromovilidad (motos, scooters y bicicletas inteligentes con IoT). Este enfoque nos permitirá diferenciarnos de competidores globales como Lime y Whoosh, que carecen de un entendimiento profundo del contexto nacional. Al brindar una experiencia local, inclusiva y alineada a las necesidades de movilidad de los usuarios urbanos peruanos, WeRide se posicionará como una alternativa sostenible y cercana.
+En relación con nuestras debilidades, como la disponibilidad inicial limitada de flota y recursos, implementaremos una estrategia gradual de despliegue. Comenzaremos con pilotos focalizados en zonas de alto flujo, como áreas universitarias y polos empresariales, lo que permitirá validar hipótesis de uso, optimizar la operación y construir confianza en el servicio. Esta fase inicial reducirá riesgos, facilitará una asignación eficiente del capital y generará tracción para escalamiento posterior.
 
-  En cuanto a nuestras debilidades, como el público y recursos iniciales limitados, adoptaremos una estrategia progresiva de expansión. Iniciaremos con pilotos en zonas estratégicas de Lima cercanas a universidades y  centros empresariales para validar el modelo, recopilar datos de uso y generar confianza con nuestros primeros usuarios. Esto nos permitirá construir una base sólida para dar el primer gran paso.
+Para mitigar amenazas como la competencia emergente en el ámbito nacional, el ingreso potencial de actores internacionales y las barreras regulatorias de los gobiernos locales, adoptaremos un enfoque proactivo mediante alianzas estratégicas con municipalidades y empresas privadas. Estas alianzas no solo facilitarán la operación y el acceso al espacio público, sino que reforzarán la percepción de WeRide como un aliado en la movilidad urbana sostenible. Asimismo, complementaremos esta línea de acción con campañas educativas enfocadas en el uso responsable de vehículos eléctricos y en los beneficios medioambientales, fortaleciendo nuestro posicionamiento y diferenciación frente a alternativas ya existentes.
 
-  Del mismo modo, abordaremos las amenazas del mercado como la competencia nacional y las posibles trabas regulatorias mediante alianzas con municipalidades.
+### 2.2. Entrevistas.
 
-  ---
+### 2.2.1. Diseño de entrevistas.
 
-  ## 2.2.Entrevistas.  
+# Guía de Entrevistas – WeRide (Micromovilidad Eléctrica e IoT)
 
-  ### 2.2.1.Diseño de entrevistas.  
-  **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
-
-  **Preguntas principales:**
-
-
-  - "¿Cómo te transportas actualmente en tu día a día?"
-
-  - "¿Qué rutas sueles tomar y cuánto tiempo pierdes en tráfico?"
-
-  - "¿Qué problemas enfrentas (costo, inseguridad, congestión)?"
-
-  - "¿Qué apps usas para moverte o pagar transporte?"
-
-  - "¿Usas Yape, Plin o tarjetas?"
-
-  - "¿Has usado scooters, bicis o motos eléctricas?"
-
-  - "¿Qué te impediría o motivaría a usarlas?"
-
-  - "¿Pagarias por un plan de suscripción para usar estos vehículos diariamente?"
-
-  - "¿Qué funcionalidades debería tener la app?"
-
-  - "¿Qué te parece más importante: precio, conveniencia o sostenibilidad?"
-
-  - "¿Cómo te enteras de nuevas apps o servicios?"
-
-  **Segmento 2: Empresas y Planes Corporativos (B2B)**
-
-  Preguntas principales:
-  - ¿Cómo manejan la movilidad de sus colaboradores o entregas?"
-
-  - "¿Qué problemas tienen (costos, retrasos, mantenimiento)?"
-
-  - "¿Considerarían usar vehículos eléctricos compartidos para su operación?"
-
-  - "¿Para qué casos de uso (entregas rápidas, transporte de colaboradores, etc.)?"
-
-  - "¿Necesitarían integración con su sistema de gestión?"
-
-  - "¿Qué medidas de seguridad esperarían?"
-
-  - "¿Prefieren alquiler por flota, plan corporativo o pago por uso?"
-
-  - "¿Qué información necesitarían para tomar una decisión?"
-
-  - "¿Cómo miden el ROI en temas de movilidad?"
-
-  - "¿Han implementado soluciones verdes antes?"
-
-  ### 2.2.2. Registro de entrevistas.
-
-  **Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
-
-#### Entrevista 1
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Luis Gutierrez (Estudiante) |
-| **Edad** | 18 años |
-| **Distrito** | SMP |
-| **URL Video** | [https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls](https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls) |
-| **Timing** | 00:00 |
-| **Duración** | 13:25 |
-| **Resumen** | Se moviliza diariamente desde SMP. Problemas de congestión y transporte costoso. |
-| **Características** | Transporte público; rutas rápidas y seguras. |
+## Objetivo
+Obtener información cualitativa que permita validar supuestos, mapear necesidades reales, priorizar funcionalidades y construir arquetipos (personas) para WeRide.
 
 ---
 
-#### Entrevista 2
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/mariafernanda.png" alt="María Fernanda López" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | María Fernanda (Estudiante) |
-| **Edad** | 20 años |
-| **Distrito** | La Molina |
-| **URL Video** | — |
-| **Timing** | — |
-| **Duración** | — |
-| **Resumen** | Se traslada desde La Molina. Tráfico impredecible. |
-| **Características** | Transporte público y apps. |
+## Buenas prácticas para entrevistas
+- Realizar entrevistas semiestructuradas (guía de preguntas flexible).
+- Duración recomendada: 30 a 45 minutos (máximo 1 hora).
+- Iniciar con consentimiento informado: explicar propósito, uso de datos y pedir permiso para grabar.
+- Evitar preguntas cerradas al inicio; priorizar preguntas abiertas.
+- Utilizar preguntas de seguimiento (*probes*):  
+  - “¿Puedes contarme más?”  
+  - “¿Qué pasó luego?”  
+  - “¿Por qué fue importante?”
+- No inducir respuestas ni sugerir soluciones.
+- Tomar notas durante la entrevista y, de ser posible, grabar y transcribir.
+- Seleccionar entrevistados diversos (edad, distrito, uso de tecnología).
+- Validar hipótesis al final mediante preguntas cerradas.
 
 ---
 
-#### Entrevista 3
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/carlosramirez.png" alt="Carlos Alberto Ramírez" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Carlos Ramírez (Joven Prof.) |
-| **Edad** | 22 años |
-| **Distrito** | San Borja |
-| **URL Video** | — |
-| **Timing** | — |
-| **Duración** | — |
-| **Resumen** | Trabaja y estudia a tiempo parcial. Problema: congestión. |
-| **Características** | Transporte público; interés en eficiencia. |
-
-  **Segmento 2: Empresas y Planes Corporativos (B2B)**
-
-#### Entrevista 1
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/angie1.png" alt="Angie Santos" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Angie Santos (Jefe de TI) |
-| **Edad** | 46 años |
-| **Distrito** | San Isidro |
-| **URL Video** | [https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4](https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4) |
-| **Timing** | 00:00 |
-| **Duración** | 5:22 |
-| **Resumen** | Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable: scooters y motos eléctricas. |
-| **Características** | Plan mensual; integración web; indicadores ahorro. |
+## Estructura de cada entrevista
+1. **Introducción (3–5 minutos):** presentación, objetivo, consentimiento.  
+2. **Contexto del usuario (5–8 minutos):** rutina, desplazamientos, dispositivos.  
+3. **Experiencia actual con movilidad (10–15 minutos):** rutas, problemas y soluciones actuales.  
+4. **Reacción a la propuesta (10–12 minutos):** interés en WeRide, disposición a pagar y condiciones.  
+5. **Cierre (3–5 minutos):** resumen, agradecimiento y preguntas finales.
 
 ---
 
-#### Entrevista 2
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/entrvista-segmento2.png" alt="Ana María Delgado" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Ana María (Gerente Op.) |
-| **Edad** | 35 años |
-| **Distrito** | Lima |
-| **URL Video** | [https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing](https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing) |
-| **Timing** | 10:00 am |
-| **Duración** | 6:20 |
-| **Resumen** | Mensajería 25 motos gasolina. Costos, mantenimiento, retrasos. Abierta a eléctrica con GPS. |
-| **Características** | Flota GPS; informes; seguridad; plan corporativo. |
+## Campos a registrar por entrevista (plantilla mínima)
+- ID de la entrevista / Fecha / Entrevistador  
+- Segmento (B2C o B2B)  
+- Nombre (opcional) o alias  
+- Edad / Género  
+- Distrito de residencia, trabajo o estudio  
+- Ocupación / Institución / Rol dentro de la empresa (para B2B)  
+- Teléfono o correo electrónico (opcional)  
+- Uso de smartphone (sí/no) y modelo  
+- Aplicaciones utilizadas (transporte, pagos)  
+- Notas principales / Insights / Comentarios textuales relevantes  
+- Enlace o archivo de la grabación  
+- Nivel de interés (escala 1–5)  
+- Comentarios finales  
 
 ---
 
-#### Entrevista 3
+# Segmento 1: Universitarios y Jóvenes Profesionales (B2C)
 
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter02/entrevista-empresas2.png" alt="Luis Fernando Rivas" style="width: 500px; height: auto;" />
+## Propósito
+Entender la movilidad diaria, los puntos de fricción, el uso de aplicaciones y la disposición a utilizar WeRide, incluyendo precio, desbloqueo y métodos de pago.
+
+---
+
+## Guía de preguntas principales
+
+### 1. Transporte actual
+- ¿Cómo te movilizas actualmente en tu día a día?  
+  *Probe:* combinación de transporte público y otros medios; proporciones.
+
+### 2. Rutas y tiempos
+- ¿Qué rutas realizas con frecuencia y cuánto tiempo pierdes en el tráfico?  
+  *Probe:* ejemplos concretos (casa a universidad/oficina).
+
+### 3. Problemas en la movilidad
+- ¿Qué problemas enfrentas habitualmente? (costo, inseguridad, congestión, cobertura).  
+  *Probe:* experiencias en horas punta o situaciones de riesgo.
+
+### 4. Uso de aplicaciones
+- ¿Qué aplicaciones utilizas para moverte o pagar transporte?  
+  *Probe:* frecuencia de uso, aspectos que te agradan o desagradan.
+
+### 5. Pagos digitales
+- ¿Usas Yape, Plin u otros? ¿Cómo ha sido tu experiencia con estas aplicaciones?
+
+### 6. Experiencia con micromovilidad eléctrica
+- ¿Has utilizado scooters, bicicletas o motos eléctricas? Describe tu experiencia.  
+  *Probe:* elementos positivos y negativos.
+
+### 7. Motivadores y frenos
+- ¿Qué te motivaría o impediría usarlas regularmente?  
+  *Probe:* precio, seguridad, batería, cobertura, comodidad.
+
+### 8. Planes de suscripción
+- ¿Pagarías un plan mensual? ¿Por qué?  
+  *Probe:* monto estimado, beneficios esperados.
+
+### 9. Funcionalidades de la aplicación
+- ¿Qué funcionalidades debería tener la aplicación para que la utilices?  
+  *Probe:* mapa en tiempo real, estado de batería, reserva, soporte.
+
+### 10. Factores de decisión
+- ¿Qué consideras más importante: precio, conveniencia o sostenibilidad? ¿Por qué?
+
+### 11. Descubrimiento de nuevos servicios
+- ¿Cómo te enteras de nuevas aplicaciones o servicios?  
+- ¿Qué te motiva a probar una nueva aplicación?
+
+---
+
+## Preguntas complementarias (demográficas)
+- Edad, ciclo académico o año profesional  
+- Distrito de residencia  
+- Distancia aproximada hacia el campus o el trabajo  
+- Frecuencia de desplazamientos semanales  
+- Uso de tarjetas y aplicaciones bancarias  
+- Participación en grupos sociales que puedan viralizar el servicio  
+
+---
+
+# Segmento 2: Empresas y Planes Corporativos (B2B)
+
+## Propósito
+Explorar necesidades operativas, casos de uso, disposición de pago por suscripción y requisitos de control e integración para una flota de micromovilidad eléctrica compartida.
+
+---
+
+## Guía de preguntas principales
+
+### 1. Movilidad actual
+- ¿Cómo gestionan actualmente la movilidad de sus colaboradores o procesos internos?  
+  *Probe:* transporte corporativo, reembolsos por taxi, vehículos propios.
+
+### 2. Problemas actuales
+- ¿Qué dificultades presentan? (costos, tiempos, coordinación, mantenimiento).
+
+### 3. Interés en micromovilidad eléctrica
+- ¿Considerarían el uso de vehículos eléctricos compartidos? ¿Por qué?  
+  *Probe:* traslados dentro del campus, entre sedes, entregas rápidas.
+
+### 4. Casos de uso
+- ¿Para qué situaciones específicas consideran útil la solución?
+
+### 5. Integraciones
+- ¿Requerirían integrarse con sistemas internos (RRHH, control de accesos, reservas)?  
+  *Probe:* tipo de datos esperados (CSV, API), frecuencia de reportes.
+
+### 6. Seguridad y control
+- ¿Qué medidas consideran necesarias? (seguimiento, bloqueo remoto, geocercas).
+
+### 7. Modelos de pago
+- ¿Prefieren alquiler de flota, planes corporativos o pago por uso? ¿Por qué?  
+  *Probe:* aceptación de un uso mínimo mensual garantizado.
+
+### 8. Información necesaria para aprobar un piloto
+- ¿Qué necesitan conocer? (costos, métricas clave, SLA, mantenimiento).
+
+### 9. Métricas de evaluación
+- ¿Cómo miden el retorno de inversión en movilidad?  
+  (tiempos reducidos, costos por traslado, satisfacción del personal)
+
+### 10. Iniciativas previas
+- ¿Han implementado soluciones verdes o de movilidad anteriormente? ¿Cuáles fueron los resultados?
+
+---
+
+## Preguntas institucionales
+- Tamaño de la organización (número de empleados)  
+- Número de sedes  
+- Responsable de movilidad (cargo y contacto)  
+- Políticas internas de sostenibilidad  
+- Horarios pico o patrones de desplazamiento  
+- Restricciones internas o normativas (zonas, horarios)  
+
+### 2.2.2. Registro de entrevistas.
+
+**Segmento 1**
+
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°1</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr.	Luis Gutierrez (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Luis Gutierrez (Estudiante)
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Masculino &nbsp;/&nbsp; Edad: 18 &nbsp;/&nbsp; Residencia: San Martin de porres
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://drive.google.com/drive/u/0/folders/1XgBIMeQNKaud0Rkuwpz37M8oWlCvsBls
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 13:25
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Se moviliza diariamente desde SMP. Problemas de congestión y transporte costoso.
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Luis Fernando (Jefe Op.) |
-| **Edad** | 33 años |
-| **Distrito** | Jesús María |
-| **URL Video** | [https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing](https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing) |
-| **Timing** | 10:00 am |
-| **Duración** | 5:30 |
-| **Resumen** | Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable plan corporativo. |
-| **Características** | Planificación movilidad; indicadores ahorro. |
-  **1er segmento: Jóvenes universitarios**
+
+<!--Falta -->
+
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°2</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Flores Flores, Matias
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Masculino &nbsp;/&nbsp; Edad: 25 &nbsp;/&nbsp; Residencia: Lima
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 09:41
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
+          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
+          registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
+          métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
+          (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
+          intuitivas (CTA poco visibles, botones inactivos).
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<!--Falta -->
+
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°3</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Flores Flores, Matias
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Masculino &nbsp;/&nbsp; Edad: 25 &nbsp;/&nbsp; Residencia: Lima
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 09:41
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
+          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
+          registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
+          métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
+          (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
+          intuitivas (CTA poco visibles, botones inactivos).
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Segmento 2**
+
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°1</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter02/angie1.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr. Angie Santos (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Angie Santos (Jefe de TI)
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Masculino &nbsp;/&nbsp; Edad: 46 años &nbsp;/&nbsp; Residencia: Lima - San Isidro
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://upcedupe-my.sharepoint.com/personal/u201822516_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu201822516%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2FEntrevista%5FAngieSantos%5FSegmento2%2Emp4
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 5:22
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Consultora 150+ empleados. Impuntualidad y alto gasto en subsidios. Viable: scooters y motos eléctricas.
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°2</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter02/entrvista-segmento2.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr. Bedith Lozano (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Bedith Lozano (Gerente Op.)
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Jhimy pool romero meza
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Femenino &nbsp;/&nbsp; Edad: 35 &nbsp;/&nbsp; Residencia: Lima
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://drive.google.com/drive/folders/1l6s8kK4PLq3Z56Flyd6ds6cXaVTdkyk4?usp=sharing
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 6:20
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Mensajería 25 motos gasolina. Costos, mantenimiento, retrasos. Abierta a eléctrica con GPS.
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Falta-->
+<div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
+  <div style="padding:8px 4px 20px 4px; font-size:17px;">
+    <strong>Entrevista N°3</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
+    <div style="font-style:italic; margin-bottom:8px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistado/a:</strong><br>Flores Flores, Matias
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
+        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br>
+        Sexo: Masculino &nbsp;/&nbsp; Edad: 25 &nbsp;/&nbsp; Residencia: Lima
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong><br>
+        <a href="" target="_blank" rel="noopener">
+          https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Inicio:</strong> 0:00
+      </td>
+      <td style="border:1px solid #111; padding:10px; vertical-align:top;">
+        <strong>Duración:</strong> 09:41
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
+          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
+          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
+          registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
+          métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
+          (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
+          intuitivas (CTA poco visibles, botones inactivos).
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 2.2.3. Análisis de entrevistas.
+## 2.3. Needfinding.
+### 2.3.1. User Personas.
 
   ![User Persona](assets/chapter02/PERSONA%20-%20Light1.png)
 
@@ -291,7 +638,7 @@
 
   ---
 
-  ### 2.3.2.User Task Matrix.
+### 2.3.2. User Task Matrix.
 
   **Camila Torres (Joven universitaria)**
 
@@ -321,9 +668,9 @@
   | Evaluar proveedores de herramientas/servicios   | Alta          | Alta           |
   | Supervisar cumplimiento de estándares o KPIs    | Alta          | Alta           |
   | Preparar reportes de resultados                 | Alta          | Alta           |  
+### 2.3.3. User Journey Mapping.
 
-  ### 2.3.3.User Journey Mapping. 
-  El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
+El User Journey Mapping se desarrolló para comprender la experiencia de los usuarios al interactuar con nuestra plataforma. Este mapeo detalla cada paso que el usuario realiza, los obstáculos que puede encontrar, y las emociones que surgen en el proceso. Así, nos ayuda a identificar oportunidades para mejorar la usabilidad y satisfacción del usuario.
 
   ### Segmento 1: Jovenes Universitarios. 
   <img src="assets/chapter02/jovenes.png" alt="User Journey" width="1000">
@@ -332,10 +679,9 @@
 
   <img src="assets/chapter02/empresas.png" alt="User Journey" width="1000"> 
 
+### 2.3.4. Empathy Mapping.
 
-  ### 2.3.4.Empathy Mapping.  
-
-  - Camila Torres:  
+- Camila Torres:  
 
   ![CamilaTorres](assets/Chapter04/EmpathyMapping/Camila_Torres.png)  
 
@@ -343,16 +689,14 @@
 
   ![LuisSalazar](assets//Chapter04/EmpathyMapping/Luis_Salazar.png)  
 
-
-  ## 2.4.Big Picture Event Storming.
-  El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
+## 2.4. Big Picture Event Storming.
+El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
   Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
 
   ![eventstorming](/assets/chapter02/eventstormingweride.jpg)
 
-  ## 2.5.Ubiquitous Language.
-
-  | Término                 | Tipo               | Definición                                                                 |
+## 2.5. Ubiquitous Language.
+| Término                 | Tipo               | Definición                                                                 |
   |--------------------------|--------------------|-----------------------------------------------------------------------------|
   | Usuario                 | Actor              | Persona registrada que utiliza la app para alquilar scooters.              |
   | Administrador           | Actor              | Responsable de gestionar flota, usuarios y soporte desde el sistema.       |
@@ -371,9 +715,3 @@
   | Flota                   | Entidad/Conjunto   | Conjunto de scooters activos disponibles en la ciudad.                     |
   | Ubicación en Tiempo Real| Información        | Datos GPS que muestran dónde se encuentra cada scooter.                     |
   | Sesión de Usuario       | Entidad            | Periodo en que el usuario está logueado y utilizando la app.               |
-
-
-
-
-
-
