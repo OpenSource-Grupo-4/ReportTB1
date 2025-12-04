@@ -97,9 +97,45 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 
 - URL del repositorio Report en GitHub: https://github.com/OpenSource-Grupo-4/ReportTB1
 - URL del repositorio Landing Page en GitHub: https://github.com/OpenSource-Grupo-4/Landing-Page
-- URL del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
-- URL del respositorio de los Web Services en GitHub:https://github.com/OpenSource-Grupo-4/Backend-WeRide
+- URL del repositorio de la Web Application en GitHub: https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+- URL del respositorio de los Web Services en GitHub: https://github.com/OpenSource-Grupo-4/Backend-WeRide
 
+**Gitflow Implementation:**
+
+Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
+
+![GitFlow](/assets/chapter05/Gitflow.jpg)
+
+**Main branch**
+
+La rama principal de producción del proyecto es la Main branch. En esta rama reside el código estable que actualmente se encuentra desplegado en producción (Vercel/GitHub Pages).
+
+Notación: main
+(Nota: También se ha usado la rama develop para la integración continua antes de pasar a main).
+
+**Conventional Commits**
+
+"Conventional Commits" es una convención para estructurar los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación automática de registros de cambios (changelogs).
+En el proyecto WeRide, los commits siguen la siguiente estructura, tal como se evidencia en el historial del repositorio:
+
+```
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+
+**Tipos De Conventional Commits**
+
+A continuación, se definen los tipos utilizados para categorizar los cambios:
+
+```
+1. feat: Se utiliza para describir una nueva característica o funcionalidad añadida al código (ej. feat: added navbar & hero section).
+2. fix: Indica la corrección de un error (bug) o la solución a un problema (ej. hero-ui-fix).
+3. docs: Empleado para cambios o mejoras en la documentación del código o del proyecto.
+4. style: Describe cambios relacionados con el formato del código (espacios en blanco, indentación, puntos y coma) que no afectan su funcionalidad (ej. styles: updated responsive for steps cards).
+5. refactor: Utilizado para modificaciones en el código que no arreglan errores ni añaden funcionalidades, sino que mejoran su estructura o legibilidad (ej. chore: index file refactor).
+6. test: Indica la adición o modificación de pruebas unitarias o funcionales.
+7. chore: Se utiliza para cambios en el proceso de construcción, herramientas auxiliares o tareas de mantenimiento que no están directamente relacionadas con el código de la aplicación (ej. chore: added imgs & syntax updates).
+8. perf: Describe mejoras de rendimiento en el código.
+```
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
@@ -145,21 +181,20 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 
 | Elemento                        | Detalle                                                                                       |
 |----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas y diseño inicial de CultivApp                   |
-| **Sprint Planning Background**   |                                                                                              |
+| **Sprint**                      | 1 - Implementación de funcionalidades básicas de inicio de sesión y diseño inicial de WeRide (Landing Page)                  |
 | **Fecha**                       | 19/09/2025                                                                                   |
 | **Hora**                        | 22:00 horas (GMT-5)                                                                          |
-| **Lugar**                       | Reunión virtual mediante Discord                                                              |
+| **Lugar**                       | Reunión virtual mediante Google Meet                                                              |
 | **Preparado por**               | [WeTech]                                                       |
 | **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ]                                                             |
 | **Sprint n-1 Review**           | Se creó la organización de WeTech en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
 | **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
-| **Sprint Goal & User Stories**  |     1-20                                                                                         |
+| **Sprint Goal & User Stories**  | Construir y estilizar la Landing Page para los visitantes y posibles usuarios de WeRide, asegurando diseño responsivo y navegación funcional (1-20)                                                                                         |
 | **Sprint 1 Velocity**           | 17 puntos                                                                                    |
 | **Sum of Story Points**         | 17 puntos                                                                                    |
 
 #### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas de registro e inicio de sesión para los usuarios de WeRide.
+Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas como inicio de sesión y registro para los usuarios y visitantes de WeRide.
 
 #### User Stories seleccionadas para el Sprint 1
 
@@ -236,15 +271,34 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
+En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
 ![NetworkGraph](assets/chapter05/networkgraph.png)
 
+- Landing Page principal (index.htrml): incluye seccion de bienvenida, about us, los vehiculos disponibles y llamado a la acción.
+
+![Landing](assets/chapter05/landing%20page.jpg)
+
+![Landing](/assets/chapter05/landing%20page%202.png)
+
+![Landing](/assets/chapter05/landing%20page%203.png)
+
+![Landing](assets/chapter05/landing%20page%204.png)
+
+![Landing](assets/chapter05/landing%20page%205.png)
+
+![Landing](assets/chapter05/landing%20page%206.png)
+
+![Landing](assets/chapter05/landing%20page%207.png)
+
+![Landing](assets/chapter05/landing%20page%208.png)
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -271,7 +325,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 | Elemento | Detalle |
 |-----------|----------|
 | **Sprint** | 2 - Implementación de base de datos local (db.json) y primera versión desplegado de WeRide. |
-| **Sprint Planning Background** |  |
 | **Fecha** | 8/10/2025 |
 | **Hora** | 21:00 horas (GMT-5) |
 | **Lugar** | Reunión virtual mediante Google Meet |
@@ -279,7 +332,7 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 | **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ] |
 | **Sprint n-2 Review** | Se completó la primera versión desplegada del Frontend Web Application de WeRide. |
 | **Sprint n-2 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas; se acordó reforzar la integración del backend en el siguiente Sprint. |
-| **Sprint Goal & User Stories** | 1-22 |
+| **Sprint Goal & User Stories** | Avanzar con el FrontEnd y tener la primera versión desplegada (1-22) |
 | **Sprint 2 Velocity** | 20 puntos |
 | **Sum of Story Points** | 20 puntos |
 
@@ -308,7 +361,7 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
 | Seminario, Diego | DiegoSeminario | C | C | L | C | C |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
-| Morales, Arnold | Arnold-TI | L | L| L | L | C |
+| Morales, Arnold | Arnold-TI | L | L | L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -322,8 +375,8 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
 | US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
 | US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
-| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
-| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Bonifacio Jaramillo, Samuel Jesús | Done |
+| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Morales Sosa, Arnold Gabriel | Done |
 | US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
 ---
@@ -359,6 +412,36 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![ExecutionEvidence](assets/chapter05/networkgraph-2.png)
 
+**Sección de Login and Register:** Se implementó la sección de login and register.
+
+![Login](assets/chapter05/login.png)
+
+
+**Sección de Componente de Garaje:** Se implementó la sección de garaje de vehículos.
+
+![Garaje](assets/chapter05/garaje.png)
+
+
+**Sección del Mapa de Viaje:** Se implementó la sección del mapa de viaje con la ubicación de los vehículos y el marcador del tiempo.
+
+![viaje](/assets/chapter05/viaje.png)
+
+![ubicacion](/assets/chapter05/ubicacion.png)
+
+
+**Sección del Historial:** Se implementó la sección del historial de viajes.
+
+![Historial](assets/chapter05/historial.png)
+
+
+**Sección de Reservas:** Se implementó la sección de reservas de los vehículos.
+
+![Reservas](assets/chapter05/reservas.png)
+
+**Sección de Planes:** Se implementó la sección de plan de precios.
+
+![Historial](assets/chapter05/Planes.png)
+
 ---
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
@@ -368,6 +451,9 @@ El db.json fue creado para simular una base de datos local y facilitar el desarr
 ***json server:***
 
 ![db.json](assets/chapter05/json-server.png)
+
+![dbjson](/assets/chapter05/dbjson.png)
+
 ---
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -392,6 +478,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
+---
+
 ## 5.2.3. Sprint 3
 
 ### 5.2.3.1. Sprint Planning 3
@@ -399,7 +487,6 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 | Elemento | Detalle |
 |-----------|----------|
 | **Sprint** | 3 - Primera versión de backend y pruebas de conexión con MySQL Workbench |
-| **Sprint Planning Background** |  |
 | **Fecha** | 27/10/2025 |
 | **Hora** | 20:00 horas (GMT-5) |
 | **Lugar** | Reunión virtual mediante Google Meet |
@@ -436,7 +523,7 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 | Castro, Jefferson | JeffersonCastroPariona | L | C | L | L | C |
 | Seminario, Diego | DiegoSeminario | L | C | L | C | L |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | C |
-| Morales, Arnold | Arnold-TI | L | L| L | L | C |
+| Morales, Arnold | Arnold-TI | L | L | L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -628,6 +715,8 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
+
+---
 
 ## 5.2.3. Sprint 4
 ### 5.2.3.1.Sprint Planning 4.
