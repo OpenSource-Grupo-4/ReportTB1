@@ -668,7 +668,7 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
             <b>Location</b>
         </td>
         <td>
-            Modalidad Remota por Discord  
+            Modalidad Remota por Meet  
         </td>
     </tr>
      </tr>
@@ -686,12 +686,11 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
             <b>Attendess (to planning meeting)</b>
         </td>
         <td>
-            - Verona Flores, Italo Sebastián<br>
-            - Valverde Portuguez, Natalia Ximena <br>
+            - Castro Pariona, Jefferson Ernesto<br>
+            - Bonifacio Jaramillo, Samuel Jesus <br>
             - Seminario Castillo, Diego Vicente <br>
-            -  Jareth Beycker Vidal Malaga<br>
-            -  <br>
-            - <br>
+            -  Romero Meza, Jhimy Pool<br>
+            -  Morales Sosa, Arnold Gabriel<br>
         </td>
     </tr>
     </tr>
@@ -701,7 +700,7 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
             <b>Review Summary</b>
         </td>
         <td>
-            Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
+            Se creó la primera versión del backend, se deploy correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
         </td>
     </tr>
     <tr align="left">
@@ -743,7 +742,19 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
         </td>
     </tr>
 </table>
+
 ### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante este Sprint, el equipo se enfocó en el **diseño visual, maquetación y despliegue de la Landing Page** de **Smart Stay**, junto con la implementación inicial del soporte multilenguaje y la adaptación responsiva del sitio web.  
+Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y Colaboración (LACX)**, donde se asignan los roles de **Líder (L)** y **Colaborador (C)** en los principales aspectos del Sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**                                      | **Diseño visual y maquetación web (Frontend funcional)** | **Implementación técnica del cambio de idioma (Multilenguaje funcional)** | **Responsividad y pruebas en distintos dispositivos** | **Despliegue de la aplicación web** |
+|-----------------------------------------|----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------|-------------------------------------|
+| **Bonifacio Jaramillo, Samuel Jesus**   | [@samuelbonifacio015](https://github.com/samuelbonifacio015) | L                                                        | C                                                                         | C                                                     | C                                   |
+| **Romero Meza, Jhimy Pool**             | [@jhimyromeromeza](https://github.com/jhimyromeromeza)       | C                                                        | L                                                                         | C                                                     | C                                   |
+| **Seminario Castillo ,Diego Vicente**   | [@DiegoSeminario](https://github.com/DiegoSeminario)     | C                                                        | C                                                                         | C                                                     | L                                   |
+| **Morales Sosa, Arnold Gabriel**        | [@Arnold-TI](https://github.com/Arnold-TI)           | C                                                        | C                                                                         | C                                                     | L                                   |
+| **Castro Pariona, Jefferson Ernesto**   | [@JeffersonCastroPariona](https://github.com/JeffersonCastroPariona)                              | C                                                        | L                                                                         | L                                                     |                                     |
 ### 5.2.3.3.Sprint Backlog 4.
 
 | ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
@@ -756,6 +767,15 @@ Para el sprint 4, el equipo realizó el sprint planning meeting para la distribu
 | US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
 ### 5.2.3.4.Development Evidence for Sprint Review.
+| **Repository**  | **Branch**            | **Commit ID**                            | **Author**        | **Time ago** |
+|-----------------|-----------------------|------------------------------------------|-------------------|--------------|
+| Backend-WeRide | master                | d92fe801832a83b5b698f5b24639effd021daaf7 | samuelbonifacio015 | 1 days ago   |
+| Backend-WeRide  | Arnold                | 6e8bd4fc9fa6ef5ad2faf2109d06f411ba538402 | Arnold-TI         | 1 days ago   |
+| Backend-WeRide  | feature/garage        | 5875d271c3a5cbbdeb171e9f6cabbe8d3c95f24c | DiegoSeminario    | 1 days ago   |
+| Backend-WeRide  | feature/travelhistory | f7222d1cf6576893ce94db44932de35a96058eae | jhimyromeromeza| 14 days ago  |
+| Backend-WeRide | jefferson             | e3c8283af91b64fd807e18d1bfd90f27fa7fd04b | JeffersonCastroPariona   | 1 days ago   |
+| Backend-WeRide  | samuel                | bfd7ddf55775bc30cdd1eb003c869e8ec897045b | samuelbonifacio   | 6 days ago   |
+| Backend-WeRide  | develop               | 538a2e9a51d6fe0d2a8c95d429a24bbeb598237f | samuelbonifacio015| 1 days ago   |
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
