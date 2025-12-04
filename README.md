@@ -1,103 +1,176 @@
-<div >
+<div style="text-align: center; font-family: Arial; margin-top: 20px;">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+# <span style="font-size: 32px; font-weight: bold;">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</span>
 
-<img src="assets/LogoUPC.png" alt="Logo UPC">
+<img src="assets/LogoUPC.png" alt="Logo UPC" style="width: 180px; margin: 20px auto; display: block;">
 
-# DESAROLLO DE APLICACIONES OPEN SOURCE (ASI0729)
+# <span style="font-size: 30px;">DESARROLLO DE APLICACIONES OPEN SOURCE (ASI0729)</span>
 
-## INFORME DE TRABAJO FINAL
+## <span style="font-size: 26px;">INFORME DE TRABAJO FINAL</span>
+## <span style="font-size: 22px;">FACULTAD DE INGENIERÍA DE SOFTWARE</span>
 
-### STARTUP: WeTech
-### PRODUCTO: WeRide
-### SECCION: 7380
-### PROFERSOR: Hugo Allan Mori Paiva
-### INTEGRANTES:
+### <span style="font-size: 22px;">STARTUP: <strong>WeTech</strong></span>
+### <span style="font-size: 22px;">PRODUCTO: <strong>WeRide</strong></span>
+### <span style="font-size: 20px;">SECCIÓN: 7380</span>
+### <span style="font-size: 20px;">PROFESOR: Hugo Allan Mori Paiva</span>
 
-<table>
+---
+
+### <span style="font-size: 24px; font-weight: bold;">INTEGRANTES</span>
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+
+<table style="border-collapse: collapse; width: 75%; text-align: center; font-family: Arial; font-size: 16px;">
   <thead>
     <tr>
-      <th style="background-color: #333; color: #fff;">Apellidos y Nombres</th>
-      <th style="background-color: #333; color: #fff;">Código</th>
+      <th style="background-color: #333; color: #fff; padding: 10px; border: 1px solid #555;">Apellidos y Nombres</th>
+      <th style="background-color: #333; color: #fff; padding: 10px; border: 1px solid #555;">Código</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Bonifacio Jaramillo, Samuel Jesus</td>
-      <td>u202317269</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">Bonifacio Jaramillo, Samuel Jesus</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">U202317269</td>
     </tr>
     <tr>
-      <td>Castro Pariona, Jefferson Ernesto</td>
-      <td>U201822823</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">Castro Pariona, Jefferson Ernesto</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">U201822823</td>
     </tr>
     <tr>
-      <td>Romero Meza, Jhimy Pool</td>
-      <td>U202321510</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">Romero Meza, Jhimy Pool</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">U202321510</td>
     </tr>
     <tr>
-      <td>Seminario Castillo, Diego Vicente </td>
-      <td>U202412591</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">Seminario Castillo, Diego Vicente</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">U202412591</td>
     </tr>
-     <tr>
-      <td>Morales Sosa, Arnold Gabriel</td>
-      <td>U201822516</td>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #aaa;">Morales Sosa, Arnold Gabriel</td>
+      <td style="padding: 10px; border: 1px solid #aaa;">U201822516</td>
     </tr>
   </tbody>
 </table>
 
+</div>
 
-## FECHA: NOVIEMBRE 2025
+---
+
+### <span style="font-size: 18px; margin-top: 20px;">Lima, Perú – diciembre 2025</span>
 
 </div>
 
-<table>
+<!-- salto de hoja-->
+<div style="page-break-before: always;"></div>
+
+# Registro de Versiones del Informe
+
+El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.  
+
+<div style="display: flex; justify-content: center; margin-top: 12px;">
+
+<table style="border-collapse: collapse; width: 85%; text-align: left; font-family: Arial, sans-serif;">
+  <caption style="caption-side: top; text-align: left; font-weight: bold; margin-bottom: 8px;">Tabla: Registro de versiones</caption>
   <thead>
     <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
+      <th style="background-color: #222; color: #fff; padding: 10px; border: 1px solid #444; width: 12%;">Versión</th>
+      <th style="background-color: #222; color: #fff; padding: 10px; border: 1px solid #444; width: 18%;">Fecha</th>
+      <th style="background-color: #222; color: #fff; padding: 10px; border: 1px solid #444; width: 20%;">Autor</th>
+      <th style="background-color: #222; color: #fff; padding: 10px; border: 1px solid #444;">Descripción de modificación</th>
     </tr>
-    <tr>
-      <th>V1.0</th>
-      <th>21.09.25</th>
-      <th>G4 WeTech</th>
-      <th>Se realizo los 5 capítulos del informe y se desplegó la primera versión del landing page.</th>
-    </tr>
-    <tr>
-      <th>V2.0</th>
-      <th>10.09.25</th>
-      <th>G4 WeTech</th>
-      <th>Se desplegó la primera versión de la Web Application y documentación respectiva.</th>
-    </tr>
-    <tr>
-      <th>V3.0</th>
-      <th>30.10.25</th>
-      <th>G4 WeTech</th>
-      <th>Se desplegó la primera versión de los Web Services.</th>
-    </tr>
-    <tr>
-      <th>V4.0</th>
-      <th>16.11.25</th>
-      <th>G4 WeTech</th>
-      <th>Se realizó la documentación respectiva.</th>
-    </tr>        
   </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; font-weight: bold;">V1.0</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">10 Sep 2025</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">G4 WeTech</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">Versión inicial del informe: se completaron los 5 capítulos principales y se desplegó la primera versión del landing page.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; font-weight: bold;">V2.0</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">21 Sep 2025</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">G4 WeTech</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">Despliegue de la primera versión de la Web Application y actualización de la documentación técnica asociada.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; font-weight: bold;">V3.0</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">30 Oct 2025</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">G4 WeTech</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">Primer despliegue funcional de los Web Services; se añadieron diagramas y API spec en la documentación.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; font-weight: bold;">V4.0</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">16 Nov 2025</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">G4 WeTech</td>
+      <td style="padding: 10px; border: 1px solid #ccc;">Revisión y consolidación de la documentación final, correcciones de estilo y ajustes según retroalimentación del docente.</td>
+    </tr>
+  </tbody>
 </table>
+
+</div>
+
 
 # Project Report Collaboration Insights
 
-Para el desarrollo del proyecto, utilizamos la herramienta de Github para la organizacion de las actividades realizadas. El URL del repositorio es el siguiente: 
+Para la elaboración del informe del proyecto utilizamos GitHub como herramienta principal para la organización, control de versiones y colaboración del equipo.  
+A través del repositorio del informe registramos cambios, realizamos revisiones continuas y mantenemos el historial de actualizaciones alineado con cada entrega del curso.
 
-*Organización del grupo:* https://github.com/orgs/OpenSource-Grupo-4/repositories
+### Repositorios relevantes
+- https://github.com/orgs/OpenSource-Grupo-4/repositories  
+- https://github.com/OpenSource-Grupo-4/ReportTB1  
+- https://github.com/OpenSource-Grupo-4/Landing-Page  
+- https://github.com/OpenSource-Grupo-4/Frontend-WeRide  
+- https://github.com/OpenSource-Grupo-4/Backend-WeRide  
 
-*Reporte:*   https://github.com/OpenSource-Grupo-4/ReportTB1
+---
 
-*Landing Page:*  https://github.com/OpenSource-Grupo-4/Landing-Page
+## Entrega TB1: V1.0
 
-*Web Application:*  https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+Durante la entrega TB1 el equipo desarrolló el Sprint 1, donde se trabajaron las primeras historias de usuario asociadas al proyecto y se construyó la primera versión de la Landing Page.  
+En esta etapa también se inició la estructura del informe, estableciendo la base de contenidos y el orden de secciones.
 
-*Backend Application:* https://github.com/OpenSource-Grupo-4/Backend-WeRide
+### Evidencias
+<img src="./assets/chapter01/insigtTB1.png" alt="Insights TB1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets//chapter01/commits.png" alt="Commits TB1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TB1" style="max-width:800px; display:block; margin:12px auto;">
+
+---
+
+## Entrega TP1: V2.0
+
+En la entrega TP1 se desarrolló el Sprint 2, enfocado en las historias de usuario del Frontend para la aplicación de alquiler de bicicletas y scooters eléctricas.  
+Se trabajó la experiencia del usuario, pantallas principales y simulación del backend utilizando JSON Server para representar datos IoT de localización.
+
+### Evidencias
+<img src="./assets/chapter01/insigtTB1.png" alt="Insights TP1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/commits.png" alt="Commits TP1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TP1" style="max-width:800px; display:block; margin:12px auto;">
+
+---
+
+## Entrega TB2: V3.0
+
+En la entrega TB2 el equipo trabajó en el desarrollo del backend utilizando Java, aplicando principios de Domain-Driven Design (DDD) y el patrón CQRS.  
+Se implementaron los agregados principales, la lógica del dominio y las capas internas del proyecto siguiendo buenas prácticas de arquitectura.
+
+### Evidencias
+<img src="./assets/chapter01/insigtTB1.png" alt="Insights TB2" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/commits.png" alt="Commits TB2" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TB2" style="max-width:800px; display:block; margin:12px auto;">
+
+---
+
+## Entrega Final (TF): V4.0
+
+En la entrega final se trabajó el Sprint 4, integrando Frontend y Backend, resolviendo incidencias y mejorando la estabilidad general del sistema.  
+Adicionalmente, se realizaron mejoras completas al informe, ajustándolo a los requerimientos del curso y asegurando coherencia con el Registro de Versiones.
+
+### Evidencias
+<img src="./assets/chapter01/insigtTB1.png" alt="Insights TF" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/commits.png" alt="Commits TF" style="max-width:800px; display:block; margin:12px auto;">
+<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TF" style="max-width:800px; display:block; margin:12px auto;">
+
+<!-- salto de hoja-->
+<div style="page-break-before: always;"></div>
 
 # Contenido
 ## Tabla de Contenidos
@@ -218,6 +291,9 @@ Para el desarrollo del proyecto, utilizamos la herramienta de Github para la org
   - [5.3.1. Evaluaciones según heurísticas](/chapter05.md#533-evaluaciones-según-heurísticas)
 - [5.4. Video About-the-Product](/chapter05.md#54-video-about-the-product)
 
+<!-- salto de hoja-->
+<div style="page-break-before: always;"></div>
+
 # Student Outcome
 
 ### ABET - EAC - Student Outcome 3
@@ -227,84 +303,106 @@ En el siguiente cuadro, se indicarán las acciones realizadas y conclusiones
 de los integrantes del grupo que evidencien y sustenten que se desarrolló el 
 logro del student outcome.
 
-<table>
+<table style="width:100%; border-collapse:collapse; text-align:left; font-size:14px;">
   <thead>
-    <tr>
-      <th>Criterio Específico</th>
-      <th>Acciones Realizadas</th>
-      <th>Conclusiones</th>
+    <tr style="background:#f2f2f2;">
+      <th style="border:1px solid #999; padding:8px; font-weight:bold; text-align:center;">Criterio Específico</th>
+      <th style="border:1px solid #999; padding:8px; font-weight:bold; text-align:center;">Acciones Realizadas</th>
+      <th style="border:1px solid #999; padding:8px; font-weight:bold; text-align:center;">Conclusiones</th>
     </tr>
   </thead>
+
   <tbody>
+    <!-- CRITERIO 1 -->
     <tr>
-      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
-      <td>
-        <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        <ul style="margin:0; padding-left:18px;">
+      <td style="border:1px solid #999; padding:8px; vertical-align:top; font-weight:bold;">
+        Comunica oralmente con efectividad a diferentes rangos de audiencia
+      </td>
+      <td style="border:1px solid #999; padding:8px; vertical-align:top;">
+        <strong>Bonifacio Jaramillo Samuel Jesus</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
           <li><b>TB1:</b> Reuniones presenciales y virtuales para coordinar el desarrollo del proyecto.</li>
-          <li><b>TP1:</b> Coordinación presencial y virtual para la creación de bounded contexts y planeación de db.json.</li>
-          <li><b>TB2:</b> Organización de actividades individuales y despliegue de Backend.</li>
+          <li><b>TP1:</b> Participación oral en planificación del frontend, bounded contexts y estructura del db.json.</li>
+          <li><b>TB2:</b> Coordinación en sesiones técnicas de backend para aplicar DDD y CQRS.</li>
+          <li><b>TF:</b> Reuniones de integración final y validación del informe.</li>
         </ul>
-        <strong>Romero Meza Jhimy Pool</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Presentación y explicación clara de wireframes, mockups y puntos clave, facilitando la comprensión y alineación del equipo.</li>
+        <strong>Romero Meza Jhimy Pool</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Presentación clara de wireframes, mockups y requerimientos.</li>
+          <li><b>TP1:</b> Explicación del flujo de usuario y validación de pantallas del frontend.</li>
+          <li><b>TB2:</b> Coordinación oral para definir la arquitectura basada en DDD.</li>
+          <li><b>TF:</b> Reuniones de integración y explicación de correcciones del informe.</li>
         </ul>
-         <strong>Morales Sosa Arnold Gabriel</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Participe activamente en el Sprint Planning 1. Coordiné la definición de tareas para la sección de Footer y Redes Sociales. Presenté mis avances sobre la implementación de la Landing Page.</li>
-          <li><b>TP1:</b> Comuniqué sobre los requerimientos y flujo del usuario para la Historia de Usuario US-24 durante el Sprint Planning 2, planificación del db.json. Coordiné con mi equipo para la integración de los pagos y el db.json.</li>
-          <li><b>TB2:</b> Me encargué del apartado del backend sobre el Bounded Context de "Gestión de Perfiles" durante el Spring Planning 3. Me fijé en la arquitectura de Profile a mis compañeros para su consumo desde otros microservicios.</li>
-          <li><b>TF:</b> Particié en la validación final del producto y coordinación para la integración completa de los servicios para el despliegue final. Además de arreglar el informe levantando errores dados por el profesor.</li>
+        <strong>Morales Sosa Arnold Gabriel</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Participación en Sprint Planning y presentación de avances.</li>
+          <li><b>TP1:</b> Explicación del flujo y requerimientos de US-24.</li>
+          <li><b>TB2:</b> Exposición del diseño del bounded context de Perfiles.</li>
+          <li><b>TF:</b> Coordinación de integración final y resolución de errores del informe.</li>
         </ul>
-        <strong>Castro Pariona Jefferson Ernesto</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Coordinación de reuniones, presentación de propuestas y revisión de wireframes y mockups para asegurar la alineación.</li>
-          <li><b>TP1:</b> Participación en diseño de bounded contexts, planificación de db.json, integración y pruebas iniciales del frontend.</li>
+        <strong>Castro Pariona Jefferson Ernesto</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Coordinación de reuniones y presentación de propuestas de diseño.</li>
+          <li><b>TP1:</b> Participación en planificación del frontend y revisión del db.json.</li>
+          <li><b>TB2:</b> Reuniones técnicas para organización del backend.</li>
+          <li><b>TF:</b> Coordinación oral para validación del despliegue final.</li>
         </ul>
       </td>
-      <td>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Comunicación efectiva en distintos contextos y audiencias, coordinación mediante presentaciones claras, User Stories, mockups y wireframes.</li>
-          <li><b>TP1:</b> Comunicación efectiva, coordinación y reformulación de User Stories, creación de Web Application.</li>
-          <li><b>TB2:</b> Comunicación efectiva, coordinación en actividades individuales, creación y despliegue de Backend Application.</li>
-          <li><b>TF:</b> Comunicación fluida durante la fase de cierre, asegurando que sus módulos se integraran correctamente en la versión final del producto.</li>
+      <td style="border:1px solid #999; padding:8px; vertical-align:top;">
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Comunicación clara permitió coordinar planificación, user stories y diseño inicial.</li>
+          <li><b>TP1:</b> Coordinación efectiva para construir la Web Application.</li>
+          <li><b>TB2:</b> Comunicación técnica precisa garantizó coherencia en el backend DDD/CQRS.</li>
+          <li><b>TF:</b> Comunicación fluida permitió integrar correctamente todas las funcionalidades.</li>
         </ul>
       </td>
     </tr>
+    <!-- CRITERIO 2 -->
     <tr>
-      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
-      <td>
-        <strong>Bonifacio Jaramillo Samuel Jesus</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Deploy de Landing Page, modificación de wireframes y mockups, documentación de capítulos I, II, IV y V.</li>
-          <li><b>TP1:</b> Desarrollo y deploy de Frontend Web Application, reformulación de User Stories, desarrollo de bounded contexts y creación de db.json.</li>
-          <li><b>TB2:</b> Desarrollo y deploy de Backend Application, desarrollo de bounded contexts y documentación respectiva.</li>
+      <td style="border:1px solid #999; padding:8px; vertical-align:top; font-weight:bold;">
+        Comunica por escrito con efectividad a diferentes rangos de audiencia
+      </td>
+      <td style="border:1px solid #999; padding:8px; vertical-align:top;">
+        <strong>Bonifacio Jaramillo Samuel Jesus</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Documentación de capítulos I, II, IV y V.</li>
+          <li><b>TP1:</b> Redacción de bounded contexts, criterios de aceptación y db.json.</li>
+          <li><b>TB2:</b> Documentación de backend y dominios DDD.</li>
+          <li><b>TF:</b> Ajustes finales al informe y redacción de anexos.</li>
         </ul>
-        <strong>Romero Meza Jhimy Pool</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Documentación y presentación clara de wireframes, mockups y avances, facilitando la comprensión y análisis del equipo.</li>
+        <strong>Romero Meza Jhimy Pool</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Documentación detallada de wireframes, mockups y análisis inicial.</li>
+          <li><b>TP1:</b> Redacción técnica del frontend y flujo de navegación.</li>
+          <li><b>TB2:</b> Documentación del diseño y lógica del backend.</li>
+          <li><b>TF:</b> Redacción final y correcciones del informe.</li>
         </ul>
-        <strong>Morales Sosa Arnold Gabriel</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Documenté la User Story US-05 (Footer y Redes Sociales) en el Sprint Backlog. Redacté el código semántico HTML/CSS para la Landing Page y commits descriptivos en GitHub.</li>
-          <li><b>TP1:</b> Hice la documentación técnica de la funcionalidad de "Pago en Línea" y del db.json. Registré los avances en el Project Management y redacté los criterios de aceptación para las historias de usuario de pagos.</li>
-          <li><b>TB2:</b> Implementé el código en Java/Spring Boot con estructura clara y commits bajo la convención Conventional Commits del Bounded Countext Profile</li>
-          <li><b>TF:</b> Elaboré la documentación final técnica y de usuario para los módulos bajo su responsabilidad. Actualicé el reporte final corrigiendo errores y siguiendo los lineamientos de la rúbrica.</li>
+        <strong>Morales Sosa Arnold Gabriel</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Documentación de US-05 y commits semánticos.</li>
+          <li><b>TP1:</b> Documentación de pagos y db.json.</li>
+          <li><b>TB2:</b> Documentación del bounded context de perfiles.</li>
+          <li><b>TF:</b> Documentación técnica final y mejoras del informe.</li>
         </ul>
-        <strong>Castro Pariona Jefferson Ernesto</strong><br>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Documentación de capítulos I, III y V, redacción y revisión de User Stories, contribución a la documentación del repositorio y README.</li>
-          <li><b>TP1:</b> Desarrollo y pruebas del frontend, colaboración en creación y verificación de db.json y documentación técnica asociada.</li>
+        <strong>Castro Pariona Jefferson Ernesto</strong>
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Redacción de capítulos I, III y V.</li>
+          <li><b>TP1:</b> Documentación del frontend y db.json.</li>
+          <li><b>TB2:</b> Documentación de APIs y arquitectura del dominio.</li>
+          <li><b>TF:</b> Revisión y consolidación del informe final.</li>
         </ul>
       </td>
-      <td>
-        <ul style="margin:0; padding-left:18px;">
-          <li><b>TB1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
-          <li><b>TP1:</b> Comunicación efectiva oral y escrita, coordinación y sincronización de avances en el proyecto.</li>
-          <li><b>TB2:</b> Comunicación y efectividad esperada en actividades individuales, bounded context y deploy del servicio.</li>
-          <li><b>TF:</b> La documentación final consolidada reflejó con precisión el trabajo realizado, demostrando capacidad para sintetizar información técnica y funcional para audiencias académicas y técnicas.</li>
+      <td style="border:1px solid #999; padding:8px; vertical-align:top;">
+        <ul style="margin:4px 0 10px; padding-left:20px;">
+          <li><b>TB1:</b> Documentación base clara que sustentó el proyecto.</li>
+          <li><b>TP1:</b> Redacción técnica precisa para reproducir procesos y pruebas.</li>
+          <li><b>TB2:</b> Documentación sólida del backend y arquitectura.</li>
+          <li><b>TF:</b> Informe final coherente y completo.</li>
         </ul>
       </td>
     </tr>
+
   </tbody>
 </table>
+
+
