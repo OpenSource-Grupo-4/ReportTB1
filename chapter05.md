@@ -631,6 +631,118 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 
 ## 5.2.3. Sprint 4
 ### 5.2.3.1.Sprint Planning 4.
+Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint 4</b>
+        </td>
+        <td>
+            <b>Sprint 4</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            01/12/25
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            9:00 PM         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad Remota por Discord  
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Seminario Castillo, Diego Vicente
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Verona Flores, Italo Sebastián<br>
+            - Valverde Portuguez, Natalia Ximena <br>
+            - Seminario Castillo, Diego Vicente <br>
+            -  Jareth Beycker Vidal Malaga<br>
+            -  <br>
+            - <br>
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 4</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se creó la primera versión del backend, se deployo correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 4</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+            Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend.
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 4 Goal</b>
+        </td>
+        <td>
+            Para el desarrollo del sprint 4, el equipo publicara la ultima version del frontend y backend corrigiendo las errores indicados además de añadir las secciones faltantes en el reporte. Además de realizar la conexión entre ambos apartados.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 4 Velocity</b>
+        </td>
+        <td>
+            61
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            61
+        </td>
+    </tr>
+</table>
 ### 5.2.3.2. Aspect Leaders and Collaborators.
 ### 5.2.3.3.Sprint Backlog 4.
 
