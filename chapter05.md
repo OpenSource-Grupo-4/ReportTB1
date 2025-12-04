@@ -97,45 +97,9 @@ Hemos optado por crear un repositorio en GitHub para nuestro proyecto, tanto par
 
 - URL del repositorio Report en GitHub: https://github.com/OpenSource-Grupo-4/ReportTB1
 - URL del repositorio Landing Page en GitHub: https://github.com/OpenSource-Grupo-4/Landing-Page
-- URL del repositorio de la Web Application en GitHub: https://github.com/OpenSource-Grupo-4/Frontend-WeRide
-- URL del respositorio de los Web Services en GitHub: https://github.com/OpenSource-Grupo-4/Backend-WeRide
+- URL del repositorio de la Web Application en GitHub:https://github.com/OpenSource-Grupo-4/Frontend-WeRide
+- URL del respositorio de los Web Services en GitHub:https://github.com/OpenSource-Grupo-4/Backend-WeRide
 
-**Gitflow Implementation:**
-
-Implementamos el flujo de trabajo gitflow para el control de versiones con branches(ramas) para trabajar paralelamente.
-
-![GitFlow](/assets/chapter05/Gitflow.jpg)
-
-**Main branch**
-
-La rama principal de producción del proyecto es la Main branch. En esta rama reside el código estable que actualmente se encuentra desplegado en producción (Vercel/GitHub Pages).
-
-Notación: main
-(Nota: También se ha usado la rama develop para la integración continua antes de pasar a main).
-
-**Conventional Commits**
-
-"Conventional Commits" es una convención para estructurar los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación automática de registros de cambios (changelogs).
-En el proyecto WeRide, los commits siguen la siguiente estructura, tal como se evidencia en el historial del repositorio:
-
-```
-git commit -m "<type>[optional scope]: <title>" -m "<description>"
-```
-
-**Tipos De Conventional Commits**
-
-A continuación, se definen los tipos utilizados para categorizar los cambios:
-
-```
-1. feat: Se utiliza para describir una nueva característica o funcionalidad añadida al código (ej. feat: added navbar & hero section).
-2. fix: Indica la corrección de un error (bug) o la solución a un problema (ej. hero-ui-fix).
-3. docs: Empleado para cambios o mejoras en la documentación del código o del proyecto.
-4. style: Describe cambios relacionados con el formato del código (espacios en blanco, indentación, puntos y coma) que no afectan su funcionalidad (ej. styles: updated responsive for steps cards).
-5. refactor: Utilizado para modificaciones en el código que no arreglan errores ni añaden funcionalidades, sino que mejoran su estructura o legibilidad (ej. chore: index file refactor).
-6. test: Indica la adición o modificación de pruebas unitarias o funcionales.
-7. chore: Se utiliza para cambios en el proceso de construcción, herramientas auxiliares o tareas de mantenimiento que no están directamente relacionadas con el código de la aplicación (ej. chore: added imgs & syntax updates).
-8. perf: Describe mejoras de rendimiento en el código.
-```
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
@@ -179,22 +143,72 @@ Para lograrlo, configuraremos un proyecto en Vercel y conectaremos nuestro repos
 
 #### 5.2.1.1. Sprint Planning 1.
 
-| Elemento                        | Detalle                                                                                       |
-|----------------------------------|----------------------------------------------------------------------------------------------|
-| **Sprint**                      | 1 - Implementación de funcionalidades básicas de inicio de sesión y diseño inicial de WeRide (Landing Page)                  |
-| **Fecha**                       | 19/09/2025                                                                                   |
-| **Hora**                        | 22:00 horas (GMT-5)                                                                          |
-| **Lugar**                       | Reunión virtual mediante Google Meet                                                              |
-| **Preparado por**               | [WeTech]                                                       |
-| **Asistentes**                  | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ]                                                             |
-| **Sprint n-1 Review**           | Se creó la organización de WeTech en GitHub, se definieron ramas y se asignaron tareas iniciales como investigación de usuarios, wireframes y mockups. |
-| **Sprint n-1 Retrospective**    | Se implementó la estructura básica de la landing page utilizando HTML, CSS y JavaScript.      |
-| **Sprint Goal & User Stories**  | Construir y estilizar la Landing Page para los visitantes y posibles usuarios de WeRide, asegurando diseño responsivo y navegación funcional (1-20)                                                                                         |
-| **Sprint 1 Velocity**           | 17 puntos                                                                                    |
-| **Sum of Story Points**         | 17 puntos                                                                                    |
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Detalle</th>
+  </tr>
+  <tr>
+    <td><strong>Sprint</strong></td>
+    <td>Sprint 1 — Implementación inicial: estructura de producto, landing y autenticación (WeRide)</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td>Sprint de arranque para validar funcionalidades esenciales del MVP: landing pública, registro, inicio de sesión y vista inicial de vehículos simulados. Se prioriza entregar valor temprano a usuarios universitarios y pilotos corporativos.</td>
+  </tr>
+  <tr>
+    <td><strong>Fecha</strong></td>
+    <td>2025-09-19</td>
+  </tr>
+  <tr>
+    <td><strong>Hora</strong></td>
+    <td>22:00 (GMT-5)</td>
+  </tr>
+  <tr>
+    <td><strong>Lugar</strong></td>
+    <td>Reunión virtual — Discord</td>
+  </tr>
+  <tr>
+    <td><strong>Preparado por</strong></td>
+    <td>WeTech</td>
+  </tr>
+  <tr>
+    <td><strong>Asistentes</strong></td>
+    <td>Samuel Bonifacio, Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint n-1 Review</strong></td>
+    <td>Se creó la organización WeTech en GitHub, se definieron ramas, convenciones de commits y se asignaron tareas iniciales en investigación de usuarios, wireframes y mockups.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint n-1 Retrospective</strong></td>
+    <td>Se completó la estructura base de la landing page (HTML/CSS/JS). Lecciones aprendidas: mejorar granularidad en tareas y definir criterios de aceptación más claros.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Goal (Statement)</strong></td>
+    <td><strong>Our focus is on</strong> entregar un flujo de onboarding confiable y una landing inicial atractiva con visualización simulada de vehículos.<br><strong>We believe it delivers</strong> mayor adopción temprana y confianza de usuarios iniciales (estudiantes y pilotos corporativos).<br><strong>This will be confirmed when</strong> al menos 50 usuarios de prueba completen el registro y login; la duración media de sesión sea ≥ 2 minutos; y la vista del mapa (vehículos simulados) sea accedida en ≥ 60% de las sesiones.</td>
+  </tr>
+  <tr>
+    <td><strong>User Stories (SP)</strong></td>
+    <td>
+      - <strong>US-12 (3 SP)<br>
+      - <strong>US-10 (3 SP)<br>
+      - <strong>US-11 (5 SP)<br>
+      - <strong>US-14 (3 SP)<br>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Sprint 1 Velocity (forecast)</strong></td>
+    <td>17 puntos</td>
+  </tr>
+  <tr>
+    <td><strong>Sum of Story Points (commit)</strong></td>
+    <td>17 puntos</td>
+  </tr>
+</table>
 
-#### Objetivo del Sprint
-Implementar la estructura inicial de la aplicación, el diseño de la landing page y las funcionalidades básicas como inicio de sesión y registro para los usuarios y visitantes de WeRide.
+
+
 
 #### User Stories seleccionadas para el Sprint 1
 
@@ -271,34 +285,15 @@ Cada commit refleja el trabajo colaborativo y el cumplimiento de los objetivos d
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
+En esta entrega, nos centramos en el desarrollo completo de la Landing Page para nuestra plataforma de educación en línea. Nuestro objetivo es desplegar una página web atractiva y efectiva que actúe como el punto de entrada para nuestros usuarios. 
 
 Es por ello que se comparte las evidencias de ambos repositorios para corroborar el trabajo hecho por cada uno de los participantes.
 
 ![NetworkGraph](assets/chapter05/networkgraph.png)
 
-- Landing Page principal (index.htrml): incluye seccion de bienvenida, about us, los vehiculos disponibles y llamado a la acción.
-
-![Landing](assets/chapter05/landing%20page.jpg)
-
-![Landing](/assets/chapter05/landing%20page%202.png)
-
-![Landing](/assets/chapter05/landing%20page%203.png)
-
-![Landing](assets/chapter05/landing%20page%204.png)
-
-![Landing](assets/chapter05/landing%20page%205.png)
-
-![Landing](assets/chapter05/landing%20page%206.png)
-
-![Landing](assets/chapter05/landing%20page%207.png)
-
-![Landing](assets/chapter05/landing%20page%208.png)
-
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
-La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
+Para esta primera entrega no hubo implementación de APIs, pues solo se realizó la Landing Page.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -322,22 +317,102 @@ A continuación, se adjuntan las capturas de evidencia de los insights de los re
 
 ### 5.2.2.1. Sprint Planning 2
 
-| Elemento | Detalle |
-|-----------|----------|
-| **Sprint** | 2 - Implementación de base de datos local (db.json) y primera versión desplegado de WeRide. |
-| **Fecha** | 8/10/2025 |
-| **Hora** | 21:00 horas (GMT-5) |
-| **Lugar** | Reunión virtual mediante Google Meet |
-| **Preparado por** | [WeTech] |
-| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales ] |
-| **Sprint n-2 Review** | Se completó la primera versión desplegada del Frontend Web Application de WeRide. |
-| **Sprint n-2 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas; se acordó reforzar la integración del backend en el siguiente Sprint. |
-| **Sprint Goal & User Stories** | Avanzar con el FrontEnd y tener la primera versión desplegada (1-22) |
-| **Sprint 2 Velocity** | 20 puntos |
-| **Sum of Story Points** | 20 puntos |
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Detalle</th>
+  </tr>
 
-#### Objetivo del Sprint
-Implementar el archivo `db.json` como base de datos simulada y desarrollar los bounded context clave de la aplicación web: **auth**, **booking** y **garage**, **plans** y **trip** mediante botones interactivos en la interfaz.
+  <tr>
+    <td><strong>Sprint</strong></td>
+    <td>Sprint 2 — Implementación de base de datos local (<code>db.json</code>) y primera versión desplegada del Back/Front (WeRide)</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td>Sprint orientado a proveer una capa de datos simulada (db.json) que permita al frontend consumir lecturas IoT y estados de vehículos, y a la vez desarrollar los bounded contexts principales para validar flujos de negocio (auth, booking, garage, plans, trip). Se busca reducir dependencia de servicios externos y preparar la integración con el backend real en sprints posteriores.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Fecha</strong></td>
+    <td>2025-10-08</td>
+  </tr>
+
+  <tr>
+    <td><strong>Hora</strong></td>
+    <td>21:00 (GMT-5)</td>
+  </tr>
+
+  <tr>
+    <td><strong>Lugar</strong></td>
+    <td>Reunión virtual — Google Meet</td>
+  </tr>
+
+  <tr>
+    <td><strong>Preparado por</strong></td>
+    <td>WeTech</td>
+  </tr>
+
+  <tr>
+    <td><strong>Asistentes</strong></td>
+    <td>Samuel Bonifacio, Jefferson Castro, Diego Seminario, Jhimy Romero, Arnold Morales</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-2 Review</strong></td>
+    <td>Se completó la primera versión desplegada del Frontend Web Application de WeRide; se validaron wireframes y se obtuvo feedback inicial de usuarios de prueba.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-2 Retrospective</strong></td>
+    <td>Buena coordinación y avance en frontend; se identificó la necesidad de una capa de datos simulada (db.json) y de criterios de aceptación más precisos para las integraciones.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint Goal (Statement)</strong></td>
+    <td>
+      <strong>Our focus is on</strong> implementar una base de datos local (<code>db.json</code>) que simule endpoints y telemetría, y desarrollar los bounded contexts <strong>auth</strong>, <strong>booking</strong>, <strong>garage</strong>, <strong>plans</strong> y <strong>trip</strong> en el frontend para validar flujos clave.<br>
+      <strong>We believe it delivers</strong> mayor estabilidad del desarrollo frontend, permite pruebas deterministas y acelera la integración con el backend real para pilotos.<br>
+      <strong>This will be confirmed when</strong> el frontend consume correctamente <code>db.json</code> (endpoints simulados), los flujos de autenticación, reserva y gestión de vehículos funcionan end-to-end en entorno de pruebas, y se registran ≥ 30 interacciones de prueba entre usuarios y booking/garage durante la fase de validación.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>User Stories (SP)</strong></td>
+    <td>
+      - <strong>US-06 (3 SP):</strong> Crear <code>db.json</code> con modelos: usuarios, vehículos, estado batería, ubicaciones y trips.<br>
+      - <strong>US-07 (5 SP):</strong> Implementar bounded context <strong>booking</strong>: reserva, confirmación y cancelación (frontend + lectura/sync con <code>db.json</code>).<br>
+      - <strong>US-08 (4 SP):</strong> Implementar bounded context <strong>garage</strong>: vista de vehículo, estado, reportes de incidencia y lógica de disponibilidad.<br>
+      - <strong>US-09 (3 SP):</strong> Implementar bounded context <strong>plans</strong>: planes/subscripciones mock (interfaz + lógica de selección).<br>
+      - <strong>US-10 (5 SP):</strong> Implementar bounded context <strong>trip</strong>: inicio/final de viaje simulado, registro de evento en <code>db.json</code> y visualización de historial.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint 2 Velocity (forecast)</strong></td>
+    <td>20 puntos</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sum of Story Points (commit)</strong></td>
+    <td>20 puntos</td>
+  </tr>
+</table>
+
+<hr>
+
+<h2>Objetivo del Sprint (versión SMART)</h2>
+
+<p><strong>Objetivo:</strong> Implementar una base de datos simulada (<code>db.json</code>) y desarrollar los bounded contexts auth, booking, garage, plans y trip en el frontend para permitir pruebas end-to-end controladas.</p>
+
+<ul>
+  <li><strong>Específico:</strong> <code>db.json</code> con entidades clave y endpoints simulados; booking/garage/trip/plans/auth funcionales en entorno de pruebas.</li>
+  <li><strong>Medible:</strong> 30 interacciones de prueba en booking/garage/trip; todas las historias con criterios de aceptación verificados.</li>
+  <li><strong>Alcanzable:</strong> Basado en la velocity estimada (20 SP) y competencias del equipo.</li>
+  <li><strong>Relevante:</strong> Permite validar integraciones sin dependencia de backend real y acelera la preparación del piloto.</li>
+  <li><strong>Tiempo-bound:</strong> Entrega al cierre del Sprint 2 (1 iteración).</li>
+</ul>
+
 
 #### User Stories seleccionadas para el Sprint 2
 
@@ -361,7 +436,7 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | Castro, Jefferson | JeffersonCastroPariona | L | L | L | L | L |
 | Seminario, Diego | DiegoSeminario | C | C | L | C | C |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | L |
-| Morales, Arnold | Arnold-TI | L | L | L | L | C |
+| Morales, Arnold | Arnold-TI | L | L| L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -375,8 +450,8 @@ Implementar el archivo `db.json` como base de datos simulada y desarrollar los b
 | US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
 | US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
 | US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
-| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Bonifacio Jaramillo, Samuel Jesús | Done |
-| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Morales Sosa, Arnold Gabriel | Done |
+| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
+| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
 | US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
 
 ---
@@ -412,36 +487,6 @@ Es por ello que se comparte las evidencias de ambos repositorios para corroborar
 
 ![ExecutionEvidence](assets/chapter05/networkgraph-2.png)
 
-**Sección de Login and Register:** Se implementó la sección de login and register.
-
-![Login](assets/chapter05/login.png)
-
-
-**Sección de Componente de Garaje:** Se implementó la sección de garaje de vehículos.
-
-![Garaje](assets/chapter05/garaje.png)
-
-
-**Sección del Mapa de Viaje:** Se implementó la sección del mapa de viaje con la ubicación de los vehículos y el marcador del tiempo.
-
-![viaje](/assets/chapter05/viaje.png)
-
-![ubicacion](/assets/chapter05/ubicacion.png)
-
-
-**Sección del Historial:** Se implementó la sección del historial de viajes.
-
-![Historial](assets/chapter05/historial.png)
-
-
-**Sección de Reservas:** Se implementó la sección de reservas de los vehículos.
-
-![Reservas](assets/chapter05/reservas.png)
-
-**Sección de Planes:** Se implementó la sección de plan de precios.
-
-![Historial](assets/chapter05/Planes.png)
-
 ---
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
@@ -451,9 +496,6 @@ El db.json fue creado para simular una base de datos local y facilitar el desarr
 ***json server:***
 
 ![db.json](assets/chapter05/json-server.png)
-
-![dbjson](/assets/chapter05/dbjson.png)
-
 ---
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -478,42 +520,158 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
----
-
 ## 5.2.3. Sprint 3
 
-### 5.2.3.1. Sprint Planning 3
+<h3>5.2.3.1. Sprint Planning 3</h3>
 
-| Elemento | Detalle |
-|-----------|----------|
-| **Sprint** | 3 - Primera versión de backend y pruebas de conexión con MySQL Workbench |
-| **Fecha** | 27/10/2025 |
-| **Hora** | 20:00 horas (GMT-5) |
-| **Lugar** | Reunión virtual mediante Google Meet |
-| **Preparado por** | [WeTech] |
-| **Asistentes** | [ Samuel Bonifacio , Jefferson Castro, Diego Seminario, Arnold Morales ] |
-| **Sprint n-3 Review** | Se asignaron los bounded context para el backend y se inicializó con las primeras contribuciones en el repositorio. |
-| **Sprint n-3 Retrospective** | Se destacó la buena coordinación del equipo y la claridad en las tareas asignadas. |
-| **Sprint Goal & User Stories** | 1-22 |
-| **Sprint 3 Velocity** | 20 puntos |
-| **Sum of Story Points** | 20 puntos |
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Detalle</th>
+  </tr>
 
-#### Objetivo del Sprint
-Implementar la primera versión del backend utilizando Java(Springboot) y establecer la conexión con una base de datos MySQL Workbench para gestionar usuarios, vehículos y reservas.
+  <tr>
+    <td><strong>Sprint</strong></td>
+    <td>Sprint 3 — Primera versión del backend con Java (Spring Boot) y conexión a MySQL (WeRide)</td>
+  </tr>
 
-#### User Stories seleccionadas para el Sprint 3
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td>Sprint orientado a entregar la capa mínima de backend que soporte autenticación, gestión de vehículos y reservas; establecer conexión estable con MySQL Workbench; y preparar los bounded contexts para futuras integraciones (auth, vehicle, booking). Se prioriza robustez, pruebas básicas y scripts de inicialización de esquema.</td>
+  </tr>
 
-| ID  | User Story | Puntos |
-|-----|-------------|--------|
-| 01  | Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente. | 5 |
-| 02  | Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones importantes. | 4 |
-| 03  | Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación. | 4 |
-| 04  | Como usuario quiero poder crear un perfil para colocar mis datos. | 5 |
-| 05  | Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio. | 2 |
+  <tr>
+    <td><strong>Fecha</strong></td>
+    <td>2025-10-27</td>
+  </tr>
 
-**Total de puntos:** 20  
+  <tr>
+    <td><strong>Hora</strong></td>
+    <td>20:00 (GMT-5)</td>
+  </tr>
 
----
+  <tr>
+    <td><strong>Lugar</strong></td>
+    <td>Reunión virtual — Google Meet</td>
+  </tr>
+
+  <tr>
+    <td><strong>Preparado por</strong></td>
+    <td>WeTech</td>
+  </tr>
+
+  <tr>
+    <td><strong>Asistentes</strong></td>
+    <td>Samuel Bonifacio, Jefferson Castro, Diego Seminario, Arnold Morales</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-2 Review</strong></td>
+    <td>Se asignaron los bounded contexts para el backend y se iniciaron las primeras contribuciones en el repositorio; frontend consumiendo <code>db.json</code> para pruebas.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-2 Retrospective</strong></td>
+    <td>Buena coordinación y claridad en las tareas; pendiente mejorar cobertura de pruebas unitarias y definir pipelines CI/CD para despliegues automáticos.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint Goal (Statement)</strong></td>
+    <td>
+      <strong>Our focus is on</strong> entregar la primera versión operativa del backend (servicios REST) que permita autenticación, gestión de vehículos y reservas, conectada a MySQL Workbench.<br>
+      <strong>We believe it delivers</strong> la capacidad de realizar pruebas end-to-end entre frontend y backend, garantizando persistencia y consistencia básica de datos.<br>
+      <strong>This will be confirmed when</strong> los endpoints de autenticación, consulta de vehículos y creación de reservas responden correctamente en el entorno de pruebas y las operaciones CRUD se verifican contra la base de datos MySQL mediante consultas y pruebas automatizadas.
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>User Stories (seleccionadas)</strong></td>
+    <td>Ver tabla abajo (IDs, descripción y puntos).</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint 3 Velocity (forecast)</strong></td>
+    <td>20 puntos</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sum of Story Points (commit)</strong></td>
+    <td>20 puntos</td>
+  </tr>
+</table>
+
+<br>
+
+<h4>Objetivo del Sprint (versión SMART)</h4>
+<p><strong>Objetivo:</strong> Entregar la primera iteración del backend en Spring Boot con conexión a MySQL que permita registro/inicio de sesión, creación y consulta de perfiles, y persistencia de reservas/vehículos para pruebas end-to-end.</p>
+
+<ul>
+  <li><strong>Específico:</strong> Endpoints de auth (registro/login), persistencia de usuario/perfil, endpoints para vehículos y reservas; scripts de inicialización de esquema en MySQL.</li>
+  <li><strong>Medible:</strong> Todos los endpoints listados en las user stories pasan sus criterios de aceptación y las operaciones CRUD quedan verificadas contra MySQL.</li>
+  <li><strong>Alcanzable:</strong> Basado en la capacidad del equipo y velocity estimada (20 SP).</li>
+  <li><strong>Relevante:</strong> Habilita integración real con frontend y pruebas de integración para pilotos.</li>
+  <li><strong>Time-bound:</strong> Entrega al cierre de Sprint 3 (1 iteración).</li>
+</ul>
+
+<hr>
+
+<h4>User Stories seleccionadas para el Sprint 3</h4>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>User Story</th>
+    <th>Puntos</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Como usuario quiero poder iniciar sesión o registrarme en la app para usarla diariamente.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Como usuario, quiero introducir mi número de celular para validar mi identidad y recibir notificaciones.</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Como usuario, quiero introducir un código de verificación para validar mi identidad en la aplicación.</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Como usuario quiero poder crear un perfil para colocar mis datos.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>Como usuario quiero poder ver una pantalla principal estética que me atraiga a usar el servicio.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Total de puntos comprometidos:</strong></td>
+    <td><strong>20</strong></td>
+  </tr>
+</table>
+
+<hr>
+
+<h4>Criterios de aceptación (ejemplos rápidos)</h4>
+<ul>
+  <li><strong>US-01:</strong> Registro almacena usuario en MySQL, responde 201 Created y devuelve token JWT; login valida credenciales y retorna token.</li>
+  <li><strong>US-02 / US-03:</strong> Número celular guardado y proceso de verificación simulado (código) implementado; endpoints de verificación devuelven estado validado.</li>
+  <li><strong>US-04:</strong> Perfil editable con campos básicos (nombre, documento, foto URL) y persistencia verificada.</li>
+  <li><strong>US-05:</strong> Endpoint que provee datos para la pantalla principal (promociones/estadísticas) y respuesta &lt; 500ms en entorno de pruebas.</li>
+</ul>
+
+<h4>Riesgos identificados y mitigaciones</h4>
+<ul>
+  <li><strong>Riesgo:</strong> Problemas de conexión o configuración con MySQL Workbench. <strong>Mitigación:</strong> scripts de bootstrap de DB y contenedores locales (Docker Compose) para entorno reproducible.</li>
+  <li><strong>Riesgo:</strong> Falta de pruebas automatizadas. <strong>Mitigación:</strong> incluir pruebas unitarias básicas y pruebas de integración que validen CRUD contra una DB de prueba.</li>
+  <li><strong>Riesgo:</strong> Dependencias inseguras en librerías. <strong>Mitigación:</strong> revisar versiones y políticas de seguridad (dependabot/scan).</li>
+</ul>
+
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -523,7 +681,7 @@ Implementar la primera versión del backend utilizando Java(Springboot) y establ
 | Castro, Jefferson | JeffersonCastroPariona | L | C | L | L | C |
 | Seminario, Diego | DiegoSeminario | L | C | L | C | L |
 | Romero, Jhimy | jhimyromeromeza | L | C | C | C | C |
-| Morales, Arnold | Arnold-TI | L | L | L | L | C |
+| Morales, Arnold | Arnold-TI | L | L| L | L | C |
 
 **L:** Leader (Líder)  
 **C:** Collaborator (Colaborador)
@@ -716,121 +874,82 @@ A continuación, se adjuntan las capturas de evidencia de los insights del repos
 * Insight Report
   ![InsightR](assets/chapter05/insightR.png)
 
----
-
 ## 5.2.3. Sprint 4
 ### 5.2.3.1.Sprint Planning 4.
 Para el sprint 4, el equipo realizó el sprint planning meeting para la distribución de tareas y revisión de errores a corregir. El resumen se mostrará a continuación:
 
-<table align="center"  border="1" width="90%" style="text-align:center;">
-    <tr align="left">
-        <td>
-            <b>Sprint 4</b>
-        </td>
-        <td>
-            <b>Sprint 4</b>           
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            01/12/25
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            9:00 PM         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Modalidad Remota por Meet  
-        </td>
-    </tr>
-     </tr>
-       <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            Seminario Castillo, Diego Vicente
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Attendess (to planning meeting)</b>
-        </td>
-        <td>
-            - Castro Pariona, Jefferson Ernesto<br>
-            - Bonifacio Jaramillo, Samuel Jesus <br>
-            - Seminario Castillo, Diego Vicente <br>
-            -  Romero Meza, Jhimy Pool<br>
-            -  Morales Sosa, Arnold Gabriel<br>
-        </td>
-    </tr>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se creó la primera versión del backend, se deploy correctamente, se unio frontend -backend y se corrigió la mayoria de errores en el reporte. Además, se implementó el diseño final del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 4</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-            Según los miembros del equipo, se logró corregir la mayoria del reporte, frontend y se implementó un backend sólido en la estructura para el consumo de API por parte del frontend.
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Goal & User Stories</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Goal</b>
-        </td>
-        <td>
-            Para el desarrollo del sprint 4, el equipo publicara la ultima version del frontend y backend corrigiendo las errores indicados además de añadir las secciones faltantes en el reporte. Además de realizar la conexión entre ambos apartados.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint 4 Velocity</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            61
-        </td>
-    </tr>
+<table>
+  <tr>
+    <th>Elemento</th>
+    <th>Detalle</th>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint</strong></td>
+    <td>Sprint 4 — Integración final Frontend ↔ Backend, despliegue y mejora del informe / landing page (WeRide)</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td>Sprint orientado a integrar los componentes desarrollados (frontend y backend), corregir errores críticos identificados en pruebas, completar secciones faltantes del informe y pulir la landing page para el despliegue final del piloto. Prioriza estabilidad, experiencias end-to-end y evidencia documental para entrega.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Fecha</strong></td>
+    <td>2025-12-01</td>
+  </tr>
+
+  <tr>
+    <td><strong>Hora</strong></td>
+    <td>21:00 (GMT-5)</td>
+  </tr>
+
+  <tr>
+    <td><strong>Lugar</strong></td>
+    <td>Reunión virtual — Google Meet</td>
+  </tr>
+
+  <tr>
+    <td><strong>Preparado por</strong></td>
+    <td>Seminario Castillo, Diego Vicente (WeTech)</td>
+  </tr>
+
+  <tr>
+    <td><strong>Asistentes (Planning Meeting)</strong></td>
+    <td>Castro Pariona, Jefferson Ernesto · Bonifacio Jaramillo, Samuel Jesus · Seminario Castillo, Diego Vicente · Romero Meza, Jhimy Pool · Morales Sosa, Arnold Gabriel</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-3 Review (Resumen)</strong></td>
+    <td>Se completó la primera versión del backend, se integró con frontend simulando <code>db.json</code> y se corrigieron la mayoría de errores reportados del frontend. Se desplegó la versión inicial en entorno de staging y se avanzó en el diseño final de la landing page.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint n-3 Retrospective (Resumen)</strong></td>
+    <td>Buena coordinación del equipo; mejora en procesos de revisión. Acciones de mejora: reforzar pruebas e2e, documentar criterios de aceptación y automatizar despliegues.</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint Goal (Statement)</strong></td>
+    <td>
+      <strong>Our focus is on</strong> entregar la versión integrada y estable de frontend y backend, corrigiendo errores críticos, completando las secciones faltantes del informe y refinando la landing page para el despliegue piloto.<br>
+      <strong>We believe it delivers</strong> mayor confianza operativa y evidencia para presentación académica y pilotos corporativos, aumentando la probabilidad de adopción inicial.<br>
+      <strong>This will be confirmed when</strong> la aplicación integrada realiza viajes simulados end-to-end, las APIs responden en staging, el informe está actualizado y validado por el equipo, y la landing page está publicada con métricas iniciales (visitas y conversiones de registro).
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Sprint 4 Velocity</strong></td>
+    <td>61 puntos</td>
+  </tr>
+
+  <tr>
+    <td><strong>Sum of Story Points (commit)</strong></td>
+    <td>61 puntos</td>
+  </tr>
+
 </table>
+
 
 ### 5.2.3.2. Aspect Leaders and Collaborators.
 
@@ -846,14 +965,28 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | **Castro Pariona, Jefferson Ernesto**   | [@JeffersonCastroPariona](https://github.com/JeffersonCastroPariona)                              | C                                                        | L                                                                         | L                                                     |                                     |
 ### 5.2.3.3.Sprint Backlog 4.
 
-| ID | Title/Section | Description | Estimation (Hours) | Assigned To | Status |
-|----|----------------|--------------|--------------------|--------------|--------|
-| US21 | Registro de Usuario | Como usuario, quiero registrar una cuenta desde la aplicación para acceder a los servicios de WeRide. | 3 | Castro Pariona, Jefferson Ernesto | Done |
-| US22 | Visualización de Vehículos | Como usuario, quiero visualizar los vehículos disponibles para elegir uno según mis necesidades. | 4 | Seminario Castillo, Diego Vicente | Done |
-| US23 | Reserva de Vehículo | Como usuario, quiero poder reservar un vehículo seleccionando fecha y hora de uso. | 4 | Romero Meza, Jhimy Pool | Done |
-| US24 | Pago en Línea | Como usuario, quiero realizar el pago de mi reserva de manera segura mediante una interfaz simple y funcional. | 5 | Morales Sosa, Arnold Gabriel | Done |
-| US25 | Archivo db.json | Como desarrollador, quiero crear un archivo db.json con los datos de usuarios, vehículos y reservas para pruebas locales. | 2 | Bonifacio Jaramillo, Samuel Jesús | Done |
-| US26 | Pruebas e Integración | Como equipo, queremos realizar pruebas de funcionamiento e integración del flujo completo del sistema. | 2 | Todos | Done |
+### 5.2.3.3 Sprint Backlog — Sprint 4 (WeRide)
+
+| ID   | Título (HU)                                | Descripción (resumen)                                                                 | Story Points | Est. (hrs) | Assigned To                                        | Status      |
+|------|--------------------------------------------|----------------------------------------------------------------------------------------|:------------:|:----------:|----------------------------------------------------|-------------|
+| US-01| Inicio de sesión y registro                 | Registro/login, persistencia en backend, token JWT                                    |      8       |    12      | Jefferson Castro (Frontend) / Backend support       | In Progress |
+| US-02| Introducir número de celular + verificación | Guardar número, solicitar código y validar (flow SMS/sandbox)                         |      5       |     8      | Samuel Bonifacio (Backend/DevOps)                   | In Progress |
+| US-04| Datos de usuario / Perfil                   | Crear/editar perfil (nombre, foto, correo) y persistencia                             |      3       |     6      | Jhimy Romero (Frontend) / Backend support           | To Do       |
+| US-05| Página principal / Landing (pulido)         | Pulir UI/UX de la pantalla principal y landing (performance, CTA, tracking)           |      3       |     6      | Diego Seminario (Frontend)                          | In Progress |
+| US-11| Seleccionar ubicación y ver vehículos       | Al seleccionar ubicación en mapa mostrar vehículos cercanos y detalles (realtime)     |      8       |    10      | Diego Seminario (Frontend) / Backend support        | In Progress |
+| US-07| Gestión/Visualización en Garaje             | Vista Garaje con listados, detalles y filtros (tipo, batería, valoración)             |      5       |     8      | Jhimy Romero (Frontend) / Backend support          | To Do       |
+| US-17| Crear una reserva                            | Reserva de vehículo: seleccionar, confirmar, bloquear vehículo y temporizador         |      8       |    10      | Jhimy Romero (Frontend) / Arnold Morales (Backend)  | To Do       |
+| US-24| Pago en línea (sandbox)                      | Integración mock/sandbox Yape/Plin; registro de transacción en backend                |      8       |    12      | Arnold Morales (Backend) / Frontend support         | To Do       |
+| US-19| Desbloqueo con QR / US-20 Desbloqueo app     | Flujo de desbloqueo (QR y botón app) + estado de desbloqueo en tiempo real            |      5       |     8      | Arnold Morales (Backend) / Jhimy (Frontend)        | To Do       |
+| US-12| Visualización de viaje en mapa               | Mostrar trayecto en tiempo real con datos de vehículo (batería, tiempo restante)      |      3       |     6      | Jhimy Romero (Frontend) / Backend support          | To Do       |
+| CI-1 | CI/CD pipeline & Deploy a staging            | Pipeline (build/test/deploy) automático a staging                                     |      3       |     8      | Samuel Bonifacio (DevOps)                           | To Do       |
+| TST1 | Pruebas E2E (smoke)                          | Suite e2e mínima para flujo crítico: registro→login→reserva→pago                      |      2       |     6      | Equipo (coordinado)                                 | To Do       |
+| US-25| Archivo db.json (verificar)                  | db.json ya creado; verificar migración / uso en staging                              |      0       |     3      | Samuel Bonifacio (DevOps)                           | Done        |
+
+**Sum Story Points comprometidos (Sprint 4):** 61 SP  
+**Nota:** US-25 aparece como *Done* (verificado) y no suma SP al comprometido arriba.
+
+
 
 ### 5.2.3.4.Development Evidence for Sprint Review.
 | **Repository**  | **Branch**            | **Commit ID**                            | **Author**        | **Time ago** |
@@ -865,6 +998,8 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | Backend-WeRide | jefferson             | e3c8283af91b64fd807e18d1bfd90f27fa7fd04b | JeffersonCastroPariona   | 1 days ago   |
 | Backend-WeRide  | samuel                | bfd7ddf55775bc30cdd1eb003c869e8ec897045b | samuelbonifacio   | 6 days ago   |
 | Backend-WeRide  | develop               | 538a2e9a51d6fe0d2a8c95d429a24bbeb598237f | samuelbonifacio015| 1 days ago   |
+
+
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
@@ -947,135 +1082,50 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 - “¿La interfaz te transmite suficiente profesionalismo para un uso corporativo?”
   
 ---
-
 ### 5.3.2 Registro de Entrevistas
 
-**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
+**Segmento 2**
 
-#### Entrevista 1
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/willy.png" alt="Williams Avendaño" style="width: 500px; height: auto;" />
+<div style="border:1px solid #111; padding:8px; border-radius:2px; max-width:760px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
+  <div style="padding:6px 4px 18px 4px;">
+    <strong>Entrevista N°1:</strong>
+  </div>
+  <div style="border-top:1px solid #111; padding-top:8px; margin-bottom:8px;">
+    <div style="font-style:italic; margin-bottom:6px;">
+      <strong>Vista Previa:</strong><br/>
+      <img src="assets/chapter05/entrevista-segmento-2.png"/><br>
+      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+    </div>
+  </div>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:8px;">
+    <tr>
+      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistado/a:</strong> Flores Flores, Matias</td>
+      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Entrevistador:</strong> Castro Pariona, Jefferson</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
+        <strong>Información del entrevistado:</strong><br/>
+        Sexo: Masculino / Edad: 25 / Residencia: Lima
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:8px; vertical-align:top;">
+        <strong>Enlace Entrevista:</strong>
+        <a href="" target="_blank" rel="noopener">https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Inicio:</strong> 0:00</td>
+      <td style="border:1px solid #111; padding:8px; vertical-align:top; width:50%;"><strong>Duración:</strong> 09:41</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid #111; padding:12px; vertical-align:top; min-height:120px;">
+        <strong>Resumen de Entrevista:</strong>
+        <div style="margin-top:8px; white-space:pre-wrap;">Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción práctica para desplazamientos cortos si la propuesta es clara y el proceso de registro/pago es sencillo. Confían más si ven precios visibles, testimonios y métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco intuitivas (CTA poco visibles, botones inactivos).</div>
+      </td>
+    </tr>
+  </table>
 </div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Williams Avendaño |
-| **Edad** | 20 años |
-| **Distrito** | Surco |
-| **Institución** | Estudiante ESAN |
-| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
-| **Timing** | 00:00:00 – 00:10:44 |
-| **Duración** | 10:44 |
-| **Resumen** | Williams comenta que usa apps como Beat y scooters públicos para moverse. Le interesa WeRide porque ahorra tiempo y es más económico. Sugiere más información sobre cobertura. Valora que la app sea fácil de usar y que permita reservar vehículos. |
-| **Características Objetivas** | iPhone 12, laptop ASUS; apps: Google Maps, Beat, Yape, WhatsApp. |
-| **Características Subjetivas** | Organizado, práctico; prefiere marcas confiables (Apple, Nike); influenciado por amigos y TikTok. |
-
----
-
-#### Entrevista 2
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/cardenas.png" alt="Patrick Cárdenas" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Patrick Cárdenas |
-| **Edad** | 19 años |
-| **Distrito** | Ate |
-| **Institución** | Estudiante PUCP |
-| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
-| **Timing** | 00:10:45 – 00:19:15 |
-| **Duración** | 8:30 |
-| **Resumen** | Patrick se mueve entre casa, universidad y prácticas. Usa buses y motos por apps. Sugiere agregar un mapa de disponibilidad en tiempo real. La landing y la app le parecen claras y profesionales. |
-| **Características Objetivas** | Samsung A52, laptop Lenovo; apps: Moovit, Google Maps, Uber Moto, Plin. |
-| **Características Subjetivas** | Extrovertido, sociable; busca rapidez. Prefiere Samsung/Xiaomi; influido por YouTube. |
-
----
-
-#### Entrevista 3
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/correa.png" alt="Patrick Correa" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Patrick Correa |
-| **Edad** | 20 años |
-| **Distrito** | San Miguel |
-| **Institución** | Estudiante Universidad de Lima |
-| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
-| **Timing** | 00:19:16 – 00:47:42 |
-| **Duración** | 28:22 |
-| **Resumen** | Correa usa transporte público y bicicleta. Percibe WeRide como útil si opera cerca de su universidad. Entendió bien la landing, pero pide más información sobre seguridad. La app le parece intuitiva e incluso sugiere incluir tutoriales para nuevos usuarios. |
-| **Características Objetivas** | iPhone XR, iPad 8th gen; apps: Google Maps, Cabify, Duolingo, Instagram. |
-| **Características Subjetivas** | Tranquilo, analítico; prefiere diseños minimalistas; influido por TikTokers y creadores estudiantiles. |
-
-
-**Segmento 2: Empresas y Planes Corporativos (B2B)**
-
-#### Entrevista 1
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/ricardo.png" alt="Ricardo Del Aguila" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Ricardo Del Aguila |
-| **Edad** | 27 años |
-| **Distrito** | San Miguel |
-| **Cargo** | Jefe de inmobiliaria Grupo Horc |
-| **Video** | [https://www.youtube.com/watch?v=0qsQ9NOwHMc](https://www.youtube.com/watch?v=0qsQ9NOwHMc) |
-| **Timing** | 00:00:00 – 00:13:14 |
-| **Duración** | 13:14 |
-| **Resumen** | Ricardo entiende que WeRide ofrece movilidad interna eficiente y controlable para empresas. La landing le pareció más dirigida al usuario final, pero identifica potencial corporativo. Señala que necesita información sobre SLA, costos y soporte técnico. Destaca que la interfaz del panel corporativo inspira confianza. Sugiere agregar casos de éxito y comparativas de ahorro. |
-| **Características Objetivas** | Laptop Dell Latitude corporativa, iPhone 14 Pro; usa Slack, Microsoft Teams, Trello, Google Workspace; maneja dashboards a diario. |
-| **Características Subjetivas** | Perfil analítico, orientado a procesos. Prefiere soluciones confiables y con respaldo técnico. Le influyen benchmarks y referencias de otras empresas del sector. |
-
----
-
-#### Entrevista 2
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/matias.png" alt="Matias Flores" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Matias Flores Flores |
-| **Edad** | 26 años |
-| **Distrito** | San Isidro |
-| **Cargo** | Jefe de Recursos Humanos – empresa de servicios |
-| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
-| **Timing** | 00:13:15 – 00:22:35 |
-| **Duración** | 9:20 |
-| **Resumen** | Matias percibe que WeRide ofrece una alternativa sostenible de movilidad para colaboradores, reduciendo tiempos muertos. Considera que la landing transmite profesionalismo, pero falta segmentación clara B2B/B2C. Requiere información sobre modelos de pago por empleado y contratos mensuales. En el frontend destaca la necesidad de restricciones por sede y roles. También menciona que valoraría flujos de aprobación por jefatura. |
-| **Características Objetivas** | iPhone 13, laptop MacBook Air M1; apps: Teams, Outlook, BambooHR, Zoom; gestión constante de personal. |
-| **Características Subjetivas** | Empático, orientado a bienestar laboral. Prefiere marcas con enfoque moderno y sostenible (Apple, Notion). Influenciado por tendencias de HR Tech y recomendaciones en LinkedIn. |
-
----
-
-#### Entrevista 3
-
-<div style="text-align: center; margin-bottom: 40px;">
-<img src="assets/chapter05/angie.png" alt="Angie Santos" style="width: 500px; height: auto;" />
-</div>
-
-| Campo | Valor |
-|-------|-------|
-| **Nombre** | Angie Santos |
-| **Edad** | 46 años |
-| **Distrito** | Santiago de Surco |
-| **Cargo** | Jefa de TI – empresa corporativa multisede |
-| **Video** | [https://www.youtube.com/watch?v=vxBR4mxMcmQ](https://www.youtube.com/watch?v=vxBR4mxMcmQ) |
-| **Timing** | 00:22:36 – 00:29:05 |
-| **Duración** | 7:31 |
-| **Resumen** | Angie entendió que WeRide puede integrarse como una solución tecnológica para movilidad interna, con trazabilidad y control. La landing le pareció visualmente sólida, pero requiere información técnica: API, integraciones, seguridad, infraestructura y tiempos de mantenimiento. En la app considera importante la disponibilidad en tiempo real y alertas automáticas. Prefiere modelos de suscripción con leasing de flota. |
-| **Características Objetivas** | Laptop ThinkPad serie T, Pixel 7 Pro; apps: Azure AD, Jira, Confluence, Power BI, Google Admin; revisa métricas y KPIs a diario. |
-| **Características Subjetivas** | Perfil estratégico y exigente en temas de ciberseguridad. Prefiere soluciones escalables y con soporte 24/7. Influenciada por estándares internacionales y casos de integración tecnológica. |
 
 ### 5.3.3 Evaluaciones según heuristicas
 
