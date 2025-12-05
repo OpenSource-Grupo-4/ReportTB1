@@ -395,14 +395,14 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
   <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
     <div style="font-style:italic; margin-bottom:8px;">
       <strong>Vista Previa:</strong><br/>
-      <img src="assets/chapter02/nelson%20seg%201.png" style="max-width:100%; margin:8px 0;"/><br>
-      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+      <img src="assets/chapter02/giane.png" style="max-width:100%; margin:8px 0;"/><br>
+      Entrevista con Gianella Castro (Entrevistada) y Jefferson Castro (Entrevistador).
     </div>
   </div>
   <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
     <tr>
       <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
-        <strong>Entrevistado/a:</strong><br>Flores Flores, Matias
+        <strong>Entrevistado/a:</strong><br>Castro Tello, Gianella
       </td>
       <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
         <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
@@ -411,14 +411,14 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
     <tr>
       <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
         <strong>Información del entrevistado:</strong><br>
-        Sexo: Masculino &nbsp;/&nbsp; Edad: 25 &nbsp;/&nbsp; Residencia: Lima
+        Sexo: Femenino &nbsp;/&nbsp; Edad: 29 &nbsp;/&nbsp; Residencia: Miraflores
       </td>
     </tr>
     <tr>
       <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
         <strong>Enlace Entrevista:</strong><br>
         <a href="" target="_blank" rel="noopener">
-          https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV
+          https://drive.google.com/file/d/1mHCqNOhn-29ejmFIuWm-jjzBFYX-SWkX/view?usp=sharing
         </a>
       </td>
     </tr>
@@ -434,12 +434,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
       <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
         <strong>Resumen de Entrevista:</strong>
         <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
-          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
-          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
-          registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
-          métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
-          (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
-          intuitivas (CTA poco visibles, botones inactivos).
+          Gianella valida el potencial de WeRide para sus viajes cortos por el bajo costo, pero su experiencia de uso actual es frustrante. En la prueba, criticó severamente la interfaz: se sintió perdida por botones inactivos y llamadas a la acción (CTAs) que no se veían. Su desconfianza aumentó al no encontrar información clara sobre cancelaciones ni precios visibles de inmediato. Su conclusión fue tajante: para que ella adopte la app, la "conveniencia" debe ser real, lo que implica integrar pagos inmediatos con Yape/Plin y simplificar todo el proceso de registro y reserva.
         </div>
       </td>
     </tr>
@@ -603,8 +598,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
       <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
         <strong>Resumen de Entrevista:</strong>
         <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
-          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
-          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
+          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción práctica para desplazamientos cortos si la propuesta es clara y el proceso de
           registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
           métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
           (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
