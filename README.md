@@ -129,9 +129,9 @@ Durante la entrega TB1 el equipo desarrolló el Sprint 1, donde se trabajaron la
 En esta etapa también se inició la estructura del informe, estableciendo la base de contenidos y el orden de secciones.
 
 ### Evidencias
-<img src="./assets/chapter01/insigtTB1.png" alt="Insights TB1" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets//chapter01/commits.png" alt="Commits TB1" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TB1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/insigtTB1.png" alt="Insights TB1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets//chapter01/commits.png" alt="Commits TB1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/contribucion.png" alt="Contribuciones TB1" style="max-width:800px; display:block; margin:12px auto;">
 
 ---
 
@@ -141,9 +141,9 @@ En la entrega TP1 se desarrolló el Sprint 2, enfocado en las historias de usuar
 Se trabajó la experiencia del usuario, pantallas principales y simulación del backend utilizando JSON Server para representar datos IoT de localización.
 
 ### Evidencias
-<img src="./assets/chapter01/insigtTB1.png" alt="Insights TP1" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/commits.png" alt="Commits TP1" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TP1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/insigtTB1.png" alt="Insights TP1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/commits.png" alt="Commits TP1" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/contribucion.png" alt="Contribuciones TP1" style="max-width:800px; display:block; margin:12px auto;">
 
 ---
 
@@ -153,9 +153,9 @@ En la entrega TB2 el equipo trabajó en el desarrollo del backend utilizando Jav
 Se implementaron los agregados principales, la lógica del dominio y las capas internas del proyecto siguiendo buenas prácticas de arquitectura.
 
 ### Evidencias
-<img src="./assets/chapter01/insigtTB1.png" alt="Insights TB2" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/commits.png" alt="Commits TB2" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TB2" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/insigtTB1.png" alt="Insights TB2" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/commits.png" alt="Commits TB2" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/contribucion.png" alt="Contribuciones TB2" style="max-width:800px; display:block; margin:12px auto;">
 
 ---
 
@@ -165,9 +165,9 @@ En la entrega final se trabajó el Sprint 4, integrando Frontend y Backend, reso
 Adicionalmente, se realizaron mejoras completas al informe, ajustándolo a los requerimientos del curso y asegurando coherencia con el Registro de Versiones.
 
 ### Evidencias
-<img src="./assets/chapter01/insigtTB1.png" alt="Insights TF" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/commits.png" alt="Commits TF" style="max-width:800px; display:block; margin:12px auto;">
-<img src="./assets/chapter01/contribucion.png" alt="Contribuciones TF" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/insigtTB1.png" alt="Insights TF" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/commits.png" alt="Commits TF" style="max-width:800px; display:block; margin:12px auto;">
+<img src="assets/chapter01/contribucion.png" alt="Contribuciones TF" style="max-width:800px; display:block; margin:12px auto;">
 
 <!-- salto de hoja-->
 <div style="page-break-before: always;"></div>

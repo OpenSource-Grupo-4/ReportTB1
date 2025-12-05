@@ -683,7 +683,7 @@ El User Journey Mapping se desarrolló para comprender la experiencia de los usu
 El **Event Storming** modela de forma secuencial el ciclo completo de uso de la plataforma de micromovilidad eléctrica. Se identifican las interacciones entre usuarios, administradores, sistemas externos ***(IoT, GPS, pasarela de pagos)*** y el sistema de negocio.
   Se muestra cómo la plataforma conecta en un mismo flujo las necesidades de movilidad del usuario, los procesos de pago y seguridad, asegurando un ecosistema completo de micromovilidad urbana.
 
-  ![eventstorming](/assets/chapter02/eventstormingweride.jpg)
+  ![eventstorming](assets/chapter02/eventstormingweride.jpg)
 
 ## 2.5. Ubiquitous Language.
 | Término                 | Tipo               | Definición                                                                 |

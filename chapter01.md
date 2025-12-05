@@ -88,7 +88,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
         <span style="font-size:11px; color:#555;">(U202321510)</span>
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align:center;">
-        <img src="./assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" style="max-width:80px; border-radius:6px;">
+        <img src="assets/Integrantes/JhimyRomeroMeza.jpg" alt="Foto de Jhimy" style="max-width:80px; border-radius:6px;">
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align: justify;">
         Estudiante de Ingeniería de Software (5to ciclo). Se destaca por su responsabilidad, compromiso y disposición constante para colaborar. Cuenta con conocimientos previos en tecnología y en el desarrollo de proyectos, demostrando iniciativa y capacidad de aprendizaje autónomo.
@@ -100,7 +100,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
         <span style="font-size:11px; color:#555;">(U202412591)</span>
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align:center;">
-        <img src="./assets/Integrantes/Diego.png" alt="Foto de Diego" style="max-width:80px; border-radius:6px;">
+        <img src="assets/Integrantes/Diego.png" alt="Foto de Diego" style="max-width:80px; border-radius:6px;">
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align: justify;">
         Estudiante de Ingeniería de Software. Se caracteriza por su responsabilidad y su enfoque orientado a resultados de calidad. Mantiene una actitud innovadora y práctica, participando activamente en el trabajo colaborativo y en la búsqueda de soluciones eficientes.
@@ -112,7 +112,7 @@ Buscamos transformar la movilidad urbana en Lima  ofreciendo un transporte rápi
         <span style="font-size:11px; color:#555;">(U201822516)</span>
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align:center;">
-        <img src="./assets/Integrantes/ArnoldProfile.png" alt="Foto de Arnold" style="max-width:80px; border-radius:6px;">
+        <img src="assets/Integrantes/ArnoldProfile.png" alt="Foto de Arnold" style="max-width:80px; border-radius:6px;">
       </td>
       <td style="padding: 10px; border: 1px solid #aaa; text-align: justify;">
         Estudiante de Ingeniería de Software. Posee experiencia en ensamblaje, mantenimiento, conectividad y desarrollo de software. Maneja tecnologías como C++, Python, Javascript, SQL, NoSQL, Vue.js, Jenkins y metodologías ágiles. Se distingue por su responsabilidad, proactividad, creatividad y facilidad para el trabajo en equipo.

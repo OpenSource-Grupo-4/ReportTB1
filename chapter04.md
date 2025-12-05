@@ -18,15 +18,15 @@ Con este logo, WR se presenta como una marca confiable, eficiente y enfocada en 
 
 ***Logo original***
 
-![User Persona](/assets/chapter04/Logo1.png)
+![User Persona](assets/chapter04/Logo1.png)
 
 ***Logo con iniciales light color***
 
-![User Persona](/assets/chapter04/Logo3.png)
+![User Persona](assets/chapter04/Logo3.png)
 
 ***Colores invertidos***
 
-![User Persona](/assets/chapter04/Logo4.png)
+![User Persona](assets/chapter04/Logo4.png)
 
 
 <h3>Typography</h3>
@@ -336,19 +336,19 @@ Esta sección se expone la arquitectura de software del proyecto WeRide. La prop
 
 El diagrama de contexto de **WeRide** ofrece una visión global de las interacciones principales entre el sistema central y los actores externos que lo rodean. La plataforma está orientada a simplificar y optimizar la movilidad urbana mediante el uso compartido de vehículos eléctricos. En este nivel, se identifican actores clave como el Usuario (quien reserva, desbloquea y utiliza los vehículos), el Administrador (encargado de la gestión de la flota y promociones), y Empresas (clientes corporativos que gestionan suscripciones para empleados). Asimismo, se muestran las integraciones externas más relevantes: la Pasarela de Pago para procesar transacciones de suscripción y uso, el Servicio de Mapas para visualizar la ubicación de los vehículos y planificar rutas, y las Redes Sociales para compartir viajes y promociones. Esta representación de alto nivel permite entender de manera clara cómo WeRide se relaciona y coopera con su ecosistema digital y humano.
 
-![Software Architecture ContextDiagram](https://github.com/user-attachments/assets/b4782c77-3da3-427d-a620-2b137a1117e7)
+![Software Architecture ContextDiagram](https://github.com/user-attachmentsassets/b4782c77-3da3-427d-a620-2b137a1117e7)
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
 El diagrama de contenedores detalla la organización interna de **WeRide**, mostrando cómo los diferentes componentes de software trabajan en conjunto para brindar la funcionalidad de la plataforma. La Aplicación Web y Móvil, implementadas en React y React Native, sirven como puntos de interacción donde los usuarios pueden localizar, reservar y gestionar vehículos eléctricos. Estas interfaces se conectan con una API en Node.js, que cumple el rol de enlace entre la capa de presentación y los servicios del backend. La información esencial de usuarios, vehículos, reservas, pagos y rutas se almacena en una Base de Datos PostgreSQL. Asimismo, se integran contenedores adicionales como el Servicio de Mapas (basado en Google Maps API o Mapbox) para la visualización de ubicaciones y rutas, y la Pasarela de Pago (Stripe o similar), destinada a la gestión de transacciones. En conjunto, este nivel del modelo permite comprender cómo se estructuran y comunican las partes técnicas del sistema.
 
-![Software Architecture Container Diagrams](https://github.com/user-attachments/assets/0d402a91-fdea-467f-8783-8961f4d2eb86)
+![Software Architecture Container Diagrams](https://github.com/user-attachmentsassets/0d402a91-fdea-467f-8783-8961f4d2eb86)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
 El diagrama de componentes pone el foco en la arquitectura interna de la API de **WeRide**, encargada de coordinar la lógica de negocio central de la plataforma. Esta API, desarrollada en Node.js, se organiza en distintos componentes especializados, cada uno orientado a un dominio concreto. El Componente de Gestión de Usuarios administra la autenticación, perfiles y métodos de pago; Gestión de Vehículos permite realizar operaciones sobre los vehículos disponibles (ubicación, estado, batería); Reservas y Viajes abarca el ciclo completo de reserva, desbloqueo y finalización de viajes; Rutas y Mapas gestiona la localización y navegación de los vehículos; y Promociones y Notificaciones procesa tanto la gestión de descuentos como el envío de alertas a los usuarios. La interacción entre estos módulos sigue un flujo funcional definido: los usuarios gestionan reservas y viajes, los administradores supervisan la flota y las promociones, y las empresas pueden gestionar suscripciones corporativas. Esta separación de responsabilidades refleja un diseño guiado por el dominio, donde cada componente encapsula una función específica y colabora con los demás para dar soporte integral a la plataforma, junto a los Bounded Contexts desarrollados que explican de forma detallada la funcionalidad de cada componente existente en WeRide.
 
-![Software Architecture Components Diagrams](https://github.com/user-attachments/assets/9b6573f9-6ec3-460e-b3e0-093f0faf0bd0)
+![Software Architecture Components Diagrams](https://github.com/user-attachmentsassets/9b6573f9-6ec3-460e-b3e0-093f0faf0bd0)
 
 
 ## 4.7.Software Object-Oriented Design.
