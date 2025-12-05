@@ -278,7 +278,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
 
 ### 2.2.2. Registro de entrevistas.
 
-**Segmento 1**
+**Segmento 1: Universitarios y Jóvenes Profesionales (B2C)**
 
 <div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
   <div style="padding:8px 4px 20px 4px; font-size:17px;">
@@ -288,7 +288,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
     <div style="font-style:italic; margin-bottom:8px;">
       <strong>Vista Previa:</strong><br/>
       <img src="assets/chapter02/guti.png" alt="Luis Gutierrez" style="max-width:100%; margin:8px 0;"/><br>
-      Entrevista con el Sr.	Luis Gutierrez (Entrevistado) y Jefferson Castro (Entrevistador).
+      Entrevista con el Sr.	Patrick Correa (Entrevistado) y Morales Sosa, Arnold Gabriel (Entrevistador).
     </div>
   </div>
   <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
@@ -297,7 +297,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
         <strong>Entrevistado/a:</strong><br>Luis Gutierrez (Estudiante)
       </td>
       <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
-        <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
+        <strong>Entrevistador:</strong><br>Morales Sosa, Arnold Gabriel 
       </td>
     </tr>
     <tr>
@@ -333,9 +333,6 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
   </table>
 </div>
 
-
-<!--Falta -->
-
 <div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
   <div style="padding:8px 4px 20px 4px; font-size:17px;">
     <strong>Entrevista N°2</strong>
@@ -344,13 +341,13 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
     <div style="font-style:italic; margin-bottom:8px;">
       <strong>Vista Previa:</strong><br/>
       <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
-      Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
+      Entrevista con el Sr. Nelson Gutierrez (Entrevistado) y Jefferson Castro (Entrevistador).
     </div>
   </div>
   <table style="width:100%; border-collapse:collapse; margin-bottom:14px; font-size:14px;">
     <tr>
       <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
-        <strong>Entrevistado/a:</strong><br>Flores Flores, Matias
+        <strong>Entrevistado/a:</strong><br>Nelson Gutierrez
       </td>
       <td style="border:1px solid #111; padding:10px; vertical-align:top; width:50%;">
         <strong>Entrevistador:</strong><br>Castro Pariona, Jefferson
@@ -366,7 +363,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
       <td colspan="2" style="border:1px solid #111; padding:10px; vertical-align:top;">
         <strong>Enlace Entrevista:</strong><br>
         <a href="" target="_blank" rel="noopener">
-          https://drive.google.com/drive/folders/1UKbCq7bH5Y9_RQoZWcmjvXqT5jydmitV
+          https://drive.google.com/drive/folders/1IhoIIoGrqAko63d2aeLAtHhRbXSkmOFy
         </a>
       </td>
     </tr>
@@ -375,19 +372,14 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
         <strong>Inicio:</strong> 0:00
       </td>
       <td style="border:1px solid #111; padding:10px; vertical-align:top;">
-        <strong>Duración:</strong> 09:41
+        <strong>Duración:</strong> 07:37
       </td>
     </tr>
     <tr>
       <td colspan="2" style="border:1px solid #111; padding:14px; vertical-align:top; min-height:120px;">
         <strong>Resumen de Entrevista:</strong>
         <div style="margin-top:8px; line-height:1.45; white-space:pre-wrap;">
-          Matias valora la conveniencia, bajo costo y rapidez. Percibe WeRide como una opción
-          práctica para desplazamientos cortos si la propuesta es clara y el proceso de
-          registro/pago es sencillo. Confían más si ven precios visibles, testimonios y
-          métodos de pago locales (Yape/Plin). Reportaron dudas por falta de información
-          (políticas de uso, cancelaciones) y encontraron áreas de la interfaz poco
-          intuitivas (CTA poco visibles, botones inactivos).
+          El estudiante universitario promedio depende en un 80% del transporte público para            sus traslados diarios, enfrentando como principales problemas la pérdida de hasta             tres horas por el tráfico, la inseguridad en los paraderos y la incomodidad de                viajar aglomerado. Es un usuario nativo digital que depende de aplicaciones como              Yape y Google Maps, por lo que le frustra el uso de efectivo en los buses y valora            la micromovilidad eléctrica como una solución rápida y divertida, aunque su                   adopción regular se ve frenada por la percepción de peligro vial y, sobre todo, por           el costo. Su decisión final siempre prioriza el precio sobre la sostenibilidad,               mostrando disposición a pagar una suscripción mensual accesible (aprox. 60-70                 soles) y descubriendo nuevos servicios casi exclusivamente a través de TikTok y               códigos promocionales.
         </div>
       </td>
     </tr>
@@ -395,8 +387,6 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
 </div>
 
 ---
-
-<!--Falta -->
 
 <div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
   <div style="padding:8px 4px 20px 4px; font-size:17px;">
@@ -405,7 +395,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
   <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
     <div style="font-style:italic; margin-bottom:8px;">
       <strong>Vista Previa:</strong><br/>
-      <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
+      <img src="assets/chapter02/nelson%20seg%201.png" style="max-width:100%; margin:8px 0;"/><br>
       Entrevista con el Sr. Matias Flores Flores (Entrevistado) y Jefferson Castro (Entrevistador).
     </div>
   </div>
@@ -458,7 +448,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
 
 ---
 
-**Segmento 2**
+**Segmento 2: Empresas y Planes Corporativos (B2B)**
 
 <div style="border:1px solid #111; padding:12px; border-radius:4px; max-width:820px; font-family:Arial, Helvetica, sans-serif; font-size:15px;">
   <div style="padding:8px 4px 20px 4px; font-size:17px;">
