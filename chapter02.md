@@ -340,7 +340,7 @@ Explorar necesidades operativas, casos de uso, disposición de pago por suscripc
   <div style="border-top:1px solid #111; padding-top:10px; margin-bottom:14px;">
     <div style="font-style:italic; margin-bottom:8px;">
       <strong>Vista Previa:</strong><br/>
-      <img src="assets/chapter05/entrevista-segmento-2.png" style="max-width:100%; margin:8px 0;"/><br>
+      <img src="assets/chapter02/nelson%20seg%201.png" style="max-width:100%; margin:8px 0;"/><br>
       Entrevista con el Sr. Nelson Gutierrez (Entrevistado) y Jefferson Castro (Entrevistador).
     </div>
   </div>
