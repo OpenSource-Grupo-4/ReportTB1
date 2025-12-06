@@ -1000,10 +1000,237 @@ Para optimizar el trabajo colaborativo, se elaboró la **Matriz de Liderazgo y C
 | Backend-WeRide  | develop               | 538a2e9a51d6fe0d2a8c95d429a24bbeb598237f | samuelbonifacio015| 1 days ago   |
 
 
-### 5.2.3.5.Execution Evidence for Sprint Review.
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-### 5.2.3.8.Team Collaboration Insights during Sprint.
+<!-- ========================= -->
+<!-- 5.2.3.5 Execution Evidence -->
+<!-- ========================= -->
+<h3 id="5-2-3-5">5.2.3.5. Execution Evidence for Sprint Review</h3>
+
+En el Sprint 4 se completó la integración final entre Frontend y Backend, se corrigieron errores críticos identificados en pruebas de staging, se pulió la landing page y se realizó el despliegue del backend real en una máquina virtual en Azure. Las funcionalidades validadas end-to-end incluyen: registro/login con JWT, visualización de vehículos, flujo de reserva y ejecución de viajes simulados. Se generaron evidencias visuales (capturas) y un video de demostración que muestra la navegación y los flujos principales.</p>
+
+<h4>Principales logros</h4>
+<ul>
+  <li>Integración Frontend ↔ Backend funcionando en entorno de staging y ambiente real en Azure VM.</li>
+  <li>Corrección de errores críticos y mejoras de rendimiento en endpoints clave.</li>
+  <li>Landing page actualizada y publicada con métricas iniciales de navegación.</li>
+  <li>Validación de flujos: onboarding (registro/login), reserva, inicio/fin de viaje, historial de trips.</li>
+</ul>
+
+<h4>Capturas (incluir en informe)</h4>
+<ul>
+  <li><strong>Screenshot 1:</strong> Página de login/registro — <img src="./assets/1.png"/></li>
+  <li><strong>Screenshot 2:</strong> Vista de mapa con vehículos simulados — <img src="./assets/2.png"/></li>
+  <li><strong>Screenshot 3:</strong> Flujo de reserva (confirmación) — <img src="./assets/4.png"/></li>
+  <li><strong>Screenshot 4:</strong> Historial de viajes (trip history) —<img src="./assets/3.png"/></li>
+</ul>
+
+<hr>
+
+<!-- =================================== -->
+<!-- 5.2.3.6 Services Documentation -->
+<!-- =================================== -->
+<h3 id="5-2-3-6">5.2.3.6. Services Documentation Evidence for Sprint Review</h3>
+
+En este Sprint se completó y publicó la documentación OpenAPI (Swagger) de los endpoints incluidos en el alcance: auth, vehicles, bookings y trips. A continuación se presenta una tabla resumen con los endpoints más relevantes, acciones soportadas, ejemplos de llamada y ejemplo de respuesta. Al final se indican enlaces y commits relacionados con la documentación generada.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Acciones</th>
+      <th>Método</th>
+      <th>Ejemplo</th>
+      <th>Parámetros</th>
+      <th>Ejemplo response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/auth/register</td>
+      <td>Registro de usuario</td>
+      <td>POST</td>
+      <td><pre>POST /api/auth/register</pre></td>
+      <td>email, phone, password</td>
+      <td><pre>{
+ "id": "user-uuid",
+ "email": "usuario@ejemplo.com"
+}</pre></td>
+    </tr>
+    <tr>
+      <td>/api/auth/login</td>
+      <td>Autenticación (JWT)</td>
+      <td>POST</td>
+      <td><pre>POST /api/auth/login</pre></td>
+      <td>email, password</td>
+      <td><pre>{
+ "token": "jwt-token",
+ "expiresIn": 3600
+}</pre></td>
+    </tr>
+    <tr>
+      <td>/api/vehicles</td>
+      <td>Listar / Crear vehículos</td>
+      <td>GET / POST</td>
+      <td><pre>GET /api/vehicles</pre></td>
+      <td>filtros opcionales / body</td>
+      <td><pre>[{ "id":"veh-1","plate":"ABC-123" }]</pre></td>
+    </tr>
+    <tr>
+      <td>/api/vehicles/{id}</td>
+      <td>Consultar / Actualizar / Eliminar</td>
+      <td>GET / PUT / DELETE</td>
+      <td><pre>GET /api/vehicles/veh-1</pre></td>
+      <td>path: id</td>
+      <td><pre>{
+ "id": "veh-1",
+ "plate": "ABC-123"
+}</pre></td>
+    </tr>
+    <tr>
+      <td>/api/bookings</td>
+      <td>Crear / Listar reservas</td>
+      <td>POST / GET</td>
+      <td><pre>POST /api/bookings</pre></td>
+      <td>vehicleId, userId, start, end</td>
+      <td><pre>{
+ "bookingId": "book-456",
+ "status": "CONFIRMED"
+}</pre></td>
+    </tr>
+    <tr>
+      <td>/api/trips</td>
+      <td>Inicio / Fin de viaje</td>
+      <td>POST / GET</td>
+      <td><pre>POST /api/trips</pre></td>
+      <td>bookingId, event, timestamp</td>
+      <td><pre>{
+ "tripId":"trip-789",
+ "status":"COMPLETED"
+}</pre></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ============================== -->
+<!-- 5.2.3.7 Software Deployment Evidence -->
+<!-- ============================== -->
+<h3 id="5-2-3-7">5.2.3.7. Software Deployment Evidence for Sprint Review</h3>
+
+<p>Durante este Sprint se desplegó el backend en una máquina virtual en Azure (VM) para disponer de un entorno real que permita realizar pruebas de integración reales con persistencia en MySQL. A continuación se documentan los pasos clave, comandos ejecutados y evidencias (capturas) que deben incluirse en el informe.</p>
+
+<h4>Resumen del proceso de despliegue</h4>
+<ol>
+  <li>Creación de recursos en Azure: Resource Group + Virtual Machine (Ubuntu 22.04) + apertura de puertos (SSH, HTTP, HTTPS)</li>
+  <li>Preparación de la VM: instalación de Java, Maven, MySQL Server (o conexión a instancia RDS/managed), configuración de firewall (ufw).</li>
+  <li>Clonado del repositorio y build: maven clean package → jar/war generado.</li>
+  <li>Configuración de servicio systemd para ejecutar la aplicación Java como servicio.</li>
+  <li>Configuración de reverse proxy (nginx) para exponer la API en puerto 80/443 y soporte HTTPS.</li>
+  <li>Verificación: healthchecks, logs del servicio, smoke tests automáticos (curl a endpoints).</li>
+  <li>Documentación de pasos y capturas incluida en este informe.</li>
+</ol>
+
+<h4>Comandos y pasos reproducibles</h4>
+<pre><code># 1) Azure CLI: crear resource group y VM (ejemplo)
+az login
+az group create --name weRideRG --location eastus
+az vm create --resource-group weRideRG --name WeRideVM --image UbuntuLTS --admin-username weuser --generate-ssh-keys --public-ip-address-dns-name weride-vm
+
+# 2) Abrir puertos
+az vm open-port --port 80 --resource-group weRideRG --name WeRideVM
+az vm open-port --port 443 --resource-group weRideRG --name WeRideVM
+az vm open-port --port 22 --resource-group weRideRG --name WeRideVM
+
+# 3) Conectar por SSH (desde local)
+ssh weuser@weride-vm.&lt;region&gt;.cloudapp.azure.com
+
+# 4) En la VM: instalar JDK, Maven y Git
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y openjdk-17-jdk maven git nginx certbot python3-certbot-nginx
+
+# 5) Instalar y configurar MySQL (o conectar a instancia gestionada)
+sudo apt install -y mysql-server
+sudo mysql_secure_installation
+sudo mysql -u root -p -e "CREATE DATABASE weride; CREATE USER 'werideuser'@'localhost' IDENTIFIED BY 'StrongPass!'; GRANT ALL ON weride.* TO 'werideuser'@'localhost'; FLUSH PRIVILEGES;"
+
+# 6) Clonar y construir la app
+git clone [INSERT_REPO_URL] weride-backend
+cd weride-backend
+git checkout [INSERT_DEPLOY_COMMIT_HASH]
+mvn clean package -DskipTests
+
+# 7) Configurar service systemd 
+sudo tee /etc/systemd/system/weride.service > /dev/null <<EOF
+[Unit]
+Description=WeRide Spring Boot App
+After=network.target
+
+[Service]
+User=weuser
+WorkingDirectory=/home/weuser/weride-backend
+ExecStart=/usr/bin/java -jar /home/weuser/weride-backend/target/weride.jar --spring.config.location=/home/weuser/weride-backend/config/application-prod.yml
+SuccessExitStatus=143
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable weride
+sudo systemctl start weride
+sudo journalctl -u weride -f
+
+# 8) Configurar nginx reverse proxy
+sudo tee /etc/nginx/sites-available/weride > /dev/null <<EOF
+server {
+    listen 80;
+    server_name weride-vm.&lt;region&gt;.cloudapp.azure.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+EOF
+
+sudo ln -s /etc/nginx/sites-available/weride /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+</code></pre>
+
+<img src="./assets/m1.png">
+<img src="./assets/m2.png">
+
+<hr>
+
+
+<!-- ================================== -->
+<!-- 5.2.3.8 Team Collaboration Insights -->
+<!-- ================================== -->
+<h3 id="5-2-3-8">5.2.3.8. Team Collaboration Insights during Sprint</h3>
+
+El equipo ejecutó actividades coordinadas para entregar la integración y despliegue final. Se trabajó con GitHub (issues, PRs, branches), reuniones diarias de seguimiento (standups), revisión de código y pruebas colaborativas en staging y producción. A continuación se presentan los principales insights y métricas a documentar en el informe.</p>
+
+<h4>Prácticas y procesos aplicados</h4>
+<ul>
+  <li><strong>Branching:</strong> flujo git feature/ → PR → review → main → deploy (GitHub Actions).</li>
+  <li><strong>Code Review:</strong> todas las PRs requerían al menos 1 revisor y checklist de QA (tests, lint, documentación de endpoints).</li>
+  <li><strong>Gestión de tareas:</strong> backlog y tablero Kanban (GitHub Projects / Trello) con estados: To Do / In Progress / Code Review / QA / Done.</li>
+  <li><strong>Comunicación:</strong> reuniones de planificación y retro en Google Meet; coordinación diaria en canal de Discord/Slack.</li>
+  <li><strong>Testing colaborativo:</strong> sesiones de QA donde distintos miembros ejecutaron pruebas end-to-end y reportaron issues en GitHub Issues.</li>
+</ul>
+
+
+<h4>Evidencias</h4>
+<ul>
+  <li>Captura: gráfico de contributions por miembro (GitHub Insights / Contributors).</li>
+  <img src="./assets//chapter05/commits.png">
+  <img src="./assets//chapter05/commits-2.png">
+  
+</ul>
+
+
 
 ## 5.3 Validation Interviews
 
